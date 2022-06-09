@@ -1,3 +1,16 @@
+#=====================================
+#
+# Title: NEO DEV HOST
+#
+# Power By NEO DEV Team
+#
+# Project home page: https://github.com/neodevpro/neodevhost
+#
+# Last update: 2022-06-09
+#
+# Number of blocked domains:  111261
+#
+#=====================================
 0-158.net.daraz.com
 0-bitbucket.net.zooplus.de
 0-cdn.net.zooplus.de
@@ -4339,6 +4352,8 @@
 9z0bphocbdss1zti.net.daraz.com
 9zr0vqn3l61kvl30.net.daraz.com
 9zxtjjwf6z3518q2.net.daraz.com
+::1localhost
+XiaoQiang
 a-5.info
 a-ad.adwo.com
 a-ads.com
@@ -55220,6 +55235,7 @@ p.profistats.net
 p.pulse.buyatoyota.com
 p.pulse.toyota.com
 p.qfmzys.com
+p.qlogo.cn
 p.raidmedia.com.cn
 p.reed.co.uk
 p.reuters.com
