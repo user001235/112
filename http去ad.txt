@@ -42785,7 +42785,6 @@ http://.+d3g.qq.com url reject-img
 http://.+data.qq.com url reject-img
 http://.+detect.mb.qq.com url reject-img
 http://.+dp3.qq.com url reject-img
-http://.+e.qq.com url reject-img
 http://.+event.toggle.qq.com url reject-img
 http://.+eventlog.beacon.qq.com url reject-img
 http://.+fusion.qq.com url reject-img
