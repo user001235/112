@@ -1,9 +1,5 @@
-# ------屏蔽WinRAR的广告-------------------------
 ad.winrar.com.cn
 www.winrar.com.cn
-
-
-# ------屏蔽百度的广告---------------------------
 cm.baidu.com
 cm.pos.baidu.com
 cpro.baidu.com
@@ -40,7 +36,6 @@ static1.baifendian.com
 wifi.baidu.com
 wifi.*.baidu.com
 lewan.baidu.com
-# ------屏蔽爱奇艺广告---------------------------
 api.cupid.iqiyi.com
 list3.ppstream.com.iqiyi.com
 mixer.cupid.iqiyi.com
@@ -51,11 +46,6 @@ pic1.qiyipic.com
 qiyu.iqiyi.com
 t7z.cupid.iqiyi.com
 policy.video.iqiyi.com
-
-
-
-
-# ------屏蔽谷歌的广告---------------------------
 adservice.google.com
 googleads.g.doubleclick.net
 securepubads.g.doubleclick.net
@@ -64,13 +54,6 @@ pagead2.googlesyndication.com
 tpc.googlesyndication.com
 www.googleadservices.com
 www.googletagmanager.com
-
-
-
-
-
-
-# ------阿里系广告---------------------------
 gma.alicdn.com
 re.taobao.com
 gtms01.alicdn.com
@@ -83,17 +66,8 @@ acookie.taobao.com
 g.click.taobao.com
 a.alimama.cn
 a1.alicdn.com
-
-
-# ------屏蔽网易的广告---------------------------
 you.163.com
 cms-bucket.nosdn.127.net
-
-
-
-
-
-# ------屏蔽搜狐的广告---------------------------
 pingback.sogou.com
 js.tv.itc.cn
 643108e7617ef.cdn.sohucs.co
@@ -107,7 +81,6 @@ pb.sogou.com
 iwan.sogou.com
 irnvf.lu.sogou.com
 get.sogou.com
-#123.sogou.com
 shouji.sougou.com
 vjoz.lu.sogou.com
 vps.inte.sogou.com
@@ -137,9 +110,6 @@ xls.go.sohu.com
 x1.go.sohu.com
 txt.go.sohu.com
 corp.sohu.com
-
-
-# ------屏蔽搜狗输入法广告-----------------------
 safe.ie.sogou.com
 vinci.ie.sogou.com
 cronus.ie.sogou.com
@@ -184,22 +154,11 @@ xls.go.sohu.com
 x1.go.sohu.com
 txt.go.sohu.com
 corp.sohu.com
-
-
-# ------屏蔽新浪的广告---------------------------
 saxn.sina.com.cn
 s3.pfp.sina.net
-
-
-
-# ------屏蔽中华网广告---------------------------
 rank.china.com
 rankhit.china.com
 rank.china.com
-
-
-
-# ------屏蔽mediav广告--------------------------
 cjhd.mediav.com
 s3m.mediav.com
 show-3.mediav.com
@@ -207,10 +166,6 @@ static.mediav.com
 pages-juxiao.mediav.com
 show-g.mediav.com
 max-l.mediav.com
-
-
-
-# ------屏蔽迅雷的广告---------------------------
 act.niu.xunlei.com
 adsp.xunlei.com
 admin.static.xl9.xunlei.com
@@ -249,9 +204,6 @@ biz6.sandai.net
 mediapv.sandai.net
 mpv.sandai.net
 mcfg.sandai.net
-
-
-# ------屏蔽凤凰网广告---------------------------
 c0.ifengimg.com
 d.ifeng.com
 amch.questionmarket.com
@@ -259,10 +211,6 @@ pix04.revsci.net
 stadig.ifeng.com
 c1.ifengimg.com
 iis1.deliver.ifeng.com
-
-
-
-# ------屏蔽腾讯网广告---------------------------
 c.gdt.qq.com
 pgdt.gtimg.cn
 a.xnimg.cn
@@ -322,15 +270,10 @@ adsolution.imtt.qq.com
 adsqqclick.qq.com
 adsrich.qq.com
 soft.tbs.imtt.qq.com
-
-# -----------------csdn------------
 mi.gdt.qq.com      
 pp.myapp.com       
-#qzonestyle.gtimg.cn
 pgdt.gtimg.cn      
 v.gdt.qq.com   
-
-# ----------------github------------
 btrace.qq.com
 c.isdspeed.qq.com
 pingjs.qq.com
@@ -339,7 +282,6 @@ tajs.qq.com
 trace.qq.com
 c.l.qq.com
 l.qq.com
-#屏蔽腾讯QQ广告代码
 fodder.qq.com
 adshmct.qq.com
 hm.l.qq.com
@@ -360,7 +302,6 @@ showwxml.qq.com
 img1.sj.qq.com
 ws.sj.qq.com
 scdown.qq.com
-#img1.gtimg.com
 pinghot.qq.com
 pingfore.tenpay.com
 jqmt.qq.com
@@ -370,7 +311,6 @@ py2.qlogo.cn
 bugreportv2.qq.com
 ex.qq.com
 cgi.connect.qq.com
-#屏蔽腾讯广告代码
 adslvfile.qq.com
 adsfile.qq.com
 play.qq.com
@@ -386,15 +326,9 @@ qqbm.zhuiying.net
 qqbmad.mycode8.net
 vhotlxp.video.qq.com
 livem.l.qq.com
-#click_url 聊天窗口左下角文字广告
  imc.l.qq.com
 adsqqclick.qq.com
-
 wifi.qq.com
-
-
-______________________________________________________
-#tv.qq.com
 aiseet.aa.atianqi.com
 dp3.play.aiseet.atianqi.com
 livep.l.aiseet.atianqi.com
@@ -405,11 +339,6 @@ sdkconfig.play.aiseet.atianqi.com
 livew.l.qq.com
 c.l.qq.com
 mdevstat.qqlive.qq.com
-
-
-
-
-#corel
 apps.corel.com
 mc.corel.com
 origin-mc.corel.com
@@ -417,9 +346,6 @@ iws.corel.com
 ipm.corel.com
 sws.corel.com
 dam.corel.com
-
-
-# -----屏蔽 Adobe Flsh Player 广告----
 geo2.adobe.com
 flash.2144.com
 www.2144.cn
@@ -456,15 +382,7 @@ adobe-dns.adobe.com
 ereg.adobe.com
 ereg.wip3.adobe.com
 hl2rcv.adobe.com
-
-
-
-
-
-
-#cm-ksmobile
 ads.dh.duba.com
-#cm-wps
 ad.docer.wps.cn
 docerad.wps.cn
 gou.wps.cn
@@ -487,38 +405,15 @@ bole.shangshufang.ksosoft.com
 ic.ksosoft.com
 pc.uf.ksosoft.com
 pixiu.shangshufang.ksosoft.com
-
 img.gou.wpscdn.cn
 news.op.wpscdn.cn
-
-
-
-
-
-
-
-
-
-# ------kuwo-----------------------
 log.kuwo.cn
 mobilead.kuwo.cn
-
-
-
-
-
-# ------xshell-----------------------
 transact.netsarang.com
 update.netsarang.com
 www.netsarang.com
 www.netsarang.co.kr
 sales.netsarang.com
-
-
-
-
-
-# ------weibo----------------------
 alitui.weibo.com
 s.alitui.weibo.com
 game.weibo.com
@@ -595,17 +490,8 @@ newspush.sinajs.cn
 d4.sina.com.cn
 d3.sina.com.cn
 beacon.sina.com.cn
-
-
-
-
-# ---------------------bilibili----------------------
 dns-1226121.test.bilibili.cc
 stat.bilibili.cn
-
-
-
-# ----------------------优酷去广告------------------
  static.atm.youku.com
 push.m.youku.com
 val.atm.youku.com
@@ -646,27 +532,13 @@ speed.lstat.youku.com
 stat.youku.com
 stuff.cdn.biddingx.com
 cas.sh.cn.criteo.com
-
-
-
----------------csdn----------------------
 ads.csdn.net
 mpb2.iteye.com
 cee2.iteye.com
-
-
-#---------------ruanmei---------------------
 m.ruanmei.com
 d.ruanmei.com
 down.ruanmei.com
 go.ruanmei.com
-
-
-
-
-
-
-#iqiyi
 api.cupid.iqiyi.com
 api.yuedu.iqiyi.com
 c.uaa.iqiyi.com
@@ -683,13 +555,11 @@ policy.video.iqiyi.com
 static.g.iqiyi.com
 t7z.cupid.iqiyi.com
 nl.rcd.iqiyi.com
-#iqiyi-gitv
 api.cupid.ptqy.gitv.tv
 msg.video.ptqy.gitv.tv
 msg2.video.ptqy.gitv.tv
 nl.rcd.ptqy.gitv.tv
 msg.c002.ottcn.com
-#iqiyi-paopao
 emoticon.sns.iqiyi.com
 hotchat-im.iqiyi.com
 paopao.iqiyi.com
@@ -698,24 +568,15 @@ paopao0.qiyipic.com
 paopao1.qiyipic.com
 paopao2.qiyipic.com
 paopao3.qiyipic.com
-#iqiyi-pps
 count.game.pps.tv
 game.pps.tv
 static.g.ppstream.com
 qosp.msg.71.am
 msga.71.am
 noxagile.duapp.com
-#iqiyi-qiyi
 api.cupid.qiyi.com
 msg.video.qiyi.com
 msg2.video.qiyi.com
-
-
-
-
-
-
-# ------屏蔽其他的广告-------------------------
 hdc.maxli.cn
 gp.zaiyunli.cn
 img.findqc.com
