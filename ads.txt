@@ -9,7 +9,6 @@
 
 # REJECT
 ^https:\/\/god\.gameyw\.netease\.com\/v1\/ad\/.* url reject
-^https:\/\/heic\.alicdn\.com\/imgextra.*\.heic url reject
 ^https?://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/ url reject-200
 ^https?://gab\.122\.gov\.cn/eapp/m/sysquery url reject
 ^https?://zone\.guiderank-app\.com/guiderank-web/app/ad/listLaunchADByCity\.do url reject
