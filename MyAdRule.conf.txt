@@ -349,15 +349,6 @@ https://homefront.qunar.com/front/splash/ad url reject
 ^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
 
-# > 08 Youtube new（新版）modified by ddgksf2013 on 2022-03-31
-# > content is from: https://github.com/DivineEngine/Profiles/blob/master/Quantumult/Rewrite/Block/YouTubeAds.conf
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
-
 # > 07 人人视频@ddgksf2013
 # ～ RRTV_屏蔽限时弹窗@ddgksf2013
 https://api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reject-dict
