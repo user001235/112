@@ -1,4 +1,3 @@
-hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com,api.biliapi.net
 # ～ BiliBili_哔哩哔哩_启动时开启直连模式@ddgksf2013
 ^https?:\/\/api\.bilibili\.com\/x\/offline\/version url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
 # ～ BiliBili_哔哩哔哩_繁体CC字幕转中文简体@ddgksf2013
