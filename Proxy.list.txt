@@ -696,7 +696,6 @@ HOST-SUFFIX,21hjdc.com,Proxy
 HOST-SUFFIX,21join.com,Proxy
 HOST-SUFFIX,21naturals.com,Proxy
 HOST-SUFFIX,21newyouth.net,Proxy
-HOST-SUFFIX,21pron.com,Proxy
 HOST-SUFFIX,21uscity.com,Proxy
 HOST-SUFFIX,22.cr.rs,Proxy
 HOST-SUFFIX,22.ddos.im,Proxy
@@ -14881,9 +14880,6 @@ HOST-SUFFIX,proksyfree.com,Proxy
 HOST-SUFFIX,prolink.pl,Proxy
 HOST-SUFFIX,promotion.1617fa.com,Proxy
 HOST-SUFFIX,promotion.letou118.net,Proxy
-HOST-SUFFIX,pron.com,Proxy
-HOST-SUFFIX,pron.tv,Proxy
-HOST-SUFFIX,pronhub.com,Proxy
 HOST-SUFFIX,propub.li,Proxy
 HOST-SUFFIX,prosiben.de,Proxy
 HOST-SUFFIX,proteinalactea.com,Proxy
