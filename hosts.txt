@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 _thums.ero-advertising.com
 0.0.0.cn
 0.0.0.com.cn
@@ -16,6 +17,9 @@ _thums.ero-advertising.com
 0.2mono.biz
 0.2solo.biz
 0.3mono.biz
+=======
+
+>>>>>>> parent of 936c4d1 (Update hosts.txt)
 0.3solo.biz
 0.4mono.biz
 0.4solo.biz
