@@ -267,9 +267,6 @@ https://guanyu.longfor.com/app-server/api/v1/main/start url reject
 # > 26 网易严选@ddgksf2013
 ;https://support.you.163.com/appversync/check.do url reject
 
-# > 25 解除国区TF下载限制
-^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*" request-body storefrontId" : "143441-1,29"
-
 # > 24 酷我音乐去开屏广告 - rich.kuwo.cn,*.kwcdn.kuwo.cn,mobilead.kuwo.cn
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
 ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
