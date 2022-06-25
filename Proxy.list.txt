@@ -1,4 +1,5 @@
 HOST,api.waqi.info
+HOST,p16-tiktokcdn-com.akamaized.net,Proxy
 HOST,aqi.aqicn.org
 HOST,assets-priconne-redive-us.akamaized.net
 HOST,cvws.icloud-content.com
