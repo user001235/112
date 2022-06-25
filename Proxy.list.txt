@@ -14967,7 +14967,6 @@ HOST-SUFFIX,vivthomas.com,Proxy
 HOST-SUFFIX,vivud.com,Proxy
 HOST-SUFFIX,vixen.com,Proxy
 HOST-SUFFIX,vizvaz.com,Proxy
-HOST-SUFFIX,vjav.com,Proxy
 HOST-SUFFIX,vjet.co,Proxy
 HOST-SUFFIX,vjmedia.com.hk,Proxy
 HOST-SUFFIX,vk.com,Proxy
