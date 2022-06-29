@@ -2,9 +2,6 @@
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
 (http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
 (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com url reject
-;^https:\/\/dayone\.me\/api\/users$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
-;^https:\/\/p.+-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppRegrantPurchaseHistory url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js
-;^https:\/\/secure\.istreamer\.com\/backend$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
 ^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
 ^(https:\/\/.+?\/media\/download\/.+?)token=.+ url 302 $1token=eyJ1c2VyX2lkIjo0NDM2MDM1NDgsImxhc3Rsb2dpbiI6MTYyNTAyOTU4OH0.7ca19b7fb81c7d4dd677b2710829b4fd.117c078f8dddfb3b7cf5fff3df7943b441e9842f20202e91ab9500d5
 ^(https:\/\/.+?\/v1\/video\/info.+?)token=.+?video_type=\w+ url 302 $1token=eyJ1c2VyX2lkIjo0NDM2MDM1NDgsImxhc3Rsb2dpbiI6MTYyNTAyOTU4OH0.7ca19b7fb81c7d4dd677b2710829b4fd.117c078f8dddfb3b7cf5fff3df7943b441e9842f20202e91ab9500d5&video_type=long
@@ -311,6 +308,7 @@
 ^https:\/\/cn1\.invit\.vip\/users\/info url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/qing/qing.js
 ^https:\/\/commerce-i18n-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/ulike.js
 ^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/dayone.js
+^https:\/\/dayone\.me\/api\/users$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
 ^https:\/\/ddapp\.cukeindia\.work\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:0533489780da4e3b3bda6d77a75d63b24ceeb883f9256a1502a247e3e19a54bbb8311867e12d82e387$2
 ^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus? url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mryy.js
 ^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus? url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mryy.js
@@ -416,6 +414,7 @@
 ^https:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url reject
 ^https:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ url reject-200
 ^https:\/\/owa\.videoshowiosglobalserver\.com\/.*\/iosPayClient url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/videoshow.vip.js
+^https:\/\/p.+-buy\.itunes\.apple\.com\/WebObjects\/MZFinance.woa\/wa\/inAppRegrantPurchaseHistory url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cupdasher.js
 ^https:\/\/p\d.meituan.net\/(mmc|wmbanner)\/ url reject
 ^https:\/\/p\d.pstatp.com\/origin url reject
 ^https:\/\/pan\.baidu\.com\/api\/certuser\/get url reject
@@ -437,6 +436,7 @@
 ^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/speak&translate.js
 ^https:\/\/s\.(.+)\.com\/s2\/.+ url request-header (\r\n)login_token:.+(\r\n) request-header $1login_token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoiYmNiY2RkLm12cGFkZC5wcm8tOGIwMDIxNGNhZjY5NTQ4ZjkxMjJlMjZlMjU5MDk5ZTIiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTY0NTAxOTA3NiwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.wRVGXbdSW3G-zo4Ou-HJ7JK4nTiFDJZm8TXPj6pGkvc$2
 ^https:\/\/s3gw.cmbimg.com\/mbappinitads\/.*.(jpg|png) url reject-200
+^https:\/\/secure\.istreamer\.com\/backend$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
 ^https:\/\/secure\.istreamer\.com\/backend$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/playerxtreme.js
 ^https:\/\/sk\.ulysses\.app\/api\/v1\/itunes_receipt_verify$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/ulysses.js
 ^https:\/\/sk\.ulysses\.app\/api\/v1\/user_offers$ url request-header (\r\n)If-None-Match:.+(\r\n) request-header $1 
