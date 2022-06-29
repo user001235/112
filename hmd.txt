@@ -226,7 +226,7 @@ HOST-SUFFIX,hgamedb.com
 HOST-SUFFIX,hgseav.com
 HOST-SUFFIX,hhcomic.com
 HOST-SUFFIX,hhhbook.com
-HOST-SUFFIX,hhmanhua.com,
+HOST-SUFFIX,hhmanhua.com
 HOST-SUFFIX,hhxiee.cc
 HOST-SUFFIX,hidefporn.ws
 HOST-SUFFIX,hjav.in
