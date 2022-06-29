@@ -16,13 +16,13 @@
 ^http:\/\/api\.(.+)\.xyz\/fast-cloud\/user\/info url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/taozi.js
 ^http:\/\/api\.ggmza\.cn\/api\/common\/enterNotice url reject-200
 ^http:\/\/api\.ggmza\.cn\/api\/my\/startupBanner url reject-200
-^http:\/\/api\.myb6api\.(.+):8080\/api\.php\/api\/users\/getBaseInfo url script-response-body https://6678888.xyz/quantumultX/blsp.js
+
 ^http:\/\/api\.myb6api\.(org|com):8080\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/blsp.js
 ^http:\/\/api\.winzetta\.cn\/api\/community\/edit url response-body "code":\d+ response-body "code":200
 ^http:\/\/api\.winzetta\.cn\/api\/user\/personal url script-response-body http://ox.xmkczs.com/quantumultX/69sp.js
 ^http:\/\/api_2496\.kuwo\.cn\/front\/user\/vipstatus url script-response-body http://ox.xmkczs.com/quantumultX/2496.js
 ^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/slfan.js
-^http:\/\/api-01\.apiselifan11\.com\/cxapi\/.+ url script-request-header https://6678888.xyz/quantumultX/slfan.js
+
 ^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad\/.+ url reject-200
 ^http:\/\/app\.zhoudamozi\.com\/ad\/.+ url reject-200
 ^http:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/vgtime.js
@@ -38,7 +38,7 @@
 ^http:\/\/iykhb\.xyz:8080\/tantan\/mobile\/tantan\/user\/login url script-response-body http://ox.xmkczs.com/quantumultX/tantan.js
 ^http:\/\/kfjdmjg\.com\/api\/v2\/user url script-response-body http://ox.xmkczs.com/quantumultX/leisi.js
 ^http:\/\/lfwmkj\.com\/(api\/user\/personal|api\/community\/edit) url script-response-body http://ox.xmkczs.com/quantumultX/dpsq.js
-^http:\/\/lfwmkj\.com\/(api\/user\/personal|api\/community\/edit) url script-response-body https://6678888.xyz/quantumultX/dpsq.js
+
 ^http:\/\/message\.shuqireader\.com\/message\/.+ url reject
 ^http:\/\/mi\.gdt\.qq\.com/gdt_mview\.fcg.+ url reject
 ^http:\/\/msga/.cupid/.iqiyi/.com\/scp2\.gif url reject
@@ -56,9 +56,9 @@
 ^http:\/\/ws\.60he\.com\/(book|user).+ url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/pythonai/pythonai.js
 ^http:\/\/www\.winnerbook\.com\.cn\/zcdshmobile\/.+ url script-response-body http://ox.xmkczs.com/quantumultX/zcdsh.js
 ^http:\/\/wx\.voxpie\.com\/(api/fmapp_user|api/fmapp_bookinfo) url script-response-body http://ox.xmkczs.com/quantumultX/mbfm.js
-^http:\/\/wx\.voxpie\.com\/(api/fmapp_user|api/fmapp_bookinfo) url script-response-body https://6678888.xyz/quantumultX/mbfm.js
+
 ^http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index) url script-response-body http://ox.xmkczs.com/quantumultX/blg.js
-^http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index) url script-response-body https://6678888.xyz/quantumultX/blg.js
+
 ^http?:\/\/api\_\d{4}\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/2496/2496.js
 ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
 ^http[s]?:\/\/(.+)\.myb6api\.com\/(.+)\/api\/users\/getBaseInfo url script-response-body http://ox.xmkczs.com/quantumultX/blsp.js
@@ -78,7 +78,7 @@
 ^http[s]?:\/\/.+?\/apix\/movie\/(pay|comment|cache) url response-body ^.* response-body 36aa8bb5b88a03d405bc1fd425d48a9feyJjb2RlIjowLCJtc2ciOiJzdWNjZXNzIiwiZGF0YSI6eyJsaXN0IjpbXX1936aa8bb5b88a03d405bc1fd425d48a9f
 ^http[s]?:\/\/.+\.(h569llmd|h569ll0t)\.com\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/69luolivip.js
 ^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+  url script-request-header http://ox.xmkczs.com/quantumultX/sangeng.js
-^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/.+  url script-request-header https://6678888.xyz/quantumultX/sangeng.js
+
 ^http[s]?:\/\/api.(txt2021|kaqcn).(buzz|com)\/api\/user\/voucher url reject-200
 ^http[s]?:\/\/api\.(spinalavm|lvyouynn)\.com\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/huluwa.js
 ^http[s]?:\/\/api\.kegk\.cn\/api\/app\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/mitao.js
@@ -149,13 +149,13 @@
 ^https:\/\/(apic|avapp)\.(aoimi\w|clapi\w)\.me\/api\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5MjIzODAzIiwiaXNzIjoiIiwiaWF0IjoxNjE4NjQwMDY3LCJuYmYiOjE2MTg2NDAwNjcsImV4cCI6MTc3NjMyMDA2N30.OA8xpC_bd7epGV5dp-Cr9aNfAiLwCkEKX_qpepcdBZY$2
 ^https:\/\/(apic|avapp)\.(aoimi\w|clapi\w)\.me\/api\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMTMzMTE5MyIsImlzcyI6IiIsImlhdCI6MTYyNDUwNzI0MiwibmJmIjoxNjI0NTA3MjQyLCJleHAiOjE3ODIxODcyNDJ9.0wc4S5QrmBwIjlyhCMJ2XfSryVNGVWYa94oX6bMAFfo$2
 ^https:\/\/(apic|avapp)\.(aoimi\w|clapi\w)\.me\/api\/.+ url request-header (\r\n)deviceId:.+(\r\n) request-header $1Authorization:C9C9C651-7726-4DDA-9102-5E1465DE01C9$2
-^https:\/\/(api-hlw|2-api)\.(.+)\.com\/api\/web\/.+ url script-request-header https://6678888.xyz/quantumultX/huluwa.js
+
 ^https:\/\/(apit|api)\.(sbxsjw|cxlwhz)\.com\/s1\/register\/uuid\/.+ url 302 https://api.cxlwhz.com/s1/register/uuid/4C2DFB0E-EFAF-43FB-BD39-21C314866EBC?key=3695f1817cfad179ba4d2121db18e260cf276d8d2dd0f1cdfbcf928466862d39&lang=CN&model=iPhone&platform=ios&version=3.18.1
 ^https:\/\/(apit|api)\.(sbxsjw|cxlwhz)\.com\/s1\/register\/uuid\/.+ url 302 https://apit.sbxsjw.com/s1/register/uuid/94A30445-DF9D-4681-B96A-9724A804D9FA?key=59f0e3b3d654c4b0396461828ce0ee5ec7d8d17d1cf22141bd971ea25567ed63&lang=CN&model=iPhone&platform=ios&version=1.0.1
 ^https:\/\/(app|api)\.(qdjdswkj|rcljx|qishangzs|jisudaigou)\.com url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN:eyJhbGciOiJIUzUxMiIsImlhdCI6MTYyMTk4NTkyNiwiZXhwIjoxOTM3MzQ1OTI2fQ.eyJpZCI6NDEzODUyMzN9.H57hPEuobymyLn8S55fworMnGWFATsoIv8361G160vAj6vsRONGUzF625B_r4IckGD5mXDW3e4GErz9l0M7Mqg$2
 ^https:\/\/(app|api|appapi)\.(qdjdswkj|rcljx|qishangzs|jisudaigou|mcmgsa|overtp)\.com url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN:eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMDcyMzkzOSwiZXhwIjoxOTQ2MDgzOTM5fQ.eyJpZCI6NjQ4NTIxMTB9.n9gJLhv4vVKex6JNpGLkj7FDZ3anZ06bBEvEJJp6eosSTGsSf8KnJ8s9eFVyj1PgBdmpIjvwiM_PhlOCT761XQ$2
 ^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?)) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/zhihu.js
-^https:\/\/(cn.youku-ca.com|bkcd\.b-cdn.net|souhu.mett.me|m.pearkin.com|www.baidu.com2.club)\/(api\/movie\/WatchMovieNew|api\/account\/IsVip|api\/account\/IndexDetail) url script-response-body https://6678888.xyz/quantumultX/pear.js
+
 ^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
 ^https:\/\/(pask|lanm)\.(bozhenshu|huliyinzi)\.(cn|com)\/.+\/.+\/index url script-request-header http://ox.xmkczs.com/quantumultX/ad.js
 ^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/wnsm.js
@@ -179,7 +179,7 @@
 ^https:\/\/.+\/img\/ad.union.api\/ url reject
 ^https:\/\/.+\/v1\/iflyad\/ url reject
 ^https:\/\/1008610010\.laikanshu\.top\/Member\/getUserInfo url script-response-body http://ox.xmkczs.com/quantumultX/tanhua.js
-^https:\/\/1008610010\.laikanshu\.top\/Member\/getUserInfo url script-response-body https://6678888.xyz/quantumultX/tanhua.js
+
 ^https:\/\/106.39.169.231\/client\.action\?functionId=start url reject
 ^https:\/\/a.qiumibao.com\/activities\/config.php url reject
 ^https:\/\/adse.+.com\/[a-z]{4}\/loading\?appid= url reject
@@ -192,10 +192,10 @@
 ^https:\/\/api.m.mi.com\/v1\/app\/start url reject
 ^https:\/\/api\.(bdawnvr|moapi1|moapi)\.(xyz|club|site|online)\/api\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzMzE5MDM0IiwiaXNzIjoiIiwiaWF0IjoxNjE4NTg3NjE4LCJuYmYiOjE2MTg1ODc2MTgsImV4cCI6MTc3NjI2NzYxOH0.hF3I7ONOVWUUu8N3CzH-qXzqbMFJA6QXMshilciWpWk$2
 ^https:\/\/api\.(cqmingmohui|meirigengxin|zgjizhi|zdhndz|qihaofs|gngbidding|jxtgsy|tbwachiatday|wandaair)\.(com|net)\/v1\/user\/(info|promote/info) url script-response-body http://ox.xmkczs.com/quantumultX/plpl.js
-^https:\/\/api\.(jyjnsc|syclzg)\.(cn|com)\/.+  url script-request-header https://6678888.xyz/quantumultX/lutu.js
+
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/PicsArt.js
 ^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/banner\/show url reject-200
-^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/user\/profile\/ url script-response-body https://6678888.xyz/quantumultX/xincs.js
+
 ^https:\/\/api\.(sumsun|klettdayeare|kjregister)\.(top|com)\/api\/vip\/newshow url reject-200
 ^https:\/\/api\..+\.cc\/shorter\/(user\/(.+)|video\/(.+)|resource\/getWindowNotice) url script-response-body http://ox.xmkczs.com/quantumultX/jiateng.js
 ^https:\/\/api\..+\.cc\/shorter\/resource\/getStartPageList url reject-200
@@ -206,16 +206,16 @@
 ^https:\/\/api\.hulusaas\.com\/api\/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/hulu.js
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject
 ^https:\/\/api\.ojbk123\.com\/major-api\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/tit.js
-^https:\/\/api\.papa\w+\.com(\/video\/api\/movie\/v2\/(play|[0-9]+)|\/uc\/user\/info|\/video\/api\/movie\/v2\/cache) url script-response-body https://6678888.xyz/quantumultX/papa.js
+
 ^https:\/\/api\.papa\w+\.com(\/video\/api\/movie\/v2\/(play|[0-9]+)|\/video\/api\/movie\/v2\/cache) url script-response-body http://ox.xmkczs.com/quantumultX/papa.js
 ^https:\/\/api\.papa\w+\.com\/live\/api\/home\/announcement\/v1\/list url reject-200
-^https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts) url script-response-body https://6678888.xyz/quantumultX/subs.js
+
 ^https:\/\/api\.rr\.tv\/ad\/getAll url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
 ^https:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
 ^https:\/\/api\.rr\.tv\/user\/privilege\/list url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/rrtv.js
 ^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare) url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/VUE.js
 ^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url reject
-^https:\/\/api\.zzyyhyy\.cn\/api\/(base|modulesData|reg|play) url script-response-body https://6678888.xyz/quantumultX/lajiao.js
+
 ^https:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject
 ^https:\/\/apid\.9waquan\.com\/sw2\/current\/user url script-request-header http://ox.xmkczs.com/quantumultX/jjkk.js
 ^https:\/\/api-mifit-cn2\.huami\.com\/discovery\/mi\/cards\/startpage_ad url reject
@@ -237,11 +237,11 @@
 ^https:\/\/avapp\.calvapi\w\.me\/api\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxNzA2NTE0MiIsImlzcyI6IiIsImlhdCI6MTYxODU4NTQ1OSwibmJmIjoxNjE4NTg1NDU5LCJleHAiOjE3NzYyNjU0NTl9.t2q_pRxo1KN676bK77syjJNxOaHmCFK4AVEC0SdohC8$2
 ^https:\/\/avapp\.calvapi\w\.me\/api\/.+ url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization:eyJhbGciOiJIUzUxMiIsImlhdCI6MTYzMDY3NjcyMCwiZXhwIjoxOTQ2MDM2NzIwfQ.eyJpZCI6NjQ4NTIxMTB9.ukcF18WsGGL-5gNTdtJD28YzpgE01uhr7zF3BHTwOhahs06Q1v_VDYCTb3ZWNk0m7EKhWC_wGo3YB7dLP0MybQ$2
 ^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play) url script-response-body http://ox.xmkczs.com/quantumultX/mlsp.js
-^https:\/\/awmattack\.(.+)\.com\/(api/member/info|api/video/video/video_play) url script-response-body https://6678888.xyz/quantumultX/mlsp.js
+
 ^https:\/\/bdsp-x.jd.com\/adx\/ url reject
 ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/mix.js
 ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mix.js
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://6678888.xyz/quantumultX/sub.js
+
 ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/clarity.js
 ^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/clarity.js
 ^https:\/\/cn1\.invit\.vip\/users\/info url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/qing/qing.js
@@ -293,7 +293,7 @@
 ^https:\/\/img12.360buyimg.com.+width=\d{4}&height=\d{4} url reject
 ^https:\/\/img14.360buyimg.com\/mcoss\/jfs\/t1\/183719\/8\/13358\/190450\/60e82bedE10b64e23\/ url reject-200
 ^https:\/\/ipa\.(angtrend|sdmskt)\.com\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/danke.js
-^https:\/\/ipa\.angtrend\.com\/.+ url script-request-header https://6678888.xyz/quantumultX/danke.js
+
 ^https:\/\/irecgo\.softin-tech\.com\/user\/info url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/lw/lw.js
 ^https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ url reject
 ^https:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/guanggao\/.+ url reject
@@ -309,7 +309,7 @@
 ^https:\/\/m\.ctrip\.com\/restapi\/.+\/json\/tripAds url reject
 ^https:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject
 ^https:\/\/m3u8\.91-tv\.me\/.+ url script-response-body http://ox.xmkczs.com/quantumultX/50duh.js
-^https:\/\/m3u8\.91-tv\.me\/.+ url script-response-body https://6678888.xyz/quantumultX/50duh.js
+
 ^https:\/\/m5.amap.com\/ws\/valueadded\/ url reject
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
 ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/deeplink\/geturl|v1\/(client\/getconf|adv\/getadvlistbatch\?positions=iOS_tab|dailyrecommend\/getdailyrecommend)) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js
@@ -318,7 +318,7 @@
 ^https:\/\/mbs.boc.cn\/ubas-mgateway-static\/images\/advertType\/ url reject-200
 ^https:\/\/mcc.psbc.com:9090\/mcc\/resources\/[0-9]+\.(jpg|png) url reject-200
 ^https:\/\/mda\..+\.site\/api\/(auth\/login|mine\/myHome|wallet\/query) url script-response-body http://ox.xmkczs.com/quantumultX/mddsp.js
-^https:\/\/mda\..+\.site\/api\/(auth\/login|mine\/myHome|wallet\/query) url script-response-body https://6678888.xyz/quantumultX/mddsp.js
+
 ^https:\/\/mda\..+\.site\/api\/auth\/startupAdv url reject-200
 ^https:\/\/mda\..+\.site\/api\/operation\/video\/buy url response-body "code":\d+ response-body "code":200
 ^https:\/\/mime\.baidu\.com\/v5\/activity\/advertisementnonrealtime url reject
@@ -348,7 +348,7 @@
 ^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/WSL33099/QuantumultX/main/jiaoben/Lightroom.js
 ^https:\/\/qqc005\.com\/movie\/.+ url request-header (\r\n)Cookie:.+(\r\n) request-header $1Cookie:qqc_token=7e3c2cbdb329a7164e8aee127b39f749_122684$2
 ^https:\/\/s\.(.+)\.com\/s2\/.+ url request-header (\r\n)login_token:.+(\r\n) request-header $1login_token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZWdfdXNlcl9pZCI6IjYwNmU3YjRmNDk5NDMyMDAwMTYyMzM5NCIsInVzZXJfY29kZSI6IjZCSUxLUE1LT1lXIiwidW5pcXVlIjoiYmNiY2RkLm12cGFkZC5wcm8tOGIwMDIxNGNhZjY5NTQ4ZjkxMjJlMjZlMjU5MDk5ZTIiLCJ0eXBlIjoiYmFuZyIsImV4cCI6MTY0NTAxOTA3NiwicmVnVHlwZSI6Im1vYmlsZSIsInJlZ2lzdGVyRGF0ZSI6IjIwMjEtMDQtMDgifQ.wRVGXbdSW3G-zo4Ou-HJ7JK4nTiFDJZm8TXPj6pGkvc$2
-^https:\/\/s\.(.+)\.com\/s2\/.+ url script-request-header https://6678888.xyz/quantumultX/avbb.js
+
 ^https:\/\/s3gw.cmbimg.com\/mbappinitads\/.*.(jpg|png) url reject-200
 ^https:\/\/slb\.djshow\.cn\/api\/banzou\/ url response-body "ad_enable":\w+ response-body "ad_enable":false
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
