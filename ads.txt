@@ -308,7 +308,6 @@
 ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/camera360.vip.js
 ^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/mix.js
 ^https:\/\/bodiancdn\.kuwo\.cn\/.+\.mp4 url reject
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt - script-response-body Eric/surge/Script/ngReceipt.js
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://gjds.vip/QX/pojie/Picsew.js
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/TextEditor.js
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
