@@ -2204,10 +2204,6 @@ https:\/\/book\.haitunwallet\.com\/app\/vip\/status url script-response-body htt
 https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hnsyhb.js
 https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/dayone.js
 https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
-<<<<<<< HEAD
-=======
-
->>>>>>> b6168881e40d19faf330532790b7e8d4aca90448
 https:\/\/h5api.m.taobao.com\/h5\/mtop.taobao.detail.getdetail url script-request-header https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/taobao/tb-name.js
 https:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation url reject
 https:\/\/home\.mi\.com\/newoperation\/recommendNames url reject
