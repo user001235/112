@@ -677,7 +677,7 @@
 ^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-img
 ^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
 ^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
-^https?:\/\/.+\/api\/v1\/ads$ url rejec
+^https?:\/\/.+\/api\/v1\/ads$ url reject
 ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php url reject-img
 ^https?:\/\/[\s\S]*\/.+?\.tc\.qq\.com/.*?p201.1\.mp4 url reject-img
 ^https?:\/\/[\s\S]*\/youku\/.*?\.mp4 url reject-img
