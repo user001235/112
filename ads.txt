@@ -1647,7 +1647,6 @@
 ^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic url reject-img
 ^https?:\/\/spclient\.wg\.spotify\.com\/ads url reject-img
 ^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} url reject-img
-^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png url reject
 ^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 url reject
 ^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg url reject
 ^https?:\/\/ss0\.bdstatic\.com/.+_\d{3}_\d{4}\.jpg url reject
@@ -1714,7 +1713,6 @@
 ^https?:\/\/ulogs\.umengcloud\.com url reject-img
 ^https?:\/\/update.pan.baidu.com\/statistics url reject
 ^https?:\/\/update\.pan\.baidu\.com\/statistics url reject
-^https?:\/\/upload-cdn\.orayimg\.com\/upload\/activity\/2203\/202203141933143453\.png url reject
 ^https?:\/\/ups\.youku\.com\/.*?needad=1& url reject
 ^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/ftchinese.js
 ^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ftchinese.js
