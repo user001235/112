@@ -461,6 +461,7 @@
 ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/productive.js
 ^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/productive.js
 ^https:\/\/subscription\.grammarly\.com\/api\/v1$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/grammarly.js
+^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 ^https:\/\/us\.l\.qq\.com\/exapp url reject
 ^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js
 ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
@@ -868,6 +869,7 @@
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading url reject
 ^https?:\/\/api\.smzdm\.com\/v\d\/util\/loading url reject-200
 ^https?:\/\/api\.smzdm\.com\/v2\/util\/banner url reject-img
+^https?:\/\/api\.tidal\.com\/v1\/(pages\/album|(user|track|page)s\/(\d+)\/(state|subscription|lyrics|onboarding|playbackinfopostpaywall)) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
 ^https?:\/\/api\.tv\.sohu\.com\/agg\/api\/app\/config\/bootstrap url reject
 ^https?:\/\/api\.tv\.zing\.vn\/.*/user* url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/zingtvvipv1.js
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject
