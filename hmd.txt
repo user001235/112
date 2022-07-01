@@ -1,7 +1,5 @@
 host-keyword, 18comic
 host-keyword, jkforum
-host-keyword, porn
-host-keyword, xxx
 HOST-SUFFIX,51daao.com
 HOST-SUFFIX,8d8d.me
 HOST-SUFFIX,8teenxxx.com
@@ -641,3 +639,4 @@ HOST-SUFFIX,zh.videosfilmsporno.com
 HOST-SUFFIX,ziporn.com
 HOST-SUFFIX,zoosex.cc
 HOST-SUFFIX,zzwav.com
+host-suffix, netflav1.com, rejec
