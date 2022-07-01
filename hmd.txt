@@ -641,4 +641,3 @@ HOST-SUFFIX,zh.videosfilmsporno.com
 HOST-SUFFIX,ziporn.com
 HOST-SUFFIX,zoosex.cc
 HOST-SUFFIX,zzwav.com
-user-agent, porn*
