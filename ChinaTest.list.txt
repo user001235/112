@@ -1,6 +1,5 @@
 HOST,265.com
 HOST,2mdn.net
-USER-AGENT,QQ*
 HOST,c.admob.com
 HOST-SUFFIX,t.tt
 HOST-SUFFIX,1.cc
