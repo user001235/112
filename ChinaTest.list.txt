@@ -214,7 +214,6 @@ HOST-SUFFIX,cmbimg.com
 HOST-SUFFIX,cmbt.cn
 HOST-SUFFIX,cmct.tv
 HOST-SUFFIX,cmfu.com
-HOST-SUFFIX,cn
 HOST-SUFFIX,cnbeta.com
 HOST-SUFFIX,cnbetacdn.com
 HOST-SUFFIX,cnlang.org
@@ -252,6 +251,7 @@ HOST-SUFFIX,ecitic.net
 HOST-SUFFIX,edu.cn
 HOST-SUFFIX,ele.me
 HOST-SUFFIX,emerald.com
+HOST-SUFFIX,empornium.me
 HOST-SUFFIX,engineeringvillage.com
 HOST-SUFFIX,eudic.net
 HOST-SUFFIX,ewqcxz.com
@@ -8104,6 +8104,7 @@ HOST-SUFFIX,ab59.com
 HOST-SUFFIX,ab95569.com
 HOST-SUFFIX,abab.com
 HOST-SUFFIX,abacaipu.com
+HOST-SUFFIX,abakua.com
 HOST-SUFFIX,abang.com
 HOST-SUFFIX,abardeen-online.com
 HOST-SUFFIX,abbooa.com
@@ -17248,6 +17249,7 @@ HOST-SUFFIX,coshi.cc
 HOST-SUFFIX,coship.com
 HOST-SUFFIX,cosize.com
 HOST-SUFFIX,cosmoplat.com
+HOST-SUFFIX,cosmos-21.com
 HOST-SUFFIX,cosoar.com
 HOST-SUFFIX,cosplay8.com
 HOST-SUFFIX,cosplayla.com
@@ -20086,6 +20088,7 @@ HOST-SUFFIX,dongxingkonggu.com
 HOST-SUFFIX,dongxuyitai.com
 HOST-SUFFIX,dongyaods.com
 HOST-SUFFIX,dongyin.net
+HOST-SUFFIX,dongyun.biz
 HOST-SUFFIX,dongzhougroup.com
 HOST-SUFFIX,dongzhuoyao.com
 HOST-SUFFIX,donhonet.net
@@ -26004,6 +26007,7 @@ HOST-SUFFIX,gyb086.com
 HOST-SUFFIX,gycode.com
 HOST-SUFFIX,gydongli.com
 HOST-SUFFIX,gyersf.com
+HOST-SUFFIX,gygl.com
 HOST-SUFFIX,gyguohua.com
 HOST-SUFFIX,gyhj.org
 HOST-SUFFIX,gyip.net
@@ -29932,6 +29936,7 @@ HOST-SUFFIX,iamhippo.com
 HOST-SUFFIX,iamjzs.com
 HOST-SUFFIX,iamle.com
 HOST-SUFFIX,iamlintao.com
+HOST-SUFFIX,iamnow.net
 HOST-SUFFIX,iamshuaidi.com
 HOST-SUFFIX,iamsujie.com
 HOST-SUFFIX,iamtxt.com
@@ -33375,6 +33380,7 @@ HOST-SUFFIX,jkdsz.com
 HOST-SUFFIX,jkgood.com
 HOST-SUFFIX,jkidc.com
 HOST-SUFFIX,jkimg.net
+HOST-SUFFIX,jkjkjiankang.com
 HOST-SUFFIX,jkjzt.com
 HOST-SUFFIX,jkpan.cc
 HOST-SUFFIX,jkpj.com
@@ -38229,6 +38235,7 @@ HOST-SUFFIX,lumyhouse.com
 HOST-SUFFIX,lunar2013.com
 HOST-SUFFIX,lunchong.com
 HOST-SUFFIX,lundao.pub
+HOST-SUFFIX,luneciel.com
 HOST-SUFFIX,lunkuokeji.com
 HOST-SUFFIX,lunwenchachong.org
 HOST-SUFFIX,lunwendj.com
@@ -56050,7 +56057,6 @@ HOST-SUFFIX,wanshhh.com
 HOST-SUFFIX,wanshifu.com
 HOST-SUFFIX,wanshitong.com
 HOST-SUFFIX,wanshouyou.net
-HOST-SUFFIX,wanshutech.com
 HOST-SUFFIX,wanshuyun.com
 HOST-SUFFIX,wansongpu.com
 HOST-SUFFIX,wantattoo.com
@@ -59616,7 +59622,6 @@ HOST-SUFFIX,xindie.net
 HOST-SUFFIX,xindingwealth.com
 HOST-SUFFIX,xindns.com
 HOST-SUFFIX,xindns.mobi
-HOST-SUFFIX,xindon.com
 HOST-SUFFIX,xindong.com
 HOST-SUFFIX,xinduihuan.com
 HOST-SUFFIX,xinduo.com
@@ -60483,6 +60488,7 @@ HOST-SUFFIX,xsslyjt.com
 HOST-SUFFIX,xsstomy.com
 HOST-SUFFIX,xssz.net
 HOST-SUFFIX,xsteach.com
+HOST-SUFFIX,xsthmy.com
 HOST-SUFFIX,xsti.net
 HOST-SUFFIX,xstqj.com
 HOST-SUFFIX,xstt5.com
@@ -60898,6 +60904,7 @@ HOST-SUFFIX,xxsywxj.com
 HOST-SUFFIX,xxtaotao.com
 HOST-SUFFIX,xxtiao.com
 HOST-SUFFIX,xxtmail.com
+HOST-SUFFIX,xxtswzedu.com
 HOST-SUFFIX,xxwenda.com
 HOST-SUFFIX,xxwolo.com
 HOST-SUFFIX,xxxfeng.com
@@ -66565,7 +66572,6 @@ HOST-SUFFIX,zxd.com
 HOST-SUFFIX,zxdb999.com
 HOST-SUFFIX,zxdoo.com
 HOST-SUFFIX,zxdu.net
-HOST-SUFFIX,zxdyo.com
 HOST-SUFFIX,zxdyw.com
 HOST-SUFFIX,zxe-china.com
 HOST-SUFFIX,zxerp.com
@@ -66824,43 +66830,4 @@ HOST-SUFFIX,zzzzaaaa.com
 HOST-SUFFIX,zzzzhong.com
 HOST-SUFFIX,zzzzmall.com
 HOST-SUFFIX,zzzzzz.me
-HOST-KEYWORD,.tmall.com
-HOST-KEYWORD,alicdn
-HOST-KEYWORD,alipay
-HOST-KEYWORD,aliyun
-HOST-KEYWORD,baidu
-HOST-KEYWORD,beplay
-HOST-KEYWORD,microsoft
-HOST-KEYWORD,officecdn
-HOST-KEYWORD,taobao
-USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
-USER-AGENT,%E4%BA%AC%E4%B8%9C%E5%88%B0%E5%AE%B6*
-USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
-USER-AGENT,%E4%BC%98%E9%85%B7*
-USER-AGENT,%E5%8D%B3%E5%88%BB*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-USER-AGENT,*Vainglory*
-USER-AGENT,AdBlock*
-USER-AGENT,Best%20Trace*
-USER-AGENT,MegaWerewolf*
-USER-AGENT,MicroMessenger%20Client
-USER-AGENT,MicroMessenger*
-USER-AGENT,MicroMessengerClient*
-USER-AGENT,Microsoft*
-USER-AGENT,Moke*
-USER-AGENT,NeteaseMusic*
 USER-AGENT,QQ*
-USER-AGENT,RemotePlay*
-USER-AGENT,TIM*
-USER-AGENT,TeamViewer*
-USER-AGENT,WeChat*
-USER-AGENT,WebTorrent*
-USER-AGENT,YYeTs*
-USER-AGENT,arrowio*
-USER-AGENT,balls*
-USER-AGENT,cmb*
-USER-AGENT,cmblife*
-USER-AGENT,eusoft_ting_en_iphone
-USER-AGENT,hearthstone*
-USER-AGENT,hide*
-USER-AGENT,ting_en
