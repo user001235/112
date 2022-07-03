@@ -1688,7 +1688,7 @@
 ^https?:\/\/supportda\.ofo\.com\/adaction\? url reject
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
 ^https?:\/\/szextshort\.weixin\.qq\.com\/cgi-bin\/mmoc-bin\/ad\/ url reject-img
-^https?:\/\/t\d{2}\.baidu\.com url reject-img
+#^https?:\/\/t\d{2}\.baidu\.com url reject-img
 ^https?:\/\/tb1.bdstatic.com\/tb\/cms\/ngmis\/adsense\/*.jpg url reject
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*\.jpg url reject-img
 ^https?:\/\/tb2.bdstatic.com\/tb\/mobile\/spb\/widget\/jump url reject
