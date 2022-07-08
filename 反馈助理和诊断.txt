@@ -1,3 +1,0 @@
-host, cssubmissions.apple.com, reject
-host, fba.apple.com, reject
-host, diagassets.apple.com, reject
