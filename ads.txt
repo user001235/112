@@ -1,3 +1,4 @@
+#^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject
 #^https?:\/\/t\d{2}\.baidu\.com url reject
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
@@ -12,21 +13,7 @@
 ^(https:\/\/.+?\/media\/download\/.+?)token=.+ url 302 $1token=eyJ1c2VyX2lkIjo0NDM2MDM1NDgsImxhc3Rsb2dpbiI6MTYyNTAyOTU4OH0.7ca19b7fb81c7d4dd677b2710829b4fd.117c078f8dddfb3b7cf5fff3df7943b441e9842f20202e91ab9500d5
 ^(https:\/\/.+?\/v1\/video\/info.+?)token=.+?video_type=\w+ url 302 $1token=eyJ1c2VyX2lkIjo0NDM2MDM1NDgsImxhc3Rsb2dpbiI6MTYyNTAyOTU4OH0.7ca19b7fb81c7d4dd677b2710829b4fd.117c078f8dddfb3b7cf5fff3df7943b441e9842f20202e91ab9500d5&video_type=long
 ^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index url reject
-^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 ^http(s)://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject
-^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
-^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
-^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/config\/announcements(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/geo_manifest\/dynamic\/config(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gsp-ssl\.ls\.apple\.com\/dispatcher\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gsp-ssl\.ls\.apple\.com\/directions\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/direction2\.is\.autonavi\.com\/direction$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gspe12-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gspe12-cn-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gspe19-ssl\.ls\.apple\.com\/tile\.vf(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
-^https?:\/\/gspe19-cn-ssl\.ls\.apple\.com\/tiles(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
 ^http(s)://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
 ^http://106.54.2.168/emmoDiary/user/getUser url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/emmo.js
 ^http://ctrl.playcvn.com/app/(init|ads) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/YYeTs.js
@@ -260,7 +247,6 @@
 ^https:\/\/api\.hulusaas\.com\/api\/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/hulu.js
 ^https:\/\/api\.lakecoloring\.com\/v1\/receipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/lake.js
 ^https:\/\/api\.lingokids\.com\/v1\/renovate_session$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/lingokids.vip.js
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject
 ^https:\/\/api\.meiyan\.com\/iap\/verify\.json url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/myxj.js
 ^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/) url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/memrise.vip.js
 ^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/mondly.vip.js
@@ -1086,6 +1072,8 @@
 ^https?:\/\/cmsapi\.wifi8\.com\/v2\/adNew\/config url reject
 ^https?:\/\/cmsfile\.wifi8\.com\/uploads\/png\/ url reject
 ^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850 url reject
+^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
 ^https?:\/\/consumer.fcbox.com\/v1\/ad\/OpeningAdInfo\/ url reject
 ^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
 ^https?:\/\/consumer\.fcbox\.com\/v1\/ad\/OpeningAdInfo\/ url reject
@@ -1117,7 +1105,9 @@
 ^https?:\/\/dict-mobile\.iciba\.com\/interface\/index\.php\?[\w=&]*(c=ad|collectFeedsAdShowCount|KSFeedsAdCardViewController) url reject
 ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ url reject
 ^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2} url reject
+^https?:\/\/direction2\.is\.autonavi\.com\/direction$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
 ^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js url reject
+^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
 ^https?:\/\/display\.wting\.info\/.*.jpeg url reject
 ^https?:\/\/dl\.app.gtja\.com\/.+?\d+\.jpg$ url reject
 ^https?:\/\/dl\.app\.gtja\.com/.+?\.jpg$ url reject
@@ -1189,6 +1179,15 @@
 ^https?:\/\/ggx\.cmvideo\.cn\/request\/ url reject
 ^https?:\/\/gimytv\.(app\/$|app\/(browse\/)?[0-9a-zA-Z-_]+\.html) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Html/JS/gimytv.js
 ^https?:\/\/goblin\.hupu\.com/[^/]+/[^/]+\/interfaceAd\/ url reject
+^https?:\/\/gspe12-cn-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe12-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe19-cn-ssl\.ls\.apple\.com\/tiles(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe19-ssl\.ls\.apple\.com\/tile\.vf(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
+^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/config\/announcements(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/geo_manifest\/dynamic\/config(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gsp-ssl\.ls\.apple\.com\/directions\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gsp-ssl\.ls\.apple\.com\/dispatcher\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
 ^https?:\/\/gss0.bdstatic.com\/.+\/static\/wiseindex\/img\/bd_red_packet.png url reject
 ^https?:\/\/gss0\.bdstatic\.com\/.+?\/static\/wiseindex\/img\/bd_red_packet\.png url reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ url reject
@@ -2003,6 +2002,7 @@
 ^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject
 ^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}+x\d{4} url reject
 ^https?+:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ url reject
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/hanjuTV.js
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js
 ^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js
