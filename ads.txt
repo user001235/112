@@ -235,7 +235,6 @@
 ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fantastical.js
 ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
 ^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$ url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/fantastical.js
-^https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/BahamutAnimeAds.js
 ^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/mimo.vip.js
 ^https:\/\/api\.gkocr\.com\/api\/userlogin1.php url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/smy.js
 ^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=* url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/zingmp3.js
