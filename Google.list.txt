@@ -664,9 +664,3 @@ HOST-SUFFIX,zukunftswerkstatt.de,Google
 HOST-SUFFIX,zynamics.com,Google
 HOST-SUFFIX,googledrive.com,Google
 HOST-SUFFIX,googleusercontent.com,Google
-HOST-KEYWORD,appspot,Google
-HOST-KEYWORD,blogspot,Google
-HOST-KEYWORD,gmail,Google
-HOST-KEYWORD,google,Google
-HOST-KEYWORD,gstatic,Google
-HOST-KEYWORD,recaptcha,Google
