@@ -32,4 +32,4 @@ HOST-SUFFIX,qiyipic.com,iQIYI
 HOST-SUFFIX,qy.com,iQIYI
 HOST-SUFFIX,qy.net,iQIYI
 HOST-SUFFIX,suike.cn,iQIYI
-HOST-KEYWORD,qiyi,iQIYI
+]
