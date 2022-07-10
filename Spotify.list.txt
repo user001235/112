@@ -14,5 +14,4 @@ HOST-SUFFIX,spotifycharts.com,Spotify
 HOST-SUFFIX,spotifycodes.com,Spotify
 HOST-SUFFIX,spotifyforbrands.com,Spotify
 HOST-SUFFIX,spotifyjobs.com,Spotify
-HOST-KEYWORD,-spotify-com,Spotify
-HOST-KEYWORD,spotify.com,Spotify
+
