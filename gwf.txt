@@ -833,15 +833,6 @@ cdcparty.com
 cdef.org
 cdig.info
 cdjp.org
-cdn-images.mailchimp.com
-cdn.assets.lfpcontent.com
-cdn.helixstudios.net
-cdn.printfriendly.com
-cdn.seatguru.com
-cdn.softlayer.net
-cdn1.lp.saboom.com
-cdnews.com.tw
-cdninstagram.com
 cdp1989.org
 cdp1998.org
 cdp2006.org
@@ -1302,7 +1293,6 @@ dlsite.com
 dlyoutube.com
 dm530.net
 dmc.nico
-dmcdn.net
 dmhy.org
 dmm.co.jp
 dns-dns.com
@@ -1398,10 +1388,6 @@ dw.de
 dwnews.com
 dwnews.net
 dynamic-dns.net
-dynamicdns.biz
-dynamicdns.co.uk
-dynamicdns.me.uk
-dynamicdns.org.uk
 dynawebinc.com
 dyndns-ip.com
 dyndns-pics.com
@@ -1443,7 +1429,6 @@ ecimg.tw
 ecministry.net
 economist.com
 ecsm.vs.com
-edgecastcdn.net
 edicypages.com
 edmontonchina.cn
 edmontonservice.com
@@ -1655,7 +1640,6 @@ fb.com
 fb.me
 fb.watch
 fbaddins.com
-fbcdn.net
 fbsbx.com
 fbworkmail.com
 fc2.com
@@ -1889,9 +1873,7 @@ galstars.net
 game735.com
 gamebase.com.tw
 gamejolt.com
-gamer-cds.cdn.hinet.net
 gamer.com.tw
-gamer2-cds.cdn.hinet.net
 gamez.com.tw
 gamousa.com
 ganges.com
@@ -2366,7 +2348,6 @@ happy-vpn.com
 haproxy.org
 harunyahya.com
 hautelook.com
-hautelookcdn.com
 have8.com
 hbg.com
 hbo.com
@@ -2908,7 +2889,6 @@ kenengba.com
 keontech.net
 kepard.com
 kex.com
-keycdn.com
 khabdha.org
 khatrimaza.org
 khmusic.com.tw
@@ -3035,7 +3015,6 @@ lihkg.com
 like.com
 limiao.net
 line-apps.com
-line-scdn.net
 line.me
 line.naver.jp
 linear-abematv.akamaized.net
@@ -3218,7 +3197,6 @@ memorybbs.com
 memri.org
 memrijttm.org
 mercatox.com
-mercdn.net
 mercyprophet.org
 mergersandinquisitions.org
 meridian-trust.org
@@ -3431,7 +3409,6 @@ myshare.url.com.tw
 mysinablog.com
 mysite.verizon.net
 myspace.com
-myspacecdn.com
 mytalkbox.com
 mytizi.com
 mywww.biz
@@ -3675,7 +3652,6 @@ ocry.com
 ocsp.int-x3.letsencrypt.org
 october-review.org
 oculus.com
-oculuscdn.com
 odysee.com
 oex.com
 offbeatchina.com
@@ -3861,7 +3837,6 @@ phayul.com
 philborges.com
 philly.com
 phmsociety.org
-phncdn.com
 phobos.apple.com
 phosphation13.rssing.com
 photodharma.net
@@ -4051,7 +4026,6 @@ questvisual.com
 quitccp.net
 quitccp.org
 quora.com
-quoracdn.net
 quran.com
 quranexplorer.com
 qusi8.net
@@ -4274,8 +4248,6 @@ secretgarden.no
 secretsline.biz
 secure.hustler.com
 secure.logmein.com
-secure.raxcdn.com
-secureservercdn.net
 securetunnel.com
 securityinabox.org
 securitykiss.com
@@ -4425,7 +4397,6 @@ smith.edu
 smyxy.org
 snapchat.com
 snaptu.com
-sndcdn.com
 sneakme.net
 snowlionpub.com
 sobees.com
@@ -5113,7 +5084,6 @@ twit2d.com
 twitbrowser.net
 twitcause.com
 twitch.tv
-twitchcdn.net
 twitgether.com
 twitgoo.com
 twitiq.com
