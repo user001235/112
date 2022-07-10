@@ -180,4 +180,3 @@ HOST-SUFFIX,yamaxun.cn,Amazon
 HOST-SUFFIX,yamaxun.com,Amazon
 HOST-SUFFIX,z.cn,Amazon
 HOST-SUFFIX,zappos,Amazon
-HOST-KEYWORD,avoddashs,Amazon
