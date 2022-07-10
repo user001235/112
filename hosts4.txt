@@ -69468,9 +69468,6 @@ instagram.adresa-msk.ru
 instagram.aleshkova.ru
 instagram.azhurstal.ru
 instagram.corconsult.ru
-instagram.fcdg1-1.fna.fbcdn.net
-instagram.felp1-1.fna.fbcdn.net
-instagram.fkgf1-1.fna.fbcdn.net
 instagram.funny.ru
 instagram.gaymiami.com
 instagram.jastpay.ru
@@ -155840,7 +155837,6 @@ zoysiafarms.com
 zoznamstatic.sk
 zozoplatform.com
 zp3code.com
-z-p3-sonar.fdar1-1.fna.fbcdn.net
 zpa-app.net
 zpaau.com
 zpa-auth.net
