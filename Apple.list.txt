@@ -139,9 +139,3 @@ HOST-SUFFIX,me.com,Apple
 HOST-SUFFIX,myicloud.net,Apple
 HOST-SUFFIX,mylcloud.net,Apple
 HOST-SUFFIX,wwwicloud.com,Apple
-HOST-KEYWORD,apple-support.akadns.net,Apple
-HOST-KEYWORD,apple.com.akadns.net,Apple
-HOST-KEYWORD,apple.com.edgekey.net,Apple
-HOST-KEYWORD,icoudo,Apple
-HOST-KEYWORD,testflight,Apple
-HOST-KEYWORD,icloud.com.akadns.net,Apple
