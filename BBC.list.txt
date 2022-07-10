@@ -24,5 +24,3 @@ HOST-SUFFIX,bbcmedia.co.uk,BBC
 HOST-SUFFIX,bbcpersian.com,BBC
 HOST-SUFFIX,bbcverticals.com,BBC
 HOST-SUFFIX,bidi.net.uk,BBC
-HOST-KEYWORD,bbcfmt,BBC
-HOST-KEYWORD,uk-live,BBC
