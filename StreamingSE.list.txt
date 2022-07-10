@@ -8,4 +8,3 @@ grpc.biliapi.net
 m.bilibili.com
 upos-hz-mirrorakam.akamaized.net
 www.bilibili.com
-DOMAIN-KEYWORD,cn-hk-eq-bcache-
