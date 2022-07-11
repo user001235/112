@@ -8,7 +8,6 @@ host-suffix, bkimg.cdn.bcebos.com, direct
 host-suffix, fe-video-qc.xhscdn.com, direct
 host-suffix, hey-video-qn.xhscdn.com, direct
 host-suffix, imagex-cdn.poizon.com, direct
-host-suffix, pic1.afdiancdn.com, direct
 host-suffix, sns-avatar-qc.xhscdn.com, direct
 host-suffix, sns-img-bd.xhscdn.com, direct
 host-suffix, sns-img-hw.xhscdn.com, direct
@@ -18,7 +17,6 @@ host-suffix, sns-video-bd.xhscdn.com, direct
 host-suffix, sns-video-hw.xhscdn.com, direct
 host-suffix, sns-video-qc.xhscdn.com, direct
 host-suffix, sns-video-qn.xhscdn.com, direct
-host-suffix, static.afdiancdn.com, direct
 host-suffix, userlink.alicdn.com, direct
 host-suffix, fna.fbcdn.net, proxy
 host-suffix, bootstrapcdn.com, proxy
