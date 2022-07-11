@@ -3,6 +3,7 @@ host-suffix, qq-video.cdn-go.cn, direct
 host-suffix, qqvip-web.cdn-go.cn, direct
 host-suffix, qq-web.cdn-go.cn, direct
 host-suffix, wpscdn.cn, direct
+host-suffix, xhscdn.com, direct
 host-suffix, bkimg.cdn.bcebos.com, direct
 host-suffix, fe-video-qc.xhscdn.com, direct
 host-suffix, hey-video-qn.xhscdn.com, direct
@@ -16,6 +17,7 @@ host-suffix, sns-img-qn.xhscdn.com, direct
 host-suffix, sns-video-bd.xhscdn.com, direct
 host-suffix, sns-video-hw.xhscdn.com, direct
 host-suffix, sns-video-qc.xhscdn.com, direct
+host-suffix, sns-video-qn.xhscdn.com, direct
 host-suffix, static.afdiancdn.com, direct
 host-suffix, static1.keepcdn.com, direct
 host-suffix, userlink.alicdn.com, direct
