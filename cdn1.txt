@@ -19,9 +19,7 @@ host-suffix, sns-video-hw.xhscdn.com, direct
 host-suffix, sns-video-qc.xhscdn.com, direct
 host-suffix, sns-video-qn.xhscdn.com, direct
 host-suffix, static.afdiancdn.com, direct
-host-suffix, static1.keepcdn.com, direct
 host-suffix, userlink.alicdn.com, direct
-host-suffix, v1.keepcdn.com, direct
 host-suffix, fna.fbcdn.net, proxy
 host-suffix, bootstrapcdn.com, proxy
 host-suffix, cdn.ampproject.org, proxy
