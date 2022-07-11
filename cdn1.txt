@@ -46,4 +46,3 @@ host-suffix, pss.alicdn.com, reject
 host-suffix, tieba-ares.cdn.bcebos.com, reject
 host-suffix, videobd-platform.cdn.huya.com, reject
 host-suffix, weblog.cdn-go.cn, reject
-host-suffix, xhscdn.com, reject
