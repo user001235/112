@@ -47,7 +47,6 @@ HOST-SUFFIX,aocdn.com
 HOST-SUFFIX,aoscdn.com
 HOST-SUFFIX,apcdns.net
 HOST-SUFFIX,apdcdn.com
-HOST-SUFFIX,appleid.cdn-apple.com
 HOST-SUFFIX,aqbxcdn9.com
 HOST-SUFFIX,aqdcdn.com
 HOST-SUFFIX,arenacdn.com
@@ -91,7 +90,6 @@ HOST-SUFFIX,c4hcdn.com
 HOST-SUFFIX,carcdn.com
 HOST-SUFFIX,cctvcdn.net
 HOST-SUFFIX,cdn.ampproject.org
-HOST-SUFFIX,cdn.apple-mapkit.com
 HOST-SUFFIX,cdn.fun
 HOST-SUFFIX,cdn.hockeyapp.net
 HOST-SUFFIX,cdn.jsdelivr.net
@@ -100,25 +98,20 @@ HOST-SUFFIX,cdn.razersynapse.com
 HOST-SUFFIX,cdn.samsung.com
 HOST-SUFFIX,cdn.shanghai.nyu.edu
 HOST-SUFFIX,cdn08.com
-HOST-SUFFIX,cdn1.apple-mapkit.com
 HOST-SUFFIX,cdn1218.com
-HOST-SUFFIX,cdn2.apple-mapkit.com
 HOST-SUFFIX,cdn20.com
 HOST-SUFFIX,cdn20.info
 HOST-SUFFIX,cdn20.org
 HOST-SUFFIX,cdn2000.com
 HOST-SUFFIX,cdn2020.com
-HOST-SUFFIX,cdn3.apple-mapkit.com
 HOST-SUFFIX,cdn30.com
 HOST-SUFFIX,cdn30.org
 HOST-SUFFIX,cdn3344.com
 HOST-SUFFIX,cdn35.com
-HOST-SUFFIX,cdn4.apple-mapkit.com
 HOST-SUFFIX,cdn56.com
 HOST-SUFFIX,cdn86.net
 HOST-SUFFIX,cdn88.cc
 HOST-SUFFIX,cdnaaa.net
-HOST-SUFFIX,cdn-apple.com
 HOST-SUFFIX,cdnbee.com
 HOST-SUFFIX,cdnbuild.net
 HOST-SUFFIX,cdnbye.com
@@ -129,10 +122,6 @@ HOST-SUFFIX,cdnchushou.com
 HOST-SUFFIX,cdncl.net
 HOST-SUFFIX,cdncloud.org
 HOST-SUFFIX,cdnclouds.net
-HOST-SUFFIX,cdn-cn1.apple-mapkit.com
-HOST-SUFFIX,cdn-cn2.apple-mapkit.com
-HOST-SUFFIX,cdn-cn3.apple-mapkit.com
-HOST-SUFFIX,cdn-cn4.apple-mapkit.com
 HOST-SUFFIX,cdnczydwl.com
 HOST-SUFFIX,cdndm.com
 HOST-SUFFIX,cdndm5.com
@@ -193,10 +182,6 @@ HOST-SUFFIX,cg-cdn.net
 HOST-SUFFIX,chongyacdn.com
 HOST-SUFFIX,chuangcdn.com
 HOST-SUFFIX,chumacdn.com
-HOST-SUFFIX,cl1-cdn.origin-apple.com.akadns.net
-HOST-SUFFIX,cl3-cdn.origin-apple.com.akadns.net
-HOST-SUFFIX,cl4-cdn.origin-apple.com.akadns.net
-HOST-SUFFIX,cl5-cdn.origin-apple.com.akadns.net
 HOST-SUFFIX,cloudcdn.net
 HOST-SUFFIX,cloudcdns.com
 HOST-SUFFIX,cloudcdns.net
@@ -219,7 +204,6 @@ HOST-SUFFIX,cy-cdn.com
 HOST-SUFFIX,d2scdn.com
 HOST-SUFFIX,dangcdn.com
 HOST-SUFFIX,dbankcdn.com
-HOST-SUFFIX,dd-cdn.origin-apple.com.akadns.net
 HOST-SUFFIX,ddoswafcdn.xyz
 HOST-SUFFIX,diansu-cdn.net
 HOST-SUFFIX,dl.djicdn.com
@@ -299,7 +283,6 @@ HOST-SUFFIX,hyhcdn.com
 HOST-SUFFIX,ialicdn.com
 HOST-SUFFIX,ibscdn.com
 HOST-SUFFIX,icdn2.com
-HOST-SUFFIX,icloud.cdn-apple.com
 HOST-SUFFIX,icloud-cdn.icloud.com.akadns.net
 HOST-SUFFIX,icpcdn.com
 HOST-SUFFIX,idtcdn.com
@@ -326,7 +309,6 @@ HOST-SUFFIX,jjcdn.com
 HOST-SUFFIX,jomocdn.net
 HOST-SUFFIX,josncdn.com
 HOST-SUFFIX,jscdn.host
-HOST-SUFFIX,js-cdn.music.apple.com
 HOST-SUFFIX,jsfycdn3.com
 HOST-SUFFIX,jstucdn.com
 HOST-SUFFIX,jumi-cdn.com
@@ -374,7 +356,6 @@ HOST-SUFFIX,mcchcdn.com
 HOST-SUFFIX,meituncdn.com
 HOST-SUFFIX,meixincdn.com
 HOST-SUFFIX,melon.cdnetworks.com
-HOST-SUFFIX,mesu-cdn.apple.com.akadns.net
 HOST-SUFFIX,mg-cdn.com
 HOST-SUFFIX,miaoshoucdn.com
 HOST-SUFFIX,mifanlicdn.com
@@ -408,8 +389,6 @@ HOST-SUFFIX,okbuycdn.com
 HOST-SUFFIX,olcdn.com
 HOST-SUFFIX,ol-cdn.com
 HOST-SUFFIX,osbccdn.com
-HOST-SUFFIX,oscdn.apple.com
-HOST-SUFFIX,oscdn.origin-apple.com.akadns.net
 HOST-SUFFIX,ourcdns.com
 HOST-SUFFIX,ourwebcdn.com
 HOST-SUFFIX,ourwebcdn.info
@@ -420,7 +399,6 @@ HOST-SUFFIX,ovscdns.net
 HOST-SUFFIX,p.cdn.persaas.dell.com
 HOST-SUFFIX,p2cdn.com
 HOST-SUFFIX,pacdn.com
-HOST-SUFFIX,pancake.cdn-apple.com.akadns.net
 HOST-SUFFIX,partner.cdnetworks.com
 HOST-SUFFIX,pbcdn.com
 HOST-SUFFIX,pddcdn.com
@@ -504,13 +482,9 @@ HOST-SUFFIX,speedcdns.com
 HOST-SUFFIX,ssscdn.com
 HOST-SUFFIX,static.cdnetworks.com
 HOST-SUFFIX,staticdn.net
-HOST-SUFFIX,store.storeimages.cdn-apple.com
 HOST-SUFFIX,stormsend1.djicdn.com
 HOST-SUFFIX,stylecdn.com
-HOST-SUFFIX,swcatalog-cdn.apple.com.akadns.net
-HOST-SUFFIX,swcdn.apple.com
 HOST-SUFFIX,swcdn.g.aaplimg.com
-HOST-SUFFIX,swscan-cdn.apple.com.akadns.net
 HOST-SUFFIX,sxlcdn.com
 HOST-SUFFIX,t8tcdn.com
 HOST-SUFFIX,tancdn.com
@@ -548,9 +522,6 @@ HOST-SUFFIX,tymcdn.com
 HOST-SUFFIX,ubicdn.com
 HOST-SUFFIX,ulecdn.com
 HOST-SUFFIX,upcdn.net
-HOST-SUFFIX,updates.cdn-apple.com
-HOST-SUFFIX,updates-http.cdn-apple.com
-HOST-SUFFIX,updates-http.cdn-apple.com.akadns.net
 HOST-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 HOST-SUFFIX,uyun-cdn.com
 HOST-SUFFIX,uzaicdn.com
