@@ -40,11 +40,10 @@ HOST-SUFFIX,api-glb-sea.smoot.apple.com,Apple
 HOST-SUFFIX,books.itunes.apple.com,Apple
 HOST-SUFFIX,cvws.icloud-content.com,Apple
 HOST-SUFFIX,developer.apple.com,Apple
+HOST-SUFFIX,hls.itunes.apple.com,Apple
 HOST-SUFFIX,lookup-api.apple.com,Apple
 HOST-SUFFIX,sandbox.itunes.apple.com,Apple
-HOST-SUFFIX,testflight.apple.com,Apple
 HOST-SUFFIX,hls-amt.itunes.apple.com,Apple
-HOST-SUFFIX,hls.itunes.apple.com,Apple
 HOST-SUFFIX,np-edge.itunes.apple.com,Apple
 HOST-SUFFIX,play-edge.itunes.apple.com,Apple
 HOST-SUFFIX,tv.applemusic.com,Apple
@@ -55,6 +54,7 @@ HOST-SUFFIX,statici.icloud.com,Apple
 HOST-SUFFIX,hls-svod.itunes.apple.com,Apple
 HOST-SUFFIX,guzzoni.apple.com,Apple
 HOST-SUFFIX,beta.apple.com,Apple
+HOST-SUFFIX,testflight.apple.com,Apple
 HOST-SUFFIX,www-cdn.icloud.com.akadns.net,Apple
 HOST-SUFFIX,mask-api.fe.apple-dns.net,Apple
 HOST-SUFFIX,mask-api.icloud.com,Apple
