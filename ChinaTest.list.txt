@@ -43566,14 +43566,13 @@ HOST-SUFFIX,nvwu.com
 HOST-SUFFIX,nvzhanshen.com
 HOST-SUFFIX,nvzhubo.cc
 HOST-SUFFIX,nvziwu.com
-HOST-SUFFIX,nwafu.edu.cn,
+HOST-SUFFIX,nwafu.edu.cn
 HOST-SUFFIX,nwbbs.com
 HOST-SUFFIX,nwct.me
 HOST-SUFFIX,nwdlink.com
 HOST-SUFFIX,nweon.com
 HOST-SUFFIX,nw-host.com
 HOST-SUFFIX,nwnu.edu.cn
-HOST-SUFFIX,nwpu.edu.cn
 HOST-SUFFIX,nwsuaf.edu.cn
 HOST-SUFFIX,nwtongcheng.com
 HOST-SUFFIX,nwu.edu.cn
