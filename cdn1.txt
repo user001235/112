@@ -1,4 +1,5 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, cdn.cnbj1.fds.api.mi-img.com, direct
 host-suffix, qq-video.cdn-go.cn, direct
 host-suffix, qqvip-web.cdn-go.cn, direct
 host-suffix, qq-web.cdn-go.cn, direct
