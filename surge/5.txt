@@ -1,0 +1,1 @@
+(\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
