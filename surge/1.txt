@@ -1520,6 +1520,7 @@
 "^https?+:\/\/www\.zybang\.com\/adx\/" - reject
 "^https?+:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d" - reject
 "^https?+:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$" - reject
+[URL Rewrite]
 "^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3,4}+x\d{4}" - reject
 "^https?+:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/" - reject
 "http:\/\/analytics\.163\.com\/ntes" - reject
