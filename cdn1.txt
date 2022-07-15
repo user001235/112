@@ -5,6 +5,7 @@ host-suffix, qqvip-web.cdn-go.cn, direct
 host-suffix, qq-web.cdn-go.cn, direct
 host-suffix, wpscdn.cn, direct
 host-suffix, xhscdn.com, direct
+host-suffix, appcloudcdn.com, direct
 host-suffix, bkimg.cdn.bcebos.com, direct
 host-suffix, fe-video-qc.xhscdn.com, direct
 host-suffix, hey-video-qn.xhscdn.com, direct
