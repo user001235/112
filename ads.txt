@@ -1,8 +1,5 @@
+#^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 #^https?:\/\/t\d{2}\.baidu\.com url reject
-^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
-^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
-^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PainedBashoCrack.js
-^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url response-body .+ response-body XUxzDgEDZV15WQ4RL3V6RFYKV1F5UC9GBUx+EnAMMFBccnwNLF9EWFFrMwoBZXkGUEF+CVduNFkrX3oWdAszT3VPUlYtckBYaWQNDSpcX0p5e35PV240WStfehZ0NQlCdl9wEy5yQFhTdAkQAVtlWXpRfQt7QygBK3FiUHQLM0B1THAXKlwCQWkBEg8sX3pTUWxcVXhTCVMAYV8MdjU0W1xhYw06S2FSVGcGHzlcdVl5e34KV2EkWStfUBJwDzhIW3MACAZ5dUFTXjQPLFx1AntsVwp7UwIAKU9UEnAMLE5ZYg0NLFt2QnldMxAHcXZDbQt2UFNqLAYpdkAIXSZbSmJiDQ0sWH5IanczDC1xalp7QlhQeG4wBClhflJjJQpRdl9rCS1lVAR+SQkMLUxmXGxBfUt/VydYAWMOFmA5LEJcBwAdOXcOXFJ0JwgqXF9EeGtDUVdhK1Y+BmENWlIzUXdffBcqXFtLaAEnDAdxXAJva30Oe2oSWQAHcVFgUwpeXHJVEDlifgd9cBYPAARYRlZWZl5SCyMAPQdfB10mDkxiZnBSLnJAWFMAMw4HfmZKfFJbQHp6L0c9bVsHYDYaS3FfVg0ucgNGfXAoFSpYelxvC2ZIVG4wWStfclN3NQEIdmFsHi1LekJ5XScROwVmQG97fQ57ehJZB211B2BTW0haXHBSKlt2RH13IA8vdXpIVn4NTFQLUFwBZn5XcAsjTXVxeA0vcn0CUXQ3CgFwCV1WVWJUbgtQAQZmfld0MhVRYnJvVgJmZlh/WigeLVxlA3t8YQl7QzwEKWFUGXQLLwl2cVpXKlhAWFReDRE7BAVYV29hUXlQL1MAYVsNYBswW1xhUhw5dXFSVGc4VS5yWFNRbGFCeFMgWQJtBlg=
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
 (^https?:\/\/(?!redirector)[\w-]+\.(googlevideo|googleapis)\.com\/((?!dclk_video_ads).)+)(ctier=L)(&.+) url 302 $1$2
@@ -581,6 +578,7 @@
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_baidu.zhidao.js
+^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 ^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ url reject
 ^https?:\/\/.*\.club\/floater.* url reject
 ^https?:\/\/.*\.fun\/floater.* url reject
@@ -1167,6 +1165,7 @@
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(interfaceAdMonitor|interfaceAd)\/ url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject
+^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/CaiXin/Script/CaiXin.js
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
 ^https?:\/\/gd\.10086\.cn\/gmccfile\/file\/image\/preloading703\/.*.jpg url reject
@@ -1495,7 +1494,6 @@
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/ url reject
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg url reject
 ^https?:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$ url reject
-#^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 ^https?:\/\/p1-q\.mafengwo\.net\/s19\/M00\/77\/57\/.*.png url reject
 ^https?:\/\/pagead2\.googlesyndication\.com\/pagead\/ url reject
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
@@ -1594,6 +1592,8 @@
 ^https?:\/\/show\.api\.moji\.com\/json\/showcase\/getAll url reject
 ^https?:\/\/shp\.qpic\.cn\/pggamehead\/.*?h=\d{4} url reject
 ^https?:\/\/simg\.s\.weibo\.com\/.+?_ios\d{2}\.gif url reject
+^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PainedBashoCrack.js
+^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url response-body .+ response-body XUxzDgEDZV15WQ4RL3V6RFYKV1F5UC9GBUx+EnAMMFBccnwNLF9EWFFrMwoBZXkGUEF+CVduNFkrX3oWdAszT3VPUlYtckBYaWQNDSpcX0p5e35PV240WStfehZ0NQlCdl9wEy5yQFhTdAkQAVtlWXpRfQt7QygBK3FiUHQLM0B1THAXKlwCQWkBEg8sX3pTUWxcVXhTCVMAYV8MdjU0W1xhYw06S2FSVGcGHzlcdVl5e34KV2EkWStfUBJwDzhIW3MACAZ5dUFTXjQPLFx1AntsVwp7UwIAKU9UEnAMLE5ZYg0NLFt2QnldMxAHcXZDbQt2UFNqLAYpdkAIXSZbSmJiDQ0sWH5IanczDC1xalp7QlhQeG4wBClhflJjJQpRdl9rCS1lVAR+SQkMLUxmXGxBfUt/VydYAWMOFmA5LEJcBwAdOXcOXFJ0JwgqXF9EeGtDUVdhK1Y+BmENWlIzUXdffBcqXFtLaAEnDAdxXAJva30Oe2oSWQAHcVFgUwpeXHJVEDlifgd9cBYPAARYRlZWZl5SCyMAPQdfB10mDkxiZnBSLnJAWFMAMw4HfmZKfFJbQHp6L0c9bVsHYDYaS3FfVg0ucgNGfXAoFSpYelxvC2ZIVG4wWStfclN3NQEIdmFsHi1LekJ5XScROwVmQG97fQ57ehJZB211B2BTW0haXHBSKlt2RH13IA8vdXpIVn4NTFQLUFwBZn5XcAsjTXVxeA0vcn0CUXQ3CgFwCV1WVWJUbgtQAQZmfld0MhVRYnJvVgJmZlh/WigeLVxlA3t8YQl7QzwEKWFUGXQLLwl2cVpXKlhAWFReDRE7BAVYV29hUXlQL1MAYVsNYBswW1xhUhw5dXFSVGc4VS5yWFNRbGFCeFMgWQJtBlg=
 ^https?:\/\/sjapp\.o3aqqc\.work\/(home\/message\/get|user\/getUserActivity|activityDialog\/getActivityDialogList|banner\/list2\?location=0|game\/programGameList) url reject
 ^https?:\/\/sjapp\.o3aqqc\.work\/mov\/browse url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization: 0547064bb9a5557d332023ab513a2e3784e38dc54f844f53cbb804d3a687c48b6c2e670c6aba3e564f$2
 ^https?:\/\/sjapp\.o3aqqc\.work\/user\/(info|fansAndUpAndAttentionCnt)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SJSPCrack.js
