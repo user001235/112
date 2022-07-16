@@ -97,3 +97,4 @@ host-suffix, livewebbs2pcdn.msstatic.com, reject
 host-suffix, h5.cdn.unicompayment.com, reject
 host-suffix, videobd-platform.cdn.huya.com, reject
 host-suffix, pp-cdnfile2pcdn.msstatic.com, reject
+host-suffix, pp-cdnfile1pcdn.msstatic.com, reject
