@@ -1,4 +1,5 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, livewebbs2pcdn.msstatic.com, direct
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
 host-suffix, If-webcast-gr-sourcecdn.bytegecko.com, direct
