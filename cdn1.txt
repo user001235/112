@@ -1,4 +1,5 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, conf-darwin.xycdn.com, direct
 host-suffix, cdnfile1.msstatic.com, direct
 host-suffix, cdnfile2.msstatic.com , direct
 host-suffix, livewebbs2pcdn.msstatic.com, direct
