@@ -24,7 +24,7 @@ host-suffix, lf6-dy-cdn-tos.bytegecko.com, direct
 host-suffix, lf9-dy-cdn-tos.bytegecko.com, direct
 host-suffix, lf26-dy-cdn-tos.bytegecko.com, direct
 host-suffix, sf-cdn-tos.douyinstatic.com, direct
-host-suffix, sf1-cdn-tos.douyinstatic.com
+host-suffix, sf1-cdn-tos.douyinstatic.com, direct
 host-suffix, sf3-cdn-tos.douyinstatic.com, direct
 host-suffix, sf6-cdn-tos.douyinstatic.com, direct
 host-suffix, sf9-cdn-tos.douyinstatic.com, direct
