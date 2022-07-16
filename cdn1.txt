@@ -1,5 +1,5 @@
 host-suffix, bytecdn.cn, direct
-host-suffix, livewebbs2pcdn.msstatic.com, direct
+
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
 host-suffix, If-webcast-gr-sourcecdn.bytegecko.com, direct
@@ -96,3 +96,5 @@ host-suffix, cdn.ampproject.org, reject
 host-suffix, cdn.flurry.com, reject
 host-suffix, livewebbs2pcdn.msstatic.com, reject
 host-suffix, h5.cdn.unicompayment.com, reject
+host-suffix, livewebbs2pcdn.msstatic.com, reject
+host-suffix, videobd-platform.cdn.huya.com, reject
