@@ -1,7 +1,4 @@
 host-suffix, bytecdn.cn, direct
-host-suffix, conf-darwin.xycdn.com, direct
-host-suffix, cdnfile1.msstatic.com, direct
-host-suffix, cdnfile2.msstatic.com , direct
 host-suffix, livewebbs2pcdn.msstatic.com, direct
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
@@ -78,7 +75,6 @@ host-suffix, sns-video-hw.xhscdn.com, direct
 host-suffix, sns-video-qc.xhscdn.com, direct
 host-suffix, sns-video-qn.xhscdn.com, direct
 host-suffix, userlink.alicdn.com, direct
-host-suffix, fna.fbcdn.net, proxy
 host-suffix, bootstrapcdn.com, proxy
 host-suffix, cdn.ampproject.org, proxy
 host-suffix, cdn.jsdelivr.net, proxy
