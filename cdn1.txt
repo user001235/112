@@ -1,4 +1,6 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, cdnfile1.msstatic.com, direct
+host-suffix, cdnfile2.msstatic.com , direct
 host-suffix, livewebbs2pcdn.msstatic.com, direct
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
