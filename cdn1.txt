@@ -1,5 +1,6 @@
 host-suffix, bytecdn.cn, direct
-
+host-suffix, cdnauth2.hpplay.cn, direct
+host-suffix, cdnauth1.hpplay.cn, direct
 host-suffix, If-webcast-gr-sourcecdn.bytegecko.com, direct
 host-suffix, lf3-beecdn.bytetos.com, direct
 host-suffix, lf5-cdn-tos.bytegecko.com, direct
