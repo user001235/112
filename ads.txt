@@ -85,7 +85,6 @@
 ^http?:\/\/1\.blg\d{3}\.xyz\/api\/(video\/index\/details|user\/profile\/index|user\/Profile\/index) url script-response-body http://ox.xmkczs.com/quantumultX/blg.js
 ^http?:\/\/api\_\d{4}\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/sngxmini/crack/master/2496/2496.js
 ^http?:\/\/business\.msstatic\.com\/advertiser\/material url reject
-^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+)) url script-request-header https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/xmly.js
 ^http[s]?:\/\/(.+)\.myb6api\.com\/(.+)\/api\/users\/getBaseInfo url script-response-body http://ox.xmkczs.com/quantumultX/blsp.js
 ^http[s]?:\/\/(2-api|api)\.(yousuilife|md-ddd1|md-ddd2|md-ddd3|md-ddd4|duopinsm)\.com\/api\/web\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/madou.js
 ^http[s]?:\/\/(api\.beingfine|learnywhere)\.cn\/(v1|api)\/.+ url script-response-body http://ox.xmkczs.com/quantumultX/lystvip.js
