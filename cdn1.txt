@@ -96,3 +96,7 @@ host-suffix, ads-video-qc.xhscdn.com, reject
 host-suffix, cdn.heapanalytics.com, reject
 host-suffix, cdn.heapanalytics.comandroid.com, reject
 host-suffix, weblog.cdn-go.cn, reject
+host-suffix, cdn.ampproject.org, reject
+host-suffix, cdn.flurry.com, reject
+host-suffix, livewebbs2pcdn.msstatic.com, reject
+host-suffix, h5.cdn.unicompayment.com, reject
