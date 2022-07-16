@@ -1,4 +1,5 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, lf3-beecdn.bytetos.com, direct
 host-suffix, lf5-cdn-tos.bytegecko.com, direct
 host-suffix, lf-cdn-tos.douyinstatic.com, direct
 host-suffix, lf1-cdn-tos.douyinstatic.com, direct
