@@ -1,3 +1,15 @@
+host-suffix, dotcounter.douyucdn.cn, direct
+host-suffix, gift.douyucdn.cn, direct
+host-suffix, apm.douyucdn.cn, direct
+host-suffix, apmconfig.douyucdn.cn, direct
+host-suffix, bjfesdk.douyucdn.cn, direct
+host-suffix, capi.douyucdn.cn, direct
+host-suffix, club-img.douyucdn.cn, direct
+host-suffix, cs-op.douyucdn.cn, direct
+host-suffix, rtbapi.douyucdn.cn, direct
+host-suffix, tower.douyucdn.cn, direct
+host-suffix, tx2play1.douyucdn.cn, direct
+host-suffix, tx2play2.douyucdn.cn, direct
 host-suffix, bytecdn.cn, direct
 host-suffix, douyucdn.cn, direct
 host-suffix, cdnauth2.hpplay.cn, direct
