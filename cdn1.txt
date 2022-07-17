@@ -1,5 +1,8 @@
 host-suffix, bytecdn.cn, direct
 host-suffix, douyucdn.cn, direct
+#age动漫
+host-suffix, cdn.aqdstatic.com, direct
+host-suffix, cdn.radius-america.com , direct
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
 host-suffix, If-webcast-gr-sourcecdn.bytegecko.com, direct
