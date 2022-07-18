@@ -1,5 +1,8 @@
 host-suffix, bytecdn.cn, direct
 host-suffix, douyucdn.cn, direct
+#age动漫
+host-suffix, cdn.aqdstatic.com, direct
+host-suffix, cdn.radius-america.com , direct
 host-suffix, cdnauth2.hpplay.cn, direct
 host-suffix, cdnauth1.hpplay.cn, direct
 host-suffix, If-webcast-gr-sourcecdn.bytegecko.com, direct
@@ -92,10 +95,9 @@ host-suffix, ads-video-qc.xhscdn.com, reject
 host-suffix, cdn.heapanalytics.com, reject
 host-suffix, cdn.heapanalytics.comandroid.com, reject
 host-suffix, weblog.cdn-go.cn, reject
-host-suffix, cdn.ampproject.org, reject
-host-suffix, cdn.flurry.com, reject
 host-suffix, livewebbs2pcdn.msstatic.com, reject
-host-suffix, h5.cdn.unicompayment.com, reject
 host-suffix, videobd-platform.cdn.huya.com, reject
 host-suffix, pp-cdnfile2pcdn.msstatic.com, reject
 host-suffix, pp-cdnfile1pcdn.msstatic.com, reject
+host-suffix, fileserver.cdn.huya.com, reject
+host-suffix, cdnfile.huya.com, reject
