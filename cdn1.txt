@@ -3,6 +3,7 @@ host-suffix, cdn.embed.ly, direct
 host-suffix, cdn.jifo.co, direct
 host-suffix, cdn.plyr.io, direct
 host-suffix, huanqiucdn.cn, direct
+host-suffix, cdn.kyodo-d.info, direct
 host-suffix, cdn-api-verify.mob.com, direct
 host-suffix, douyucdn.cn, direct
 #age动漫
