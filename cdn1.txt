@@ -79,6 +79,7 @@ host-suffix, sns-video-qc.xhscdn.com, direct
 host-suffix, sns-video-qn.xhscdn.com, direct
 host-suffix, userlink.alicdn.com, direct
 host-suffix, bootstrapcdn.com, proxy
+host-suffix, squarespace-cdn.com, proxy
 host-suffix, cdn.ampproject.org, proxy
 host-suffix, cdn.jsdelivr.net, proxy
 host-suffix, cdn.onesignal.com, proxy
