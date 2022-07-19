@@ -13213,7 +13213,6 @@ HOST-SUFFIX,cbw111.com
 HOST-SUFFIX,cbxsw.com
 HOST-SUFFIX,cby.me
 HOST-SUFFIX,cbyzsc.cn
-HOST-SUFFIX,cc
 HOST-SUFFIX,cc.co
 HOST-SUFFIX,cc0808.com
 HOST-SUFFIX,cc-1.com
@@ -13857,7 +13856,6 @@ HOST-SUFFIX,cfxyfsyy.com
 HOST-SUFFIX,cfxyjy.com
 HOST-SUFFIX,cfyyzy.cn
 HOST-SUFFIX,cfzq.com
-HOST-SUFFIX,cg
 HOST-SUFFIX,cg.am
 HOST-SUFFIX,cg009.com
 HOST-SUFFIX,cg98.com
@@ -41777,7 +41775,6 @@ HOST-SUFFIX,mrwish.net
 HOST-SUFFIX,mrzhenggang.com
 HOST-SUFFIX,mrzl.com
 HOST-SUFFIX,mrzs.net
-HOST-SUFFIX,ms
 HOST-SUFFIX,ms211.com
 HOST-SUFFIX,ms315.com
 HOST-SUFFIX,ms6666111.com
@@ -55163,7 +55160,6 @@ HOST-SUFFIX,tooopen.com
 HOST-SUFFIX,tooseo.com
 HOST-SUFFIX,tootour.com
 HOST-SUFFIX,toouoo.com
-HOST-SUFFIX,top
 HOST-SUFFIX,top100summit.com
 HOST-SUFFIX,top147.com
 HOST-SUFFIX,top1food.com
