@@ -1,5 +1,15 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, cdn.embed.ly, direct
+host-suffix, cdn.jifo.co, direct
+host-suffix, cdn.plyr.io, direct
+host-suffix, huanqiucdn.cn, direct
+host-suffix, cdn.kyodo-d.info, direct
+host-suffix, cdn-api-verify.mob.com, direct
 host-suffix, douyucdn.cn, direct
+#得物
+host-suffix, videocdn.poizon.com, direct
+host-suffix, cdn.poizon.com, direct
+host-suffix, dewucdn.com, direct
 #age动漫
 host-suffix, cdn.aqdstatic.com, direct
 host-suffix, cdn.radius-america.com , direct
@@ -84,6 +94,7 @@ host-suffix, cdn.ampproject.org, proxy
 host-suffix, cdn.jsdelivr.net, proxy
 host-suffix, cdn.onesignal.com, proxy
 host-suffix, jwpcdn.com, proxy
+host-suffix, cdn1.iconfinder.com, proxy
 host-suffix, cdn.optimizely.com, proxy
 host-suffix, tiqcdn.com, proxy
 #host-suffix, cdninstagram.com, reject
