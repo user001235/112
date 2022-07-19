@@ -1,4 +1,5 @@
 host-suffix, bytecdn.cn, direct
+host-suffix, cdn.embed.ly, direct
 host-suffix, cdn-api-verify.mob.com, direct
 host-suffix, douyucdn.cn, direct
 #age动漫
