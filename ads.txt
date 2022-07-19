@@ -1,7 +1,5 @@
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
-(^https?:\/\/(?!redirector)[\w-]+\.(googlevideo|googleapis)\.com\/((?!dclk_video_ads).)+)(ctier=L)(&.+) url 302 $1$2
-(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
 (http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
 (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com url reject
 \/plugin\/scheme url script-echo-response https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
@@ -118,7 +116,6 @@
 ^http\:\/\/jdytv\.cn\/login\/login\/veifys url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jdyTV.js
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/WSL33099/QuantumultX/main/jiaoben/keep.js
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/zwf234/rules/master/js/keep.js
-^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier) url reject
 ^https://account.wps.*/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 ^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/wps.js
 ^https://api.douban.com\b.*\/common_ads\?.* url reject
@@ -577,8 +574,6 @@
 ^https?:\/\/(www|cn)\.pornhub\.com\/_xa\/ads.* url reject
 ^https?:\/\/(www|m)\.baidu\.com(/|\/\?ref.*)$ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_baidu.index.js
 ^https?:\/\/(www|m)\.baidu\.com(\/s\?word.*|\/from.*?\/s\?word.*|\/from.*?word=.*) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_baidu.js
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/surge_baidu.zhidao.js
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 ^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ url reject
@@ -606,7 +601,6 @@
 ^https?:\/\/.+?\.atm\.youku\.com url reject
 ^https?:\/\/.+?\.beacon\.qq\.com url reject
 ^https?:\/\/.+?\.gdt\.qq\.com url reject
-^https?:\/\/.+?\.googlevideo\.com\/ptracking\?pltype=adhost url reject
 ^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad url reject
 ^https?:\/\/.+?\.kingsoft-office-service\.com url reject
 ^https?:\/\/.+?\.kingsoft-office-service\.com\/ad url reject
@@ -643,14 +637,6 @@
 ^https?:\/\/.+\.byteimg.com/tos-cn-i-1yzifmftcy\/(.+)-jpeg\.jpeg url reject
 ^https?:\/\/.+\.com\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JavDBCrack.js
 ^https?:\/\/.+\.com\/api\/v1\/ads$ url reject
-^https?:\/\/.+\.googleapis.com/.+ad_break url reject
-^https?:\/\/.+\.googleapis.com/.+log_event url reject
-^https?:\/\/.+\.googleapis.com/adsmeasurement url reject
-^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject
-^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject
-^https?:\/\/.+\.googlevideo\.com\/.+oad= url reject
-^https?:\/\/.+\.googlevideo\.com\/ptracking url reject
-^https?:\/\/.+\.googlevideo\.com\/videogoodput url reject
 ^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
 ^https?:\/\/.+\.musical\.ly\/.+stats url reject
 ^https?:\/\/.+\.musical\.ly\/api\/ad url reject
@@ -670,11 +656,6 @@
 ^https?:\/\/.+\.snssdk.com\/api\/ad\/.+ url reject
 ^https?:\/\/.+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
 ^https?:\/\/.+\.snssdk\.com\/video\/play\/1\/toutiao\/.+\/mp4 url reject
-^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject
-^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject
-^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject
-^https?:\/\/.+\.youtube\.com\/pagead\/ url reject
-^https?:\/\/.+\.youtube\.com\/ptracking url reject
 ^https?:\/\/.+\/api\/v1\/ads$ url reject
 ^https?:\/\/[\s\S]*\.baidu\.com/.*?ad[xs]\.php url reject
 ^https?:\/\/[\s\S]*\/.+?\.tc\.qq\.com/.*?p201.1\.mp4 url reject
@@ -683,9 +664,7 @@
 ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?ccode=02010101 url reject
 ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= url reject
 ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ url reject
-^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ url reject
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) url reject
+^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/ url rejectt
 ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ url reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
 ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js) url reject
@@ -1562,7 +1541,6 @@
 ^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo\?uid=&mdid=iphone&client_sys=ios$ url reject
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode= url reject
 ^https?:\/\/s\.go\.sohu\.com\/adgtr\/\?gbcode=(ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com url reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url reject
 ^https?:\/\/s\d\.zdmimg\.com\/www\/api\/v\d\/api\/thirdAd\.php url reject
 ^https?:\/\/s0\.2mdn\.net\/ads\/ url reject
 ^https?:\/\/s1\.api\.tv\.itc\.cn\/v\d\/mobile\/control\/switch\.json url reject
@@ -1796,9 +1774,6 @@
 ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg url reject
 ^https?:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser\/ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/YiMuJiZhang.js
 ^https?:\/\/yimuapp\.com(:8082)?\/bookkeeping\/user\/getUser\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/YiMuJiZhang.js
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
 ^https?:\/\/ys\.huajibh\.com\/api\/video url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PleasantVideoCrack.js
 ^https?:\/\/yxhd\.hori-gz\.com\/\/jfmsApi\/commandWord\/commandWordInfo url reject
 ^https?:\/\/yxyapi\d\.drcuiyutao\.com\/yxy-api-gateway\/api\/json\/advert\/ url reject
