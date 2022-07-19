@@ -6,6 +6,10 @@ host-suffix, huanqiucdn.cn, direct
 host-suffix, cdn.kyodo-d.info, direct
 host-suffix, cdn-api-verify.mob.com, direct
 host-suffix, douyucdn.cn, direct
+#得物
+host-suffix, videocdn.poizon.com, direct
+host-suffix, cdn.poizon.com, direct
+host-suffix, dewucdn.com, direct
 #age动漫
 host-suffix, cdn.aqdstatic.com, direct
 host-suffix, cdn.radius-america.com , direct
