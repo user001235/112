@@ -1988,7 +1988,7 @@
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/hanjuTV.js
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js
 ^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js
-ctier=[A-Z] url 302 ctier=A
+
 http://115.28.168.103:8080/yiyan/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
 http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/walq.js
 http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/walq.js
