@@ -1068,7 +1068,7 @@
 ^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
 ^https?:\/\/consumer\.fcbox\.com\/v1\/ad\/OpeningAdInfo\/ url reject
 ^https?:\/\/counter\.ksosoft\.com\/ad\.php url reject
-^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
+#^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 ^https?:\/\/creatives\.ftimg\.net\/ads url reject
 ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00/25/F3\/ url reject
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ url reject
