@@ -1,3 +1,6 @@
+
+#^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
+#^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
 (http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
@@ -482,9 +485,7 @@
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource* url reject
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage* url reject
 ^https:\/\/www1.elecfans.com\/www\/delivery\/ url reject
-^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
 ^https?:(.+).aoscdn.com/app/aimage/usersInfo$ url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/arkt.js
-#^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
 ^https?://api.(heyihongmu|9aixuan|xsg-sanhe|xianghezhaofang|tangnvshi|liuxiaoyan123).(net|com)/index/User/ucenter url script-response-body http://ox.xmkczs.com/quantumultX/ysvip.js
 ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/Tartarus2014/Script/master/jd_price_lite.js
 ^https?://cfg.m.ttkvod.com/mobile/ttk_mobile_1.8.txt url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Static/TXT/ttk_mobile_1.8.txt$2ogtre5vp0.bkt.clouddn.com$3
@@ -1068,7 +1069,6 @@
 ^https?:\/\/consumer\.fcbox\.com\/v\d\/ad\/ url reject
 ^https?:\/\/consumer\.fcbox\.com\/v1\/ad\/OpeningAdInfo\/ url reject
 ^https?:\/\/counter\.ksosoft\.com\/ad\.php url reject
-#^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 ^https?:\/\/creatives\.ftimg\.net\/ads url reject
 ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00/25/F3\/ url reject
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ url reject
@@ -1636,6 +1636,7 @@
 ^https?:\/\/storage\.360buyimg\.com\/kepler-app url reject
 ^https?:\/\/storage\.wax\.weibo\.com\/\w+\.(png|jpg|mp4) url reject
 ^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
+^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
 ^https?:\/\/subscription-service\.neuralprisma\.com\/subscription_get url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/lensa.js
 ^https?:\/\/subscription-service\.neuralprisma\.com\/subscription_get url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/lensa.js
 ^https?:\/\/support.you.163.com\/xhr\/boot\/getBootMedia.json url reject
@@ -1989,7 +1990,6 @@
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiaoben/hanjuTV.js
 ^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/hanjuTV.js
 ^https\:\/\/pwaapi\.gao1gps\.cn\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/JAV101.js
-
 http://115.28.168.103:8080/yiyan/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
 http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/walq.js
 http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/walq.js
