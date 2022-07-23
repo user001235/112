@@ -2,6 +2,8 @@ host-suffix, bytecdn.cn, direct
 host-suffix, cdn.embed.ly, direct
 host-suffix, cdn.jifo.co, direct
 host-suffix, cdn-go.cn, direct
+host-suffix, cdnimg.3g.qq.com, qq
+host-suffix, img.yzcdn.cn, direct
 host-suffix, cdn.plyr.io, direct
 host-suffix, huanqiucdn.cn, direct
 host-suffix, cdn.kyodo-d.info, direct
