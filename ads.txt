@@ -2417,10 +2417,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/atrace.chelaile.net.cn\/adpub\/ url reject
 ^https?:\/\/bmall\.camera360\.com\/api\/mix\/recovery url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/MIX.js
 ^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+\.jpg url reject
-^https?:\/\/c.tieba.baidu.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject
 ^https?:\/\/c\.minisplat\.cn url reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject
 ^https?:\/\/c1\.minisplat\.cn url reject
 ^https?:\/\/cache\.changjingyi\.cn url reject
 ^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject
@@ -2545,7 +2542,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?+:\/\/47\.97\.20\.12\/ad\/ url reject
 ^https?+:\/\/7n\.bczcdn\.com\/launchad\/ url reject
 ^https?+:\/\/a\.apicloud\.com\/start_page\/ url reject
-^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url response-body .+ response-body eyJjYXJyaWVyIjoiIiwiY2xpZW50SXNwIjoiIiwiY29kZSI6MTAwMCwiY3YiOjEsImRucyI6W3siYWlzbGVzIjpbXSwiaG9zdCI6IiIsImlwcyI6W10sInN0cmF0ZWdpZXMiOltdLCJ0dGwiOjMwMH1dLCJpcCI6IiIsInVpZCI6IiIsInVuaXQiOiIifQ==
+#^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url response-body .+ response-body eyJjYXJyaWVyIjoiIiwiY2xpZW50SXNwIjoiIiwiY29kZSI6MTAwMCwiY3YiOjEsImRucyI6W3siYWlzbGVzIjpbXSwiaG9zdCI6IiIsImlwcyI6W10sInN0cmF0ZWdpZXMiOltdLCJ0dGwiOjMwMH1dLCJpcCI6IiIsInVpZCI6IiIsInVuaXQiOiIifQ==
 ^https?+:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject
 ^https?+:\/\/api\.chelaile\.net\.cn\/adpub\/ url reject
 ^https?+:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ url reject
@@ -2579,7 +2576,6 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?+:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json url reject
 ^https?+:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ url reject
 ^https?+:\/\/appv6\.55haitao\.com\/IflyAd\/getAd url reject
-^https?+:\/\/c\.tieba\.baidu\.com\/\w+?\/\w+?\/(?>sync|newRnSync|mlog) url reject
 ^https?+:\/\/cdn\.api\.fotoable\.com\/Advertise\/ url reject
 ^https?+:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page url reject
 ^https?+:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850 url reject
