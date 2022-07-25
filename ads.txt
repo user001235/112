@@ -1,9 +1,5 @@
-
 #^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
 #^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
-^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/1TianCamVipCrack.js
-^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
-^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
 (http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
@@ -583,6 +579,7 @@
 ^https?:\/\/.*?account\.wps\.(com|cn)(:\d+)?\/api\/users\/\w+\/overview$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js
 ^https?:\/\/.*\.(snssdk\.com|musical\.ly|amemv\.com|byteoversea\.com|tiktokv\.com)\/(vapp\/inner_ad|log|location)\/ url reject
 ^https?:\/\/.*\.club\/floater.* url reject
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
 ^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
 ^https?:\/\/.*\.fun\/floater.* url reject
 ^https?:\/\/.*\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body http://ox.xmkczs.com/quantumultX/kuwo.js
@@ -1349,6 +1346,7 @@
 ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen url reject
 ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/ url reject
 ^https?:\/\/m1\.ad\.10010\.com\/noticeMag\/images\/imageUpload\/2\d{3} url reject
+^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/1TianCamVipCrack.js
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ url reject
 ^https?:\/\/ma\.ofo\.com\/adImage\/ url reject
 ^https?:\/\/ma\.ofo\.com\/ads url reject
@@ -2022,7 +2020,6 @@ https://(.+)\.wtzw\.com/.+ url script-response-body https://raw.githubuserconten
 https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/commerce.js
 https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/qyxj.js
 https://ad.12306.cn/* url reject
-https://api.bspapp.com/client url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ztbz.js
 https://api.dushu.io/Album/Info url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/fdds.js
 https://api.dushu.io/Album/Info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fdds.js
 https://api.gotokeep.com/(.+/subject|.+/dynamic|.+/coursePlus/.+|.+/status|.+/tab|.+/my|.+/start|.+/join|.+/complete|.+/detail/.+|.+/preview|.+/auth|.+/tab|.+/days) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/jiesuo/keep_new.js
@@ -2196,3 +2193,551 @@ https?:\/\/static\.iqiyi\.com\/js\/common\/.+\.js url reject
 https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
 https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
 https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
+#################3333
+(^https?:\/\/m\.bilibili\.com\/bangumi\/play\/.*) url 307 https://z1.m1907.cn/?jx=$1
+(^https?:\/\/m\.iqiyi\.com\/v_.*) url 307 https://z1.m1907.cn/?jx=$1
+(^https?:\/\/m\.v\.qq\.com\/x\/(m\/)?play.*) url 307 https://z1.m1907.cn/?jx=$1
+(^https?:\/\/m\.youku\.com\/.*) url 307 https://z1.m1907.cn/?jx=$1
+^(http|https):\/\/api\.abema\.io\/v\d\/ip\/check url reject 
+^http:\/\/c\.gdt\.qq\.com\/gdt_clickwap\.fcg\?viewid url reject
+^http:\/\/optimus-ads\.amap\.com\/uploadimg\/.+ url reject
+^http:\/\/pgdt\.gtimg\.cn\/.+\/snscosdownload\/SH\/reserved\/.+ url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.jpg url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/.+\.png url reject
+^http:\/\/pgdt\.gtimg\.cn\/gdt\/0\/.+\.jpg url reject
+^http:\/\/rpt\.gdt\.qq\.com\/creative_view\?viewid url reject
+^http:\/\/v\.gdt\.qq\.com\/gdt_stats\.fcg\?viewid url reject
+^http?:\/\/123\.59\.30\.10\/adv\/advInfos url reject
+^http?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads url reject
+^http[s]?:\/\/(shukego|yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud|javdb10|myopenwarehouse|inn4cai|hbstmg|yiliang8888||91mingyang)\.com\/api\/v1\/movies\/(.+)\/play url script-request-header http://ox.xmkczs.com/quantumultX/javdba.js
+^http[s]?:\/\/(shukego|yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud|javdb10|myopenwarehouse|inn4cai|hbstmg|yiliang8888|91mingyang)\.com\/api\/v1\/movies\/(.+)\/play url response-body "success":\d+ response-body "success":1
+^http[s]?:\/\/(shukego|yugedu|xinshengcomunity|jiuyuly|biubiucloud|biubiucloud|javdb10|myopenwarehouse|inn4cai|hbstmg|yiliang8888|91mingyang)\.com\/api\/v1\/users url script-response-body http://ox.xmkczs.com/quantumultX/javdbs.js
+^https://api.bilibili.com/x/v2/dm/ad url reject 
+^https://app.bilibili.com/x/v2/(splash|search/(defaultword|square)) url reject 
+^https://notability.com/subscriptions url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js
+^https:\//api.feidee.net\/v1\/pay\/vip url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/jizhang/vip.js
+^https:\//api.shouzhang.com\/memcenterlk\/member\/firstpage.do url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/shouzhang.js
+^https:\//biz.caiyunapp.com\/v2\/user\?app_name=weather url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/caiyun.js
+^https:\//integral.dasyibalang.com\/User url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/zjsg.js
+^https:\//poster.meipian.cn\/5.3\/user\/info url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/meipian.js
+^https:\//userapi.feidee.net\/v1\/profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/jizhang/info.js
+^https:\//www.tianya.cn\/api\/vas\?method=vipUser.isVipUser url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/tianya/vip.js
+^https:\/\/(xy-viva\.kakalili|api-chn.rthdo)\.com\/api\/rest\/u\/vipVerifyReceipt url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
+^https:\/\/.+.pstatp.com\/img\/ad url reject
+^https:\/\/.+.snssdk.com\/api\/ad\/ url reject
+^https:\/\/a.jxjt888.top/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/bilifj.js
+^https:\/\/api\.(cqmingmohui|meirigengxin|zgjizhi|zdhndz|qihaofs|gngbidding|jxtgsy|tbwachiatday|wandaair|lianhezaixian|zhoushangwang)\.(com|net)\/v1\/user\/(info|promote/info) url script-response-body http://ox.xmkczs.com/quantumultX/plpl.js
+^https:\/\/api\..+\.cc\/shorter\/.+ url script-response-body http://ox.xmkczs.com/quantumultX/jiateng.js
+^https:\/\/api\..+\.cc\/shorter\/configview/list url reject
+^https:\/\/api\..+\.cc\/shorter\/resource\/(getStartPageList|adInfoPageList) url reject
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject
+^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Polarr.js
+^https:\/\/apigate\.zymk\.cn\/(zymk-getuserinfo-api\/v1\/getuserinfo|zymk-userpurchased-api\/v1\/userpurchased\/paychapters)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Zymh.js
+^https:\/\/app\.yiyan\.art\/yiyan\/ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yiyan.js
+^https:\/\/aweme.snssdk.com\/aweme\/v1\/aweme\/stats\/ url reject
+^https:\/\/aweme.snssdk.com\/aweme\/v1\/device\/update\/ url reject
+^https:\/\/aweme.snssdk.com\/aweme\/v1\/screen\/ad\/ url reject
+^https:\/\/aweme.snssdk.com\/service\/1\/app_logout\/ url reject
+^https:\/\/aweme.snssdk.com\/service\/2\/app_log url reject
+^https:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+adunitid url reject
+^https:\/\/feed-image\.baidu\.com\/0\/pic\/ url reject
+^https:\/\/frontier.snssdk.com\/ url reject
+^https:\/\/hkj178.com/wp-json/mp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js
+^https:\/\/lysl2020.com/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+^https:\/\/msg\.umengcloud\.com\/admsg\/ url reject
+^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/jibjab.js
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js
+^https:\/\/sf\w-ttcdn-tos.pstatp.com\/obj\/web.business.image url reject
+^https:\/\/sofire\.baidu\.com\/ios\/.+ url reject
+^https:\/\/www.i3zh.com/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+^https?://api.bjxkhc.com/index.php/app/ios/ads/index url reject
+^https?://api.bjxkhc.com/index.php/app/ios/pay/ok$ url reject
+^https?://api.bjxkhc.com/index.php/app/ios/ver/index_ios$ url reject
+^https?://api\.bilibili\.com/x/v\d/dm/ad url reject
+^https?://api\.vc\.bilibili\.com/topic_svr/v\d/topic_svr url reject
+^https?://app\.bilibili\.com/x/resource/top/activity\?access_key url reject
+^https?://app\.bilibili\.com/x/v\d/(search/(defaultword|square)) url reject
+^https?://graph.facebook.com/.+activities url reject
+^https?://graph.facebook.com/.+advertiser_id= url reject
+^https?://graph.facebook.com/.+events url reject
+^https?://graph.facebook.com/network_ads_common url reject
+^https?://graph.nhaccuatui.com/.+advs url reject
+^https?://graph.nhaccuatui.com/.+deviceinfo url reject
+^https?://graph.nhaccuatui.com/.+logs url reject
+^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://ios(-.*)?\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://www.facebook.com/adnw_logging url reject
+^https?://www.facebook.com/adnw_sync url reject
+^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Interface$2burpsuite.applinzi.com$3
+^https?://www.iqshw.com/d/js/m url request-header ^(.+?\s).+?(\s[\s\S]+?Host:).+?(\r\n) request-header $1/Other/Static/JS/Package.js?$2rewrite.websocket.site:10$3
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+/xygj-config-api\/queryData url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d):\d+\/allOne\.php\?ad_name url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(adgateway|adv)\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/(outadservice|ting\/preload)\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+_p20\d_ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+=v3004 url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+p20\d\.1\.mp4\? url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/api\/v\d\/adRealTime url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/api\/v\d\/app_square\/start_up_with_ad$ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/brand\/search\/v1\.json url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/eapi\/ad\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/img\/ad\.union\.api\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/music\/common\/upload\/t_splash_info\/ url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/promotion\/(display_cache|display_ad|feed_display|search_ad) url reject
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ url reject
+^https?:\/\/(\d{1,3}\.){1,3}\d{1,3}\/view\/dale-online\/dale_ad\/ url reject
+^https?:\/\/(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ url reject
+^https?:\/\/(\w\.)?up\.qingdaonews\.(com|cn|net) url reject
+^https?:\/\/(\w\.)?up\.qingdaonews\.com url reject
+^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
+^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adx|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
+^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json url reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/ url reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo url reject
+^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/MobileAdServer\/ url reject
+^https?:\/\/(a?d|sax)\d.sina.com url reject
+^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
+^https?:\/\/.+.127.net\/ad url reject
+^https?:\/\/.+/V\d\/splash\/getSplashV\d\.action url reject
+^https?:\/\/.+?\.127\.net\/ad url reject
+^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ url reject
+^https?:\/\/.+?\/api\/app\/member\/ver2\/user\/login\/ url reject
+^https?:\/\/.+?\/client?functionId=lauch\/lauchConfig&appName=paidaojia url reject
+^https?:\/\/.+?\/eapi\/[ad|event]\/ url reject
+^https?:\/\/.+?\/eapi\/ad\/ url reject
+^https?:\/\/.+?\/hls.cache.p4p\/ url reject
+^https?:\/\/.+?\/img\/web\.business\.image\/ url reject
+^https?:\/\/.+?\/omts.tc.qq.com\/ url reject
+^https?:\/\/.+?\/portal\.php\?a=get_ads url reject
+^https?:\/\/.+?\/portal\.php\?a=get_coopen_ads url reject
+^https?:\/\/.+?\/portal\.php\?c=duiba url reject
+^https?:\/\/.+?\/resource\/m\/promo\/adsense url reject
+^https?:\/\/.+?\/resource\/m\/sys\/app\/adpos url reject
+^https?:\/\/.+?\/tips\/fcgi-bin\/fcg_get_advert url reject
+^https?:\/\/.+?\/v\d\/iflyad\/ url reject
+^https?:\/\/.+?\/v1\/iflyad\/ url reject
+^https?:\/\/.+?\/v2\/app_ads\/ url reject
+^https?:\/\/.+?\/videos\/KnifeHit_4\/gear3\/ url reject
+^https?:\/\/.+?\/vips-mobile\/router\.do\?api_key= url reject
+^https?:\/\/.+?\/weico4ad\/ad\/ url reject
+^https?:\/\/.+?allOne\.php\?ad_name=main_splash_ios url reject
+^https?:\/\/.+?ccode=0902 url reject
+^https?:\/\/.+?resource=article\/recommend\&accessToken= url reject
+^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/91.js
+^https?:\/\/.+\.facebook\.com\/adnw_logging url reject
+^https?:\/\/.+\.facebook\.com\/adnw_sync url reject
+^https?:\/\/.+\.googleapis.com/.+ad_break url reject
+^https?:\/\/.+\.googleapis.com/.+log_event url reject
+^https?:\/\/.+\.googleapis.com/adsmeasurement url reject
+^https?:\/\/.+\.iydsj\.com\/api\/.+\/ad url reject
+^https?:\/\/.+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ url reject
+^https?:\/\/.+\.mp4\?ccode=0902 url reject
+^https?:\/\/.+\.mp4\?sid= url reject
+^https?:\/\/.+\.tiktokv\.com\/.+stats url reject
+^https?:\/\/.+\.tiktokv\.com\/api\/ad url reject
+^https?:\/\/.+\/(mixer|track2)\? url reject
+^https?:\/\/.+\/allOne\.php\?ad_name url reject
+^https?:\/\/.+\/cdn-adn\/ url reject
+^https?:\/\/.+\/client\/phpui2\/ url reject
+^https?:\/\/.+\/eapi\/(ad|evenet|log)\/ url reject
+^https?:\/\/.+\/eapi\/(ad|log)\/ url reject
+^https?:\/\/.+\/letv-gug\/ url reject
+^https?:\/\/[\s\S]*\.snssdk\.com\/api\/ad\/ url reject
+^https?:\/\/[\s\S]*\/eapi\/ad\/ url reject
+^https?:\/\/[\s\S]*\/music\/photo_new\/T017R url reject
+^https?:\/\/[\s\S]*\/ting\/[a-z]*\/ts-\d+ url reject
+^https?:\/\/[\s\S]*\/website\/.*?\.jpg url reject
+^https?:\/\/[^bbs]\.tianya\.cn url reject
+^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https?:\/\/\w{6}.com1.z0.glb.clouddn.com url reject
+^https?:\/\/\w{8}.logic.cpm.cm.kankan.com url reject
+^https?:\/\/111\.13\.29\.201\/client\.action\?functionId=start url reject
+^https?:\/\/113\.200\.76\.*?:16420\/sxtd\.bike2\.01\/getkey\.do url reject
+^https?:\/\/119\.18\.193\.135\/(adgateway|adv)\/ url reject
+^https?:\/\/122\.14\.246\.33\/MobileAdServer\/ url reject
+^https?:\/\/123\.59\.30\.10\/adv\/advInfos url reject
+^https?:\/\/123\.59\.31\.1\/(adgateway|adv)\/ url reject
+^https?:\/\/182\.92\.244\.70\/d\/json\/ url reject
+^https?:\/\/192.133.+.mp4$ url reject
+^https?:\/\/192\.133.+?\.mp4$ url reject
+^https?:\/\/211\.98\.70\.226:8080\/ url reject
+^https?:\/\/211\.98\.71\.(195|196|226):8080\/ url reject
+^https?:\/\/211\.98\.71\.195:8080\/ url reject
+^https?:\/\/211\.98\.71\.196:8080\/ url reject
+^https?:\/\/789\.kakamobi\.cn\/.+?adver url reject
+^https?:\/\/a.applovin.com\/.+\/ad url reject
+^https?:\/\/a\.applovin\.com\/.+?\/ad url reject
+^https?:\/\/a\.applovin\.com\/3\.0\/ad url reject
+^https?:\/\/alogs\.umeng\.co url reject
+^https?:\/\/ap(i|p)\.bilibili\.com\/((x\/v2|pgc)\/(search\/defaultword|season\/rank\/cn|splash\/)|(pgc/season/rank/cn|x/v2/(rank.*?rid=(168|5)|search/(defaultword|hot|recommend|resource)))) url reject
+^https?:\/\/ap(i|p)\.bilibili\.com\/((x\/v2|pgc)\/(season\/rank\/cn|splash\/)|(pgc/season/rank/cn|x/v2/(rank.*?rid=(168|5)|search/(hot|recommend|resource)))) url reject
+^https?:\/\/api.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/api.feng.com[\s\S]*?Claunch_screen url reject
+^https?:\/\/api.gotokeep.com\/ads url reject
+^https?:\/\/api\.(gygarden|xminiapp)\.cn\/api\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/hdvip.js
+^https?:\/\/api\.appsdk\.soku\.com\/bg\/r url reject
+^https?:\/\/api\.appsdk\.soku\.com\/tag\/r url reject
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? - reject
+^https?:\/\/api\.bilibili\.com\/pgc\/season\/app\/related\/recommend\? url reject
+^https?:\/\/api\.feng\.com[\s\S]*?Claunch_screen url reject
+^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*?Claunch url reject
+^https?:\/\/api\.gaoqingdianshi\.com\/api\/v2\/ad url reject
+^https?:\/\/api\.gotokeep\.com\/ads\/ url reject
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start url reject
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject
+^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject
+^https?:\/\/api\.m\.mi\.com\/.+?\/app\/start url reject
+^https?:\/\/api\.newad\.ifeng\.com\/ClientAdversApi1508\?adids= url reject
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
+^https?:\/\/api\.rr\.tv\/.*?(getAll|Version) url reject
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist - reject
+^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist url reject
+^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words - reject
+^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words url reject
+^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject
+^https?:\/\/api\.yizhibo\.com\/common\/api\/api_pz$ url reject
+^https?:\/\/api\.zhihu\.com\/ad- url reject
+^https?:\/\/api-163\.biliapi\.net/cover url reject
+^https?:\/\/api-163\.biliapi\.net\/cover url reject
+^https?:\/\/api-ks\.wtzw\.com\/api\/v(1|2)\/(float-adv|init-adv|reader-adv) url reject
+^https?:\/\/api-one\.wallstcn\.com\/apiv\d\/advertising\/ url reject
+^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ - reject
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject
+^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
+^https?:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json url reject
+^https?:\/\/atrace.chelaile.net.cn\/adpub\/ url reject
+^https?:\/\/bmall\.camera360\.com\/api\/mix\/recovery url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/MIX.js
+^https?:\/\/business-cdn\.shouji\.sogou\.com\/wapdl\/hole\/.+\.jpg url reject
+^https?:\/\/c.tieba.baidu.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject
+^https?:\/\/c\.minisplat\.cn url reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
+^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) url reject
+^https?:\/\/c1\.minisplat\.cn url reject
+^https?:\/\/cache\.changjingyi\.cn url reject
+^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject
+^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/manhuatailite.js
+^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js url reject
+^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
+^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php url reject
+^https?:\/\/ctrl\.zmzapi\.net\/app\/ads url reject
+^https?:\/\/ctrl\.zmzapi\.net\/app\/init url reject
+^https?:\/\/d\d\.sina\.com\.cn url reject
+^https?:\/\/d\d\.sinaimg\.cn url reject
+^https?:\/\/dl.app.gtja.com/.+\d+.jpg$ url reject
+^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/.+\.jpg$ url reject
+^https?:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+adunitid url reject
+^https?:\/\/exp\.3g\.ifeng\.com\/coverAdversApi\?gv=\. url reject
+^https?:\/\/fdfs.xmcdn.com\/group21\/M03\/E7\/3F\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group21\/M0A\/95\/3B\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group22\/M00\/92\/FF\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group22\/M05\/66\/67\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group22\/M07\/76\/54\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group23\/M01\/63\/F1\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group23\/M04\/E5\/F6\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group23\/M07\/81\/F6\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group23\/M0A\/75\/AA\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group24\/M03\/E6\/09\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group24\/M07\/C4\/3D\/ url reject
+^https?:\/\/fdfs.xmcdn.com\/group25\/M05\/92\/D1\/ url reject
+^https?:\/\/fengplus.feng.com\/index.php\?r=api\/slide\/.+Ads url reject
+^https?:\/\/fengplus\.feng\.com\/index\.php\?r=api\/slide\/.+?Ads url reject
+^https?:\/\/frontier\.snssdk\.com\/ url reject
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/interfaceAdMonitor\/ url reject
+^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\/\d+\/\d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject
+^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\\/\/d+\\/\/d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject
+^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+?_\d{3}x\d{4} url reject
+^https?:\/\/iadmusicmat\.music\.126\.net\/.*?jpg$ url reject
+^https?:\/\/ifengad\.3g\.ifeng\.com\/ad\/pv\.php\?stat= url reject
+^https?:\/\/iis1\.deliver\.ifeng\.com\/getmcode\?adid= url reject
+^https?:\/\/image1\.chinatelecom-ec\.com\/images\/.*?\/client\w+\.jpg url reject
+^https?:\/\/image1\.chinatelecom-ec\.com\/images\/.+?\/\d{13}\.jpg url reject
+^https?:\/\/images\.91160\.com\/primary\/ url reject
+^https?:\/\/img\.alipaycashyuan\.com\/img\/59\/6a13a75dfe46ebfdac96bd27ef098885\.jpg url reject
+^https?:\/\/img\.rr\.tv\/banner\/.+?\.jpg url reject
+^https?:\/\/img\.umetrip\.com\/fs\/advert\/ url reject
+^https?:\/\/img\d{2}\.ddimg\.cn\/upload_img\/.+?\/670x900 url reject
+^https?:\/\/img\d{2}\.ddimg\.cn\/upload_img\/.+?\/750x1064 url reject
+^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) url reject
+^https?:\/\/issuecdn.baidupcs.com\/issue\/netdisk\/guanggao\/ url reject
+^https?:\/\/m.+?\.china\.com\.cn\/statics\/sdmobile\/js\/ad url reject
+^https?:\/\/m.+?\.china\.com\.cn\/statics\/sdmobile\/js\/mobile\.advert\.js url reject
+^https?:\/\/m.+?\.china\.com\.cn\/statics\/sdmobile\/js\/mobileshare\.js url reject
+^https?:\/\/m\.creditcard\.ecitic\.com\/.*?\/appStartAdv url reject
+^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/.+\/appStartAdv url reject
+^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-client\/cr\/sys\/popAdv url reject
+^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/appspace-system-web\/cr\/v5\/appStartAdv url reject
+^https?:\/\/m\.yhdm\.io\/bar\/yfyh.js url reject
+^https?:\/\/m5.amap.com\/ws\/valueadded\/ url reject
+^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash - reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash - reject
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash url reject
+^https?:\/\/mlife.cmbchina.com\/ClientFace(Service)?\/getAdvertisement.json url reject
+^https?:\/\/mlife.cmbchina.com\/ClientFace(Service)?\/preCacheAdvertise.json url reject
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do url reject
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/ad.* url reject
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/Wechat.js
+^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.jpg url reject
+^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.(jpg|png) url reject
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d$ url script-request-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/kuwodl.js
+^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads url reject
+^https?:\/\/p\d.pstatp.com\/origin url reject
+^https?:\/\/p\d\.pstatp\.com\/origin url reject
+^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
+^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ url reject
+^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
+^https?:\/\/pb\d.pstatp.com\/origin url reject
+^https?:\/\/pb\d\.pstatp\.com\/origin url reject
+^https?:\/\/pic\d\.chelaile\.net\.cn\/adv\/ url reject
+^https?:\/\/pic1cdn.cmbchina.com\/appinitads\/ url reject
+^https?:\/\/r1\.ykimg\.com\/\w{30,35}\.jpg url reject
+^https?:\/\/r1\.ykimg\.com\/material\/.+?\/\d{3,4}-\d{4} url reject
+^https?:\/\/r1\.ykimg\.com\/material\/.+?\/\d{6}\/\d{4}\/ url reject
+^https?:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json url reject
+^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo url reject
+^https?:\/\/s3\.pstatp\.com\/inapp\/TTAdblock\.css url reject
+^https?:\/\/s500\..+\.com\/api\/.+ url script-request-header http://ox.xmkczs.com/quantumultX/antvvip.js
+^https?:\/\/sax\d\.sina\.com\.cn url reject
+^https?:\/\/sdk\.99shiji\.com\/ad\/ url reject
+^https?:\/\/sf.*?-ttcdn-tos\.pstatp\.com\/obj\/ad url reject
+^https?:\/\/sf\w-ttcdn-tos\.pstatp\.com\/obj\/web\.business\.image url reject
+^https?:\/\/sm.domobcdn.com\/ugc\/\w\/ url reject
+^https?:\/\/sm\.domobcdn\.com\/ugc\/\w\/ url reject
+^https?:\/\/sp.kaola.com\/api\/openad url reject
+^https?:\/\/static\.vuevideo\.net\/styleAssets\/.+\/splash_ad url reject
+^https?:\/\/static1.keepcdn.com\/.+\d{3}x\d{4} url reject
+^https?:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
+^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad$ url reject
+^https?:\/\/t\d{2}\.baidu\.com url reject
+^https?:\/\/t00img\.yangkeduo\.com\/goods\/[\d-]+\/[A-Za-z0-9]+\.jpeg\?imageView2\/format\/webp$ url reject
+^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/AD\/ url reject
+^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/ad_ url reject
+^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+?(png|jpg|mp4) url reject
+^https?:\/\/uranus\.sharedaka\.com\/api\/v3\/user\/info\/get url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xiaodaka.js
+^https?:\/\/v\.cctv\.com\/.+850 url reject
+^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/kuwovip.js
+^https?:\/\/weicoapi\.weico\.cc\/img\/ad\/ url reject
+^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi url script-response-body https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/backup/weixin110.js
+^https?:\/\/wp3\.lobdol\.cn\/wp-json\/wp\/v2\/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+^https?+:\/\/(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/ting\/preload\/ url reject
+^https?+:\/\/(?>101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(?:feed_)?+display url reject
+^https?+:\/\/.+?\.iydsj\.com\/api\/.+?\/ad url reject
+^https?+:\/\/.+?\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ url reject
+^https?+:\/\/.+?\.mp4\?ccode=0902 url reject
+^https?+:\/\/.+?\.mp4\?sid= url reject
+^https?+:\/\/.+?\.pstatp\.com\/img\/ad url reject
+^https?+:\/\/.+?\/(?>mixer|track2)\? url reject
+^https?+:\/\/.+?\/allOne\.php\?ad_name url reject
+^https?+:\/\/.+?\/img\/ad\.union\.api\/ url reject
+^https?+:\/\/.+?\/letv-gug\/ url reject
+^https?+:\/\/.+?\/V\d\/splash\/getSplashV\d\.action url reject
+^https?+:\/\/203\.205\.255\.16\/retrieval\/getAd url reject
+^https?+:\/\/47\.97\.20\.12\/ad\/ url reject
+^https?+:\/\/7n\.bczcdn\.com\/launchad\/ url reject
+^https?+:\/\/a\.apicloud\.com\/start_page\/ url reject
+^https?+:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch url response-body .+ response-body eyJjYXJyaWVyIjoiIiwiY2xpZW50SXNwIjoiIiwiY29kZSI6MTAwMCwiY3YiOjEsImRucyI6W3siYWlzbGVzIjpbXSwiaG9zdCI6IiIsImlwcyI6W10sInN0cmF0ZWdpZXMiOltdLCJ0dGwiOjMwMH1dLCJpcCI6IiIsInVpZCI6IiIsInVuaXQiOiIifQ==
+^https?+:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject
+^https?+:\/\/api\.chelaile\.net\.cn\/adpub\/ url reject
+^https?+:\/\/api\.chelaile\.net\.cn\/goocity\/advert\/ url reject
+^https?+:\/\/api\.gaoqingdianshi\.com\/api\/v\d\/ad\/ url reject
+^https?+:\/\/api\.gotokeep\.com\/ads url reject
+^https?+:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto url reject
+^https?+:\/\/api\.huomao\.com\/channels\/loginAd url reject
+^https?+:\/\/api\.intsig\.net\/user\/cs\/operating\/app\/get_startpic\/ url reject
+^https?+:\/\/api\.izuiyou\.com\/ad\/ url reject
+^https?+:\/\/api\.meipian\.me.+?advert url reject
+^https?+:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage url reject
+^https?+:\/\/api\.psy-1\.com\/cosleep\/startup url reject
+^https?+:\/\/api\.qbb6\.com\/ad\/ url reject
+^https?+:\/\/api\.qiuduoduo\.cn\/guideimage url reject
+^https?+:\/\/api\.rr\.tv\/ad\/ url reject
+^https?+:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject
+^https?+:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement url reject
+^https?+:\/\/api\.waitwaitpay\.com\/\/api\/splash url reject
+^https?+:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ url reject
+^https?+:\/\/api\.xiachufang\.com\/v\d\/ad\/ url reject
+^https?+:\/\/api\.xueqiu\.com\/ads\/display url reject
+^https?+:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash url reject
+^https?+:\/\/api\d\.futunn\.com\/ad\/ url reject
+^https?+:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
+^https?+:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ url reject
+^https?+:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad url reject
+^https?+:\/\/app\.poizon\.com\/api\/v1\/app\/advertisement\/adv\/ url reject
+^https?+:\/\/app\.variflight\.com\/ad\/ url reject
+^https?+:\/\/app\.variflight\.com\/v\d\/advert\/ url reject
+^https?+:\/\/app\.xinpianchang\.com\/open_screen\? url reject
+^https?+:\/\/app\d\.qdaily\.com\/app\d\/boot_advertisements\.json url reject
+^https?+:\/\/appapi\.huazhu\.com:\d{4}\/client\/app\/getAppStartPage\/ url reject
+^https?+:\/\/appv6\.55haitao\.com\/IflyAd\/getAd url reject
+^https?+:\/\/c\.tieba\.baidu\.com\/\w+?\/\w+?\/(?>sync|newRnSync|mlog) url reject
+^https?+:\/\/cdn\.api\.fotoable\.com\/Advertise\/ url reject
+^https?+:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page url reject
+^https?+:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+?\?maxbr=850 url reject
+^https?+:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/getPopAds\.do$ url reject
+^https?+:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$ url reject
+^https?+:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd url reject
+^https?+:\/\/dsa-mfp\.fengshows\.cn\/mfp\/mfpMultipleDelivery\.do\?.+?adunitid url reject
+^https?+:\/\/foodie-api\.yiruikecorp\.com\/v\d\/(?>banner|notice)\/overview url reject
+^https?+:\/\/g\.cdn\.pengpengla\.com\/starfantuan\/boot-screen-info\/ url reject
+^https?+:\/\/games\.mobileapi\.hupu\.com\/\d\/(?:\d\.){2}\d\/status\/init url reject
+^https?+:\/\/gw\.csdn\.net\/cms-app\/v2\/home_page\/open_advertisement url reject
+^https?+:\/\/hk\.app\.joox\.com\/billsrv\/clientBatchAdReport url reject
+^https?+:\/\/hk\.app\.joox\.com\/retrieval\/getAd url reject
+^https?+:\/\/i\.ys7\.com\/api\/ads url reject
+^https?+:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ url reject
+^https?+:\/\/img\.jiemian\.com\/ads\/ url reject
+^https?+:\/\/img01\.10101111cdn\.com\/adpos\/ url reject
+^https?+:\/\/ios\.lantouzi\.com\/api\/startpage url reject
+^https?+:\/\/learn\.chaoxing\.com\/apis\/service\/appConfig\? url reject
+^https?+:\/\/m\.ibuscloud\.com\/v2\/app\/getStartPage url reject
+^https?+:\/\/m\.yap\.yahoo\.com\/v\d{2}\/getAds\.do url reject
+^https?+:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash url reject
+^https?+:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
+^https?+:\/\/mm\.app\.joox\.com\/billsrv\/clientBatchAdReport$ url reject
+^https?+:\/\/mm\.app\.joox\.com\/retrieval\/getAd url reject
+^https?+:\/\/mobi\.360doc\.com\/v\d{2}\/Ajax\/festival\.ashx\?op=getfestivaltheme url reject
+^https?+:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.jpg url reject
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject
+^https?+:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject
+^https?+:\/\/msspjh\.emarbox\.com\/getAdConfig url reject
+^https?+:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads url reject
+^https?+:\/\/pic\d\.chelaile\.net\.cn\/adv\/ url reject
+^https?+:\/\/pss\.txffp\.com\/piaogen\/images\/launchScreen url reject
+^https?+:\/\/render\.alipay\.com\/p\/s\/h5data\/prod\/spring-festival-2019-h5data\/popup-h5data\.json url reject
+^https?+:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ url reject
+^https?+:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i) url reject
+^https?+:\/\/static\.vuevideo\.net\/styleAssets\/.+?\/splash_ad url reject
+^https?+:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ url reject
+^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
+^https?+:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ url reject
+^https?+:\/\/v\.cctv\.com\/.+?850 url reject
+^https?+:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject
+^https\:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+http:\/\/.+\/c\/s\/(trackConfig|dashengVideo|splashSchedule) url reject
+https://[a-z]+.ddly666.top/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://[a-z]+.smkj33.top/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://[a-z]+.tslt.xyz/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://4thdimension.top/wp-json/watch-life-net/v1/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://api.bspapp.com/client url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/nmtk.js
+https://b.tslt.xyz/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://c.jxjt888.top/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://d.smkj33.top/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://d.syshhc.top/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://g.syshhc.top/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://gjsx.vip/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://gz.gongzijx.com/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://hkj178.com/wp-json/mp/v2/advert/wechat url reject
+https://iosoi.cn/wp-content/plugins url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://iosoi.cn/wp-json/wp/v2/posts/\d+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://jabi.coding.net/p/xcx/d/xcx/git/raw/master/jabikj.json url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/jabi.js
+https://jt.jxjt888.top/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://m.xgjyouhui.com/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://qj.bpojie.com/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://tan.ipnas.ltd//wp-json/wp/v2 url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://tvapp.guilaile.cn/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://www.bbkj.work/wp-json/watch-life-net/v1/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://www.benbenfx.xyz/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://www.freeheikeji.cn/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https://www.laoguikeji.cn/wp-json/wp/v2/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://wx.wxqqurl.cn/wp-json/watch-life-net/v1/posts url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/xcx.js
+https://xcx.xianbaow.com/wp-json/wp/v2/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
+https:\//www.tianya.cn\/m\/vip\/ url script-response-body https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/tianya/vip1.js
+https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+https:\/\/pn\.baidu\.com\/iad\/.+\.json url reject
+https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
+https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject
+https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zhangshanggongjiao.js
+#################3
+^(http|https):\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
+^(http|https):\/\/(www.)?(bett2erzipcn|betterzip)\.(com|net)\/ url 302 $1https://macitbetter.com/$3
+^(http|https):\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^(http|https):\/\/(www.)?(mycleanmymac|xitongqingli)\.com\/ url 302 https://macpaw.com/
+^(http|https):\/\/(www.)?abbyy1china\.com\/ url 302 $1https://www.abbyy.cn/$3
+^(http|https):\/\/(www.)?bar3tender\.cc\/ url 302 https://www.macbartender.com/
+^(http|https):\/\/(www.)?beyondcompare\.cc\/ url 302 https://www.scootersoftware.com/
+^(http|https):\/\/(www.)?bingd1ianhuanyuan\.cn\/ url 302 https://www.faronics.com/zh-hans/products/deep-freeze
+^(http|https):\/\/(www.)?chemdraw\.com\.cn\/ url 302 https://www.perkinelmer.com.cn/
+^(http|https):\/\/(www.)?codesoftchina\.com\/ url 302 $1https://www.teklynx.com/$2
+^(http|https):\/\/(www.)?corel1drawchina\.com\/ url 302 https://www.coreldraw.com/cn/
+^(http|https):\/\/(www.)?crossoverchina\.com\/ url 302 https://www.codeweavers.com/
+^(http|https):\/\/(www.)?dongmansoft\.com\/ url 302 $1https://www.udongman.cn/
+^(http|https):\/\/(www.)?earmaste1rchina\.cn\/ url 302 $1$3
+^(http|https):\/\/(www.)?easyrecoverychina\.com\/ url 302 https://www.ontrack.com/
+^(http|https):\/\/(www.)?ediuschina\.com\/ url 302 https://www.grassvalley.com/
+^(http|https):\/\/(www.)?flstudiochina\.com\/ url 302 https://www.image-line.com/
+^(http|https):\/\/(www.)?formysql\.com\/ url 302 https://www.navicat.com.cn/
+^(http|https):\/\/(www.)?grpro\.cc\/ url 302 $1
+^(http|https):\/\/(www.)?huishenghuiying\.com\.cn\/ url 302 https://www.coreldraw.com/cn/
+^(http|https):\/\/(www.)?iconworkshop\.cn\/ url 302 https://www.axialis.com/
+^(http|https):\/\/(www.)?idhina\.net\/ url 302 https://www.internetdownloadmanager.com/$3
+^(http|https):\/\/(www.)?ign\.xn--fiqs8s\/ url 302 http://cn.ign.com/ccpref/us
+^(http|https):\/\/(www.)?iminap\.cc\/ url 302 $1https://www.ayoa.com/previously-imindmap/$3
+^(http|https):\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
+^(http|https):\/\/(www.)?jihehuaban\.com\.cn\/ url 302 https://www.chartwellyorke.com/sketchpad/x24795.html
+^(http|https):\/\/(www.)?kingdeecn\.cn\/ url 302 http://www.kingdee.com/
+^(http|https):\/\/(www.)?logoshejishi\.com url 302 https://www.sothink.com/product/logo-design-software/
+^(http|https):\/\/(www.)?luping\.net\.cn\/ url 302 https://www.techsmith.com/
+^(http|https):\/\/(www.)?mathtype\.cn\/ url 302 https://www.dessci.com/
+^(http|https):\/\/(www.)?mi\.com\/ url 302 https://www.mi.com/
+^(http|https):\/\/(www.)?mindmanager\.(cc|cn)\/ url 302 https://www.mindjet.com/cn/
+^(http|https):\/\/(www.)?mindmapper\.cc\/ url 302 https://www.mindmapper.com/
+^(http|https):\/\/(www.)?nicelabel\.cc\/ url 302 https://www.nicelabel.com/zh/
+^(http|https):\/\/(www.)?ntfsformac\.cc\/ url 302 https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/
+^(http|https):\/\/(www.)?ntfsformac\.cn\/ url 302 https://china.paragon-software.com/home-mac/ntfs-for-mac/
+^(http|https):\/\/(www.)?overturechina\.com\/ url 302 https://sonicscores.com/
+^(http|https):\/\/(www.)?passwordrecovery\.cn\/ url 302 https://cn.elcomsoft.com/aopr.html
+^(http|https):\/\/(www.)?pdfexp\.cc\/ url 302 $1https://pdfexpert.com/zh$1
+^(http|https):\/\/(www.)?photozoomchina\.com\/ url 302 https://www.benvista.com/
+^(http|https):\/\/(www.)?shankejingling\.com\/ url 302 https://www.sothink.com/product/flashdecompiler/
+^(http|https):\/\/(www.)?suning\.com\/ url 302 https://suning.com/
+^(http|https):\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
+^(http|https):\/\/(www.)?vegaschina\.cn\/ url 302 https://www.vegascreativesoftware.com/
+^(http|https):\/\/(www.)?xshellcn\.com\/ url 302 https://www.netsarang.com/zh/xshell/
+^(http|https):\/\/(www.)?yhd\.com\/ url 302 https://yhd.com/
+^(http|https):\/\/(www.)?yuanchengxiezuo\.com\/ url 302 https://www.teamviewer.com/
+^(http|https):\/\/(www.)?zbrushcn.com/ url 302 https://pixologic.com/
+^(http|https):\/\/cn\.ultraiso\.net\/ url 302 https://cn.ezbsystems.com/ultraiso/
+^(http|https):\/\/hypersnap\.mairuan\.com\/ url 302 https://www.hyperionics.com/
+^(http|https):\/\/hysnap\.mauan\.com\/ url 302 $11111$3
+^(http|https):\/\/logoshejishi\.mairuan\.com\/ url 302 https://www.sothink.com/product/logo-design-software/
+^(http|https):\/\/you\.163\.com\/ url 302 https://you.163.com/
+^http://coupon.m.jd.com/ url 302 https://coupon.m.jd.com/
+^http://h5.m.jd.com/ url 302 https://h5.m.jd.com/
+^http://item.m.jd.com/ url 302 https://item.m.jd.com/
+^http://m.jd.com url 302 https://m.jd.com
+^http://newcz.m.jd.com/ url 302 https://newcz.m.jd.com/
+^http://p.m.jd.com/ url 302 https://p.m.jd.com/
+^http://so.m.jd.com/ url 302 https://so.m.jd.com/
+^http:\/\/t\.cn url 302 https://sinaurl.c
+^http:\/\/www\.google\.cn url 302 https://www.google.com
+^https?://(www.)?g.cn url 302 https://www.google.com
+^https?://(www.)?google.cn url 302 https://www.google.com
+^https?://(www.)?google.cn/search url 302 https://www.google.com/search
+^https?://(www\.)?g\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn url 302 https://www.google.com
+^https?://(www\.)?google\.cn/search url 302 https://www.google.com/search
+^https?://m.qu.la/stylewap/js/wap.js url 302 http://ogtre5vp0.bkt.clouddn.com/qu_la_wap.js
+^https?://m.taobao.com/ url 302 https://m.taobao.com/
+^https?://m.yhd.com/1/? url 302 http://m.yhd.com/1/?adbock=
+^https?://sqimg.qq.com/ url 302 https://sqimg.qq.com/
+^https?://www.jd.com/ url 302 https://www.jd.com/
+^https?:\/\/(www.)?anydeskchina.cn/ url 302 https://anydesk.com/zhs
+^https?:\/\/(www.)?jd\.com\/ url 302 https://www.jd.com/
+^https?:\/\/(www.)?mycleanmymac\.com\/ url 302 https://macpaw.com/
+^https?:\/\/(www.)?ntfsformac\.cc\/ url 302 https://www.tuxera.com/products/tuxera-ntfs-for-mac-cn/
+^https?:\/\/(www.)?suning\.com/ url 302 https://suning.com/
+^https?:\/\/(www.)?taobao\.com\/ url 302 https://taobao.com/
+^https?:\/\/(www.)?yhd\.com url 302 https://yhd.com/
+^https?:\/\/(www.)?zbrushcn.com/ url 302 https://pixologic.com/
+^https?:\/\/hypersnap\.mairuan\.com\/ url 302 https://www.hyperionics.com/
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
