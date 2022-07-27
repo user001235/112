@@ -25,3 +25,4 @@ HOST-SUFFIX,opensource.guide,GitHub
 HOST-SUFFIX,rawgit.com,GitHub
 HOST-SUFFIX,rawgithub.com,GitHub
 HOST-SUFFIX,thegithubshop.com,GitHub
+HOST-SUFFIX,raw.githubusercontent.com,GitHub
