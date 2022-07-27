@@ -2518,7 +2518,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/static1.keepcdn.com\/.+\d{3}x\d{4} url reject
 ^https?:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
 ^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad$ url reject
-^https?:\/\/t\d{2}\.baidu\.com url reject
+#^https?:\/\/t\d{2}\.baidu\.com url reject
 ^https?:\/\/t00img\.yangkeduo\.com\/goods\/[\d-]+\/[A-Za-z0-9]+\.jpeg\?imageView2\/format\/webp$ url reject
 ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/AD\/ url reject
 ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/ad_ url reject
