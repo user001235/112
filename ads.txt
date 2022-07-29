@@ -2426,7 +2426,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject
 ^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/manhuatailite.js
 ^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js url reject
-^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
+#^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 ^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php url reject
 ^https?:\/\/ctrl\.zmzapi\.net\/app\/ads url reject
 ^https?:\/\/ctrl\.zmzapi\.net\/app\/init url reject
