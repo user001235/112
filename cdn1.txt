@@ -1,5 +1,6 @@
 host-suffix, bytecdn.cn, direct
 host-suffix, cdn.embed.ly, direct
+host-suffix, videobd-platform.cdn.huya.com , direct
 host-suffix, cdn.jifo.co, direct
 host-suffix, cdn-go.cn, direct
 host-suffix, cdnimg.3g.qq.com, qq

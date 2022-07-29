@@ -1,9 +1,12 @@
 #^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list) url script-response-body https://raw.githubusercontent.com/28413761/QX/main/JS/Super.js
 #^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
+^https?:\/\/nomo\.dafork\.com\/api\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-request-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 (\/Videos\/\d+\/stream\/.+\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/\d+\/.+\?.+&filename) url script-response-header https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/download-file-rename.js
 (http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
 (ps|sv|offnavi|newvector|ulog.imap|newloc)(.map)?.(baidu|n.shifen).com url reject
+^https?:\/\/vira\.llsapp\.com\/api\/v\d\/\w+\/\w+$ url script-response-body https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/LiuLiShuoYueDu/Script/LiuLiShuoYueDu.js
+#^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BananaVideoCrack.js
 \/plugin\/scheme url script-echo-response https://raw.githubusercontent.com/WSL33099/QuantumultX/main/Script/Emby/emby-plugin.js
 \/t\w{4}\/\d\/t\/ url 307 /token/5d10208372cbd649de04b9731c1b55db/t/
 \/Users\/\w{32}\/Items\/\d+\? url request-header (\r\n)Accept-Encoding:.+ request-header $Accept-Encoding: gzip, deflate, br
@@ -2297,8 +2300,8 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ url reject
 ^https?:\/\/(\w\.)?up\.qingdaonews\.(com|cn|net) url reject
 ^https?:\/\/(\w\.)?up\.qingdaonews\.com url reject
-^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
-^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adx|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
+#^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
+#^https?:\/\/(\w+\.)?(adclick|ads([0-9]+)?|adx|adserver|adformat|analysis|analytics|banners?|click|counter|delivery|log|log-?\w+?|pagead|stat|stats|statis|trace|track|tracking|uniad)\.\w+\.(com|cn|org|info|io|net|vn|com.vn) url reject
 ^https?:\/\/(101\.201\.175\.228|182\.92\.251\.113)\/brand\/search\/v1\.json url reject
 ^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/ url reject
 ^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/EcomResourceServer/AdPlayPage/adinfo url reject
@@ -2423,7 +2426,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/cntv\.hls\.cdn\.myqcloud\.com\/.+\?maxbr=850 url reject
 ^https?:\/\/comic\.321mh\.com\/app_api\/v\d\/getcomicinfo_body url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/manhuatailite.js
 ^https?:\/\/connect\.facebook\.net\/en_US\/fbadnw\.js url reject
-^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
+#^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
 ^https?:\/\/creditcard\.ecitic\.com\/citiccard\/wtk\/piwik\/piwik\.php url reject
 ^https?:\/\/ctrl\.zmzapi\.net\/app\/ads url reject
 ^https?:\/\/ctrl\.zmzapi\.net\/app\/init url reject
@@ -2515,7 +2518,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/static1.keepcdn.com\/.+\d{3}x\d{4} url reject
 ^https?:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
 ^https?:\/\/status\.boohee\.com\/api\/v\d\/app_square\/start_up_with_ad$ url reject
-^https?:\/\/t\d{2}\.baidu\.com url reject
+#^https?:\/\/t\d{2}\.baidu\.com url reject
 ^https?:\/\/t00img\.yangkeduo\.com\/goods\/[\d-]+\/[A-Za-z0-9]+\.jpeg\?imageView2\/format\/webp$ url reject
 ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/AD\/ url reject
 ^https?:\/\/tracker-download\.oss-cn-beijing\.aliyuncs\.com\/SIMPlus\/ad_ url reject
