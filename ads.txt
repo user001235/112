@@ -2617,7 +2617,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?+:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i) url reject
 ^https?+:\/\/static\.vuevideo\.net\/styleAssets\/.+?\/splash_ad url reject
 ^https?+:\/\/static\.vuevideo\.net\/styleAssets\/advertisement\/ url reject
-^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
+#^https?+:\/\/static1\.keepcdn\.com\/.+?\d{3}x\d{4} url reject
 ^https?+:\/\/tiasdk\.app\.wechat\.com\/retrieval\/getAdInfo$ url reject
 ^https?+:\/\/v\.cctv\.com\/.+?850 url reject
 ^https?+:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject
