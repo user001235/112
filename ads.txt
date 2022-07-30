@@ -2493,7 +2493,7 @@ https?:\/\/web\.chelaile\.net\.cn\/api\/adpub url reject
 ^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads url reject
 ^https?:\/\/p\d.pstatp.com\/origin url reject
 ^https?:\/\/p\d\.pstatp\.com\/origin url reject
-^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
+#^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|linglong|mmc|wmbanner)\/ url reject
 ^https?:\/\/p\d{1}\.meituan\.net\/(adunion|display|mmc|wmbanner)\/ url reject
 ^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
 ^https?:\/\/pb\d.pstatp.com\/origin url reject
