@@ -296,18 +296,6 @@ http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-p
 ^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ url reject
 ^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
 ^http:\/\/[\d\.]+(:49155)?\/finderpdd\.video\.qq\.com\/\d+\/\d+\/stodownload\? url reject-DICT
-#^https:\/\/(www|m)\.bilibili\.com\/video\/((BV\w{10})|(av\d{9})))(\/\?.*) url 302 $1
-^https:\/\/live\.bilibili\.com\/\d+)((\?.*)) url 302 $1
-^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) url 302 https://www.google.com
-^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
-^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
-^https:\/\/c\.pc\.qq\.com\/middlem\.html\?pfurl=)(http.*)(&pfuin=.*) url 302 $2
-^https:\/\/pingtas\.qq\.com\/webview\/pingd\?dm=c\.pc\.qq\.com&pvi=\d+&si=s\d+&url=\/middlem\.html\?pfurl%3d)(http.*)(%26pfuin%3d.*%26pfuin%3d.*) url 302 $2
-^https:\/\/cgi\.connect\.qq\.com\/qqconnectopen\/get_urlinfoForQQV2\?url=)(http.*) url 302 $2
-^https:\/\/c\.pc\.qq\.com\/index\.html\?pfurl=)(http.*)(&pfuin=.*) url 302 $2
-^https:\/\/c\.pc\.qq\.com\/ios\.html\?url=)(http.*)(&level=.*) url 302 $2
-^https:\/\/pingtas\.qq\.com\/webview\/pingd\?dm=c\.pc\.qq\.com&pvi=\d+&si=s\d+&url=\/ios\.html\?url%3d)(http.*)(%26level.*%26level.*) url 302 $2
-^https:\/\/link\.zhihu\.com\/\?target=(https?)?(%3A|:)?(\/\/|%2F%2F)?(.*?)(&source.*)?$ url 302 http://$4
 ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_info url reject-dict
 ^https:\/\/member\.alipan\.com\/v2\/activity\/sign_in_luckyBottle url reject-dict
 ^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders url reject-dict
