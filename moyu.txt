@@ -724,7 +724,6 @@
 ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js
 http://ipadcms.caixin.com/tmp/articles url script-response-body https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js
 http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url response-body vipType": 0 response-body vipType": 1024
-http:\/\/www\.google\..* url script-response-body Endless_Google.user.js
 https://access.mypikpak.com/access_controller/v1/area_accessible url reject-200
 https://api.feidee.net/v1/configs/client/configs url reject-200
 https://api.juxingclub.com/storage/business/rootName/app/homePage\?dataType=JSON url reject-dict
