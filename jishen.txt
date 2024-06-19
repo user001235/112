@@ -150,7 +150,6 @@ https:\/\/yanxuan.nosdn.127.net\/.*\.mp4 url reject-dict
 ^https:\/\/m\.ctrip\.com\/html5\/webresource\/js\/iscroll\.js$ url reject
 ^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
 ^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS url reject-dict
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/xiaohongshu/xiaohongshu.ad.js
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/apple\/record* url reject
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/tag\/ads_engage* url reject
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v1\/ads\/resource* url reject
