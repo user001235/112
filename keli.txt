@@ -296,7 +296,7 @@ http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-p
 ^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+ url reject
 ^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native url reject
 ^http:\/\/[\d\.]+(:49155)?\/finderpdd\.video\.qq\.com\/\d+\/\d+\/stodownload\? url reject-DICT
-^https:\/\/(www|m)\.bilibili\.com\/video\/((BV\w{10})|(av\d{9})))(\/\?.*) url 302 $1
+#^https:\/\/(www|m)\.bilibili\.com\/video\/((BV\w{10})|(av\d{9})))(\/\?.*) url 302 $1
 ^https:\/\/live\.bilibili\.com\/\d+)((\?.*)) url 302 $1
 ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) url 302 https://www.google.com
 ^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
