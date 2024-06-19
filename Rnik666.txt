@@ -54,7 +54,6 @@
 ^https?:\/\/(gameapi.mma.dstor.cc|(pop|push).flare.com.51kuajing.net)\/index.php\/App\/(Account\/Login|User\/Info|Index\/Update).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/Shzb.js
 ^https?:\/\/(gongdu|sc).youshu.cc\/(api\/v2\/user\/page_info|m\/page\/v2|m\/user\/more_list|m\/open_screen\/rec_list|app\/gongdu\/pack_list|mp\/item\/subpage_pack_list|mp\/item\/getItemInfo|m\/media\/play_list|m\/audio_book_page\/info|m\/plan_page\/info) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/youshu.js
 ^https?:\/\/(id\.kwaiying|api\.kmovie\.gifshow)\.com.*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/kuaiy.js
-^https?:\/\/(member|comic|base).mkzcdn.com\/(user|chapter\/buy\/add|vote\/add|gift\/play\/add|advert\/app\/(read|user|task)).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mankezhai.js
 ^https?:\/\/(member|comic|base).mkzcdn.com\/(user|chapter\/buy\/add|vote\/add|gift\/play\/add|advert\/app\/(read|user|task)).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mankezhan.js
 ^https?:\/\/(newminerva-tgw|commontgw|bookcommon|unitelogreport|cartoon)\.reader\.qq\.com.*(audio\/auth\?|ChapBatAuthWithPD\?bookId).*$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/qqtk.js
 ^https?:\/\/(play|dis).*miguvideo.com\/(play|dis)(url|play)\/.*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mgsp.js
@@ -181,4 +180,3 @@
 ^https?:\/\/xihongshi.dicallapp.com\/SDGetMeCount.ashx url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/py.js
 ^https?:\/\/xw.jietuguanjia.com\/api\/app\/(resetEquipment|userInfo|parseVideo).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xwws.js
 https?:\/\/appss.rhinoxlab.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zypg.js
-
