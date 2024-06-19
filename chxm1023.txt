@@ -72,7 +72,8 @@
 ^https?:\/\/1jietu\.com\/apiv2\/(user|ad) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yijietu.js
 ^https?:\/\/accounts\.agenda\.com\/users\/.*\/license url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Ag.js
 ^https?:\/\/ad\.caiyunapp\.com\/ url reject
-^https?:\/\/analytics\.oceanengine\.com url reject-200o\.cn\/vision-video-service\/api\/(login|user\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/meilixiu.js
+^https?:\/\/analytics\.oceanengine\.com url reject-200
+^https?:\/\/nice\.fingervideo\.cn\/vision-video-service\/api\/(login|user\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/meilixiu.js
 ^https?:\/\/api-.*\.meitu\.com\/(.+\/user\/vip_info|user\/show) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxl.js
 ^https?:\/\/api-production\.endel\.io\/v\d\/call url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Endel.js
 ^https?:\/\/api-sgp\.facereplacerext\.com\/api\/rest\/commerce\/integrate\/vip\/perform url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/FaceSwapper.js
