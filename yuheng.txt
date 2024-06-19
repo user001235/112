@@ -1,39 +1,8 @@
-^https?:\/\/tx.*\.com\/h5\/(user\/info|movie\/(block|search)|system\/info)$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/TXVLOG/txvlog.js
-^https?:\/\/tx.*\.com\/h5\/movie\/detail$ url script-request-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/TXVLOG/txvlog.js
-^https:\/\/(wyaapi.xsy124006.asia|d3cd3rn5299ol7.cloudfront.net|d3ekdcyt77miso.cloudfront.net)\/api\/app\/(ping\/domain\/h5|vid\/(info\/?|user\/count|tiroCountdown)|mine\/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/WYDSP/wydsp.js
-^http[s]?://91porn\.com/view_video\.php\?.*viewkey=.*$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91porn.js
-^https:\/\/(h5.\w+.(fun|site|ltd)\/apis|api.cxznl.com|api.bjkmy.net)\/common\/homepage\/official_website_popup url reject-200
-^https:\/\/(h5.\w+.(fun|site|ltd)\/apis|api.cxznl.com|api.bjkmy.net)\/(m_user\/info|m_sns\/(film\/(film_detail|home_recommend_list)|short_video)|common\/splash_config) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91SP/crack.js
-^https:\/\/(h5.\w+.(fun|site|ltd)\/apis|api.cxznl.com|api.bjkmy.net)\/m_sns\/(film\/film_detail|video\/apply_play_permission) url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91SP/auto-login.js
-^https:\/\/bk[a-z]{1}\d+\.com\/h5\/(system\/info|user\/info|cartoon\/detail|(movie|cartoon|animation)\/block) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/bika.js
-^https:\/\/bk[a-z]{1}\d+\.com\/h5\/(movie\/detail|cartoon\/chapter) url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/bika.js
-^http[s]?:\/\/.*(rtuyhtb.cc|yrvguhx.com|cbsbwr.com|hxcwqh.com|nocqvbo.com)\/api\/app/(ping\/config|media\/home|user\/info|media\/play|comics\/detail|post\/list) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mdsq.js
-^https?://api\.duoduo\.pro\/(v3plus\/index\/channel|app\/config\/h5NativeBar|ad\/getAll|subMenu/prompt/list) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/ddsp.js
-^https?://.*\.bayescom\.com\/(raddus|cruiser) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/ddsp.js
-^https?://zy.(h033uc|glkpi7).xyz/api/(activity/indexActs|sys/advertisement/list|aibox/entranceConfig|deduct/type) url reject-200
-^https?://zy.(h033uc|glkpi7).xyz/api/(user/base/info|community/hackerResource/resourceInfo) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/dsx.js
-^https:\/\/(api\.m|me-api)\.jd\.com\/api\?functionId=GetJDUserInfoUnionForJD url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/jdck-ql.js
-http[s]?://.*(rygbfhw|ixhmhua|uwkakpqkdc|keuaosld|zhdffvwsq|zhmsyaenq).+api/h5app/(ping/config|media/(play|homev2|short/recommend)|user/info|dating/girl/detail) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/ksyp.js
-^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
-^https?:\/\/.*50.*pi.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
-^https?:\/\/.*(wmq.*api\d+).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
-^https?:\/\/.*hichatapi.+\/api\.php$ url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
-http[s]?://.*(yal09zp|yuwhuxuw|d4s000ejiic|uzro0z3|bytebwq|qrneryt|dirptev|saejeuj|4bmqesfias9|epn54fk5njw|djsusdjexs4|zxt9kf4c|djqyarm|cmmsjbu|iomaqzd|ledyqrr|oenwfkbaamamdq|irkkykyrabxiej).+/api/app/(ping/config|media/(play|homev2|short/recommend)|user/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mdsq.js
-^http[s]?://.*(tlxxw|uvi57ypa).+/api/user/(loginByUsername|register) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mmav.js
-^http[s]?://www.(2c6n8|7bfbb776da4a|3b43e2bfca59|2c3q9|bc53k).com url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mmav.js
-^http[s]?://pan.baidu.com/(act/(v2/(welfare|bchannel)/list|api/activityentry)|rest/2.0/(pcs/adv|xpan/smartprogram)).*ver.*=11.14.0 url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/netdisk@11.14.js
-^http[s]?:\/\/(.+.delsen.mobi|dnlq8umwclsn5.cloudfront.net|d14vnrk0y3lhsq.cloudfront.net)\/api\/app\/(recommend\/vid\/(list|ad)|mine\/info|ping\/domain\/h5|vid\/(section|info|list|user\/count)|recreation\/list) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/PFDSP/pfdsp.js
-^https?:\/\/qqcapi.*.com\/api\/(promo\/popup|task_ad\/list|operation\/ads|investment|ad\/ad_position_config) url reject-200
-^https?:\/\/qqcapi.*.com\/api\/(v2\/bootstrap|module\/list|user\/read|bottom_nav|navs\/top|rich_new\/index|user\/privilege|v3\/shortvideo\/view\/\d+) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/qqc.js
-^https?:\/\/sadaslvcxjiaa\.vip\/front\/media\/(getMediaById|listShortVideoRandom) url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/SFSP/crack.js
-^https?:\/\/sadaslvcxjiaa\.vip\/front\/(system\/bannersetting\/userGetBannerSet|cluser\/c\/user\/info\/get) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/SFSP/pure.js
-^https?:\/\/.*(sssm|cloudfront|ddosapi).+\/api(\/v1|)\/videos(\/\w+|)\/show url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/sssm.js
-^https?:\/\/.*(sssm|cloudfront|ddosapi).+\/api(\/v1|)\/(banners|users\/get_profile) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/sssm.js
-^http[s]?:\/\/.*91feet.*$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/91feet.js
-^http[s]?:\/\/.*(bwhrqu|uhnmon|wslzzs|ccgg50)\.com\/$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/51cg.js
-^http[s]?:\/\/.*(mqddpt)\.com\/$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/hlbdy.js
-^http[s]?:\/\/.*speedtest\.cn\/$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/speedtest.js
-^http[s]?:\/\/fanyi\.baidu\.com url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/fanyi.js
-^http[s]?:\/\/translate\.google\.com url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/fanyi.js
-^http[s]?:\/\/fanyi\.youdao\.com url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/Pure/fanyi.js
-^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|zihzot.com|snowing.ren|vzcnqmr.cn|beibeini3.cn|pili01a.net|hhclyjz.cn|bhhcdou.cn|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|mqqjrv.com|gnikvh.com|auhvylo.cn|hefeixcx.xyz|vsmdboa.cn|pnowdvc.cn|xgfipub.cn|guangxu124.cn|pvlzxh.cn|b0lgw.com|avwpyqtl.com|uvursx.com|bing0010.com|mlchve.com|qlpwbr.com)(\/.*)? url 302 $1long.$3$4
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get url reject-200
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(v\d\/user\/detail\/\d+|vipnewcenter\/app\/resource\/newaccountpage|music-vip-membership\/client\/vip\/info|batch|playlist\/privilege|search\/complex\/page|v\d\/(discovery\/recommend\/songs|playlist\/detail)) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(song\/enhance\/player\/url\/v\d|vipauth\/app\/auth\/query) url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js
+^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfo url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/tidal.js
+^https?:\/\/(?:musicpay|nmobi|vip1|audiobookpay|tingshu)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd)|a\.p|v2\/api\/pay\/user\/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js
+https?:\/\/91porn\.com(\/|)$ url 302 https://91porn.com/index.php
+https?:\/\/91porn\.com\/(index|view_video|login|search_result)\.php url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91porn.js
