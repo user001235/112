@@ -345,7 +345,7 @@ https://api.jiakao.qwdata.vip/api/jiakao/user/info url script-response-body http
 https://api.next.bspapp.com/client url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jiuchuipeiyin.js
 https://api.qsongxue.com/user/memberData url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/kyqsx.js
 https://api.readbot.tech/v1/vip/status url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ReadBot.js
-https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Darkroom.js
+https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/DarkRoom.js
 https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Drops.js
 https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Persona.js
 https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/PureLibro.js
