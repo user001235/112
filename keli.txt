@@ -437,7 +437,7 @@ http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-p
 ^https?:\/\/wallpaper-\d+\.file\.myqcloud\.com\/hikari\/ url reject-dict
 ^https:\/\/amsweb-cdn-\S+-\d+\.file\.myqcloud\.com\/video\/ad_profile\/ url reject-dict
 ^https:\/\/adsmind\.gdtimg\.com\/ads_svp_video.*(jpeg|jpg|png|webp) url reject-img
-^https:\/\/adsmind\.gdtimg\.com\/ads_svp_video.*mp4 url reject-video
+^https:\/\/adsmind\.gdtimg\.com\/ads_svp_video.*mp4 url reject-img
 ^https:\/\/shc6\.y\.qq\.com\/tips\/fcgi-bin\/fcg_get_advert\.fcg
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/surprisebox\/(get_style|open|submit_action) url reject-dict
 ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? url reject-dict
