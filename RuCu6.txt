@@ -385,7 +385,6 @@
 ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 ^https?:\/\/mp\.weixin\.qq\.com/s\/?.* url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat_auto_read.js
 ^https?:\/\/mp\.weixin\.qq\.com\/s.+? url response-body </script> response-body setTimeout(()=>window.history.back(),7000); </script>
-^https?:\/\/oss-zjrs\.haier\.net\/resource\/confFile\/\d{22}\.json$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/Haier/haierMain.js
 ^https?:\/\/oss-zjrs\.haier\.net\/resource\/confFile\/\d{22}\.zip$ url reject-200
 ^https?:\/\/translate\.google\.cn url 302 https://translate.google.com
 ^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind url reject-dict
@@ -396,10 +395,8 @@
 ^https?:\/\/zj\.haier\.net\/api-gw\/shpmResource\/servicePage\/start\/advertising\?approach url reject-200
 ^https?:\/\/zj\.haier\.net\/api-gw\/shpmResource\/servicePage\/visualize\/recommend\?dataType url reject-200
 ^https?:\/\/zj\.haier\.net\/api-gw\/shpmResource\/servicePage\/weather\/query\?areaId url reject-200
-^https?:\/\/zj\.haier\.net\/api-gw\/upmapi\/appmanage\/app\/[cold]?start\/report$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/Haier/haierLaunch.js
 ^https?:\/\/zj\.haier\.net\/api-gw\/upmapi\/appmanage\/publish\/getRecommendVersion$ url reject-200
 ^https?:\/\/zj\.haier\.net\/omsappapi\/ad\/v1\/rotation$ url reject-200
 ^https?:\/\/zj\.haier\.net\/omsappapi\/resource\/v1\/resBagList$ url reject-200
-^https?:\/\/zj\.haier\.net\/omsappapi\/resource\/v2\/get\/resourceBag$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/Haier/haierRes.js
 ^https?:\/\/zj\.haier\.net\/omssceneapi\/house\/v1\/recommend\/listByRoom$ url reject-200
 ^https\:\/\/(weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/wechat/wechat110.js
