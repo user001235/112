@@ -232,7 +232,7 @@
 ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/Onexilie.js
 ^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/scannerPro.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Revenuecat.js
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body Lifelog.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Lifelog.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Context.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Light.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Lungy.js
@@ -283,7 +283,7 @@
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xiongzhangji.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yaseliulanqi.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/znzdw.js
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/‎xTerminal.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xTerminal.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/fotoz.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes/imgplay.js
 ^https?:\/\/bzpp2\.iwzbz\.com\/api\/.*\/user\/getvipinfo url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/wenzhenbazi.js
@@ -385,9 +385,7 @@ https://cloud.jtsee.com/superwords/userInfo url script-response-body https://gis
 https://cm15-c110-2.play.bokecc.com/flvs/ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Xingtikukecheng.js  
 https://cm15-c110-3.play.bokecc.com/flvs/ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Xingtikukecheng.js 
 https://cn.tradingview.com/api/v1/user/profile/me/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/TradingView.js
-https://cn.tradingview.com/api/v1/user/profile/me/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/‎TradingView.js
 https://cn.tradingview.com/order/apple/receipt/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/TradingView.js
-https://cn.tradingview.com/order/apple/receipt/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/‎TradingView.js
 https://data.inicoapp.com/api/2.0/publicUser/detail? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nico.js
 https://data.inicoapp.com/api/v4/clientConfig/mallBannerConfig url reject-200
 https://data.inicoapp.com/api/v4/personalActivity/getAppAc? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Nico.js
