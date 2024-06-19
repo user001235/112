@@ -1,4 +1,4 @@
-^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91BD.js
+0^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/91BD.js
 ^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91tk.js
 ^https?:\/\/.*\/(common\/(splash_config|homepage\/official_website_popup)|m_user\/(check_phone|behavior_verification_code)) url reject-200
 ^http[s]?:\/\/gateway\.h84ug5\.com\/member\/memberInfo\/.*$ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/91putao.js
@@ -347,8 +347,6 @@ https://integral.dasyibalang.com/User url script-response-body https://raw.githu
 ^https:\/\/apigate\.zymk\.cn url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/zymk.js
 ^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
-^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/(Account\/Login|User\/Info|Index\/Update|Host\/Info).*$ url script-response-body http://fk.gjds.vip/shenhu/b.js
-^http[s]?:\/\/.*\.liuniukeji\.(heshuangde|cdwksjx)\.com\/index\.php\/App\/User\/Info.*$ url script-request-header http://fk.gjds.vip/shenhu/t.js
 ^http[s]?:\/\/.*(ie3x0|vg4b3|lkxo|ib1tp).*com\/api\/app\/vid\/h5\/m3u8\/.*\/.*m3u8\?token\= url script-request-header http://gjds666.cf/quantumultx/mt.js
 ^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body http://gjds666.cf/quantumultx/photoroom.js
 ^https?:\/\/purchases\.ws\.pho\.to\/api\/v2\/apple\/verifyReceipt url script-response-body http://gjds666.cf/quantumultx/Toonme.js
@@ -361,8 +359,6 @@ https://integral.dasyibalang.com/User url script-response-body https://raw.githu
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body http://gjds666.cf/quantumultx/fvideo.js
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body http://gjds666.cf/quantumultx/bodytune.js
 ^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) url script-response-body http://gjds666.cf/quantumultx/arkt.js
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://fk.gjds.vip/qx/tk.js
-^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://fk.gjds.vip/qx/bd.js
 #######################efdef
 ^https:\/\/mobile\.api\.mgtv.com\/v\d+\/video\/getSource\?_support=.+ url script-request-header https://raw.githubusercontent.com/gjwj666/qx/main/mgtv0.js
 ^https:\/\/mobile\.api\.mgtv.com\/v\d+\/video\/getSource\?_support=.+ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/mgtv1.js
