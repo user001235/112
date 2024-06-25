@@ -3,6 +3,7 @@
 ^http:\/\/h5.jinliapp.top\/api.php\/(user\/index|video\/detail\?id|platform|login\/login).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jinli.js
 ^https://.*miguvideo\.com/request/sdk url reject-200
 ^https://ad\.qtfm\.cn/api/ url reject
+^https?:\/\/kkyun\.com\/api\/accounts\/user? url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/66LS.js
 ^https://ad\.rhinox\.cn/client/sdk/getData url reject
 ^https://adlaunch\.qtfm\.cn/launch url reject
 ^https://api\.kmovie\.gifshow\.com/rest/n/kmovie/app/merchant/ad/bidding url reject
