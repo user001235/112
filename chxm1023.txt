@@ -3,6 +3,7 @@
 ^http:\//\api\.love\.823123\.com\/facades\/ad_space\.index url reject-200
 ^http:\/\/(m\.815616\.xyz|175\.178\.52\.149:88)\/api\/v\d\/myinfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/shanqiuyuedu.js
 ^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get url reject-200
+^https?:\/\/api\.adapty\.io\/api\/v\d\/sdk\/(analytics\/profiles\/.+$|in-apps\/(apple\/receipt\/validate|purchase-containers\/.+$)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/adapty.js
 ^http:\/\/api\.love\.823123\.com\/(facades\/open\.chat_stream|v1\/discovery\/query) url script-request-header  https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js
 ^http:\/\/api\.love\.823123\.com\/facades\/account\.show$ url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js
 ^http:\/\/luyintu\.cushuikeji\.cn\/tuv2\.(user\/info|order\/comboDuration|home\/activityAlert) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/luyinzhuanjia.js
