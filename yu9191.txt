@@ -2,6 +2,7 @@
 &guid=[\w-]+&app_version=[\d\.]+&spadseg=\d&userid=(\d*)? url 302 &guid=f066be2cdf1c4f4893eb818de454313a&app_version=3.0.0.23522&spadseg=3&userid=234090757
 &src\=mgtv&suuid\=.*&testversion\=&ticket\=[A-Z0-9]{32} url 302 &src=mgtv&ticket=2031287C725A39BE8D5F5E2FF31D57AB
 (?<=vip=)false url 302 true
+^https:\/\/gdd\.aixuexi\.com\/fox\/pad\/lesson\/list url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/gdd.js
 ^http:\/\/(liveinfo|bkliveinfo|playvv)\.ysp\.cctv\.cn\/(playvinfo\?.+|.*) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yangshipin.js
 ^http:\/\/152\.136\.134\.81:8090\/wechat\/(weiXin\/queryUserById|classify\/(getClassifyInfoByIdList2|getIndexPlay2)|audio\/getList2) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/shizilaobajgs.js
 ^http:\/\/\d{10}\.vod2\.myqcloud\.com\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/video_\d+_\d+\.m3u8 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/bsxm.js
