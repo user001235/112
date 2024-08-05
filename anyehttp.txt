@@ -1,0 +1,80 @@
+^http:\/\/101\.201\.146\.165:8088\/App-EH\/app\/phone\.do\?getCourseDetail_new url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/yljk.js
+^http:\/\/ads\.service\.kugou\.com\/v4\/mobile_splash\?appid url reject-200
+^http:\/\/ads\.service\.kugou\.com\/v4\/mobile_splash_sort\?appid url reject-200
+^http:\/\/new\.360pyq\.com\/Main\/Member\/SearchUserInfo url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/ttpyq.js
+^http:\/\/new\.360pyq\.com\/Main\/Member\/member_info url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/ttpyq.js
+^https:\/\/aiservice\.xsdr\.top\/expression\/api\/gold\/getDetailById url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mhaihh.js
+^https:\/\/aiservice\.xsdr\.top\/expression\/api\/signin\/getSigninStatus url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mhaihh.js
+^https:\/\/api-a\.soulapp\.cn\/loveBell\/getCardInfo url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/soul.js
+^https:\/\/api-a\.soulapp\.cn\/loveBell\/queryMatchSpeedupConf url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/soul.js
+^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Wink.js
+^https:\/\/api-winkcut\.meitu\.com\/user\/show url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Wink.js 
+^https:\/\/api\.calm\.com\/me url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Calm.js
+^https:\/\/api\.changecollective\.com\/api\/v3\/user url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/TenPercent.js 
+^https:\/\/api\.cikelink\.com\/fm\/v2\/fm\/userInfo url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Dofm.js 
+^https:\/\/api\.dancefit\.me\/h2oapi\/dance\/user\/detail url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/DanceFitme.js
+^https:\/\/api\.eareyereading\.com\/1\.1\/classes\/BRTransactionInfo\?keys url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/ty.js
+^https:\/\/api\.feihua100\.com\/api\/feihua\/v2\/course url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mdags.js
+^https:\/\/api\.feihua100\.com\/api\/feihua\/v2\/poemAlbum\/chapter\/course\/list\? url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mdags.js
+^https:\/\/api\.feihua100\.com\/api\/feihua\/v4\/course\/radio\/userRadio\? url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mdags.js 
+^https:\/\/api\.finka\.cn\/v1\/user\/setting\/privacy\?_t url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/fk.js
+^https:\/\/api\.mojidict\.com\/app\/mojiread\/parse\/functions\/(target-fetch|reading-article-detail) url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/MOJiyd.js 
+^https:\/\/api\.rela\.me\/v2\/params\/init\?apptype url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/thel.js
+^https:\/\/api\.rela\.me\/v3\/interface\/stay\/myInfoForFriend url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/thel.js
+^https:\/\/api\.rela\.me\/v3\/payment\/ios-vip-status url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/thel.js
+^https:\/\/api\.rela\.me\/v3\/users\/vip\/detail url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/thel.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Calflow.js 
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Unfold.js 
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/00(?!\/offerings) url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Wakeout.js 
+^https:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/qf.js
+^https:\/\/api\.wlvpn\.com\/v3\/login url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Speedtest.js
+^https:\/\/app-service\.cyberlink\.com\/service\/ios\/verifyReceipt url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/wldy.js
+^https:\/\/app\.coding61\.com\/server\/code_orange\/get_user_property\/ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/OKMath.js 
+^https:\/\/bd-api\.kuwo\.cn\/api\/search\/topic\/word\/list\?uid url reject-dict
+^https:\/\/bd-api\.kuwo\.cn\/api\/service\/home\/module\?uid url reject-dict
+^https:\/\/bd-api\.kuwo\.cn\/api\/voice\/room\/sidebar\?uid url reject-dict
+^https:\/\/burn-chatfiles\.bldimg\.com\/burn_chatfiles\/users\/.*\/.*\.jpg url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/hqtp.js
+^https:\/\/burn-chatfiles\.bldimg\.com\/burn_chatfiles\/users\/.*\/.*\.jpg!o\.png\?e url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/hqtp.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/DPPExpress.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/mgx.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/ysyyhb.js
+^https:\/\/dlabel\.ctaiot\.com\/api\/config\/list\.json\?mcontext url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/DLabelybq.js
+^https:\/\/gateway\.kugou\.com\/adp\/ad\/v1\/mine_top_banner\?appid url reject-200
+^https:\/\/interface3?\.music\.163\.com\/eapi\/(v1\/artist\/top\/song|v3\/discovery\/recommend\/songs) url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https:\/\/interface3?\.music\.163\.com\/eapi\/playermode\/ url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https:\/\/interface3?\.music\.163\.com\/eapi\/search\/complex\/(page|rec\/song\/get) url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https:\/\/interface3?\.music\.163\.com\/eapi\/song\/(chorus|enhance\/|play\/|type\/detail\/get) url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https:\/\/interface3?\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https:\/\/lifeserver\.clifes\.cn\/exam\/vip\/info url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/aacsh.js
+^https:\/\/moyin-gateway\.moyin\.com\/moyin-account\/v1\/vip\/status url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/moyingongfang.js 
+^https:\/\/oceantides\.9oc\.net\/goc_member\/v2\/_allow\/getMemberInfo url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/cx.js
+^https:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved url reject-200
+^https:\/\/social\.blued\.cn\/users\/.*\/basi url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/blued.js
+^https:\/\/social\.blued\.cn\/users\/.*\/setting url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/blued.js
+^https:\/\/social\.blued\.cn\/users\/shadow url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/blued.js
+^https:\/\/subscription\.grammarly\.com\/api\/v1\/subscription url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Grammarly.js
+^https:\/\/us\.l\.qq\.com\/exapp\?adposcount url reject-200
+^https:\/\/yt-friend-api\.beijingcj\.cn\/get_apply_num url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/gg.js
+^https:\/\/yt-user-api\.beijingcj\.cn\/\?_app url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/gg.js
+^https?://chatai\.qupeiyin\.com/(user/memberData|member/index|basic/userModule|member/index) url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/aiwj.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Readle.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/hj.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/hj.js
+^https?:\/\/bd-api\.kuwo\.cn\/api\/service\/banner\/myPage\?uid url reject-dict
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/DecibelX.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Me.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/VideoShot.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/ecg+.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/rsbj.js
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/|v6\/)?playlist\/ url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/beta.js
+https?:\/\/.*\.*\.*\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
+https?:\/\/.*\.*\.*\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
+会员认证 = type=http-request, pattern=^https?:\/\/interface3?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query, script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+侧边栏会员等级 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage, script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+搜索结果会员歌曲 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/search\/complex\/(page|rec\/song\/get), script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+播放器会员歌曲1 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/v3\/song\/detail, script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+播放器会员歌曲2 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/song\/(chorus|enhance\/|play\/|type\/detail\/get), script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+播放器会员歌曲3 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/(v1\/artist\/top\/song|v3\/discovery\/recommend\/songs), script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+播放器会员皮肤 = type=http-request, pattern=^https:\/\/interface3?\.music\.163\.com\/eapi\/playermode\/, script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60
+首页歌单会员歌曲 = type=http-request, pattern=^https?:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/|v6\/)?playlist\/, script-path=https://raw.githubusercontent.com/anyehttp/quantumult-x/main/vip/wyy.js, timeout=60

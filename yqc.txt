@@ -1,0 +1,181 @@
+\/t\w{4}\/\d\/t\/ url 307 /token/5d10208372cbd649de04b9731c1b55db/t/
+^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/RecordScreenProCrack.js
+^http[s]?:\/\/.*(m6aw0|3ju7q|gar48|68bhf|z0pf9|cloudfront|vg4b3|ie3x0|b1tp).+\/api\/app\/(recommend\/vid\/(list|ad)|mine\/info|ping\/domain\/h5|vid\/(section|info|list|user\/count)|recreation\/list) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PeachMediaYuheng01Crack.js
+^https?:\/\/(account|drive|vas|userinfo.docer)\.wps\.cn\/(.*api\/(v3\/(mine\/vips|spaces)|users\/\d+\/overview|v1\/list_purchase_info)|user\/v1\/vip_dl_times) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPuserCrack.js
+^https?:\/\/(api\w{0,1}|ttt\w{0,1})\.tbrapi\.\w{3}:\d{4}\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TTSPCrack.js
+^https?:\/\/(mobile|client|vas|download)(\.docer)?\.wps.cn\/(android\/mb\/buy_info|api\/v1\/mobile\/mb\/detail|query\/api\/v1\/list_privilege_info|download\/adapter\/v1\/mb) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSuperVIPowerCrack.js
+^https?:\/\/(sc|gongdu)\.youshu\.cc\/(m|w|mp)\/(user\/count|media\/media_info|common\/elite_page_content|(page\/v2\/10010016|item\/subpage_pack_list).+)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/CellularBookProCrack.js
+^https?:\/\/(time\.tfbeta\.top\/api\/app\/info|api\..+\/api\/(vip\/newshow|banner\/show|version\/show\/1))$ url reject-200
+^https?:\/\/.*(cloudfront|jiuyianwang).+\/api\/app\/(mine\/(info|wallet|announce)|ping\/domain\/h5) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91aw0101Crack.js
+^https?:\/\/.*(lrg3z7t|quftbyp|rsly4ni).*\/api\/app\/(ping\/domain\/h5|vid\/(info|user\/count)|mine\/info|(sge|game)\/list) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PinkPomeloVideoCrack.js
+^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/Purity/DisableBaiduJumpAction.js
+^https?:\/\/.*\.chuangkit\.com\/(vip\/member\/getVipPackageInfo|team\/app\/(team|user)\/info|user\/getUserInfo) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChuangKitMemberCrack.js
+^https?:\/\/.*\.chuangkit\.com\/.*(design|task|font|VipDetail|envelope|material|copyright|collector|cutout|authorization|judge|Status).* url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChuangKitDesignCrack.js
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WeibVideosCrack.js
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WeibComicsCrack.js
+^https?:\/\/.*\/(common\/(splash_config|homepage\/official_website_popup)|m_user\/(check_phone|behavior_verification_code)) url reject-200
+^https?:\/\/.*\/(common\/splash_config|m_user\/(check_phone|behavior_verification_code)) url reject-200
+^https?:\/\/.*\/api\/app\/(user\/info|cartoon\/play|photo\/detail) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BiliCartcoonCrack.js
+^https?:\/\/.*\/api\/app\/media\/m3u8\/.*\.m3u8 url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/mdsqallcrack.js
+^https?:\/\/.*\/api\/app\/media\/m3u8\/.+\.m3u8 url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/KuaiShouPronCrack.js
+^https?:\/\/.*\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KuaiShouPornCrack.js
+^https?:\/\/.*\/api\/clientlog\/encrypt\/upload url reject-array
+^https?:\/\/.*\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/javdbvipcrack.js
+^https?:\/\/.*\/api\/v1\/users url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/javbdvipcrack.js
+^https?:\/\/.*\/eapi\/(music|s(ong|ingle|earch)|album|link|zone|content|p(laylist|rivilege|laymode|urchased)|r(esni|nca)che|vip(auth|pro|(new)?center)|music-vip-membership).+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/NeteaseMusicVipCrack.js
+^https?:\/\/.*\/eapi\/ad\/.+ url reject-array
+^https?:\/\/.*\/m\w{5}\/m\w{3}-\w{7}\/.*\/index.* url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/91TVideoAllCrack.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MDg0MTYwMSwiZXhwIjoxNjg2MzkzNjAxfQ.eyJpZCI6MTEyNDM1MTY0fQ.cDXTx14EaNf1TJzihOxOoIB4lyfwKnNNSrXbDiBj43kXzkzkqfftQRAqE23WTCuxQ45VYB-1IadrwxG_t3QoNA$2
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornMediaCrack.js
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91PornVideoCrack.js
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornVideoCrack.js
+^https?:\/\/.*api\.italianbooray\.com\/Api\/getAccountInfo$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/QuarkVpnProCrack.js
+^https?:\/\/.*mt.*\.com\/api\/Video\/m3u8\/id.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/MTSPCrack.js
+^https?:\/\/.*sezse.*\/api\/(media\/verifyPlay|user\/(wallet\/info|info))$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SzSYuheng01Crack.js
+^https?:\/\/.+(\/privilege\/supervip\/status|\/show\/superVIP\/detail|\/meet\/invisible\/saveByUserId|\/special\/concern\/setting|\/chat\/history\/setting|\/privilege\/bubble\/buy|\/soul-coin\/total|\/user\/queryInvisibleSetting|\/chat\/limitInfo) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SoulSuperVipCrack.js
+^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js
+^https?:\/\/.+\.(my10api|(.*91.*))\.\w{3,4}(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SVCrack.js
+^https?:\/\/.+\.chuniao\..+\/app\/api\/(sendmsg|user\/bindphone) url reject-200
+^https?:\/\/.+\.chuniao\..+\/app\/api\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/CNSPCrack.js
+^https?:\/\/.+\.chuniao\..+\/app\/api\/video\/info$ url request-header (\r\n)X-TOKEN:.+(\r\n) request-header $1X-TOKEN: xOIby5DWr2tCf/OxKvnSZoHnD36X8YyzazHwXpj8r+Vqkqa30wWe5PIarCBfLcUuYQfrSQKrtwdb7Un7dQesn3opn4Dw39HpJtFipm7B7Np0SCBYKelhyBMOy9ZKbIhpWA22y6C9NxEQOk9JVEgPj+NsSTs6jq8akUhr8HshbjHde4aL62R6FsHdGVpTdNR/2MMATg+o6K2tqWGUEW7dX0GIpe09mb8oW3qBAsYOB8qZvj28Ecilb9D60QY0aEN/X/1AlsrpeFNdn6Kxi+ZdAvIFwEXvB8f+jr01ueiyjz1yOTgMVrnhdI+s4pEAmVmtej8ckZPmEYdrfkeaONj+3ua/M1rOBqh/UqN+44uIq/xpSH7xYSC69ZuE5lRB45/YXXKsDOkbhBE38GbL4iyOve44mvsnSFejoLGJoi2+4u8tOn+6S79ZOKjf4J5Yc9e29wbm+PojVBPmORdU/XW5nRfQcHdtgM8uoQvGkSW/dskaP/LaP8lOYGYhZCr7Yt6SoPpAhwrh5rl1Jc7F+3aTvASrHLXnqz5JNlWsnsY5/UsH83sltAOXRGShDHmqHprH9Ag9Rw4zSZdjOswtI/XqVOXmm6Ya3CTJ12C2MzLjy0j/cSkfPsLg4eypUahQzc7gPtcTyteiU+AEv8fTmm79uqRAe90j6/JMU7Co1jtOpGc=$2
+^https?:\/\/.+\/(index|ucp\/index|vod\/(show|reqplay\/)|getGlobalData).+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BananaVideoCrack.js
+^https?:\/\/.+\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JavDBCrack.js
+^https?:\/\/121\.199\.197\.35:9293\/api\/ios\/getAdClick$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/EggplantCloudCrack.js
+^https?:\/\/123\.57\.195\.48\/api\/(Usercent|teach)er\/get(User|TeacherDetail)Info\?token=.+$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DaZMasterProCrack.js
+^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
+^https?:\/\/api(-hlw\.\d+|\.\w{8,9})\.com\/api\/web\/(video|member).+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/HLSPCrack.js
+^https?:\/\/api-aidraw\.3dmoxiu\.com\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/StyleArtProCrack.js
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/(login_vip_check|vip_info|info_by_entrance).*json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ActionForeverVipCrack.js
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MeiTuBabyVipCrack.js
+^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WinkForeverVipCrack.js
+^https?:\/\/api2\.vlognow\.me\/vn-pay\/api\/v1\/public\/iap\/receipt\/status url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/VlogNowProCrack.js
+^https?:\/\/api\.(md-ddd1|yh-bzd)\.com\/api\/web\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/MDSPCrack.js
+^https?:\/\/api\.(meiease|picsart)\.cn\/(users\/show\/me|shop\/subscription\/apple\/purchases) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicSartProCrack.js
+^https?:\/\/api\.(sumsun|gzbbcg|kjregister|klettdayeare)\.\w{3}\/api\/user\/profile\/$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NCSTCrack.js
+^https?:\/\/api\..+\.cn\/ap(i|iv2)\/(ad\/click|notices|advert|game|subcategories\/list) url reject-200
+^https?:\/\/api\..+\.cn\/api\/user\/counter\/$ url response-body .+ response-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHsMqycd2CiiqIre9ROCIv6wi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOL5Vdr5XkRNQl0fLp2V2bCXajz+D6K0UAtDV8uvQXMa5MWkiYAQyfKBOrRPb5pe5reEvA2uGw5KY45VrRVB94IV8bQwrK7osGSDD7g9i3Z6zVGGxXGDtkyIjxjQAnwaPhFzGg3NV3VXzqscjmS/ZEevb+IoK5w0yFHVI/E5DQfRvyfMY75aI7LXy4DbVSHIqO+M9Z8hekdyzbQxOrxsFG8OA/J9VxZ8pMToALEOYTJiBB2CCl5Ko7c1hi6gTQhxsIZjQFlW9G+h+Qz1qs7SVzeg==
+^https?:\/\/api\..+\.cn\/api\/video\/play url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/ButterflyMediaCrack.js
+^https?:\/\/api\..+\.cn\/user\/profile$ url request-body .+ request-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHJaI2mJm5x4HCXIISOLDXPQi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOgifMpuwtSHu7HVB+9RP2tIQA6UWKyvahbwKFvkD7X31Pn7lNw4ORVMf20XnNIzIDUVntigOg8XISbJjk8BwQxHFjYS4T9ZYE54B7o1HMr20P6z7pYbHFKgVriXTwOWUGVie3tUSlSXGLSpadG5VCLkcOkGyUrDg3q8PJ/7X4HpriW1Vi1NBrgmzIyJEq9Sx8FCm2EXoR81FQ6tT1lSke9yTg45gR7SiS6XKbjjN0bYSlrqg63hOX7iRIDNReVM1WXBLDdbTrYkrbFHjUsT122g==
+^https?:\/\/api\.jttv01\.cc\/shorter\/video\/longvideoinfo\/info.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiaTengVideoAllCrack.js
+^https?:\/\/api\.mattingm\.com\/receipt_api\/user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OneClickCoutVipCrack.js
+^https?:\/\/api\.mtaoapi006\.\w{3,4}:\d{4}\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PeachCrack.js
+^https?:\/\/api\.polarisoffice\.com\/api\/1\/account\/userinfo$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PolarisOfficeProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/1BlockerProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/).+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OopsExpiredProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MallocVPNProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AnyBoxProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/HappyDaysUnlock.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36}|subscribers\/\w{14})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SparkMailProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32}) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DarkRoomPremiumCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AlpenglowProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DecisionProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrowForeverVipCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MobileMonsterProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotePlan3ProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ToToWalletFProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/\$RCAnonymousID%3A\w{32}|receipts)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FocusPomoForeverVipCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/\$RCAnonymousID%3A\w{32}|receipts)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TouchRetouchPlusCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/(identify|\d+)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AudioMackFProCrack.js
+^https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/RisingFallingVipCrack.js
+^https?:\/\/api\.sh88992\.com\/api\/video\/(user\/data|picture)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ShenhuaLiveCrack.js
+^https?:\/\/api\.sh88992\.com\/api\/video\/ad|banner|config\?field=notice url reject-200
+^https?:\/\/api\.shaolinzen\.com\/user\/v1\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/HuanXiuVipCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+^https?:\/\/api_2496\.kuwo\.cn\/front\/user\/vipstatus$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KWLongPlayProCrack.js
+^https?:\/\/apidraw\.styleart\.cn\/v4\/aidraw\/user\/userInfo\/getUserInfoByToken url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/StyleArtForeverVipCrack.js
+^https?:\/\/apiios_dq\.xiangha\.com\/v4\/(dish\/info|User\/getUserData)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XiangHaBakeProCrack.js
+^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JKSPCrack.js
+^https?:\/\/apiw\.sshfax\.com\/sw1\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/YHSPCrack.js
+^https?:\/\/apiw\.sshfax\.com\/sw1\/login$ url response-body token": "(.*?)" response-body token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZW1iZXJfaWQiOiJJTjE3NzMyOTAiLCJkZXZpY2VfaWQiOiIwNDNENkRGMi1CODVGLTQ1OUUtQjZEMC03NTBGMjI2RTMyRkQiLCJlbWFpbCI6IjEwOTQzODA1MzFAcXEuY29tIiwiZXhwIjoxNjQwMzQyMzIwfQ.q_V8EUpxdIjVcoW2wHof9tIPA1Lv0_Y8uMdTO-A3N6E"
+^https?:\/\/appa\.lingdu2019\.cn\/api\/(my_home\/\w{9}|portrait\/\w{15,23}|iport/luffy/api/\w{7}/\w{9}|send\/\w{18})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LingDuPortraitProCrack.js
+^https?:\/\/asia\.gikken\.co\/matesync\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MateTranslateProCrack.js
+^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/appLaunchWithUser url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BaiMiaoGoldVipCrack.js
+^https?:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/c(heckLoginClient|leanAccount) url reject-array
+^https?:\/\/dreamfaceapp\.com\/df-server\/user\/save_user_login$ url script-response-body https://gist.githubusercontent.com/yqc007/4fc79102559fa075f36141587cc686ab/raw/DreamFacePro.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://gist.githubusercontent.com/yqc007/cdc58d529844169f65313b395242342c/raw/WallcraftPro.js
+hxqheader = type=http-request, pattern=^http?:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4.*?, script-path=https://gist.githubusercontent.com/Yu9191/83b0ec1da0882a9ff6fb70cc3de89c8d/raw/hxqheader.js, timeout=60
+hxqbody = type=http-response, pattern=http://hxqapi.hiyun.tv/api/user/mine, script-path=https://gist.githubusercontent.com/Yu9191/a1d617273b7ee6fdcdfbf6e50f4eba91/raw/hxqbody.js, requires-body=true, max-size=-1, timeout=60
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
+^https?:\/\/bmall\.camera360\.com\/api\/iap\/check-receipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FaceProForeverVipCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AnkiNoteProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BeelinguappProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ClarityPaperProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LaunchCenterProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/Mematom3ProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NewFaceFVIPCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OldRollFVIPCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PlaneVPNProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/QRCodeScanProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ScannerAirProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TeleprompterProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TokCamFProCrack.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/VimoSoftVLLOProCrack.js
+^https?:\/\/bzpp2\.iwzbz\.com\/api\/v1\.1\/user\/getpwnewios url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WzbzDiamondVipCrack.js
+^https?:\/\/c\.h5aj.*\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LoveChanVideoCrack.js
+^https?:\/\/c\.sifang.*\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SecretsMediaCrack.js
+^https?:\/\/closet\.jinjian\.tech\/api\/v3\/apple_app_store\/resolve_receipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WardrobeVipCrack.js
+^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
+^https?:\/\/commerce-api-.*\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js
+^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/LightBeautyCamCrack.js
+^https?:\/\/commerce-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/RetouchPicsVipCrack.js
+^https?:\/\/data\.ufbae\.com\/User\/GetUser url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TimeNoteForeverVipCrack.js
+^https?:\/\/diary-id\.sumi\.io\/api\/profile$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GridDiary2ProCrack.js
+^https?:\/\/funjoy-api\.aiyouaiyou\.cn\/api\/User\/GetInfoByCode$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FunJoyVipCrack.js
+^https?:\/\/fxshot-api\.afunapp\.com\/order_api\/apple_query$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WeShotVideoVipCrack.js
+^https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/BackgroundEraserProCrack.js
+^https?:\/\/h5.*you.*\/h5\/login\/loginAccount$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LLSPCrack.js
+^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XinYuLibraryProCrack.js
+^https?:\/\/iap\.etm\.tech\/receipts$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PixelanceProCrack.js
+^https?:\/\/ios-api-2\.duolingo\.cn\/2017-06-30\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DuolingoPlusCrack.js
+^https?:\/\/ios\.chat\.openai\.com\/backend-api\/(accounts\/check\/|models) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ChatGPTPlusCrack.js
+^https?:\/\/ios\.hfys8\.vip\/sk-api\/user\/get_user_info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/HeiFengMovieVipCrack.js
+^https?:\/\/jsq\.mingcalc\.cn\/XMGetMeCount\.ashx$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XMCalculatorVipCrack.js
+^https?:\/\/m2u-api\.getkwai\.com\/api-server\/api\/v2\/vip\/vipUserInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/1TianCamVipCrack.js
+^https?:\/\/m\.jmtiv\.com\/video\/user\/login$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ViewPlayerFProCrack.js
+^https?:\/\/mars-prod\.whalean\.com\/hestia-service\/api\/(wpUser\/getUserInfo|wallpaper\/ai\/count\/detail) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MintPaperVipCrack.js
+^https?:\/\/medi\.dxzzy321\.top\/api\/rest\/commerce\/integrate\/vip\/perform$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/VivaCutProCrack.js
+^https?:\/\/media\.deezer\.com\/v1\/get_url$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DeezerHiFiProCrack.js
+^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AdGuardProCrack.js
+^https?:\/\/mobile-ios-wallpaper-api\.zhhainiao\.com\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/YuanQiPaperVipCrack.js
+^https?:\/\/nomo\.dafork\.com\/api\/v2\/iap\/ios_verify$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NoMoCamProCrack.js
+^https?:\/\/notability\.com\/subscriptions url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/NotabilityProCrack.js
+^https?:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber/status$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PhotoVisionProCrack.js
+^https?:\/\/qianji\.xxoojoke\.com\/vip\/configios url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/MoneyTraceVipCrack.js
+^https?:\/\/remini\.oracle\.bendingspoonsapps\.com\/v2\/users\/setup$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ReminiProCrack.js
+^https?:\/\/s\..*\.com\/s2\/L2d3L3VzZXItc2VydmVyL3dlYi9sb2dpbj url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/AVBBCrack.js
+^https?:\/\/s\.mcwifi\.cn\/hw\/apple\/subscribe\/v1 url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FaceLikeVipCrack.js
+^https?:\/\/scanner\.jianse\.tv\/api\/users url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FScannerVipCrack.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraFVIPCrack.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraProCrack.js
+^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FimoCamVipCrack.js
+^https?:\/\/shapi\.qyrunda\.com\/api\/video\/(ad|banner|config\?field=not(es|ice)) url reject-200
+^https?:\/\/shapi\.qyrunda\.com\/api\/video\/user\/data$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SHZBCrack.js
+^https?:\/\/sjapi\.juqianpu\.com\/api\/(video|app\/play_page) url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PainedBashoCrack.js
+^https?:\/\/sjapi\.juqianpu\.com\/api\/member\/info$ url response-body .+ response-body XUxzDgEDZV15WQ4RL3V6RFYKV1F5UC9GBUx+EnAMMFBccnwNLF9EWFFrMwoBZXkGUEF+CVduNFkrX3oWdAsFT3VxfB0uSEBYaWQNDSpcX0p5e35PV240WStfehZ0NQlCdl9wEy5yQFhTdAkQAVtlWXpRfQp4Qw4FKU9cVHclOwl2THAXKlwCQWkBEg8sX3p5bGBiQmx9J0k+WG4IdSIoCllteA0sW1xCeV07FgBwCVxQcHZIVVQwWStfehh3JQkJdnFaVi5lZgR8cCsMAQRcRXxSWw15bQ4FK2FcEnAPME5ccn8XOwJ1WVVgKFAudUdZUX8NSmxuUVkrXH0MYDUrDHVPdwwtW3lYf3cvDi5MfQV7bG0Je1MjWj1PUFB0CytAdlh/CTpifkJ5XSMOBmAJR2xgekJSC1xJPnMODFsmJFZxX1YQLmJAWFFrLwA5BWZcVgtlUXlTJEMtWFsbYVMkUlxyVVY5Yn4HfWAWDwcEdgBsClxeUn4JRD5mfld0IhVRWwdREgBfZVdUASdWOgRYVlF/WExsaiwGKXZACFpSMFBcfW8eKltYSXxwKxE6blxWbG9MS39TClkpdgMWdCIrS3Fbcwg5AmVBUmQ0DyxcdQJ7bFcKe20GSStxbhJwDyRPYAZvFDlyfgd9cBYPAG5yVmwKDUhUUCwGLV9cVHY1CQ13Zg0TKlhAWFNrIwABYQlFb2BfUXlQLAUrYVxUdjUJTXV2cBcqX1NeamQ3FTsEaklvb2JeVFczRC1fWBl1IihTYm1jFDlyfgd5WSRULWJTAnhsV0F5fSRIKl9uUnc1Jwh1X3wNBWkGCA==
+^https?:\/\/sjapp\.o3aqqc\.work\/(home\/message\/get|user\/getUserActivity|activityDialog\/getActivityDialogList|banner\/list2\?location=0|game\/programGameList) url reject-200
+^https?:\/\/sjapp\.o3aqqc\.work\/mov\/browse url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization: 0547064bb9a5557d332023ab513a2e3784e38dc54f844f53cbb804d3a687c48b6c2e670c6aba3e564f$2
+^https?:\/\/sjapp\.o3aqqc\.work\/user\/(info|fansAndUpAndAttentionCnt)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SJSPCrack.js
+^https?:\/\/subscription\.grammarly\.com\/api\/v1\/subscription$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/GrammarlyPremiumCrack.js
+^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100FVIPCrack.js
+^https?:\/\/tagit\.hyhuo\.com\/cypt\/block100\/get_vip_info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/Block100SVIPCrack.js
+^https?:\/\/ts1i\.dk\.y8848\.xyz\/app\/api\/(sms\/send|user\/bindphone) url reject-200
+^https?:\/\/ts1i\.dk\.y8848\.xyz\/app\/api\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/DKSPCrack.js
+^https?:\/\/tu5\.twittme\.net\/cms\/api\/app\/article\/play url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/69MediaCrack.js
+^https?:\/\/tx.*\.com\/h5\/movie\/detail$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TangXinVlogmCrack.js
+^https?:\/\/tx.*\.com\/h5\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TangXinVloguCrack.js
+^https?:\/\/txh016\.com\/h5\/m3u8\?url=\/media2\/m3u8-preview\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/TxVLogAllCrack.js
+^https?:\/\/txv04\.com\/h5\/user\/findQrcode$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TXVWCrack.js
+^https?:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KSSPCrack.js
+^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SearchPictureCrack.js
+^https?:\/\/www\.40sishi\.com\/(list|currency|calculator)\/user\/profile$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/CalculatorHDProCrack.js
+^https?:\/\/www\.40sishi\.com\/artwidget\/user\/profile$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ArtWidgetVipCrack.js
+^https?:\/\/www\.91gao1\.com\/api\/v1\/article url response-body is_buy":\w+ response-body is_buy":true
+^https?:\/\/www\.91gao1\.com\/api\/v1\/article url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91GVCrack.js
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/file\/url url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzTest.js
+^https?:\/\/www\.qobuz\.com\/api\.json\/0\.2\/user\/login$ url script-request-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/QobuzHiResProCrack.js
+^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SmallDialyVipCrack.js
+^https?:\/\/ys\.huajibh\.com\/api\/video url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PleasantVideoCrack.js

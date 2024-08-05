@@ -1,0 +1,241 @@
+(^https?:\/\/(ytmsout|ytapi)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|user\/appUser\/getUserInfo|ytsrv\/srv\/appUser\/getUserInfoH5) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yunting.js
+(^https?:\/\/(ytmsout|ytapi|getway)\.radio\.cn|60\.205\.171\.165)\/(contentBiz|publish|rights|(user|ytsrv\/srv)\/(appUser|webPage)\/getUserInfo|app.+) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yunting.js
+^http:\//\api\.love\.823123\.com\/facades\/ad_space\.index url reject-200
+^http:\/\/(m\.815616\.xyz|175\.178\.52\.149:88)\/api\/v\d\/myinfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/shanqiuyuedu.js
+^http:\/\/adx\.sogaha\.cn\/sdk\/ad\/get url reject-200
+^http:\/\/api\.love\.823123\.com\/(facades\/open\.chat_stream|v1\/discovery\/query) url script-request-header  https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js
+^http:\/\/api\.love\.823123\.com\/facades\/account\.show$ url script-response-body https://raw.githubusercontent.com/wf021325/qx/master/js/lxy.js
+^http:\/\/liujia95\.xyz\/v\d\/user\/(get_user|register) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/sjrz.js
+^http:\/\/luyintu\.cushuikeji\.cn\/tuv2\.(user\/info|order\/comboDuration|home\/activityAlert) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/luyinzhuanjia.js
+^http:\/\/tailor\.tomax\.xyz\/api\/users\/fetch\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/gdjp.js
+^http:\/\/wallpaper\.soutushenqi\.com\/api\/.+\/account\/token url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/soutu.js
+^http:\/\/yueh\.app168\.cc\/(first|panda|jiaopian|emoji|manghe)\/iap\/check\.php$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yueh.js
+^http?:\/\/oss4bpc\.moji\.com\/.\d+\/.\d+\/.\d+\/.+\.jpg url reject
+^http[s]?:\/\/(share\.dianshihome\.com\/api\/user\/base\/info|123\.56\.125\.184\/api\/.+\/user\/info|api\.gaoqingdianshi\.com\/api\/ad\/mobile\/config) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dsj.js
+^http[s]?:\/\/.*\.duitang\.com\/napi url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/duitang.js
+^http[s]?:\/\/www\.40sishi\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/40sishi.js
+^http[s]s:\/\/purchase-qingtu-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/qingtu.js
+^https:\/\/.*\.lingvist\.com\/.+\/user\/(sync|services) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Lingvist.js
+^https:\/\/.*api\.quthing\.com\/(.+\/vip|vip|student|user|appearance|background|rest) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yueqi.js
+^https:\/\/api\.995120\.cn\/mini\/api\/appleplus url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xinzang.js
+^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjxrsl.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Reheji.js
+^https:\/\/app-measurement\.com\/config\/app\/.+ url reject
+^https:\/\/bd-api\.kuwo\.cn\/api\/(ucenter\/users|play\/listening\/user|service\/(home\/index|banner\/myPage|advert\/watch)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bodian.js
+^https:\/\/fl.*app\.com\/api\/v\d\/user\/me url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/lofo.js
+^https:\/\/glass\.photo\/api\/(v2\/users\/[0-9a-zA-Z-]+$|v1\/account$|v3\/token$) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/glass.js
+^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
+^https:\/\/isi\..*\.g.*\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body http://git.yycm.link/chxm1023/Rewrite/raw/main/gg.js
+^https:\/\/ljh\.dianxiaoman\.com\/ljh\/api\/home\/getHomeList url reject
+^https:\/\/main-sciam-nature\.content\.pugpig\.com\/subs\/(itunes_store|pianomediaoauth_subs)\/verify_subscription url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/sa.js
+^https:\/\/mobapi\.bloomberg\.com\/wssmobile\/v1\/user\/subscription url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/bloomberg.js
+^https:\/\/oxadmin\.cp\.com\.cn\/api\/(hot\/index|advertise\/banner) url reject-dict
+^https:\/\/subscription-api\.notedapp\.io\/api\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Noted.js
+^https:\/\/yimutodo\.com\/api\/v\/mtop\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yimuqingdan.js
+^https?:\/\/((h5|api)\.xiuxiu|api-sub|api\.posters)\.meitu\.com\/.+\/(vip|user|h\d|center|home) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxx.js
+^https?:\/\/(api|community)\.meiyan\.com\/(vip|v\d)\/(user_center|user_info|user\/(.*?)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/myxj.js
+^https?:\/\/(api|m)\.uaa.*\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js
+^https?:\/\/(api|member)\.(aliyundrive|alipan)\.com\/(.+\/(users|activity|user\/get)|((business|apps)\/.+\/users|adrive\/.+\/user)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/alidrive.js
+^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+^https?:\/\/(api|wrapper)\.(cyapi|caiyunapp)\.(cn|com)\/v\d\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+^https?:\/\/(appss|standard)\.(rhinox.*|linhongshi)\.com\/.+\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/13geapp.js
+^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+^https?:\/\/(biz|wrapper)\.cyapi\.cn\/(.+\/(user.+|visitors|activity)|p\/v\d\/vip_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners|ai\/weather|operation\/homefeatures)|p\/v\d\/(vip_info|user_info|entries|privileges)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyun.js
+^https?:\/\/(biz|wrapper|starplucker)\.(cyapi|caiyunapp)\.(cn|com)\/(.+\/(user\?app_name|activity\?app_name|visitors|operation\/banners|operation\/homefeatures|config)|p\/v\d\/(vip_info|user_info|entries|privileges|trial_card\/info)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caiyuntianqi.js
+^https?:\/\/(files\.(yuchenglw|honghufly)\.com|(os\.privacypolicie|ss\.osupdate|cdn\.privacypolicie)\.net) url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
+^https?:\/\/(pay|id-cast)\.airdroid\.cn\/(cast\/getUserPaymentInfo|user\/getuserinfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/airdroid.js
+^https?:\/\/(purchase-.*-api|user-kaji-api)\.(yiruikecorp|b612kaji|tianyancam)\.com\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/4gexj.js
+^https?:\/\/(tk|course)\.lanjiyin\.com\.cn url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/lanjiyin.js
+^https?:\/\/(vas|account|drive)\.wps\.cn\/(query\/api\/.+\/list_purchase_info|api\/(v\d\/spaces|users\/.+\/overview)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/WPS.js
+^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/zhinengzhushou.js
+^https?:\/\/(www\.kaolahome\.com\/xunnews|cat-revenuecat-qscqkotbrh\.cn-hongkong\.fcapp\.run)\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zhinengzhushou.js
+^https?:\/\/(xremit\.xcurrency|explorer.tratao)\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jijianhuilv.js
+^https?:\/\/.*-slidebox-ios-prod\.cloudfunctions\.net\/api_v1 url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/slidebox.js
+^https?:\/\/.*\.(aoscdn\.com|apsapp\.cn) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/arqjt.js
+^https?:\/\/.*\.(intsig\.net|camscanner\.com) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/CamScanner.js
+^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/kwyy.js
+^https?:\/\/.*\.(videoshowiosglobalserver|enjoy-mobi)\.com\/zone\/.+\/(iosPayClient\/(payVerify|imeiVerify)|startPageAd\/getAds) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/VideoShow.js
+^https?:\/\/.*\.(weilai555\.com:1000|ecoliving168\.com)\/api\/v\d\/movie\/(index_recommend.+|detail) url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/555ad.js
+^https?:\/\/.*\.(yuchenglw|honghufly|privacypolicie|osupdate|jnruiying)\.(net|com) url script-response-body https://raw.githubusercontent.com/chxm1023/Advertising/main/sssp.js
+^https?:\/\/.*\.api\.moji\.com\/(sns\/json\/profile\/get_info_.+|json\/member_new\/homepage_info.+|user\/personal\/json\/profile_.+|flycard\/novice|shortvideo\/.+) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mojitianqi.js
+^https?:\/\/.*\.camera360\.com\/(api\/(order\/purchase|iap\/check-receipt)|v\d\/operational-positions) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/360xj.js
+^https?:\/\/.*\.execute-api\.ap-northeast-2\.amazonaws\.com\/product\/apple\/receipt url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/daymore.js
+^https?:\/\/.*\.imendon\.com\/.+\/purchase\/vip\/verification url response-body "isValid":\d response-body "isValid":1
+^https?:\/\/.*\.jiemengjia\.com\/(member\/(member_info|pay_verify_new|create_order)|dialogue\/adspace) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wannianli.js
+^https?:\/\/.*\.kakamobi\.cn\/api\/open url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jiakaobaodian.js
+^https?:\/\/.*\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/.+|purchases\/verify) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bending.js
+^https?:\/\/.*\.pangolin-sdk-toutiao.*\.com url reject
+^https?:\/\/.*\.qingning6\.com\/api\/(user\/getUserInfo|team\/teamInfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/qnsj.js
+^https?:\/\/.*\.soutushenqi\.com\/(api\/.+\/account\/(token|info)|cykj_community|v\d\/home\/dialog) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/soutu.js
+^https?:\/\/.*\.whalean\.com\/(poseidon-service\/api\/user|member\/userMemberHomePageV2|hestia-service\/api\/wpUser\/getUserInfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yaowangbohe.js
+^https?:\/\/.*\.yangjibao\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yjb.js
+^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
+^https?:\/\/1jietu\.com\/apiv2\/(user|ad) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yijietu.js
+^https?:\/\/accounts\.agenda\.com\/users\/.*\/license url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Ag.js
+^https?:\/\/ad\.caiyunapp\.com\/ url reject
+^https?:\/\/analytics\.oceanengine\.com url reject-200
+^https?:\/\/api-.*\.meitu\.com\/(.+\/user\/vip_info|user\/show) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtxl.js
+^https?:\/\/api-production\.endel\.io\/v\d\/call url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Endel.js
+^https?:\/\/api-sgp\.facereplacerext\.com\/api\/rest\/commerce\/integrate\/vip\/perform url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/FaceSwapper.js
+^https?:\/\/api.*\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wsgj.js
+^https?:\/\/api.*\.xiangha\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/caipu.js
+^https?:\/\/api2\.vlognow\.me\/vn-pay\/api\/.+\/public\/iap\/receipt\/status?(.*?)*$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/vn.js
+^https?:\/\/api\.(.*lianqin.*|mangofuture)\.(com|cn)\/client\/v\d\/(user_vip|my_info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yiqilianqin.js
+^https?:\/\/api\.(hujuvod\.com|qwapp\.top)\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/renrenshipin.js
+^https?:\/\/api\.adapty\.io\/api\/.+\/sdk\/analytics\/profiles\/(.*?)\/ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Batched.js
+^https?:\/\/api\.adapty\.io\/api\/v\d\/sdk\/(analytics\/profiles\/.+$|in-apps\/(apple\/receipt\/validate|purchase-containers\/.+$)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/adapty.js
+^https?:\/\/api\.apphud\.com\/v1\/subscriptions url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/replica.js
+^https?:\/\/api\.bluepulse\.cn\/bluepulse-caption-server-front\/api\/.+\/user\/app-vip-info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/hyzm.js
+^https?:\/\/api\.boohee\.com\/app-interface\/.+\/user\/user_info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bohejiankang.js
+^https?:\/\/api\.expingworld\.com\/users url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/exping.js
+^https?:\/\/api\.getdailyart\.com\/api\/(subscription\/verified|auth\/login|check-logged) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/DailyArt.js
+^https?:\/\/api\.hechuangxinxi\.xyz\/api\/v\d\/(users|startup|ads) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/JavDB.js
+^https?:\/\/api\.hujuvod\.com\/(user\/personal\/information|app\/drama\/page) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/renrenshipin.js
+^https?:\/\/api\.mattingm\.com\/receipt_api\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yijiankoutu.js
+^https?:\/\/api\.meiease\.cn\/shop\/subscription\/(validate|apple\/purchases) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/picsart.js
+^https?:\/\/api\.mojidict\.com\/parse\/functions\/getNPrivileges url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mojics.js
+^https?:\/\/api\.open\.loveclip\.site\/UserInfo\/(UserPersonalCoreAsync|GetUserDetail) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ajj.js
+^https?:\/\/api\.polaxiong\.com\/.+\/payments\/(profiles\/.+\/subscription|appleiap\/receipts\/confirmation) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/pola.js
+^https?:\/\/api\.shuashuati\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/shuashuati.js
+^https?:\/\/api\.timetreeapp\.com\/.+\/user\/.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/TimeTree.js
+^https?:\/\/api\.trancy\.org\/1\/user\/profile url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/trancy.js
+^https?:\/\/api\.tuzhitong\.com\/api\/User\/GetUserVipInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tuzhitong.js
+^https?:\/\/api\.uaa\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/uua.js
+^https?:\/\/api\.yonekura\.cn\/.+\/uicommon\/getuser url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yonekura.js
+^https?:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/boom.js
+^https?:\/\/app\.yidiansz\.com\/api\/.+\/app\/user\/info?(.*?)*$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ydjl.js
+^https?:\/\/app\.yidiansz\.com\/api\/v\d\/(app\/user\/info|banner) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yuedujilu.js
+^https?:\/\/app\.yiyan\.art\/yiyan url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yiyan.js
+^https?:\/\/apps-api\.(lianaishouce|lingege)\.cn\/user\/(public\/login.*|getUserInfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ysgs.js
+^https?:\/\/appv2\.filmix\.com\.cn\/api\/v\d\/users url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/filmix.js
+^https?:\/\/asia\.gikken\.co\/matesync\/(subscription|login|register_user|check_user) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mate.js
+^https?:\/\/backend\.getdrafts\.com\/api\/v\d\/verification\/(account_status|verify_receipt) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Drafts.js
+^https?:\/\/baimiao\.uzero\.cn\/api\/.+\/(appLaunchWithUser|getAnnouncement|checkLoginClient) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/baimiao.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/(verify_receipt|products)\/remove_ads$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Wall.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Wall.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/iTunes.js
+^https?:\/\/bzpp2\.iwzbz\.com\/api\/.+\/(user\/getvipinfo|User\/getWXPW) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wenzhenpaipan.js
+^https?:\/\/calendar\.aiyohoo\.com\/api\/.+\/(user\/device|calendar\/dev_auth) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/rljq.js
+^https?:\/\/cdn-bm\.camera360\.com\/api\/(mix\/(getinfo|purchase|recovery)|iap\/check-receipt) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mix.js
+^https?:\/\/closet\.jinjian\.tech\/api\/v\d\/(users\/profile|apple_app_store\/resolve_receipt|payments\/orders\/sync_from_apple_app_store) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjyc.js
+^https?:\/\/cn\.czur\.cc\/api\/.+\/User\/info?(.*?) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjsm.js
+^https?:\/\/content\.xiuxiu\.kuvcd\.com\/api\/v1\/cherry\/member\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/NMVCD.js
+^https?:\/\/content\.xiuxiu\.kuvcd\.com\/api\/v1\/lemon\/member\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/NMVCD.js
+^https?:\/\/content\.xiuxiu\.kuvcd\.com\/api\/v1\/member\/member\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/NMVCD.js
+^https?:\/\/content\.xiuxiu\.kuvcd\.com\/api\/v1\/onion\/member\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/NMVCD.js
+^https?:\/\/creaceed\.com\/apis\/appstore\/verifyreceipt url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Hydra.js
+^https?:\/\/cubox\.(pro|cc)\/.+\/api\/userInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Cb.js
+^https?:\/\/d1hzbu30hrhkoe\.cloudfront\.net\/mobile\/verify\/ios url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/RainViewer.js
+^https?:\/\/dashen.*\.shuiyinyu\.com\/.+\/user\/get_user_info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dssy.js
+^https?:\/\/day-api\.xixitime\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dsjnr.js
+^https?:\/\/diary-id\.sumi\.io\/api\/profile url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/gezhi.js
+^https?:\/\/dj\.palmestore\.com\/zyuc\/api\/user\/accountInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dejianxiaoshuo.js
+^https?:\/\/drive.*\.quark\.cn\/.+\/clouddrive\/(member.+|distribute\/detail.+|capacity\/growth\/info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/kuake.js
+^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjhl.js
+^https?:\/\/film-api\.startupfun\.vip\/api\/v\d\/(wallpaper\/generator|user\/point\/info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tjzs.js
+^https?:\/\/firstclass\.tripsy\.app\/api\/.+\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tripsy.js
+^https?:\/\/firstclass\.tripsy\.app\/api\/v\d\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Tripsy.js
+^https?:\/\/ggs\.manmeng168\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fanshuxiaoshuo.js
+^https?:\/\/guapi\.liangjihui\.com\/(front\/(quote\/look.+|user\/memberInfo)|api) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/liangjihui.js
+^https?:\/\/i\.at\.qq\.com\/pay\/memberinfo.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wxts.js
+^https?:\/\/iap\.etm\.tech\/receipts url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Collart.js
+^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/User url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zjsg.js
+^https?:\/\/integral2\.dasyibalang\.com\/.+\/User url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zjsg.js
+^https?:\/\/ios\.bugly\.qq\.com url reject-200
+^https?:\/\/iosapi\.peiyinxiu\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/peiyinxiu.js
+^https?:\/\/jz\.jarstones\.com\/api url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yifeijizhang.js
+^https?:\/\/jz\.wacai\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wacaijizhang.js
+^https?:\/\/jz\.wacaijizhang\.com\/(api\/(my\/v\d|vipmember\/v\d\/index|usercenter\/userInfo)|jz-activity\/bkk-frontier\/api\/vipmember\/v\d\/index) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wacaijizhang.js
+^https?:\/\/kc\.xinli001\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mingxiangxingqiu.js
+^https?:\/\/kkr-user\.tapque\.com\/kkruserapi\/userOrderInfo\/isVip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/aituhuihua.js
+^https?:\/\/koan\.bopulab\.cn\/(user\/getBriefByUserIdV3|payment\/iosIap\/receipt) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/koan.js
+^https?:\/\/kongque\.twan\.cn\/index.+\/admin\/appberrycustomer.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xiaoshishang.js
+^https?:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Ps.js
+^https?:\/\/lepai-api\.faceqianyan\.com\/(apple\/product|account\/profile|faceFusion|toolCollection) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/lepai.js
+^https?:\/\/license\.pdfexpert\.com\/api\/.+\/calendarslite\/subscription\/refresh url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/calendars.js
+^https?:\/\/ljh\.dianxiaoman\.com\/ljh\/api\/home\/getHomeList url reject
+^https?:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/embycrack.js
+^https?:\/\/meitu\.minecaller\.com\/api\/users url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tuqu.js
+^https?:\/\/mhjk\.1391\.com url reject-200
+^https?:\/\/mi\.gdt\.qq\.com url reject-200
+^https?:\/\/mobads\.baidu\.com url reject-200
+^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt\/(.*?) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/AdGuard.js
+^https?:\/\/mobile-new\.chinaeew\.cn\/v\d\/order\/apple\/vip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/dzyj.js
+^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad url reject
+^https?:\/\/mobileapp\.wuyamusic\.com\/playmusic-app-server-400\/(vip\/user\/list.+|music\/score\/get2.+|choose\/getmusic|api|app\/swiper) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bandeng.js
+^https?:\/\/moyin-gateway\.moyin\.com\/moyin-account\/v\d\/vip\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mygf.js
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
+^https?:\/\/nice\.fingervide^https?:\/\/.*\.zhuishushenqi\.com\/(user|charge\/voice\/state|pay\/products|advert_center|push\/pop-config|book\/recommend-pop|api|video\/adConfig|book\/bookshelf.*|activity\/popup\/scenes\/init) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zhuishushenqi.js
+^https?:\/\/nice\.fingervideo\.cn\/vision-video-service\/api\/(login|user\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/meilixiu.js
+^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+^https?:\/\/novel\.test\.onedayapp\.cn\/login\/sync.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yitianyuedu.js
+^https?:\/\/open3\.vistastory\.com\/v\d\/api\/(vip|my\/home\/get_home_center|user/pendant|poster\/share_poster|adm\/get_popup_ad|index\/loading_ad) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Vista.js
+^https?:\/\/open\.e\.kuaishou\.com url reject-200
+^https?:\/\/opencloud\.wostore\.cn url reject-200
+^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wywnds.js
+^https?:\/\/pan\.baidu\.com\/(youai\/(user\/.+\/getminfo|membership\/.+\/adswitch)|(rest\/.+\/membership\/user|act\/.+\/(bchannel|welfare)\/list|api\/usercfg)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdcloud.js
+^https?:\/\/pay\.kuso\.xyz\/pay\/pay-check url reject-200
+^https?:\/\/pebblefan\.com\/papi\/get_users? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/BLM.js
+^https?:\/\/play\.wo1wan\.com\/nextgame\/igwuser\/userinfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/changwan.js
+^https?:\/\/purchase-soda-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/soda.js
+^https?:\/\/receipt-verifier\.cdwapi\.com\/receipt url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Pixelup.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/nicegram.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/chxm1023/Rewrite/main/Nicegram.js
+^https?:\/\/revenuecat-cn\.fastools\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/chxm1023/Rewrite/main/aiyufa.js
+^https?:\/\/revenuecat-cn\.fastools\.cn\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/aiyufa.js
+^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
+^https?:\/\/schedule-api\.julanling\.com\/api\/(get_member_info|vip_detail) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/paibanrili.js
+^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Syjsq.js
+^https?:\/\/screen-lock\.(sm-check|51wnl-cq)\.com\/userApi\/saveUser.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/bdsp.js
+^https?:\/\/sdk\.e\.qq\.com url reject-200
+^https?:\/\/server\.(yoyiapp|zbisq)\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
+^https?:\/\/service\.ilovepdf\.com\/.+\/user url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ilove.js
+^https?:\/\/service\.perfect365\.com\/svr\/perfect365\/services url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Perfect365.js
+^https?:\/\/snailsleep\.net\/snail\/v\d\/profile\/get.+ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/woniushuimian.js
+^https?:\/\/social-api-public\.lemurbrowser\.com\/api\/payment\/getVIPInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/hhllq.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https?:\/\/ssl-api\.itranslateapp\.com\/accounts\/.+\/(subscriptions\/verify|marketing\/consent\/status) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/itranslate.js
+^https?:\/\/subscription-api\.lyrebirdstudio\.net\/subscriptions\/apple\/(verify|status|decode-apple-receipt) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/FaceLab.js
+^https?:\/\/tcb-api\.tencentcloudapi\.com\/web url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/miaojiexi.js
+^https?:\/\/tk\.lanjiyin\.com\.cn\/img url reject
+^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/widgets.js
+^https?:\/\/translator\.felo\.me\/api\/plan\/current url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Felo.js
+^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/snow.js
+^https?:\/\/viart-api\.afunapp\.com\/photodance\/(user_api\/(get_user_info|visitor_login)|order_api\/apple_query) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/photodance.js
+^https?:\/\/vpic\.cms\.qq\.com\/nj_vpic\/.+ url reject
+^https?:\/\/widget-box-api\.codefuture\.top\/.+\/users\/me url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xzjhz.js
+^https?:\/\/www2\.tigeroom\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zpqlds.js
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(user.*\/getInfo|guideScenic) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ltsst.js
+^https?:\/\/www\.dbbqb\.com\/api\/(refresh\/token|login|sms\/register|user\/expire|orderForm) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ddbqb.js
+^https?:\/\/www\.freshhome\.top url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/rq.js
+^https?:\/\/www\.fuyoutech\.club\/magworld\/member\/status url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zztx.js
+^https?:\/\/www\.huojiwangluo\.cn\/ting\/user\/.* url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tingshuzhushou.js
+^https?:\/\/www\.skyjos\.cn url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/mtywj.js
+^https?:\/\/www\.xiaomaigongkao\.com\/AppApi\/(vip|StartPage\/welcome|Member\/indexHangingWindow|Course\/(curriculum|details)) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xiaomaizaixian.js
+^https?:\/\/www\.xmind\.(cn|net|app)\/.+\/devices url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
+^https?:\/\/xianbeikeji\.com\/daily\/app\/user\/query url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xxg.js
+^https?:\/\/yeguo\.236api\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yeguoyuedu.js
+^https?:\/\/yimuapp\.com:8082\/bookkeeping\/user\/getUserInfoById url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/yimujizhang.js
+^https?:\/\/yopu\.co\/api\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/youpume.js
+^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage url reject-200
+^https?:\/\/zwpp\.wzbz123\.com\/api\/.+\/user\/getzwvipinfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jzzwds.js
+^https?:\/\/zy6kcqa01a\.execute-api\.us-east-2\.amazonaws\.com\/prod\/verifyReceipt url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Hyperweb.js
+http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/zhfqjt.js
+http:\/\/api\.chuangqi\.store\/ url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/gkbb.js
+http:\/\/format-api\.netpock\.com\/api\/user_info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/gszh.js
+http:\/\/iosv2\.cjapi\.5fun\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wfzy.js
+http:\/\/wallpaper\.jingqueyun\.com\/\/index\.php\/\/(user\/getUserInfo|download) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xxbzdq.js
+http:\/\/www\.kkmop\.com\/vipMsg1 url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/suishouxie.js
+https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Snipd.js
+https://app.yinxiang.com/third/profile/public/restful/public-user-profile? url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/saomiaobao.js
+https://app.yinxiang.com/third/scanner/scanner/app/userInfo/get url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/saomiaobao2.js
+https?:\/\/(api|www)\.hunliji\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/hlj.js
+https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/baozouptu.js
+https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/qifu.js
+https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
+https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject-dict
+https?:\/\/water.*\.yunxiaoguo\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/shuiyin.js
+https?:\/\/www\.luqijianggushi\.com\/api url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/luqijianggushi.js

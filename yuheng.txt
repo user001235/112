@@ -1,0 +1,18 @@
+https?:\/\/91porn\.com(\/|)$ url 302 https://91porn.com/index.php
+https?:\/\/91porn\.com\/(index|view_video|login|search_result)\.php url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/91porn.js
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/m_game\/((game|ad)_(history_)?list|leaderboard|alert_configs) url reject-200
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/m_(giftpack|coin) url reject-200
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/m_sns\/(greet|posts) url reject-200
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/common\/homepage\/official_website_popup url reject-200
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/(m_)?(user|sns|common)\/(info|film\/home_recommend_list|short_video|splash_config|top_navigation_category_list) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/BodyBMI365.js
+^https?:\/\/((h5|(app)?api).\w+.(fun|site|ltd|life|com|net|info|live)(\/apis)?)\/m_sns\/(film\/film_detail|video\/apply_play_permission) url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/BodyBMI365.js
+^https:\/\/(api\.m|me-api)\.jd\.com\/api\?functionId=GetJDUserInfoUnionForJD url script-request-header https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/jdck-ql.js
+^https?:\/\/(?:musicpay|nmobi|anymatch|vip1|audiobookpay|tingshu)\.kuwo\.cn\/(?:music\.pay\?newver=\d+|mobi.s\?f=kwxs|vip\/(?:enc\/user\/vip\?op=ui&uid=|v2\/theme\?op=gd)|a\.p|v2\/api\/pay\/user\/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/kuwo.js
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get url reject-200
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(mine\/collect\/header\/info|v\d\/user\/detail\/\d+|vipnewcenter\/app\/resource\/newaccountpage|music-vip-membership\/client\/vip\/info|batch|playlist\/privilege|search\/complex\/page|v\d\/(discovery\/recommend\/songs|playlist\/detail)) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js
+^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(song\/enhance\/player\/url\/v\d|vipauth\/app\/auth\/query) url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js
+^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
+^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfo url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/tidal.js
+https?:\/\/(dp16dx\.lgmufoix8f2\.net|.*(pps\d+|qzjhn)\.com)(\/|)$ url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/zfzn.js
+https?:\/\/(dp16dx\.lgmufoix8f2\.net|.*(pps\d+|qzjhn)\.com)\/java\/(index\/game|user\/my) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/zfzn.js
+https?:\/\/(dp16dx\.lgmufoix8f2\.net|.*(pps\d+|qzjhn)\.com)\/java\/show\/\d+ url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/zfzn.js

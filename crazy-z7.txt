@@ -1,0 +1,54 @@
+^https?:\/\/mobile-api\.adguard\.org\/api\/2\.0\/ios_validate_receipt\/ADG_EXT url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/AdGuard.js
+^https?:\/\/api\.open\.loveclip\.site\/UserInfo\/(UserPersonalCoreAsync|GetUserDetail) url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/ajj.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-echo-response https://raw.githubusercontent.com/Crazy-Z7/Script/main/aptv.js
+#^http[s]:\/\/(.*.kuwo.cn) url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/bdyy.js
+^http:\/\/voicechanger\.szsszykj\.com\/interface\/GetIosVip\.php url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/bsq.js
+#^https?:\/\/(.*.*.)\/users\/me url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Busuu.js
+^https?:\/\/gateway\.caixin\.com\/api\/app\-api\/auth\/(validate|validateAudioAuth|groupImageValidate) url script-request-header https://raw.githubusercontent.com/Crazy-Z7/Script/main/caixin.js
+^https?:\/\/pcbe\.perigee\.se\/api\/v1\/buyers\/*\/subscription* url reject
+^https?:\/\/buy\.videoshowiosglobalserver\.com\/zone/1.0.1/iosPayClient\/imeiVerify\.htm url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Dspt.js
+^https?:\/\/pcbe\.perigee\.se\/api\/v1\/verify-purchases url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Cycles.js
+^https?:\/\/securetoken\.googleapis\.com\/v1\/token url reject-200
+^https?:\/\/apis\.videoshowiosglobalserver\.com\/zone\/1\.0\.1\/iosPayClient\/payVerify\.htm url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Lp.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Emoji.js
+^https:\/\/api\.guoqi365\.com\/1\.1\/functions\/getUserInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/guoql.js
+^https?:\/\/hcrdxgame\.dcatgame\.com\/data-manager\/login url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Hcrdx.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/hsyt.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-echo-response https://raw.githubusercontent.com/Crazy-Z7/Script/main/Httpbot.js
+^https?:\/\/api\.revenuecat\.com/v\d/(subscribers/(\$RCAnonymousID\%)?(\w)+|receipts)$ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/hywz.js
+^https:\/\/fcmtoken\.googleapis\.com\/register url reject-200
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/iScreen.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
+^https:\/\/wx-game\.17zjh\.com\/user\/login url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/jdsgg.js
+^https?:\/\/cn-ios-buy\.enjoy-mobi\.com\/zone\/1.0.1\/iosPayClient\/payVerify\.htm url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Lexiu.js
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/user\/getInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/ltsst.js
+^https?:\/\/api\.feihua100\.com url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/mdags.js
+^https:\/\/namibox\.com url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/namihe.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/pandora.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Pmjx.js
+^https:\/\/api\.hcreator\.cn\/wapsPay\/Login\/pthTest\/v3\/getInfo\.do url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/pthcs.js
+^https?:\/\/ad\.rhinox\.cn url reject-200
+^https?:\/\/appss\.rhinoxlab\.com\/app\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/pzst.js
+^https:\/\/game\.17tcw\.com\/default\/login\/reqLogin url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/qnjijia.js
+^http:\/\/api\.saladvideo\.com\/app\/v1\/user url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/slsp.js
+^https?:\/\/api\.verv\.com\/v4\/pup url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/smcmq.js
+^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Soul.js
+^https?:\/\/admin\.tieniupro\.com\/rest\/getUserById url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/tnaj.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Tpsq.js
+^https?:\/\/www\.mymorpholio\.com\/api\/index\.php\/rest_iap\/receipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Trace.js
+^https?:\/\/api\.adapty\.io\/api\/v1\/sdk\/in-apps\/apple\/receipt\/validate\/ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Watch.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/water.js
+^https:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/wink.js 
+^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/wsgj.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Wxs.js
+^https:\/\/wx-bingdu\.lanfeitech\.com\/api\/archive\/get url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/xmbd.js
+^https:\/\/api\.xgamevip\.com\/api\/v1\/getUserData url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/ybcr.js
+^https?:\/\/bookapi\.ellabook\.cn\/rest\/api\/service url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/ylks.js
+^https?:\/\/api\.everjournal\.life\/users\/\d+\/ url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Ywn.js
+^https?:\/\/v2-client\.suishenyun\.cn\/api\/auth\/sign\/userinfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/zhwnl.js
+^https?:\/\/api\.ilikemanga\.com\/request\.php url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/zzmh.js
+https?:\/\/pay\.kuso\.xyz\/pay\/pay-check url reject-200
+https://service.hhdd.com/story2/getCollectItems.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
+https://course-service.hhdd.com/course/mix/info2.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
+https://service.hhdd.com/book2/info1.json url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/KaDaVip.js
+http://iosv2.cjapi.5fun.com/user/ios_store_pay_edition/members_login/get_member_info url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/wfqw.js

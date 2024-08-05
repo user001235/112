@@ -1,0 +1,10 @@
+host,updates.cdn-apple.com,reject
+host,updates-http.cdn-apple.com,reject
+host,ns.itunes.apple.com,reject
+host,gs.apple.com,reject
+host,gg.apple.com,reject
+host,appldnld.apple.com,reject
+host,appldnld.apple.com.edgesuite.net,reject
+host,gdmf.apple.com,reject
+host,xp.apple.com,reject
+host,mesu.apple.com,reject

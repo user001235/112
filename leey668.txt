@@ -1,0 +1,20 @@
+^http:\/\/tim\.static-economist\.com\/discover url reject
+^https:\/\/api\.hangxing123\.top\/drone\/userInfo\/v2 url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/simuflight.js
+^https:\/\/api\.hummingbird\.businessreview\.global\/api\/subscriptions\/get_active url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/br.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/(.+)\/offerings url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/context.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/(.+)\/offerings url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/ffxj.js
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers\/(.+)\/offerings url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/limicam.js
+^https:\/\/dqbam2jv6gg9m\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/ft.js
+^https:\/\/glass\.photo\/api\/(v2\/users\/[0-9a-zA-Z-]+$|v1\/account$|v3\/token$) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/glass.js
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/leey668/pyer/main/gn6.js
+^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/gn6.js
+^https:\/\/main-sciam-nature\.content\.pugpig\.com\/subs\/(itunes_store|pianomediaoauth_subs)\/verify_subscription url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/sa.js
+^https:\/\/members-data-api\.theguardian\.com\/user-attributes\/me url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/theguardian.js
+^https:\/\/mobapi\.bloomberg\.com\/wssmobile\/v1\/user\/subscription url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/bloomberg.js
+^https:\/\/umeecorn\.com\/notebook\/(loginedUser\/(info|tier|balance)|user\/(login|loginApple)) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/notebook.js
+^https:\/\/xapi\.xinmanhua\.net\/(chapters\/\d+\/isreadable|member|worksinfos\/\d+\?) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/xinmanhua.js
+^https:\/\/xapi\.xinmanhua\.net\/splashgroups url reject-dict
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-request-header https://raw.githubusercontent.com/leey668/pyer/main/procamera.js
+^https?:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/?(.*?)*$) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/procamera.js
+https:\/\/api\.neuralprisma\.com\/receipt\/ios\/(upload|status\/prisma\/) url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/prisma.js
+https:\/\/nymfapp\.com\/api\/photos url script-response-body https://raw.githubusercontent.com/leey668/pyer/main/nymf.js

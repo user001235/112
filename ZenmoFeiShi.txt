@@ -1,0 +1,105 @@
+^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
+^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+^http:\/\/.+\/resolve url reject
+^https:\/\/(?:api\.iqiyi\.com\/3f4\/)?iface2\.iqiyi\.com\/(?:aggregate|views_pop)\/\d\.\d\/(?:siri_suggest|pop_control) url reject-dict
+^https:\/\/.+\.iqiyi\.com\/mixer url reject-dict
+^https:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/ url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/PPX.js
+^https:\/\/.+\.pipix\.com\/bds\/user\/check_in\/ url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/PPX.js
+^https:\/\/47\.110\.187\.87\/winterfell\/(?:v2\/)?getIpByDomain url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-a\.soulapp\.cn\/official\/scene\/module url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-a\.soulapp\.cn\/v2\/post\/gift\/list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-account\.soulapp\.cn\/teenager\/config url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-chat\.soulapp\.cn\/chat\/entrance\/first url reject-dict
+^https:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
+^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
+^https:\/\/api\.coolapk\.com\/v6\/page\/dataList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
+^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
+^https:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
+^https:\/\/api\.gotokeep\.com\/messenger\/v\d\/conversations\/unread url reject-dict
+^https:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad\/preload url reject-dict
+^https:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list url reject-dict
+^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list url reject-dict
+^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotHashtag\/list url reject-dict
+^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list url reject-dict
+^https:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v1\/other\/pGetSceneList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
+^https:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/app-api\.smzdm\.com\/util\/update url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/(bbsallapi\/tag\/v1\/heatTag|bbsrankapi\/v1\/rating\/list) url reject-dict
+^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/HP.js
+^https:\/\/cards\.iqiyi\.com\/(waterfall|views_(search|category|home)\/3\.0\/(hot_query_search|category_home|feed|qy_home)|views_plt\/3\.0\/player_tabs_v2) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
+^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow url reject-dict
+^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/bms\/queryRecommend url reject-dict
+^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList url reject-dict
+^https:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 url reject-200
+^https:\/\/cl-gateway\.tuhu\.cn\/cl-common-api\/api\/personalCenter\/getAutoSuperConfig url reject-dict
+^https:\/\/cl-gateway\.tuhu\.cn\/cl-common-api\/api\/personalCenter\/getCmsModuleList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TH.js
+^https:\/\/cl-gateway\.tuhu\.cn\/cl-shop-api\/shopTab\/getModuleForC url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TH.js
+^https:\/\/comment-card\.iqiyi\.com\/views_comment\/3\.0\/long_video_comments url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
+^https:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
+^https:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf url reject-dict
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/core url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
+^https:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/other\/fast url reject-dict
+^https:\/\/conf\.diditaxi\.com\.cn\/ota\/na\/yuantu\/infoList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
+^https:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds url reject-dict
+^https:\/\/daijia\.kuaidadi\.com:443\/gateway url reject-dict
+^https:\/\/daijia\.kuaidadi\.com\/gateway url reject-dict
+^https:\/\/fairy\.mobileapi\.hupu\.com\/gallery\/getmod2 url reject-200
+^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/HP.js
+^https:\/\/freight\.xiaojukeji\.com\/gateway url reject-dict
+^https:\/\/games\.mobileapi\.hupu\.com\/3\/8\.0\.86\/bplapi\/banner\/getLocationBanners url reject-dict
+^https:\/\/games\.mobileapi\.hupu\.com\/3\/8\.0\.86\/bplcommentapi\/bpl\/score_tab\/groups url reject-dict
+^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/reddot\/v1\/app\/getReddot url reject-dict
+^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/HP.js
+^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/HP.js
+^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/search\/v2\/(hintkeylist|hotkeylist) url reject-dict
+^https:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/goblin\.hupu\.com\/\d\/\d\.\d\.\d+\/interfaceAd\/getOther\/batch url reject-dict
+^https:\/\/goblin\.hupu\.com\/\d\/\d\.\d\.\d+\/interfaceAd\/getOther\/v\d url reject-dict
+^https:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other_modul|wiki_related_modul)|^https:\/\/s3\.zdmimg\.com\/third\/index|^https:\/\/app-api\.smzdm\.com\/util\/loading url reject-dict
+^https:\/\/homepage-api\.smzdm\.com\/v3\/home url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/iface2\.iqiyi\.com\/aggregate\/3\.0\/getMyMenus url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
+^https:\/\/iface2\.iqiyi\.com\/views\/3\.0\/(home_top_menu|bottom_theme) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
+^https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject-dict
+^https:\/\/mkt-gateway\.tuhu\.cn\/mkt-cms\/circle\/recommend\/v3 url reject-dict
+^https:\/\/mkt-gateway\.tuhu\.cn\/mkt-push-message-box\/banner\/cms\/getIndexBanner url reject-dict
+^https:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme url reject-dict
+^https:\/\/mkt-gateway\.tuhu\.cn\/mlp-product-search-api\/search\/helper\/defaultAndHotWord url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/common-app-api\/api\/passenger\/v1\/getCardInfo url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v1\/ad\/getNotices url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v1\/resource\/getTripRemind url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v3\/resource\/bottom url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/notoken\/api\/v1\/resource\/getPageSceneListData url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/notoken\/api\/v\d\/ad\/getActivityPopup url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/T3.js
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/notoken\/api\/v\d\/ad\/getNegativescreen url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/T3.js
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/notoken\/api\/v\d\/ad\/getNotices url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/T3.js
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/notoken\/api\/v\d\/resourceLocation\/floating url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/T3.js
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-app-api\/notoken\/api\/home\/v\d\/leftmenu url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/solution-passenger-api\/notoken\/trip\/api\/solution\/passenger\/open\/getHomeMenuList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/T3.js
+^https:\/\/play\.wo1wan\.com\/nextgame\/igwuser\/(userinfo|useropeninfo) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Cwkj.js
+^https:\/\/post\.m\.smzdm\.com\/ajax_app\/ajax_get_footer_list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/post\.soulapp\.cn\/hot\/soul\/rank url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/post\.soulapp\.cn\/v2\/post\/recSquare\/subTabs url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
+^https:\/\/qianbao\.smzdm\.com\/v\d\/app\/home url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
+^https:\/\/res\.xiaojukeji\.com\/resapi\/activity\/xpget url reject-dict
+^https:\/\/s3\.zdmimg\.com\/third\/index url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/ssp\.soulapp\.cn\/api\/q url reject-dict
+^https:\/\/tieba\.baidu\.com\/c\/f\/frs\/frsBottom url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TB.js
+^https:\/\/tiebac\.baidu\.com\/c\/f\/forum\/forumGuide url reject-dict
+^https:\/\/tiebac\.baidu\.com\/c\/f\/search\/discover url reject-dict
+^https:\/\/tiebac\.baidu\.com\/c\/f\/sidebar\/home url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TB.js
+^https:\/\/tiebac\.baidu\.com\/c\/u\/user\/profile url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TB.js 
+^https:\/\/tiebac\.baidu\.com\/livefeed\/feed url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/TB.js
+^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList url reject-dict
+^https:\/\/user-api\.smzdm\.com\/vip url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
+^https?:\/\/api\.iqiyi\.com\/3f4\/(cards\.iqiyi\.com\/views_search\/3\.0\/hot_query_search|iface2\.iqiyi\.com\/(views\/3\.0\/(home_top_menu|bottom_theme)|views_pop\/3\.0\/pop_home\/1|aggregate\/3\.0\/getMyMenus)) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
+https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
+https?:\/\/search\.video\.(?:iqiyi|qiyi)\.com\/q url reject-dict
