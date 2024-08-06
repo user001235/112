@@ -3,7 +3,6 @@
 DOMAIN, ad.iot.360.cn, REJECT
 DOMAIN, ad.jia.360.cn, REJECT
 DOMAIN, ad.iot.360.cn, REJECT
-DOMAIN, app.tubemaxapp.com, PROXY
 DOMAIN, dns.jd.com, REJECT
 DOMAIN, wxsnsdy.wxs.qq.com, REJECT
 DOMAIN, wxsnsdythumb.wxs.qq.com, REJECT
@@ -880,15 +879,6 @@ DOMAIN-SUFFIX, applovin.com, REJECT
 DOMAIN-SUFFIX, appier.net, REJECT
 DOMAIN-SUFFIX, adsmoloco.com, REJECT
 DOMAIN-SUFFIX, adcanvas.com, REJECT
-DOMAIN-SUFFIX, bing.com, PROXY
-DOMAIN-SUFFIX, bing.com.cn, PROXY
-DOMAIN-SUFFIX, bing.net, PROXY
-DOMAIN-SUFFIX, bingads.com, PROXY
-DOMAIN-SUFFIX, bingagencyawards.com, PROXY
-DOMAIN-SUFFIX, bingapistatistics.com, PROXY
-DOMAIN-SUFFIX, bingsandbox.com, PROXY
-DOMAIN-SUFFIX, bingvisualsearch.com, PROXY
-DOMAIN-SUFFIX, bingworld.com, PROXY
 DOMAIN-SUFFIX, imtmp.net, REJECT
 DOMAIN-SUFFIX, gdt.qq.com, REJECT
 DOMAIN-SUFFIX, l.qq.com, REJECT
