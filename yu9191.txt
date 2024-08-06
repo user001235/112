@@ -405,4 +405,3 @@ https:\/\/wapi\.zhongzhenjiaoyu\.com\/zy\/(begin|video_list)\.php url script-res
 https:\/\/www\.huojiwangluo.cn\/ting\/user\/(get|anonylogin) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/tingshuzhushou.js
 https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|vip|index) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js
 https?:\/\/api\.liangshiyaji\.cn\/(mobile\/Wexin\/customerCenterAppNew|api\/Strict\/getStrictDetails|api\/user\/CgetUserInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsyj.js
-https?:\/\/api\.posters\.meitu\.com\/matting\/znxc\.json  url script-response-body https://raw.githubusercontent.com/Yu9191/Script/main/mtxx2.js
