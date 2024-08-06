@@ -1,5 +1,6 @@
 10086.cn
 123456.al
+tieba-ares.cdn.bcebos.com
 123pan.com
 126.com
 126.net
