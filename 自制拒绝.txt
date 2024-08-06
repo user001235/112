@@ -1,4 +1,7 @@
-
+host,osuspider.yuanshen.com
+host,syly.3dmgame.com
+host,fc.3dmgame.com
+host,a1.alibabausercontent.com
 host,4399logs.4399doc.com
 host,a6-remad.qm989.com
 host,abplatform.yumchina.com
