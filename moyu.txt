@@ -764,6 +764,18 @@ http://ipadcms.caixin.com/tmp/articles url script-response-body https://github.c
 http:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url response-body vipType": 0 response-body vipType": 1024
 ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://github.com/ddgksf2013/dev/raw/main/BybutterProCrack.js
 ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://github.com/ddgksf2013/dev/raw/main/TopwidgetsProCrack.js
-#^https:\/\/(vas|account)\.wps\.cn\/(query\/api\/v\d\/list_purchase_info|api\/users\/\d+\/overview) url script-response-body https://raw.githubusercontent.com/510004015/Quantumult_X/Remote/Premium/WPSOffice.js
 ^https?:\/\/.*appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
 ^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://github.com/ddgksf2013/dev/raw/main/CamscannerProCrack.js
+^https?:\/\/2024.08.06/c326/v2.0.502 url reject-200
+^https?:\/\/api\.ireader\.mobi\/activity\/ad\/openScreen url reject-200
+^https?:\/\/biz\.cyapi\.cn\/v\d\/user url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/api\.caiyunapp\.com\/v\d\/activity url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/homefeatures url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/notification/message_center url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/config/cypage url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/feeds url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/banners url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/features url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/starplucker\.cyapi\.cn\/v\d/campaigns url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
+^https?:\/\/ad\.cyapi\.cn\/v\d url reject-200
