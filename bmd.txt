@@ -9,6 +9,11 @@ chatgpt.com
 dxycdn.com
 file.40017.cn
 fqnovelpic.com
+oss-cn-hangzhou.aliyuncs.com
+appsimg.com
+gcloudsvcs.com
+tencent-cloud.net
+gcloudgbs.com
 goofish.com
 izuiyou.com
 m.taobao.com
