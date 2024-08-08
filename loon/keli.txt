@@ -1044,8 +1044,6 @@ generic script-path = https://raw.githubusercontent.com/VirgilClyne/Cloudflare/m
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$ response-body-json-del pits[0].delivery_materials
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/app_mine\/resources$ response-body-json-del pits[2].delivery_materials
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/(templates|all_editor_tools)\/resources$ response-body-replace-regex "badge_img_url":"https:\/\/(gaoding-market|st\d)\.dancf\.com\/market-operations\/market\/side\/([a-z0-9]+\/)?\d+\.png", "badge_img_url":"",
-^https?:\/\/(www.)?(g|google)\.cn 302 https://www.google.com
-^https?:\/\/(ditu|maps).google\.cn 302 https://maps.google.com
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF reject
 ^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ reject
 ^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list reject
