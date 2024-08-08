@@ -1,6 +1,8 @@
 10086.cn
 123456.al
 17usoft.com
+pinduoduo.net
+spotifycdn.com
 alipayobjects.com
 api-bs.wtzw.com
 app-api.pixiv.net
