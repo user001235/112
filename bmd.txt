@@ -14,6 +14,7 @@ ctyunxs.cn
 pdc.micloud.xiaomi.net
 device-proxy.sec.xiaomi.com
 t1.g.mi.com
+pipix.com
 smallstrawberry.com
 sf0.market.xiaomi.com
 app.market.xiaomi.com
