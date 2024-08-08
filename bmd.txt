@@ -12,6 +12,9 @@ t1.g.mi.com
 sf0.market.xiaomi.com
 app.market.xiaomi.com
 api.twitter.com
+encrypted-tbn1.gstatic.com
+encrypted-tbn2.gstatic.com
+encrypted-tbn3.gstatic.com
 x.com
 doupay.com
 api.doupay.com
