@@ -6,6 +6,11 @@ tieba-ares.cdn.bcebos.com
 126.net
 m.v.wali.com
 browser.miui.com
+pddpic.com
+bdstatic.com
+migufun.com
+ctyun.cn
+ctyunxs.cn
 pdc.micloud.xiaomi.net
 device-proxy.sec.xiaomi.com
 t1.g.mi.com
@@ -14,6 +19,7 @@ app.market.xiaomi.com
 api.twitter.com
 encrypted-tbn1.gstatic.com
 encrypted-tbn2.gstatic.com
+api.twitter.com
 encrypted-tbn3.gstatic.com
 x.com
 doupay.com
@@ -21,7 +27,6 @@ api.doupay.com
 tp-pay.snssdk.com
 bytefae.com
 f-cpay.snssdk.com
-api.twitter.com
 163.com
 163jiasu.com
 17u.cn
