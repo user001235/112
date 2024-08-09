@@ -36,8 +36,6 @@ host,api-cfg.wtzw.com
 host,api-ipv6.zhipin.com
 host,api-kingdata.ksyun.com
 host,api-stat.veryeast.cn
-host,api.biliapi.com
-host,api.biliapi.net
 host,api.douban.com
 host,apidns.kwd.inkuai.com
 host,apilog.acfunchina.com
@@ -48,8 +46,6 @@ host,apm-native.xiaohongshu.com
 host,apm.gotokeep.com
 host,app-measurement.com
 host,app-statistics.edifier.com
-host,app.biliapi.com
-host,app.biliapi.net
 host,appad.longji.so
 host,appgoad.189.mixcdn.58cloud.com
 host,at-ipv6.pinduoduo.com
@@ -677,8 +673,6 @@ host-suffix,apexstats.com
 host-suffix,app-http-dns.ictun.com
 host-suffix,awemeughun.com
 host-suffix,baiduads.com
-host-suffix,biliapi.com
-host-suffix,biliapi.net
 host-suffix,biliexample.com
 host-suffix,biligame.com
 host-suffix,biligame.net
