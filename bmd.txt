@@ -14,6 +14,7 @@ fqnovelpic.com
 oss-cn-hangzhou.aliyuncs.com
 appsimg.com
 gcloudsvcs.com
+qiumibao.com
 tencent-cloud.net
 gcloudgbs.com
 goofish.com
