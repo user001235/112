@@ -157,6 +157,12 @@
 ^https?:\/\/game.dcgstd.cn\/api\/v1\/account\/init\/ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wxhcr.js
 ^https?:\/\/gongdu.youshu.cc\/m\/media\/media_info\? url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/ystk.js
 ^https?:\/\/gslbali\.ximalaya\.com url reject
+^https?:\/\/papi.xiaonandou.com.cn url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xnd.js
+^https?://papi\.xiaonandou\.com.cn/moria/assist/assistVipCheck url reject-dict
+^https?:\/\/user-kaji-api.b612kaji.com\/v1\/(purchase\/subscription\/subscriber\/status|purchase\/item\/user\/info) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/b612.js
+^https?:\/\/api.(revenuecat|account.meitu).com\/(v1\/subscribers|v1\/receipts|users\/show_current.json) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mzxj.js
+^https?:\/\/cocamapi.imendon.com\/v2\/(purchase\/(vip\/verification|receipt\/verify)|user\/profile) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/kkxt.js
+^https?:\/\/purchase-foodiecn-api.yiruikecorp.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/Foodie.js
 ^https?:\/\/hqfyg.5exg.cn\/translation\/getuserinfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/hqfyg.js
 ^https?:\/\/i.weread.qq.com\/(login|pay\/balance|user\/profile).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wxds.js
 ^https?:\/\/igetcool-gateway.igetcool.com\/(api\/product\/course\/option\/course\/audios|app-api-product|app-api-user-server).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/sndd.js

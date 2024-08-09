@@ -462,6 +462,7 @@
 ^https?:\/\/gg\.caixin\.com\/\?z=caixin&slot url reject-200
 ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362 url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caixinads.js
 ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&slot url reject-200
+^https?:\/\/ipadcms\.caixin\.com\/(api\/article\/getMagazineArticleList|tmp\/articles) url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/CaiXinZhouKanProCrack.js
 ^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType url reject-200
 ^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther url reject-200
 ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start url reject-200
@@ -735,7 +736,6 @@ https://yunmk.feidee.net/cab-market-ws/market/v2/contents url reject-dict
 https://zone.guiderank-app.com/guiderank-web/app/ad/listLaunchADByCity.do url reject-200
 https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-200
 https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) url reject-200
-https?:\/\/ipadcms\.caixin\.com\/tmp\/articles url script-response-body https://github.com/ddgksf2013/MoYu/raw/master/CaiXinZhouKanProCrack.js
 https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do url reject-200
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) url reject-200
 https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/zhangshanggongjiao.js
