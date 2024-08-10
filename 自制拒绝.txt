@@ -7,6 +7,7 @@ host,a6-remad.qm989.com
 host,abplatform.yumchina.com
 host,abvolcapi.douyucdn.cn
 host,adcdn6.tencentmusic.com
+host,tongji.qiumibao.com
 host,ads3-normal-lf.zijieapi.com
 host,ads5-normal-lf.zijieapi.com
 host,adservice.google.com
