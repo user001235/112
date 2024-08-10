@@ -558,7 +558,6 @@ host,tgp2p05-turn01.tange365.com
 host,tgp2p05-turn02.tange365.com
 host,th-b.pinduoduo.com
 host,tianshu.gtimg.cn
-host,tieba-ares.cdn.bcebos.com
 host,tl.statcounter.com
 host,tlog-emas.aliyuncs.com
 host,tmeadbak.y.qq.com
