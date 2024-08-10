@@ -375,7 +375,6 @@ click.discord.com
 click.taobao.com
 click.txn-email.account.sony.com
 client.wns.windows.com
-clientservices.googleapis.com
 cloud.tencent.com
 cloudapp.net
 cloudflareclient.com
@@ -427,7 +426,6 @@ ddplus-quic.meituan.net
 ddplus.meituan.net
 ddys.pro
 developers.google.com
-device-provisioning.googleapis.com
 dewmobile.net
 dfcfw.com
 dg.k.jd.com
@@ -484,8 +482,6 @@ facebook.com
 fanqienovel.com
 fastly.net
 fbcdn.net
-fcm.googleapis.com
-fcmtoken.googleapis.com
 feedback.xmpush.global.xiaomi.com
 feedback.xmpush.xiaomi.com
 fengkongcloud.com
@@ -493,7 +489,6 @@ file.xmpush.xiaomi.com
 finance-h5.sexytea2013.com
 fingerprint.soulapp.cn
 firebase.google.com
-firebaseinstallations.googleapis.com
 flowus.cn
 fqnovel.com
 fr.register.xmpush.global.xiaomi.com
@@ -526,14 +521,12 @@ gdmf.apple.com
 gdown.baidu.com
 gecko.zijieapi.com
 geetest.com
-geomobileservices-pa.googleapis.com
 gg.apple.com
 gitee.com
 gitee.io
 globalsign.com
 globalsign.com.tw
 globalsign.net
-gmscompliance-pa.googleapis.com
 go.trouter.skype.com
 go2yd.com
 google.co
@@ -619,7 +612,6 @@ iflow.uczzd.cn
 iflow.uczzd.com
 iflow.uczzd.com.cn
 iflow.uczzd.net
-iid.googleapis.com
 ilce.alicdn.com
 im.tieba.baidu.com
 image.quark.cn
@@ -674,7 +666,6 @@ jdcloud.com
 jianguoyun.com
 jiashule.com
 jihulab.com
-jnn-pa.googleapis.com
 jomodns.com
 jpushjd.m.jd.com
 jz.mcjoker.xyz
@@ -831,7 +822,6 @@ nleditor.osi.office.net
 nmobi.kuwo.cn
 note.youdao.com
 notice.chaoxing.com
-notifications-pa.googleapis.com
 ns.itunes.apple.com
 nt2.ele.me
 nuomiphp.com
@@ -848,7 +838,6 @@ opencdn.jomodns.com
 opencdnbdimgtn.jomodns.com
 openmobile.qq.com
 openspeech.cn
-optimizationguide-pa.googleapis.com
 oray.com
 oray.net
 org.com
@@ -872,7 +861,6 @@ pbaccess.video.qq.com
 pbs.twimg.com
 pcvideoaliyun.titan.mgtv.com
 pcvideomigu.titan.mgtv.cdn.cmvideo.cn
-people-pa.googleapis.com
 people.com.cn
 phicdn.net
 phonecallapi.micloud.xiaomi.net
@@ -987,7 +975,6 @@ sa6.tuisong.baidu.com
 sa7.tuisong.baidu.com
 sa8.tuisong.baidu.com
 sa9.tuisong.baidu.com
-safebrowsing.googleapis.com
 sagitta.meizu.com
 samsungknox.com
 sandbox.xmpush.xiaomi.com
@@ -1174,7 +1161,6 @@ update.miui.com
 updates-http.cdn-apple.com
 updates.cdn-apple.com
 userlink.alicdn.com
-userlocation.googleapis.com
 uxip-res.meizu.com
 uxip.meizu.com
 uz91.v.bsgslb.com
