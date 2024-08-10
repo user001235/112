@@ -10,14 +10,18 @@ dxy.com
 cloudflare.com
 mobile.ximalaya.com
 live.ximalaya.com
+qzonestyle.gtimg.cn
+oauthaccountmanager.googleapis.com
+inbox.google.com
+play.googleapis.com
 search.ximalaya.com
 passport.ximalaya.com
 wx.qlogo.cn
 tvax2.sinaimg.cn
 tva4.sinaimg.cn
 setup.icloud.com
-buy.itunes.apple.com
 itunes.apple.com
+buy.itunes.apple.com
 fpinit.itunes.apple.com
 tvax1.sinaimg.cn
 tvax3.sinaimg.cn
@@ -661,7 +665,6 @@ isure6.stream.qqmusic.qq.com
 iteye.com
 itop.qq.com
 itunes-apple.com
-itunes.apple.com
 itunes.apple.com.edgekey.net
 itunes.apple.com.mwcname.com
 iuni.telecome.cn
@@ -934,7 +937,6 @@ qunaer.com
 qunar.com
 quoracdn.net
 qwhdcdn.cmcc-cs.cn
-qzonestyle.gtimg.cn
 r.inews.qq.com
 rdelivery.qq.com
 rdt.tfogc.com
@@ -1098,7 +1100,6 @@ tcdn.qq.com
 teams.live.com
 teams.microsoft.com
 tencent-cloud.com
-tencent-cloud.net
 tencent.com
 tencentcloudapi.cn
 tencentcloudapi.com
