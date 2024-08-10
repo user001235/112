@@ -8,6 +8,7 @@ douban.com
 youku.com
 dxy.com
 cloudflare.com
+ele.me
 mobile.ximalaya.com
 live.ximalaya.com
 qzonestyle.gtimg.cn
