@@ -14,6 +14,12 @@ live.ximalaya.com
 qzonestyle.gtimg.cn
 oauthaccountmanager.googleapis.com
 inbox.google.com
+zhimg.com
+spotify.com
+soulapp.cn
+push.apple.com
+fabiaoqing.com
+aliyundrive.com
 play.googleapis.com
 search.ximalaya.com
 passport.ximalaya.com
@@ -882,7 +888,6 @@ pstatp.com
 public.gdtimg.com
 push-statics.meizu.com
 push.12306.cn
-push.apple.com
 push.douban.com
 push.gifshow.com
 push.it.10086.cn
