@@ -7,6 +7,7 @@ aliyuncs.com
 douban.com
 youku.com
 dxy.com
+mat1.gtimg.com
 cloudflare.com
 ele.me
 mobile.ximalaya.com
