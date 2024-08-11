@@ -9,6 +9,7 @@ business.apple.com
 cdn-apple.com
 gc.apple.com
 icloud-content.com
+support.apple.com
 icloud.apple.com
 icloud.com
 icloud.com.cn
