@@ -5,6 +5,14 @@ apple-mapkit.com
 apps-marketplace.apple.com
 apps.apple.com
 apzones.com
+js.40017.cn
+wx.17u.cn
+qcweb.qunar.com
+pay.qunar.com
+alsc-buy2.ele.me
+waimai-guide.ele.me
+huaban.com
+m.qq.com
 api-stream.twitter.com
 video.twimg.com
 business.apple.com
