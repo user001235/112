@@ -6,6 +6,7 @@ host,4399logs.4399doc.com
 host,a6-remad.qm989.com
 host,abplatform.yumchina.com
 host,abvolcapi.douyucdn.cn
+host,doh.dns.apple.com
 host,adcdn6.tencentmusic.com
 host,tongji.qiumibao.com
 host,ads3-normal-lf.zijieapi.com
