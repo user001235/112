@@ -1,3 +1,13 @@
+cloudfront.net
+amazon.cn
+amazon.com
+mail.google.com
+reddit.com
+quora.com
+google.com.hk
+boltdns.net
+upload.wikimedia.org
+ajax.cloudflare.com
 appattest.apple.com
 apple-cloudkit.com
 apple-livephotoskit.com
