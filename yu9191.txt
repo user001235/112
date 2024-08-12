@@ -269,7 +269,6 @@ https://metronome-api\.quthing\.com/(login/mobile|vip/state) url script-response
 https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/ticaiku.js
 https://miniapp.guniuniu.com/api/mini-app/user$ url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/ticaiku.js
 https://mobile-new.chinaeew.cn/v1/user/info url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/dzyj.js
-https://mobile-stream.api.mgtv.com/v1/video/source url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/mgtv.js
 https://mobile-stream.api.mgtv.com/v1/video/source? url script-request-header https://raw.githubusercontent.com/Yunxingz/Rewrite/main/MGTV.js
 https://ms.51wnl-cq.com/userApi/getUserDetai url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/zwj.js
 https://music.hjyywh.com/api/Exam. url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/yjkjb.js
@@ -277,7 +276,7 @@ https://my.getslopes.com/api/v2/account url script-response-body https://raw.git
 https://nicegram.cloud/api/v6/user/info url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/Nicegram.js
 https://nichousha.sjrjyffs.top/api/app/user/getCurrentInfo url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/GTP4o.js
 https://nichousha.sjrjyffs.top/api/img/aiSketch url script-request-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/GTP4ohd.js
-https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/mgtv.js
+https://nuc.api.mgtv.com/GetUserInfo url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/MGTV.js
 https://open3.vistastory.com/v3/api/article/article_detail2? url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/vistavip.js
 https://open3.vistastory.com/v3/api/featured/column/get_content? url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/vistavip.js
 https://open3.vistastory.com/v3/api/magazine url script-response-body https://raw.githubusercontent.com/Yunxingz/Rewrite/main/vistavip.js
