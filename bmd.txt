@@ -12,6 +12,8 @@ appattest.apple.com
 apple-cloudkit.com
 apple-livephotoskit.com
 apple-mapkit.com
+gist.github.com
+gist.githubusercontent.com
 apps-marketplace.apple.com
 apps.apple.com
 apzones.com

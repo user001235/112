@@ -24,6 +24,18 @@
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list url reject-dict
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotHashtag\/list url reject-dict
 ^https:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/goods\/back_up url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js
+^https:\/\/api\.pinduoduo\.com\/api\/brand-olay\/goods_detail\/bybt_guide url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/likes url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/my_order_group url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/new_chat_group url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/caterham\/v3\/query\/personal url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/engels\/reviews\/require\/append url reject-dict
+^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js
+^https:\/\/api\.pinduoduo\.com\/api\/philo\/personal\/hub url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Pinduoduo.js
+^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data url reject-dict
+^https:\/\/api\.pinduoduo\.com\/search_hotquery url reject-dict
 ^https:\/\/api\.udache\.com\/gulfstream\/pre-sale\/v1\/other\/pGetSceneList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Didichuxing.js
 ^https:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
 ^https:\/\/app-api\.smzdm\.com\/util\/update url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
@@ -71,6 +83,7 @@
 ^https:\/\/mkt-gateway\.tuhu\.cn\/mkt-scene-marketing-service\/api\/scene\/queryScheme url reject-dict
 ^https:\/\/mkt-gateway\.tuhu\.cn\/mlp-product-search-api\/search\/helper\/defaultAndHotWord url reject-dict
 ^https:\/\/passenger\.t3go\.cn(:\d+)?\/common-app-api\/api\/passenger\/v1\/getCardInfo url reject-dict
+^https:\/\/passenger\.t3go\.cn(:\d+)?\/open-app-api\/api\/intime\/push\/offline\/pull url reject-dict
 ^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v1\/ad\/getNotices url reject-dict
 ^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v1\/resource\/getTripRemind url reject-dict
 ^https:\/\/passenger\.t3go\.cn(:\d+)?\/passenger-activity-api\/api\/v3\/resource\/bottom url reject-dict
@@ -103,3 +116,4 @@
 ^https?:\/\/api\.iqiyi\.com\/3f4\/(cards\.iqiyi\.com\/views_search\/3\.0\/hot_query_search|iface2\.iqiyi\.com\/(views\/3\.0\/(home_top_menu|bottom_theme)|views_pop\/3\.0\/pop_home\/1|aggregate\/3\.0\/getMyMenus)) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
 https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 https?:\/\/search\.video\.(?:iqiyi|qiyi)\.com\/q url reject-dict
+
