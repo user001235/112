@@ -3,6 +3,12 @@ amazon.cn
 amazon.com
 mail.google.com
 reddit.com
+guzzoni.apple.com
+shopping.ele.me
+m.media-amazon.com
+ssl-images-amazon.com
+idv.tw
+hinet.net
 quora.com
 google.com.hk
 boltdns.net
@@ -84,7 +90,6 @@ gdmf.apple.com
 gg.apple.com
 gs.apple.com
 gsa.apple.com
-guzzoni.apple.com
 humb.apple.com
 icons.axm-usercontent-apple.com
 identity.apple.com
