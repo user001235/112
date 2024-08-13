@@ -84,7 +84,6 @@ host,cdn.wup.huya.com
 host,cdnfile.huya.com
 host,cdnfile1.msstatic.com
 host,cdnfile2.msstatic.com
-host,certs.apple.com
 host,cf.360stat.org
 host,channels1.mall.icbc.com.cn
 host,click.abchina.com
@@ -104,11 +103,6 @@ host,collector.github.com
 host,content-understand-strategy.sm.cn
 host,cos.ap-beijing.myqcloud.com
 host,crazyrope-clientlog.oss-cn-shanghai.aliyuncs.com
-host,crl.apple.com
-host,crl.entrust.net
-host,crl3.digicert.com
-host,crl4.digicert.com
-host,cssubmissions.apple.com
 host,cstatistics.baidu.com
 host,ctrace.sogaha.cn
 host,d1.k.126.net
@@ -140,7 +134,6 @@ host,detaillog-global.coolccloud.com
 host,detaillog-global.coolzcloud.com
 host,detaillog-sh-base.coolacloud.com
 host,detect-statistic.live.126.net
-host,diagassets.apple.com
 host,dimg04.c-ctrip.com
 host,diy-assets.msstatic.com
 host,diy-front.cdn.huya.com
@@ -170,7 +163,6 @@ host,es.statcounter.com
 host,etlog.happyelements.cn
 host,exam-statistics.kakamobi.cn
 host,face.t.sinajs.cn
-host,fba.apple.com
 host,fe-static-p1.xhscdn.com
 host,fe-static.xhscdn.com
 host,fe-video-qc.xhscdn.com
@@ -215,14 +207,13 @@ host,grs.hicloud.com
 host,grs.hihonorcloud.com
 host,gs.statcounter.com
 host,gstaticadssl.l.google.com
-host,guzzoni.apple.com
 host,h.trace.qq.com
 host,hd2.huya.com
 host,hdns.ksyun.com
 host,hellostats.xingqiu520.com
 host,hi.statcounter.com
 host,homefront.qunar.com
-host,host,dmapipv6.izuiyou.com
+host,dmapipv6.izuiyou.com
 host,hotfix-api.aliyuncs.com
 host,hotfix-service-prod.g.mi.com
 host,hotfix.api.weibo.cn
@@ -337,12 +328,9 @@ host,mapi.weibo.com
 host,market-fin.meituan.com
 host,mars.jd.com
 host,mask-api.fe.apple-dns.net
-host,mask-api.icloud.com
 host,mask-canary.icloud.com
-host,mask-h2.icloud.com
 host,mask-t.apple-dns.net
 host,mask.apple-dns.net
-host,mask.icloud.com
 host,mat-broker.hibixin.com
 host,mazutest.kf0309.3g.qq.com
 host,mbs.boc.cn
@@ -402,7 +390,6 @@ host,omgup2.xiaojukeji.com
 host,open.kwaizt.com
 host,openlog.taptap.com
 host,optimus-ads.amap.com
-host,orange-dc.alibaba.com
 host,ossgw.alicdn.com
 host,p2p-punch-v6.xxpkg.com
 host,p2p-punch.xxpkg.com
@@ -428,7 +415,6 @@ host,pgdt.gtimg.cn
 host,photolog.blog.naver.com
 host,pis-cnc-pcdn.youku.com
 host,platform-stat.hortorgames.com
-host,play.googleapis.com
 host,playlog.115.com
 host,plbslog.umeng.com.zs
 host,plog.qiumibao.com
@@ -621,7 +607,6 @@ host,use.adserver.snapads.com
 host,use1-register-appattest-prod-aws-prod.apple.com
 host,v-stats-play.huya.com
 host,v-upload.huya.com
-host,valid.apple.com
 host,vcover-vt-pic.puui.qpic.cn
 host,venus.douyucdn.cn
 host,vhs.wwstat.com
@@ -648,7 +633,6 @@ host,wup.imtt.qq.com
 host,wxminilog.etcp.cn
 host,xiaomi2.p2psy2.io.mi.com
 host,xlate.dcard.tw
-host,xp.apple.com
 host,xy-cdnfile1pcdn.msstatic.com
 host,xy-cdnfile1pcdn.msstatic.com.gslb.kuiniuca.com
 host,xy-fileserverpcdn.cdn.huya.com

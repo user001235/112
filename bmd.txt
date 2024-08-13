@@ -8,6 +8,11 @@ shopping.ele.me
 m.media-amazon.com
 ssl-images-amazon.com
 idv.tw
+orange-dc.alibaba.com
+sanguosha.cn
+hzyoka.com
+10010.com
+familyds.com
 hinet.net
 quora.com
 google.com.hk
