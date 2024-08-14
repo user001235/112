@@ -1,14 +1,9 @@
-host,osuspider.yuanshen.com
-host,syly.3dmgame.com
-host,fc.3dmgame.com
-host,a1.alibabausercontent.com
 host,4399logs.4399doc.com
+host,a1.alibabausercontent.com
 host,a6-remad.qm989.com
 host,abplatform.yumchina.com
 host,abvolcapi.douyucdn.cn
-host,doh.dns.apple.com
 host,adcdn6.tencentmusic.com
-host,tongji.qiumibao.com
 host,ads3-normal-lf.zijieapi.com
 host,ads5-normal-lf.zijieapi.com
 host,adservice.google.com
@@ -19,6 +14,7 @@ host,aegis.qq.com
 host,aim-stat.flyme.com
 host,al-vod.cdn.huya.com
 host,ali-stats.jpush.cn
+host,alimelog.taobao.com
 host,aliyuncoccdnct-hz.inter.iqiyi.com
 host,amdc.m.taobao.com
 host,animal-graylog.happyelements.cn
@@ -74,8 +70,8 @@ host,c.mcd.cn
 host,ca.iadsdk.apple.com
 host,ca.statcounter.com
 host,cacerts.digicert.com
-host,canary.mask.apple-dns.net
 host,catalog-public-service-prod.ak.epicgames.com
+host,catdot.dianping.com
 host,catfront.dianping.com
 host,cccimg.com
 host,cda.lilisi.com
@@ -134,6 +130,7 @@ host,detaillog-global.coolccloud.com
 host,detaillog-global.coolzcloud.com
 host,detaillog-sh-base.coolacloud.com
 host,detect-statistic.live.126.net
+host,dev.g.alicdn.com
 host,dimg04.c-ctrip.com
 host,diy-assets.msstatic.com
 host,diy-front.cdn.huya.com
@@ -142,6 +139,7 @@ host,dldir1v6.qq.com
 host,dlied5sdk.myapp.com
 host,dlog.737.com
 host,dlog.wanmei.com
+host,dmapipv6.izuiyou.com
 host,dmplog.qq.com
 host,dns1.lanzout.com
 host,dns2.titannetwork.cn
@@ -163,6 +161,7 @@ host,es.statcounter.com
 host,etlog.happyelements.cn
 host,exam-statistics.kakamobi.cn
 host,face.t.sinajs.cn
+host,fc.3dmgame.com
 host,fe-static-p1.xhscdn.com
 host,fe-static.xhscdn.com
 host,fe-video-qc.xhscdn.com
@@ -213,7 +212,6 @@ host,hdns.ksyun.com
 host,hellostats.xingqiu520.com
 host,hi.statcounter.com
 host,homefront.qunar.com
-host,dmapipv6.izuiyou.com
 host,hotfix-api.aliyuncs.com
 host,hotfix-service-prod.g.mi.com
 host,hotfix.api.weibo.cn
@@ -245,7 +243,6 @@ host,interface.bilibili.com
 host,ip2.kugou.com
 host,ipes-gin.iqiyi.com
 host,ipes-storage.iqiyi.com
-host,iphone-ld.apple.com
 host,iphone_pv_log.kltb.com.cn
 host,iplocreptest.map.qq.com
 host,ipv4-check.shihuo.cn
@@ -327,10 +324,6 @@ host,mambap2pvodh5.8686c.com
 host,mapi.weibo.com
 host,market-fin.meituan.com
 host,mars.jd.com
-host,mask-api.fe.apple-dns.net
-host,mask-canary.icloud.com
-host,mask-t.apple-dns.net
-host,mask.apple-dns.net
 host,mat-broker.hibixin.com
 host,mazutest.kf0309.3g.qq.com
 host,mbs.boc.cn
@@ -341,7 +334,6 @@ host,mediadata.api.weibo.com
 host,meeting.kdocs.cn
 host,member.bilibili.com
 host,menupic-test.dominos.com.cn
-host,metrics.icloud.com
 host,metrics.mzstatic.com
 host,microapilogs.sanguosha.cn
 host,microtest.sandload.cn
@@ -391,6 +383,7 @@ host,open.kwaizt.com
 host,openlog.taptap.com
 host,optimus-ads.amap.com
 host,ossgw.alicdn.com
+host,osuspider.yuanshen.com
 host,p2p-punch-v6.xxpkg.com
 host,p2p-punch.xxpkg.com
 host,p2perrorlog.douyucdn.cn
@@ -450,7 +443,6 @@ host,qqredpacket.gtimg.cn
 host,quanguo.mygolbs.com
 host,rabbit.meitustat.com
 host,readlog.caixin.com
-host,register.appattest.apple.com
 host,reslog.look.360.cn
 host,ro.statcounter.com
 host,ru.statcounter.com
@@ -522,6 +514,7 @@ host,sxd3-hotfix.feiyuapi.com
 host,syh-cube.cdnjtzy.com
 host,syh-imp.cdnjtzy.com
 host,syh.zybang.com
+host,syly.3dmgame.com
 host,szmg.qq.com
 host,t2-hb.xiaohongshu.com
 host,t2.xiaohongshu.com
@@ -545,11 +538,13 @@ host,tgp2p01-stun01.tange365.com
 host,tgp2p05-turn01.tange365.com
 host,tgp2p05-turn02.tange365.com
 host,th-b.pinduoduo.com
+host,thor.weidian.com
 host,tianshu.gtimg.cn
 host,tl.statcounter.com
 host,tlog-emas.aliyuncs.com
 host,tmeadbak.y.qq.com
 host,tmeadkg.y.qq.com
+host,tongji.qiumibao.com
 host,tp2p.kg.qq.com
 host,tpa-data.iqiyi.com
 host,tr.statcounter.com
@@ -604,7 +599,6 @@ host,upos-sz-staticcos-cmask.bilivideo.com
 host,upos-sz-staticcos.bilivideo.com
 host,uranus.jd.com
 host,use.adserver.snapads.com
-host,use1-register-appattest-prod-aws-prod.apple.com
 host,v-stats-play.huya.com
 host,v-upload.huya.com
 host,vcover-vt-pic.puui.qpic.cn
@@ -701,6 +695,7 @@ host-suffix,logsss.com
 host-suffix,mmstat.com
 host-suffix,node.ppio.cloud
 host-suffix,nodeedge.cn
+host-suffix,remotewd.com
 host-suffix,nyaa.si,proxy
 host-suffix,p2p.haplat.net
 host-suffix,pcdn.xmcdn.com
