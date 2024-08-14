@@ -1,3 +1,4 @@
+
 10010.com
 10086.cn
 123456.al
@@ -786,9 +787,6 @@ maoxiong.cloud
 map.baidu.com
 map.qq.com
 market.xiaomi.com
-mask-api.icloud.com
-mask-h2.icloud.com
-mask.icloud.com
 mat1.gtimg.com
 mbd.baidu.com
 mbdp02.bdstatic.com
@@ -881,7 +879,6 @@ open-app.meizu.com
 open.e.189.cn
 open.uc.cn
 open.youzanyun.com
-opencdn.jomodns.com
 opencdnbdimgtn.jomodns.com
 openmobile.qq.com
 openspeech.cn
