@@ -59,20 +59,17 @@ aip.baidubce.com
 air.1688.com
 aizhan.com
 ajax.cloudflare.com
-akadns.net
 akamai.net
 akamaiedge.net
 akamaized.net
 albert.apple.com
 alibaba.com
 alicdn.com
-alidns.com
 alienvault.com
 alikunlun.net
 alipan.com
 alipay.com.cn
 alipay.hk
-alipaydns.com
 alipayobjects.com
 aliyuncs.com
 aliyundrive.com
@@ -181,8 +178,6 @@ appgoad.189.cn
 appldnld.apple.com
 appldnld.apple.com.edgesuite.net
 apple-cloudkit.com
-apple-dns.cn
-apple-dns.net
 apple-finance.query.yahoo.com
 apple-livephotoskit.com
 apple-mapkit.com
@@ -238,8 +233,8 @@ bcebos.com
 bcelive.com
 bdcloudapi.com
 bdgslb.com
+bdimg.com
 bdstatic.com
-bdydns.com
 beacon-api.aliyuncs.com
 beian.miit.gov.cn
 big.oisd.nl
@@ -259,7 +254,6 @@ blob.core.windows.net
 blocklistproject.github.io
 blogger.com
 bluecatnetworks.com
-boltdns.net
 boxer.baidu.com
 bpapi.apple.com
 browser.miui.com
@@ -271,8 +265,6 @@ bytecdn.cn
 bytedance.com
 bytedance.com.queniurc.com
 bytedanceapi.com
-bytedns.net
-bytedns1.com
 bytefae.com
 bytefcdn.com
 bytegecko.com
@@ -343,7 +335,6 @@ cloudapp.net
 cloudflare.com
 cloudflareclient.com
 cloudfront.net
-cloudns.org
 cls-ingest.itunes.apple.com
 cls-iosclient.itunes.apple.com
 cmbchina.com
@@ -370,7 +361,6 @@ consolemdm.sexytea2013.com
 contactapi.micloud.xiaomi.net
 coolapk.com
 core.tantanapp.com
-cos.cat
 coupons.sexytea2013.com
 cp31.ott.cibntv.net
 cp4.cloudflare.com
@@ -388,7 +378,6 @@ ctrip.com
 ctyun.cn
 ctyunxs.cn
 cube.meituan.net
-cupddns.net
 d.ifengimg.com
 danuoyi.alicdn.com
 dashi.163.com
@@ -419,11 +408,6 @@ discord.com
 dlied1.cdntips.net
 dm.video.qq.com
 dmm.co.jp
-dns.5idns.cn
-dns.iqiyi.com
-dnscheck.tools
-dnsv1.com
-dnsv1.com.cn
 douban.com
 doubanio.com
 doupay.com
@@ -450,7 +434,6 @@ ecosia.org
 ecs.office.com
 edge.microsoft.com
 edgecastcdn.net
-edgecastdns.net
 edgekey.net
 edgesuite.net
 efe.snssdk.com
@@ -505,8 +488,6 @@ game.funshion.com
 game.xiaomi.com
 gamecenter.qq.com
 gateway-mobile-gray.soulapp.cn
-gateway.fe.apple-dns.cn
-gateway.fe2.apple-dns.net
 gateway.icloud.com
 gateway.kugou.com
 gateway2-tcp-spam.soulapp.cn
@@ -659,7 +640,6 @@ immomo.com
 imtmp.net
 in.appcenter.ms
 inbox.google.com
-incapdns.net
 increase-openapi.soulapp.cn
 indivi-cdn.shouji.sogou.com
 info.tuisong.baidu.com
@@ -692,7 +672,6 @@ jdcloud.com
 jianguoyun.com
 jiashule.com
 jihulab.com
-jomodns.com
 jpushjd.m.jd.com
 js.40017.cn
 jz.mcjoker.xyz
@@ -727,7 +706,6 @@ layout.meituan.net
 lbs.amap.com
 lbs.map.qq.com
 lbs.netease.im
-lcdn-locator-usuqo.apple.com.akadns.net
 lcdn-locator.apple.com
 lcdn-registration.apple.com
 learnreport.xiaoeknow.com
@@ -756,6 +734,7 @@ ls.apple.com
 lsposed.org
 ludashi.com
 m-vali.cp31.ott.cibntv.net
+m.baidu.com
 m.hotmail.com
 m.image.so.com
 m.intl.taobao.com
@@ -879,7 +858,6 @@ open-app.meizu.com
 open.e.189.cn
 open.uc.cn
 open.youzanyun.com
-opencdnbdimgtn.jomodns.com
 openmobile.qq.com
 openspeech.cn
 orange-dc.alibaba.com
@@ -968,7 +946,6 @@ qcweb.qunar.com
 qhimg.com
 qifu-api.baidubce.com
 qiniu.com
-qiniudns.com
 qiumibao.com
 qlogo.cn
 qlogo1.store.qq.com
@@ -1053,7 +1030,6 @@ samsungknox.com
 sandbox.xmpush.xiaomi.com
 sanguosha.cn
 sb.adtidy.org
-sched.tdnsv8.com
 schedule-media.immomo.com
 school.apple.com
 sdi.3g.qq.com
@@ -1195,7 +1171,6 @@ tencentcloudapi.com
 tencentcloudapi.com.cn
 tencentcs.com
 tenpay.com
-test.nextdns.io
 tfogc.com
 theporndude.com
 thetradersden.org
@@ -1361,7 +1336,6 @@ wxapp.sexytea2013.com
 wxrb.com
 wxsnsencsvp.wxs.qq.com
 x.com
-x3322.net
 xfinfr.com
 xfyun.cn
 xhscdn.com
@@ -1375,7 +1349,6 @@ xp-cdn.apple.com
 xp.apple.com
 xxxxx528.com
 yahoo.com
-yahoodns.net
 yangqianguan.com
 yhd.com
 yidianzixun.com
