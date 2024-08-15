@@ -122,6 +122,10 @@ apple.com.cn
 xp-cdn.apple.com
 xp.apple.com
 #
+a.9game.cn
+android.9game.cn
+9game.cn
+d3ward.github.io
 10010.com
 alibabausercontent.com
 10086.cn

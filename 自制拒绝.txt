@@ -67,6 +67,7 @@ host,broadcast.chat.bilibili.com
 host,btrace.yangshipin.cn
 host,business.msstatic.com
 host,c.mcd.cn
+host,metrics.icloud.com
 host,ca.iadsdk.apple.com
 host,ca.statcounter.com
 host,cacerts.digicert.com
