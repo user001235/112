@@ -65,7 +65,6 @@ host,brandlog.vivo.com.cn
 host,brandshowlog.58.com
 host,broadcast.chat.bilibili.com
 host,btrace.yangshipin.cn
-host,business.msstatic.com
 host,c.mcd.cn
 host,metrics.icloud.com
 host,ca.iadsdk.apple.com
@@ -79,8 +78,6 @@ host,cda.lilisi.com
 host,cdn.megagamelog.com
 host,cdn.wup.huya.com
 host,cdnfile.huya.com
-host,cdnfile1.msstatic.com
-host,cdnfile2.msstatic.com
 host,cf.360stat.org
 host,channels1.mall.icbc.com.cn
 host,click.abchina.com
@@ -133,7 +130,6 @@ host,detaillog-sh-base.coolacloud.com
 host,detect-statistic.live.126.net
 host,dev.g.alicdn.com
 host,dimg04.c-ctrip.com
-host,diy-assets.msstatic.com
 host,diy-front.cdn.huya.com
 host,dldir1.qq.com
 host,dldir1v6.qq.com
@@ -199,7 +195,6 @@ host,getip.wps.cn
 host,getway.radio.cn
 host,gl.statcounter.com
 host,glog.aldwx.com
-host,gr.msstatic.com
 host,graph.facebook.com
 host,grpc.biliapi.net
 host,grs-test.platform.hihonorcloud.com
@@ -221,7 +216,6 @@ host,htest.meshtrust.work
 host,htrace.wetvinfo.com
 host,httpbin.org
 host,hu.statcounter.com
-host,huyaimg.msstatic.com
 host,hw-vod.cdn.huya.com
 host,hwproxyipv6.kugou.com
 host,hycmdstatistics.tses.net
@@ -289,8 +283,6 @@ host,lifelog.blog.naver.com
 host,live-trace.bilibili.com
 host,livep2pjs.ksapisrv.com
 host,livetrace.98809.com
-host,livewebbs2.msstatic.com
-host,livewebbs2pcdn.msstatic.com
 host,lng.xiaohongshu.com
 host,logab0-misc-alinc2-lf.amemv.com
 host,logab0-misc-alinc2.amemv.com
@@ -415,8 +407,6 @@ host,plog.qiumibao.com
 host,pn.baidu.com
 host,poplayer.template.alibaba.com
 host,portal.biliapi.net
-host,pp-cdnfile1pcdn.msstatic.com
-host,pp-cdnfile2pcdn.msstatic.com
 host,presenter-unity3d.cdn.huya.com
 host,privacy-policy-w.elong.com
 host,prod-sit-logserver.heytea.com
@@ -434,11 +424,7 @@ host,qimg.xiaohongshu.com
 host,qimgs.qunarzz.com
 host,qlstats.bjnews.com.cn
 host,qmlog.baertt.com
-host,qn-cdnfile1pcdn.msstatic.com
-host,qn-cdnfile2pcdn.msstatic.com
 host,qn-fileserverpcdn.cdn.huya.com
-host,qn-livewebbs2pcdn.msstatic.com
-host,qn-s1-staticpcdn.msstatic.com
 host,qqlog.qq.com
 host,qqredpacket.gtimg.cn
 host,quanguo.mygolbs.com
@@ -449,8 +435,6 @@ host,ro.statcounter.com
 host,ru.statcounter.com
 host,run.caixin.com
 host,s.qunarzz.com
-host,s1-static.msstatic.com
-host,s1-staticpcdn.msstatic.com
 host,s2.hdslb.com
 host,saturn.jd.com
 host,savior.elong.com
@@ -478,7 +462,6 @@ host,stat1.moneycontrol.com
 host,stat2.moneycontrol.com
 host,stat3.moneycontrol.com
 host,stat4.moneycontrol.com
-host,static-jw.msstatic.com
 host,static.hdslb.com
 host,static.yximgs.com
 host,staticsns.cdn.bcebos.com
@@ -628,12 +611,9 @@ host,wup.imtt.qq.com
 host,wxminilog.etcp.cn
 host,xiaomi2.p2psy2.io.mi.com
 host,xlate.dcard.tw
-host,xy-cdnfile1pcdn.msstatic.com
 host,xy-cdnfile1pcdn.msstatic.com.gslb.kuiniuca.com
 host,xy-fileserverpcdn.cdn.huya.com
-host,xy-livewebbs2pcdn.msstatic.com
 host,xy-livewebbs2pcdn.msstatic.com.gslb.kuiniuca.com
-host,xy-s1-staticpcdn.msstatic.com
 host,yl.zh.cmbchina.com
 host,ynote-statistic.lx.netease.com
 host,ywlog.reader.qq.com
@@ -644,12 +624,12 @@ host-suffix,0kkkkkt.com
 host-suffix,51.la
 host-suffix,51qtg.com
 host-suffix,5677.me
-host-suffix,a.msstatic.com
 host-suffix,addr.tools
 host-suffix,alibabachengdun.com
 host-suffix,alibabachengdun.net
 host-suffix,analysysdata.com
 host-suffix,apexstats.com
+host-suffix,msstatic.com
 host-suffix,app-http-dns.ictun.com
 host-suffix,awemeughun.com
 host-suffix,baiduads.com
