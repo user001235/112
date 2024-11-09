@@ -1,6 +1,8 @@
 
 10010.com
 10086.cn
+uptodown.net
+xiaomixiaoai.com
 123456.al
 123pan.com
 126.com
@@ -24,8 +26,8 @@
 9191001.xyz
 91tvg.com
 9game.cn
-MI.COM
 Workers.dev
+`
 a-0003.a-msedge.net
 a-msedge.net
 a.9game.cn
@@ -132,7 +134,6 @@ api.im.weibo.cn
 api.immomo.com
 api.iplay.163.com
 api.iqiyi.com
-api.jr.mi.com
 api.k.sohu.com
 api.ke.com
 api.kwaizt.com
@@ -326,7 +327,6 @@ cf.bstatic.com
 cf.mhgui.com
 channelapi.tuisong.baidu.com
 chat-img.pddugc.com
-chat.kefu.mi.com
 chatgpt.com
 checkadblock.ru
 china-gld.push.samsungosp.com.cn
@@ -592,7 +592,6 @@ i-hl.snssdk.com
 i.alicdn.com
 i.ibb.co
 i.instagram.com
-i.mi.com
 i.pximg.net
 i.snssdk.com
 i.tancdn.com
@@ -696,7 +695,6 @@ kdocs.cn
 kdocs.us
 ke.com
 kefu-im.bytedance.com
-keybag.id.mi.com
 kgnopipv6.kugou.com
 kknews.cc
 knowsex.net
@@ -753,7 +751,6 @@ m.image.so.com
 m.intl.taobao.com
 m.jd.com
 m.media-amazon.com
-m.mi.com
 m.mob.com
 m.pinduoduo.net
 m.qpic.cn
@@ -804,7 +801,6 @@ mesu.apple.com
 meta.pinduoduo.com
 metadata.templates.cdn.office.net
 mgbsdk.matrix.netease.com
-mi.com
 miav-cse.avlyun.com
 microsoft.com
 microsoftedgeinsider.com
@@ -815,7 +811,6 @@ mime.baidu.com
 mini.caixin.com
 miniapp.gtimg.cn
 misakaf.org
-miui.com
 mlvbdc.live.qcloud.com
 mob.com
 mobile.ximalaya.com
@@ -1030,7 +1025,6 @@ s.yimg.com
 s.youtube.com
 s0.meituan.net
 s1.kskwai.com
-s1.mi.com
 s2-nocache.kskwai.com
 s2.kskwai.com
 s3.kskwai.com
@@ -1159,7 +1153,6 @@ t-msedge.net
 t.co
 t.me
 t1.baidu.com
-t1.g.mi.com
 t1.market.mi-img.com
 t10.baidu.com
 t11.baidu.com
@@ -1188,6 +1181,7 @@ tange365.com
 tantanapp.com
 tanx.com
 taobao.com
+tapi.pureapk.com
 tb.cn
 tbm-auth.alicdn.com
 tbox.wot.360.cn
@@ -1303,7 +1297,6 @@ vali-g1.cp31.ott.cibntv.net
 valid.apple.com
 vc.qpic.cn
 vectorsdk.map.qq.com
-vega-dsa.biliapi.net
 vertexsmb.com
 video.c-ctrip.com
 video.twimg.com
@@ -1350,6 +1343,7 @@ wikipedia.org
 windows.com
 windows.msn.com
 windows.net
+winudf.com
 withgoogle.com
 wns.windows.com
 woozooo.com
@@ -1380,8 +1374,6 @@ xfyun.cn
 xhscdn.com
 xhslink.com
 xi.zwtianshangm.com
-xiaomi.com
-xiaomi.net
 xiaoshuo.wtzw.com
 ximalaya.com
 xinghuo.xfyun.cn
@@ -1470,6 +1462,18 @@ assistant.miui.com
 flash.sec.miui.com
 srv.sec.miui.com
 update.miui.com
+miui.com
+xiaomi.com
+mi.com
+MI.COM
+xiaomi.net
+api.jr.mi.com
+chat.kefu.mi.com
+i.mi.com
+keybag.id.mi.com
+m.mi.com
+s1.mi.com
+t1.g.mi.com
 api.xmpush.global.xiaomi.com
 api.xmpush.xiaomi.com
 cn.register.xmpush.xiaomi.com
@@ -1509,3 +1513,9 @@ vip-api.xmpush.global.xiaomi.com
 vip-api.xmpush.xiaomi.com
 vip.api.xmpush.global.xiaomi.com
 vip.api.xmpush.xiaomi.com
+apk.dog
+apkdone.com
+apkmb.com
+apkmirror.com
+apkmodget.com
+modyolo.com

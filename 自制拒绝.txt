@@ -197,7 +197,6 @@ host,getway.radio.cn
 host,gl.statcounter.com
 host,glog.aldwx.com
 host,graph.facebook.com
-host,grpc.biliapi.net
 host,grs-test.platform.hihonorcloud.com
 host,grs.hicloud.com
 host,grs.hihonorcloud.com
@@ -362,7 +361,6 @@ host,n-logs-ipc.tplinkcloud.com.cn
 host,native-trace-h5sdk.vivo.com.cn
 host,nb.statcounter.com
 host,neptune.jd.com
-host,new-service.biliapi.net
 host,nj.h.bcsp2p.baidu.com
 host,njtbcsp2p.n.shifen.com
 host,nl.statcounter.com
@@ -407,7 +405,6 @@ host,plbslog.umeng.com.zs
 host,plog.qiumibao.com
 host,pn.baidu.com
 host,poplayer.template.alibaba.com
-host,portal.biliapi.net
 host,presenter-unity3d.cdn.huya.com
 host,privacy-policy-w.elong.com
 host,prod-sit-logserver.heytea.com
@@ -673,6 +670,7 @@ host-suffix,ip-geo.iqiyi.com
 host-suffix,jomoxd.com
 host-suffix,kkeji.com
 host-suffix,ksc-test.com
+host-suffix,biliapi.net
 host-suffix,log.aliyuncs.com
 host-suffix,logsss.com
 host-suffix,mmstat.com
