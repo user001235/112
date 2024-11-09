@@ -4,6 +4,7 @@ host,a6-remad.qm989.com
 host,abplatform.yumchina.com
 host,abvolcapi.douyucdn.cn
 host,adcdn6.tencentmusic.com
+host,log-upload-os.hoyolab.com
 host,ads3-normal-lf.zijieapi.com
 host,ads5-normal-lf.zijieapi.com
 host,adservice.google.com
@@ -640,6 +641,7 @@ host-suffix,branch.io
 host-suffix,byteactivity.com
 host-suffix,bytednsdoc.com
 host-suffix,byteeffecttos.com
+host-suffix,browser.miui.com
 host-suffix,bytefcdnrd.com
 host-suffix,bytemastatic.com
 host-suffix,cambiaip.org
