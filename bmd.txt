@@ -1,3 +1,14 @@
+apk.dog
+apkdone.com
+apkmb.com
+apkmirror.com
+apkmodget.com
+modyolo.com
+getmodsapk.com
+apklite.me
+liteapks.com
+happymod.com
+
 10010.com
 10086.cn
 123456.al
@@ -164,7 +175,6 @@ apijs-default-scd.gifshow.com
 apikey.map.qq.com
 apilocate.amap.com
 apissl.gifshow.com
-apklite.me
 app-api.pixiv.net
 app-site-association.cdn-apple.com
 app-site-association.networking.apple
@@ -511,7 +521,6 @@ geetest.com
 geevisit.com
 geilicdn.com
 genshin.hoyoverse.com
-getmodsapk.com
 gg.apple.com
 gist.github.com
 gist.githubusercontent.com
@@ -554,7 +563,6 @@ gw5.push.mcp.weibo.cn
 gw5bak.chinamobile.push.mcp.weibo.cn
 h5api.m.taobao.com
 hao.360.cn
-happymod.com
 hcaptcha.com
 hdarea.club
 hdhome.org
@@ -716,7 +724,6 @@ lgincdnvzeuno.azureedge.net
 liangcang-material.alicdn.com
 lianjia.com
 limbopro.com
-liteapks.com
 live-api.immomo.com
 live.com
 live.ximalaya.com
@@ -1472,9 +1479,3 @@ vip-api.xmpush.global.xiaomi.com
 vip-api.xmpush.xiaomi.com
 vip.api.xmpush.global.xiaomi.com
 vip.api.xmpush.xiaomi.com
-apk.dog
-apkdone.com
-apkmb.com
-apkmirror.com
-apkmodget.com
-modyolo.com
