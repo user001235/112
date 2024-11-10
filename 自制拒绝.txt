@@ -615,7 +615,14 @@ host,ywlog.reader.qq.com
 host,zh_cn.statcounter.com
 host,zh_tw.statcounter.com
 host,zyb-stats.zuoyebang.cc
+host-suffix,ietheivaicai.com
+host-suffix,souajki.net
 host-suffix,0kkkkkt.com
+host-suffix,vegslb.com
+host-suffix,jomoxd.com
+host-suffix,hypercachenode.com
+host-suffix,nodeedge.cn
+#抖音系杂乱链接
 host-suffix,51.la
 host-suffix,51qtg.com
 host-suffix,5677.me
@@ -654,7 +661,6 @@ host-suffix,ecombdimg.com
 host-suffix,ecombdpage.com
 host-suffix,ext.huya.com
 host-suffix,feedsads.cn
-host-suffix,fqnovelstatic.com
 host-suffix,gjfzpt.cn
 host-suffix,hiecheimaetu.com
 host-suffix,huoshanstatic.com
@@ -664,7 +670,6 @@ host-suffix,hzchengdun.com
 host-suffix,ifconfig.me
 host-suffix,in-addr.arpa
 host-suffix,ip-geo.iqiyi.com
-host-suffix,jomoxd.com
 host-suffix,kkeji.com
 host-suffix,ksc-test.com
 host-suffix,biliapi.net
@@ -672,9 +677,8 @@ host-suffix,log.aliyuncs.com
 host-suffix,logsss.com
 host-suffix,mmstat.com
 host-suffix,node.ppio.cloud
-host-suffix,nodeedge.cn
 host-suffix,remotewd.com
-host-suffix,nyaa.si,proxy
+host-suffix,nyaa.si
 host-suffix,p2p.haplat.net
 host-suffix,pcdn.xmcdn.com
 host-suffix,pcdn.yximgs.com
