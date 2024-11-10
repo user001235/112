@@ -132,9 +132,6 @@ host,detect-statistic.live.126.net
 host,dev.g.alicdn.com
 host,dimg04.c-ctrip.com
 host,diy-front.cdn.huya.com
-host,dldir1.qq.com
-host,dldir1v6.qq.com
-host,dlied5sdk.myapp.com
 host,dlog.737.com
 host,dlog.wanmei.com
 host,dmapipv6.izuiyou.com
