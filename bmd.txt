@@ -32,7 +32,6 @@ img.ucdl.pp.uc.cn
 10010.com
 m.uptodown.net
 10086.cn
-123456.al
 123pan.com
 126.com
 126.net
@@ -52,7 +51,6 @@ m.uptodown.net
 51downapp.cn
 71edge.com
 878223.parkingcrew.net
-9191001.xyz
 91tvg.com
 9game.cn
 Workers.dev
@@ -62,9 +60,6 @@ a.9game.cn
 a.m.taobao.com
 a.yximgs.com
 abs.twimg.com
-abtest3-misc-hl.zijieapi.com
-abtest3-misc-lf.zijieapi.com
-aca.best
 access-open.quark.cn
 access.open.uc.cn
 access1.tpns.gz2.tencent.com
@@ -231,7 +226,6 @@ arc.msn.com
 argon.molinero.dev
 artstorm.com
 arxiv.org
-as174.com
 ask.dcloud.net.cn
 assistant.meizu.com
 audiocontentdownload.apple.com
@@ -254,7 +248,6 @@ baidu.com
 baidubce.com
 baike.baidu.com
 baike.baidu.hk
-bangumi.ca
 battlelog.com
 bbc.co
 bbc.com
@@ -266,7 +259,6 @@ bdimg.com
 bdstatic.com
 beian.miit.gov.cn
 big.oisd.nl
-bili.rip
 bilibili.com
 bilivideo.com
 bing.com
@@ -296,7 +288,6 @@ bytedance.com.queniurc.com
 bytedanceapi.com
 bytefae.com
 bytefcdn.com
-bytegecko.com
 bytegoofy.com
 byteicdn.com
 byteimg.com
@@ -474,7 +465,6 @@ eimg.smzdm.com
 ele.me
 elearning.sexytea2013.com
 elle.com
-embyplus.org
 en.uptodown.com
 en.wikipedia.org
 encrypted-tbn1.gstatic.com
@@ -703,7 +693,6 @@ jpushjd.m.jd.com
 js.40017.cn
 jspassport.ssl.qhimg.com
 jwpcdn.com
-jz.mcjoker.xyz
 k1-biligame.gslb.ksyuncdn.com
 kafan.cn
 kdocs.cn
@@ -789,7 +778,6 @@ mangacopy.com
 mangadex.org
 mangahasu.se
 manhuagui.com
-maoxiong.cloud
 map.baidu.com
 map.qq.com
 mask-api.icloud.com
@@ -799,7 +787,6 @@ mat1.gtimg.com
 mbd.baidu.com
 mbdp02.bdstatic.com
 mc.hujiang.com
-mcjoker.xyz
 mdm.sexytea2013.com
 mdmenrollment.apple.com
 media-service.soulapp.cn
@@ -823,7 +810,6 @@ mikanani.me
 mime.baidu.com
 mini.caixin.com
 miniapp.gtimg.cn
-misakaf.org
 mlvbdc.live.qcloud.com
 mob.com
 mobile.ximalaya.com
@@ -863,8 +849,6 @@ newclient.map.baidu.com
 newsstand.googleusercontent.com
 nextdns.io
 nie.netease.com
-nijigem.by
-njavtv.com
 nleditor.osi.office.net
 nmobi.kuwo.cn
 note.youdao.com
@@ -927,8 +911,6 @@ phoenixnap.com
 phonesubmissions.apple.com
 photon-open-api.soulapp.cn
 pic5.40017.cn
-pilipiliultra.com
-pilipiliultra.top
 pinduoduo.net
 pinyin.voicecloud.cn
 pipi.cn
@@ -1074,7 +1056,6 @@ sexytea-dock.sexytea2013.com
 sexytea2013.com
 sharepoint.com
 shc6.y.qq.com
-shenmi.link
 shifen.com
 shihuocdn.cn
 shopping.ele.me
@@ -1205,7 +1186,6 @@ tencentcloudapi.com.cn
 tencentcs.com
 tenpay.com
 tfogc.com
-theporndude.com
 thetradersden.org
 thirdqq.qlogo.cn
 thirdwx.qlogo.cn
