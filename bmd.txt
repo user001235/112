@@ -8,10 +8,8 @@ getmodsapk.com
 apklite.me
 liteapks.com
 tiktokmods.com
-storage.googleapis.com
 chinaz.com
 googleusercontent.com
-people-pa.googleapis.com
 happymod.com
 fqnovelstatic.com
 wwentua.com
@@ -861,7 +859,6 @@ notice.chaoxing.com
 ns.itunes.apple.com
 nt2.ele.me
 nuomiphp.com
-oauthaccountmanager.googleapis.com
 ocean.shuqireader.com
 ocsp.apple.com
 ocsp.digicert.cn
@@ -923,7 +920,6 @@ pipix.com
 pixiv.net
 pkg.sinaimg.cn
 play.google.com
-play.googleapis.com
 play.itunes.apple.com
 playfabapi.com
 playgrounds-assets-cdn.apple.com
