@@ -622,6 +622,9 @@ host-suffix,vegslb.com
 host-suffix,jomoxd.com
 host-suffix,hypercachenode.com
 host-suffix,nodeedge.cn
+host-suffix,nexusedgeio.com
+host-suffix,ksyungslb.com
+host-suffix,souajki.com
 #抖音系杂乱链接
 host-suffix,51.la
 host-suffix,51qtg.com

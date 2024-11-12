@@ -7,8 +7,14 @@ modyolo.com
 getmodsapk.com
 apklite.me
 liteapks.com
+tiktokmods.com
+storage.googleapis.com
+chinaz.com
+googleusercontent.com
+people-pa.googleapis.com
 happymod.com
 fqnovelstatic.com
+wwentua.com
 apkpure.net
 apkpure.com
 forum.xda-developers.com
@@ -18,7 +24,6 @@ liqucn.com
 pp.cn
 android-apps.pp.cn
 jsdelivr.net
-api.vip.miui.com
 help.aliyun.com
 alibabacloud.com
 dldir1.qq.com
@@ -1478,3 +1483,4 @@ vip-api.xmpush.global.xiaomi.com
 vip-api.xmpush.xiaomi.com
 vip.api.xmpush.global.xiaomi.com
 vip.api.xmpush.xiaomi.com
+api.vip.miui.com
