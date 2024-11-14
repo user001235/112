@@ -8,6 +8,7 @@ host,log-upload-os.hoyolab.com
 host,ads3-normal-lf.zijieapi.com
 host,ads5-normal-lf.zijieapi.com
 host,adservice.google.com
+host,dldir1v6.qq.com
 host,adsfs.heytapimage.com
 host,adstatistic.mygolbs.com
 host,aedns.weixin.qq.com
@@ -625,6 +626,7 @@ host-suffix,nodeedge.cn
 host-suffix,nexusedgeio.com
 host-suffix,ksyungslb.com
 host-suffix,souajki.com
+host-suffix,siomxity.cn
 #抖音系杂乱链接
 host-suffix,51.la
 host-suffix,51qtg.com
