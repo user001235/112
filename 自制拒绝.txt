@@ -103,12 +103,6 @@ host,cstatistics.baidu.com
 host,ctrace.sogaha.cn
 host,d1.k.126.net
 host,d2.k.126.net
-host,d1.music.126.net
-host,d2.music.126.net
-host,d3.music.126.net
-host,d4.music.126.net
-host,d5.music.126.net
-host,d6.music.126.net
 host,data.bilibili.com
 host,data.bilivideo.com
 host,data.flurry.com
