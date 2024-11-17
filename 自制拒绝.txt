@@ -102,17 +102,13 @@ host,crazyrope-clientlog.oss-cn-shanghai.aliyuncs.com
 host,cstatistics.baidu.com
 host,ctrace.sogaha.cn
 host,d1.k.126.net
-host,d1.music.126.net
 host,d2.k.126.net
+host,d1.music.126.net
 host,d2.music.126.net
 host,d3.music.126.net
-host,d3.music.126.net.w.alikunlun.com
 host,d4.music.126.net
-host,d4.music.126.net.w.alikunlun.com
 host,d5.music.126.net
-host,d5.music.126.net.w.cdngslb.com
 host,d6.music.126.net
-host,d6.music.126.net.w.cdngslb.com
 host,data.bilibili.com
 host,data.bilivideo.com
 host,data.flurry.com
@@ -856,6 +852,8 @@ ip-cidr,127.0.0.1/32
 ip-cidr,127.0.0.53/32
 ip-cidr,180.76.76.0/24
 ip-cidr,202.108.0.90/32
+ip-cidr,116.63.10.135/32
+ip-cidr,122.9.13.79/32
 ip-cidr,211.97.73.0/24
 ip-cidr,47.100.123.0/24
 ip-cidr,47.101.175.0/24
@@ -863,7 +861,6 @@ ip-cidr,47.56.131.76/32
 ip-cidr,47.96.15.52/32
 ip-cidr,47.97.215.55/32
 ip-cidr,47.99.42.29/32
-ip-cidr,59.111.179.0/24
 ip-cidr,59.82.34.217/32
 ip-cidr,8.8.4.4/32
 ip-cidr,8.8.8.8/32
