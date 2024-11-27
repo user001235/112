@@ -8,9 +8,13 @@
 1688.com
 17u.cn
 wxaurl.cn
+dldir1v6.qq.com
 cmbimg.com
 cnblogs.com
 17usoft.com
+verify.meituan.com
+seeds.services
+spclient.wg.spotify.com
 newvector.map.baidu.com
 api.g.micloud.xiaomi.net
 safebrowsing.google.com
@@ -109,7 +113,6 @@ ampproject.net
 ampproject.org
 analysis.chatglm.cn
 android-apps.pp.cn
-android-safebrowsing.google.com
 android.9game.cn
 android.apis.google.com
 android.apis.google.com.domain.name
@@ -964,7 +967,6 @@ ptt.cc
 push-statics.meizu.com
 push.12306.cn
 push.apple.com
-push.douban.com
 push.gifshow.com
 push.it.10086.cn
 push.ksapisrv.com
@@ -1446,6 +1448,9 @@ api.xiaomi.com
 api.xmpush.global.xiaomi.com
 api.xmpush.xiaomi.com
 api.zhuti.xiaomi.com
+zhuti.xiaomi.com
+dl.reg.163.com
+reg.163.com
 app.market.xiaomi.com
 assistant.miui.com
 c3.api.xmpush.xiaomi.com
