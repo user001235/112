@@ -853,7 +853,6 @@ msftauth.net
 msgapi.teams.live.com
 msidentity.com
 msn.cn
-msstatic.com
 mtop.ele.me
 multi-az-incu.gifshow.com
 music.163.com
