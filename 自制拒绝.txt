@@ -662,7 +662,6 @@ DOMAIN-SUFFIX,ksyungslb.com
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,logsss.com
 DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,nexusedgeio.com
 DOMAIN-SUFFIX,node.ppio.cloud
 DOMAIN-SUFFIX,nodeedge.cn
