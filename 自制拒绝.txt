@@ -447,7 +447,6 @@ DOMAIN,stat2.moneycontrol.com
 DOMAIN,stat3.moneycontrol.com
 DOMAIN,stat4.moneycontrol.com
 DOMAIN,static.hdslb.com
-DOMAIN,static.yximgs.com
 DOMAIN,staticsns.cdn.bcebos.com
 DOMAIN,statipv6.izuiyou.com
 DOMAIN,statis.52tt.com
