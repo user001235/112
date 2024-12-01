@@ -7,8 +7,14 @@
 163jiasu.com
 1688.com
 17u.cn
+51cto.com
+blog.51cto.com
+elecfans.com
 nodeseek.com
 t.cn
+hc-cdn.cn
+c.m.163.com
+beauty-hw-flv-live.meituan.net
 fbcontent.cn
 xunlei.com
 wxaurl.cn
@@ -409,7 +415,6 @@ dbankcloud.cn
 dc-msedge.net
 dcarimg.com
 dcloud.io
-ddplus-quic.meituan.net
 ddplus.meituan.net
 ddys.pro
 developers.google.com
@@ -594,7 +599,6 @@ help.aliyun.com
 hexnode.com
 hgc.com.hk
 hhanclub.top
-hicloud.com
 himg.pddugc.com
 hinet.net
 hklong.weixin.qq.com
@@ -682,6 +686,7 @@ individuation-100ime-iat.xf-yun.com
 info.tuisong.baidu.com
 inputnlp.xfinfr.com
 instagram.com
+toutiaoimg.com
 ios.video.mpush.qq.com
 iosack.tuisong.baidu.com
 ioshost.qtlcdn.com
@@ -731,7 +736,6 @@ kskwai.com
 ksmobile.com
 ksyuncdn.com
 kuaikanmanhua.com
-kuaishou.com
 kugou.com
 kunluncan.com
 kunlunea.com
@@ -846,7 +850,6 @@ momocdn.com
 mpsapi.amap.com
 mpush-api.aliyun.com
 mq.sfacg.com
-mrn-quic.meituan.net
 mrn.meituan.net
 mrodevicemgr.officeapps.live.com
 ms.bdstatic.com
@@ -971,7 +974,6 @@ push.apple.com
 push.gifshow.com
 push.it.10086.cn
 push.ksapisrv.com
-push.kwd.inkuai.com
 push.m.youku.com
 push.meitu.com
 push.migu.cn
@@ -1139,7 +1141,6 @@ static-res.qq.com
 static-resource.sexytea2013.com
 static.122.gov.cn
 static.geetest.com
-static.inkuai.com
 static.ips.apple.com
 static.pddpic.com
 static.tongdun.net
@@ -1321,7 +1322,6 @@ vip.126.com
 vip.dianping.com
 vip.image.video.qpic.cn
 vivo.com
-vivo.com.cn
 voicecloud.cn
 voip.yximgs.com
 vpp.itunes.apple.com
@@ -1329,7 +1329,6 @@ vps.uc.cn
 vpushonrt-stsdk.vivo.com.cn
 vqbn.com
 vv6.play.ott.video.qq.com
-w-quic.meituan.net
 w.cdngslb.com
 w.kunluncan.com
 w.meituan.net
@@ -1548,6 +1547,10 @@ xiaomi.net
 xmpush.xiaomi.com
 xiaomimobile.com
 #######破解APK下载
+modcombo.com
+lrepacks.net
+modspoti.com
+spotifypremium.net
 spiderdown.com
 a2zapk.io
 apk.dog
@@ -1591,6 +1594,9 @@ s.f.360.cn
 api.driver.360safe.com
 driver.360safe.com
 ########快手
+kuaishou.com
+static.inkuai.com
+push.kwd.inkuai.com
 kuaishouzt.com
 wsukwai.com
 video-voip.com
@@ -1609,6 +1615,14 @@ kwimgs.com
 ecukwai.com
 inkwai.com
 gskwai.com
-kuaishoupay.com
 ssrcdn.com
-kspays.com
+######其他手机厂
+oppomobile.com
+hicloud.com
+vivo.com.cn
+realme.com
+oneplus.net
+oneplus.cn
+meizu.com
+honor.com
+oppo.com

@@ -7,6 +7,10 @@ DOMAIN,adcdn6.tencentmusic.com
 DOMAIN,ads3-normal-lf.zijieapi.com
 DOMAIN,ads5-normal-lf.zijieapi.com
 DOMAIN,adservice.google.com
+DOMAIN,img-quic.meituan.net
+DOMAIN,ddplus-quic.meituan.net
+DOMAIN,mrn-quic.meituan.net
+DOMAIN,w-quic.meituan.net
 DOMAIN,adsfs.heytapimage.com
 DOMAIN,adstatistic.mygolbs.com
 DOMAIN,aedns.weixin.qq.com
@@ -294,7 +298,6 @@ DOMAIN,logv3.shanbay.com
 DOMAIN,lookup.api.bsb.baidu.com
 DOMAIN,ls.dtrace.nvidia.com
 DOMAIN,lwlog.dingtalk.com
-DOMAIN,lx0.meituan.com
 DOMAIN,m.statcounter.com
 DOMAIN,m5-x.amap.com
 DOMAIN,mall.bilibili.com
@@ -824,6 +827,7 @@ host-wildcard,vstlog.*
 host-wildcard,wemeet-log-*.cos.ap-guangzhou.myqcloud.com
 host-wildcard,wxtracelogprd-*
 host-wildcard,xlog.*
+.*[^Bb]log[\d\-\.].+
 IP-CIDR,0.0.0.0/32
 IP-CIDR,1.1.1.1/32
 IP-CIDR,101.91.140.124/32
