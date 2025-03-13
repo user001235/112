@@ -5,6 +5,9 @@ DOMAIN,abplatform.yumchina.com
 DOMAIN,abvolcapi.douyucdn.cn
 DOMAIN,adcdn6.tencentmusic.com
 DOMAIN,ads3-normal-lf.zijieapi.com
+DOMAIN-SUFFIX,g52j7.com
+DOMAIN,p1.bdxiguaimg.com
+DOMAIN,xcdn.rltdxt.com
 DOMAIN,ads5-normal-lf.zijieapi.com
 DOMAIN,adservice.google.com
 DOMAIN,img-quic.meituan.net
@@ -150,7 +153,7 @@ DOMAIN,exam-statistics.kakamobi.cn
 DOMAIN,face.t.sinajs.cn
 DOMAIN,fc.3dmgame.com
 DOMAIN,fe-static-p1.xhscdn.com
-DOMAIN,fe-static.xhscdn.com
+DOMAIN,apm-fe.xiaohongshu.com
 DOMAIN,fe-video-qc.xhscdn.com
 DOMAIN,ffilelogapp.huya.com
 DOMAIN,fi.statcounter.com
