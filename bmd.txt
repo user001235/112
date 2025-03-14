@@ -3,12 +3,16 @@
 123pan.com
 126.com
 ttvnw.net
+yz.tcdnos.com
 twitchcdn.net
 jtvnw.net
 frankerfacez.com
 robotty.de
+pub.idqqimg.com
+idqqimg.com
 biananset.net
 bunnyccdn.co
+iv6.gtimg.cn
 s4.anilist.co
 vercel.app
 postimg.cc
@@ -994,6 +998,10 @@ push-statics.meizu.com
 push.12306.cn
 push.apple.com
 push.douban.com
+surfsharkdns.com
+browserscan.net
+web.cdn.openinstall.io
+openinstall.io
 push.gifshow.com
 push.it.10086.cn
 push.ksapisrv.com
