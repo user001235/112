@@ -249,7 +249,6 @@ DOMAIN,istats.baidu.com
 DOMAIN,it.statcounter.com
 DOMAIN,iu.snssdk.com
 DOMAIN,iuni.unioncom.cc
-DOMAIN,iv6.gtimg.cn
 DOMAIN,ivotrace.geely.com
 DOMAIN,jhlog.kunwukj.com
 DOMAIN,jiguang.coc.10086.cn

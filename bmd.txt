@@ -12,6 +12,7 @@ pub.idqqimg.com
 idqqimg.com
 biananset.net
 bunnyccdn.co
+api-map.meituan.net
 iv6.gtimg.cn
 s4.anilist.co
 vercel.app
