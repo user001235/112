@@ -302,7 +302,6 @@ DOMAIN,ls.dtrace.nvidia.com
 DOMAIN,lwlog.dingtalk.com
 DOMAIN,m.statcounter.com
 DOMAIN,m5-x.amap.com
-DOMAIN,mall.bilibili.com
 DOMAIN,mambap2pvodh5.8686c.com
 DOMAIN,mapi.weibo.com
 DOMAIN,market-fin.meituan.com
@@ -315,7 +314,6 @@ DOMAIN,mdap.wallet.pbcdci.cn
 DOMAIN,media-img.puui.qpic.cn
 DOMAIN,mediadata.api.weibo.com
 DOMAIN,meeting.kdocs.cn
-DOMAIN,member.bilibili.com
 DOMAIN,menupic-test.dominos.com.cn
 DOMAIN,metrics.icloud.com
 DOMAIN,metrics.mzstatic.com
@@ -375,7 +373,6 @@ DOMAIN,p2plog.douyucdn.cn
 DOMAIN,p2pstuntest.haplat.net
 DOMAIN,pagetrace.ctrip.com
 DOMAIN,panglelog.gz.bcebos.com
-DOMAIN,pay.bilibili.com
 DOMAIN,pcdn-hulk.jdcloud.com
 DOMAIN,pcdn-proxy-config.xxpkg.com
 DOMAIN,pcdn-proxy-crc.xxpkg.com
