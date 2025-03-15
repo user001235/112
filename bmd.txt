@@ -12,6 +12,8 @@ deepseek.com
 pages.dev
 pub.idqqimg.com
 idqqimg.com
+nsclick.baidu.com
+b.bdstatic.com
 biananset.net
 bunnyccdn.co
 api-map.meituan.net
