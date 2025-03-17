@@ -82,7 +82,6 @@ DOMAIN,catfront.dianping.com
 DOMAIN,cccimg.com
 DOMAIN,cda.lilisi.com
 DOMAIN,cdn.megagamelog.com
-DOMAIN,cdn.wup.huya.com
 DOMAIN,cdnfile.huya.com
 DOMAIN,cf.360stat.org
 DOMAIN,channels1.mall.icbc.com.cn
