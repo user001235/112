@@ -16,10 +16,6 @@
 ^https:\/\/api-chat\.soulapp\.cn\/chat\/quick\/menu\/v2 url reject-dict
 ^https:\/\/api-user\.soulapp\.cn\/furion\/position\/content url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
 ^https:\/\/api-user\.soulapp\.cn\/v6\/planet\/config url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Soul.js
-^https:\/\/api\.coolapk\.com\/v6\/account\/loadConfig\?key=my_page_card_config url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/main\/indexV8 url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/main\/init url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
-^https:\/\/api\.coolapk\.com\/v6\/page\/dataList url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/KuAn.js
 ^https:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
 ^https:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Keep.js
 ^https:\/\/api\.gotokeep\.com\/messenger\/v\d\/conversations\/unread url reject-dict
@@ -127,5 +123,4 @@
 ^https:\/\/user-api\.smzdm\.com\/vip url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
 ^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
 ^https?:\/\/api\.iqiyi\.com\/3f4\/(cards\.iqiyi\.com\/views_search\/3\.0\/hot_query_search|iface2\.iqiyi\.com\/(views\/3\.0\/(home_top_menu|bottom_theme)|views_pop\/3\.0\/pop_home\/1|aggregate\/3\.0\/getMyMenus)) url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/iQIYI.js
-https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch url reject-dict
 https?:\/\/search\.video\.(?:iqiyi|qiyi)\.com\/q url reject-dict

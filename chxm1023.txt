@@ -7,6 +7,8 @@ https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body ht
 https?:\/\/api\.intelimeditor\.com\/user\/loginByThirdPlatformApp url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/baozouptu.js
 https?:\/\/.*\.ihuaben\.com\/(api\/userinfo|book\/app\/(vipReadWaitSeconds|book)|function\/bookservice\/authorInfo) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/huabenxiaoshuo.js
 https?:\/\/(api|www)\.hunliji\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/hlj.js
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/v\d\/(verify_receipt|products)\/remove_ads url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Wall.js
+^https?:\/\/firstclass\.tripsy\.app\/api\/v\d\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Tripsy.js
 http:\/\/www\.kkmop\.com\/vipMsg1 url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/suishouxie.js
 http:\/\/wallpaper\.jingqueyun\.com\/\/index\.php\/\/(user\/getUserInfo|download) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xxbzdq.js
 http:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/ssfyg.js
@@ -87,7 +89,6 @@ http:\/\/.*\.dicallapp\.com url script-response-body https://raw.githubuserconte
 ^https?:\/\/gzfanyin\.com\/api\/ums\/getMember url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fanyingangqin.js
 ^https?:\/\/guapi\.liangjihui\.com\/(front\/(quote\/look.+|user\/memberInfo)|api) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/liangjihui.js
 ^https?:\/\/focos\.oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Focos.js
-^https?:\/\/firstclass\.tripsy\.app\/api\/v\d\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/Tripsy.js
 ^https?:\/\/firstclass\.tripsy\.app\/api\/.+\/receipt\/update url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tripsy.js
 ^https?:\/\/fimo\.appfimo\.com\/fimo-.*\/(user|apple\/certificate|config|startPopConfig|filmAll) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
 ^https?:\/\/film-api\.startupfun\.vip\/api\/v\d\/(wallpaper\/generator|user\/point\/info) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/tjzs.js
