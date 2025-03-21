@@ -8,7 +8,7 @@ http:\/\/newos\.glassmarket\.cn\/index\.php url script-response-body https://raw
 http:\/\/newos\.glassmarket\.cn\/webapps\/tarot\/index\.php url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/xingzuoyouxidaquan/xzyxdqcs.js  
 ^http://api\.528529\.com/apple_product/ url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/tupianzhuanwenzi/tupianzhuanwenzi.js  
 ^http://tailor\.tomax\.xyz/api/users/fetch/info url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/gundongjieping/gdjp.js  
-^http://wu18\.cn/cg/zhanghao/ url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/chegongjisuan.js 
+^http://wu18\.cn/cg/zhanghao/ url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/chegongjisuan/chegongjisuan.js
 ^http:\/\/yy\.fuwu100\.top/api/user/my url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/tupianyasuo/tupianyasuo.js
 ^https://ai\.xiuxiu\.meitu\.com/v1/tool/mtlab/ai_graffiti_permission url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/danbo/danboai.js
 ^https://api-sub\.meitu\.com/v2/user/vip_info_by_group url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/danbo/danbovip.js
