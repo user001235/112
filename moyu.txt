@@ -185,7 +185,6 @@ https://api.zhihu.com/search/hot_search url script-response-body https://gist.gi
 ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/features url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
 ^https?:\/\/starplucker\.cyapi\.cn\/v\d/campaigns url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
 ^https?:\/\/ad\.cyapi\.cn\/v\d url reject-200
-^https?:\/\/www\.google\..*\/search url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/endlessgoogle.js
 ^http:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/.*?\/v\d\/(version|notice\?|top_notice\?|advert\?position=[^2]+) url reject-200
 ^https?:\/\/api\.gotokeep\.com\/guide-webapp\/v\d\/popup\/getPopUp url reject-200
 ^https?:\/\/api\.gotokeep\.com\/running\/v\d\/home\/dialog url reject-200
