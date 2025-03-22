@@ -2,6 +2,8 @@
 10086.cn
 123pan.com
 126.com
+bbs-api-static.miyoushe.com
+bbs-api.miyoushe.com
 ttvnw.net
 yz.tcdnos.com
 hkhl.hk
