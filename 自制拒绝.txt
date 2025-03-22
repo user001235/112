@@ -11,6 +11,7 @@ DOMAIN,xcdn.rltdxt.com
 DOMAIN,ads5-normal-lf.zijieapi.com
 DOMAIN,adservice.google.com
 DOMAIN,img-quic.meituan.net
+DOMAIN,h5.qzone.qq.com
 DOMAIN,ddplus-quic.meituan.net
 DOMAIN,mrn-quic.meituan.net
 DOMAIN,w-quic.meituan.net
