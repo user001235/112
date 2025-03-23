@@ -1,3 +1,6 @@
+sakura.ne.jp
+nflxvideo.net
+tiktok.com
 10010.com
 10086.cn
 123pan.com
@@ -278,7 +281,6 @@ audiocontentdownload.apple.com
 autoimg.cn
 autonavi.com
 awaken.amap.com
-aweme.snssdk.com
 aws.oath.cloud
 axm-adm-enroll.apple.com
 axm-adm-mdm.apple.com
@@ -330,20 +332,6 @@ bsclink.cn
 bsgslb.cn
 bsgslb.com
 business.apple.com
-bytecdn.cn
-bytecdntp.com
-bytedance.com
-bytedance.com.queniurc.com
-bytedanceapi.com
-bytefae.com
-bytefcdn.com
-bytegoofy.com
-byteicdn.com
-byteimg.com
-byteimg.com.bsgslb.com
-byteimg.com.queniusy.com
-bytes.tcdnos.com
-bytetos.com
 c-ctrip.com
 c.m.163.com
 c.mipcdn.com
@@ -372,7 +360,6 @@ cdn.aligames.com
 cdn.ampproject.org
 cdn.ark.qq.com
 cdn.bcebos.com
-cdn.bytedance.com
 cdn.cnbj1.fds.api.mi-img.com
 cdn.dcloud.net.cn
 cdn.jiashule.com
@@ -494,9 +481,7 @@ doh.dns.apple.com
 douban.com
 doubanio.com
 doupay.com
-douyin.com
-douyincdn.com
-douyinvod.com
+bytes.tcdnos.com
 douyucdn.cn
 download.csdn.net
 download.developer.apple.com
@@ -521,7 +506,6 @@ edge.microsoft.com
 edgecastcdn.net
 edgekey.net
 edgesuite.net
-efe.snssdk.com
 eimg.smzdm.com
 ele.me
 elearning.sexytea2013.com
@@ -538,8 +522,6 @@ ettoday.net
 eu.net
 eu.org
 expenses-fe.meituan.com
-f-cashloan.snssdk.com
-f-cpay.snssdk.com
 f-vali.cp31.ott.cibntv.net
 f1.market.mi-img.com
 f2.market.mi-img.com
@@ -674,13 +656,11 @@ humb.apple.com
 huya.com
 hwmov6.a.yximgs.com
 hzyoka.com
-i-hl.snssdk.com
 i.alicdn.com
 i.ibb.co
 i.imgur.com
 i.instagram.com
 i.pximg.net
-i.snssdk.com
 i.tancdn.com
 i.tantanapp.com
 i.video.qq.com
@@ -692,9 +672,7 @@ i2.hdslb.com
 i3d.net
 i4.cn
 iacc.qq.com
-ib.snssdk.com
 ibb.co
-ic.snssdk.com
 icloud-content.com
 icloud.apple.com
 icloud.com
@@ -722,7 +700,6 @@ image.so.com
 image.uczzd.cn
 image.uczzd.com
 images.pinduoduo.com
-imapi2.snssdk.com
 ime-res-download.xfinfr.com
 imeclient.openspeech.cn
 img.alicdn.com
@@ -760,7 +737,6 @@ ipvanish.com
 ipw.cn
 iqiyi.com
 is.autonavi.com
-is.snssdk.com
 issuecdn.baidupcs.com
 isure.stream.qqmusic.qq.com
 isure6.stream.qqmusic.qq.com
@@ -792,7 +768,6 @@ kafan.cn
 kdocs.cn
 kdocs.us
 ke.com
-kefu-im.bytedance.com
 kgnopipv6.kugou.com
 kknews.cc
 knowsex.net
@@ -820,8 +795,6 @@ lcdn-locator.apple.com
 lcdn-registration.apple.com
 learnreport.xiaoeknow.com
 lens.zhihu.com
-lf6-cdn-tos.bytecdntp.com
-lf9-cdn-tos.bytecdntp.com
 lgincdnvzeuno.azureedge.net
 liangcang-material.alicdn.com
 lianjia.com
@@ -1034,10 +1007,6 @@ pp.cn
 ppq.apple.com
 prize.qq.com
 prod.remote-settings.prod.webservices.mozgcp.net
-pstatp.com
-s1.pstatp.com
-s2.pstatp.com
-s3.pstatp.com
 ptt.cc
 push-statics.meizu.com
 push.12306.cn
@@ -1097,7 +1066,6 @@ qwhdcdn.cmcc-cs.cn
 qzonestyle.gtimg.cn
 r.inews.qq.com
 rdt.tfogc.com
-reading.snssdk.com
 reddit.com
 redditmedia.com
 redirect.viglink.com
@@ -1158,7 +1126,6 @@ search.kuwo.cn
 search.ximalaya.com
 search.yahoo.com
 secretchina.com
-security.snssdk.com
 seed.net.tw
 seeds.services
 serverstatus.apple.com
@@ -1196,7 +1163,6 @@ smp-device-content.apple.com
 smtcdns.com
 smtcdns.net
 smzdm.com
-snssdk.com
 so.com
 sogou.com
 sohu.com
@@ -1239,7 +1205,6 @@ styles.redditmedia.com
 sub-store.vercel.app
 success.alienvault.com
 suconfig.apple.com
-summon.bytedance.com
 supl.google.com
 support.apple.com
 support.content.office.net
@@ -1337,7 +1302,6 @@ toutiaocloud.com
 toutiaoimg.com
 toutiaostatic.com
 toutiaovod.com
-tp-pay.snssdk.com
 tpns.gz2.tencent.com
 tpns.hk.tencent.com
 tpns.qq.com
@@ -1351,7 +1315,6 @@ translate.google.com
 tripcdn.cn
 ts.market.mi-img.com
 ttlivecdn.com
-ttwid.bytedance.com
 tuisong.baidu.cn
 tuisong.baidu.com
 turing.captcha.gtimg.com
