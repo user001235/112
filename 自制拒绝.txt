@@ -142,8 +142,6 @@ dynamicad.kfc.com.cn
 dyp2p-huos.douyucdn2.cn
 dyp2p-hw.douyucdn.cn
 e6858.e19.s.tl88.net
-ecom.snssdk.com
-ecomuser.snssdk.com
 err.tmall.com
 errlog.umeng.com
 es.statcounter.com
@@ -265,7 +263,6 @@ kgnopipv6bj.kugou.com
 kinglog.feidee.net
 knicks.jd.com
 kohcloud.tgpa.qq.com
-lf3-ecom-toc.jinritemai.com
 lf3-stark-cdn.bdgp.cc
 lgsq-video.xhscdn.com
 lifelog.blog.naver.com
@@ -299,7 +296,7 @@ logv3.shanbay.com
 lookup.api.bsb.baidu.com
 ls.dtrace.nvidia.com
 lwlog.dingtalk.com
-m.statcounter.com
+statcounter.com
 m5-x.amap.com
 mambap2pvodh5.8686c.com
 mapi.weibo.com
@@ -633,9 +630,6 @@ dahuap2pcloud.com
 dns.google
 doh.pub
 douyinstatic.com
-ecombdapi.com
-ecombdimg.com
-ecombdpage.com
 ext.huya.com
 feedsads.cn
 gjfzpt.cn

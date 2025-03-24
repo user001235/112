@@ -23,11 +23,9 @@ ecombdapi.com
 ecombdimg.com
 ecombdpage.com
 ecombdstatic.com
-ecomuser.snssdk.com
-f-cpay.snssdk.com
 huoshanlive.com
 ihuoshanlive.com
+idouyinvod.com
 pstatp.com
 snssdk.com
-tp-pay.snssdk.com
 zijieapi.com
