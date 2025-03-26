@@ -90,7 +90,6 @@ https://www.aiyamanya.com/aymy/api/getUserInfo url script-response-body https://
 https://www.pdreamer.com/aymyProd/api/getUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/rwmm.js
 https://www.zju.edu.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mh.js
 https:\/\/(?:\S+\/video\/info\/.*\?token=\S+) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/plpl.js
-https:\/\/(dd38dkt7dfvyr|d2x03a61ogs2x5|d3lijns9322mkl)\.cloudfront\.net\/api\/(video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js
 https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js
 https:\/\/api\.\w+\.com\/v2\.4\/(bootstrap|article\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one.js
 https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dydsk.js
@@ -101,3 +100,5 @@ https:\/\/ios\.abc-learning\.net\/api\/v.*\/learning\/(book\/list|home\/layout|c
 https?:\/\/(www\.unischool\.cn\/api\/(student\/v1\/(course_template\/goods\/query|goods\/album\/detail|course_template\/group\/query|vip\/my\/card\/list|user\/area\/book_detail|goods\/real\/detail)|common\/v1\/account\/user\/student\/info)|h5\.mailejifen\.com\/site\/get-index).* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyux.js
 https?:\/\/omts\.tc\.qq\.com\/[^\s]+\.m3u8(\?[^\s]*)? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/wm4k.js
 https?:\/\/xfapi\.fingerabc\.cn\/+api\/(cf\/vip\/queryList|bookModule\/get\/bookModuleAsNew|lesson\/(queryCalendarBook|queryLessons)|product\/getCategoryProduct|tagMaterial\/queryVipStatus).* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xfbs.js
+^https://[a-zA-Z0-9-]+\.cloudfront\.net/api/(video/getVideoById|user/base/info|community/dynamic/dynamicInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js
+^https://[a-zA-Z0-9-]+\.cloudfront\.net/api/(?:sys/partner/list|activity/indexActs|sys/advertisement/list|sys/getImgAndVideoCdnList|aibox/entranceConfig) url reject

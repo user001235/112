@@ -19,6 +19,7 @@ douyincdn.com
 douyinliving.com
 douyinpic.com
 douyinvod.com
+douyinstatic.com
 ecombdapi.com
 ecombdimg.com
 ecombdpage.com
