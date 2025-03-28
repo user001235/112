@@ -1,9 +1,11 @@
 [General]
 real-ip=*-update.xoyocdn.com,xg-flow.xoyo.com
 [Argument]
-showUpList=select,"auto","true","false",tag=[动态]中[最常访问]的显示方式,desc=auto：仅当列表中存在直播状态时显示；true：始终显示；false：始终隐藏。
-removeTopSwitch=switch,true,tag=移除置顶项,desc=移除置顶文章
-removeBannerSwitch=switch,true,tag=移除轮播图,desc=移除轮播图
+blockUpload=switch,false,true,tag=隐藏上传按钮,desc=用于隐藏YouTube底栏的上传按钮
+blockImmersive=switch,false,true,tag=隐藏选段按钮,desc=用于隐藏YouTube Music底栏的选段按钮
+captionLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=字幕翻译语言,desc=需要把YouTube字幕翻译翻译为何种语言
+lyricLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=歌词翻译语言,desc=需要把YouTube Music字幕翻译翻译为何种语言
+debug=switch,false,true,tag=启用调试模式,desc=此插件的调试模式
 MY=switch,false,true,tag=[隐藏底栏]漫游标签,desc=
 DT=switch,false,true,tag=[隐藏底部]笔记标签,desc=
 FX=switch,false,true,tag=[隐藏底部]发现标签,desc=
@@ -16,12 +18,10 @@ PRRR=switch,false,true,tag=[隐藏首页]雷达歌单,desc=
 HMPR=switch,false,true,tag=[隐藏首页]音乐合伙人,desc=
 PRMST=switch,false,true,tag=[隐藏首页]推荐专属歌单,desc=
 PRCN=switch,false,true,tag=[隐藏首页]你的专属歌单,desc=
-blockUpload=switch,false,true,tag=隐藏上传按钮,desc=用于隐藏YouTube底栏的上传按钮
-blockImmersive=switch,false,true,tag=隐藏选段按钮,desc=用于隐藏YouTube Music底栏的选段按钮
-captionLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=字幕翻译语言,desc=需要把YouTube字幕翻译翻译为何种语言
-lyricLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=歌词翻译语言,desc=需要把YouTube Music字幕翻译翻译为何种语言
-debug=switch,false,true,tag=启用调试模式,desc=此插件的调试模式
-[Rule]
+removeTopSwitch=switch,true,tag=移除置顶项,desc=移除置顶文章
+removeBannerSwitch=switch,true,tag=移除轮播图,desc=移除轮播图
+showUpList=select,"auto","true","false",tag=[动态]中[最常访问]的显示方式,desc=auto：仅当列表中存在直播状态时显示；true：始终显示；false：始终隐藏。
+
 AND,((DEST-PORT,18000),(PROTOCOL,STUN)),REJECT
 AND,((DOMAIN-KEYWORD,-ad-),(DOMAIN-SUFFIX,byteimg.com)),REJECT
 AND,((DOMAIN-KEYWORD,-ttam-),(DOMAIN-SUFFIX,ibyteimg.com)),REJECT
@@ -460,20 +460,6 @@ DOMAIN,yumao.puata.info,REJECT
 DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT
 DOMAIN,ztoken.uyunad.com,REJECT
 DOMAIN,zxid-m.mobileservice.cn,REJECT
-DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
-DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
-DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com,REJECT
-DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com,REJECT
-DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao,REJECT
-DOMAIN-KEYWORD,asiad.byteactivity,REJECT
-DOMAIN-KEYWORD,asiad.byteactivity,REJECT#!name=配音秀去广告
-DOMAIN-KEYWORD,bjimp.voiceads.cn,REJECT
-DOMAIN-KEYWORD,iflyad.bj.openstorage.cn,REJECT
-DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao,REJECT
-DOMAIN-KEYWORD,trace.qq.com,REJECT
-DOMAIN-KEYWORD,trace.video.qq.com,REJECT
-DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
 DOMAIN-SUFFIX,66mobi.com,REJECT
 DOMAIN-SUFFIX,adbkwai.com,REJECT
 DOMAIN-SUFFIX,adcanvas.com,REJECT
@@ -516,39 +502,52 @@ DOMAIN-SUFFIX,uve.weibo.com,DIRECT
 DOMAIN-SUFFIX,v.smtcdns.com,REJECT
 DOMAIN-SUFFIX,v1d.szbdyd.com,REJECT
 DOMAIN-SUFFIX,wxs.qq.com,REJECT
-IP-CIDR,101.124.19.122/32,REJECT,no-resolve
-IP-CIDR,103.41.167.237/32,REJECT,no-resolve
-IP-CIDR,103.44.59.54/32,REJECT,no-resolve
-IP-CIDR,111.206.98.63/32,REJECT,no-resolve
-IP-CIDR,111.63.147.158/32,REJECT,no-resolve
-IP-CIDR,115.236.121.195/32,REJECT,no-resolve
-IP-CIDR,115.236.121.51/32,REJECT,no-resolve
-IP-CIDR,116.211.198.237/32,REJECT,no-resolve
-IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-IP-CIDR,119.29.29.98/32,REJECT,no-resolve
-IP-CIDR,119.29.29.99/32,REJECT,no-resolve
-IP-CIDR,120.27.235.201/32,REJECT,no-resolve
-IP-CIDR,121.196.197.147/32,REJECT,no-resolve
-IP-CIDR,122.229.29.89/32,REJECT,no-resolve
-IP-CIDR,122.229.8.47/32,REJECT,no-resolve
-IP-CIDR,180.76.76.200/32,REJECT,no-resolve
-IP-CIDR,186.76.76.200/32,REJECT,no-resolve
-IP-CIDR,203.107.1.1/24,REJECT,no-resolve
-IP-CIDR,47.110.187.87/32,REJECT,no-resolve
-IP-CIDR,47.243.147.125/32,REJECT,no-resolve
-IP-CIDR,47.56.131.76/32,REJECT,no-resolve
-IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
-IP-CIDR,47.97.215.55/32,REJECT,no-resolve
-IP-CIDR,47.99.42.29/32,REJECT,no-resolve
+DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
+DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com,REJECT
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao,REJECT
+DOMAIN-KEYWORD,asiad.byteactivity,REJECT
+DOMAIN-KEYWORD,asiad.byteactivity,REJECT#!name=配音秀去广告
+DOMAIN-KEYWORD,bjimp.voiceads.cn,REJECT
+DOMAIN-KEYWORD,iflyad.bj.openstorage.cn,REJECT
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao,REJECT
+DOMAIN-KEYWORD,trace.qq.com,REJECT
+DOMAIN-KEYWORD,trace.video.qq.com,REJECT
+DOMAIN-KEYWORD,video-cn.snssdk.com,REJECTDOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
 IP-CIDR,59.111.239.61/32,REJECT,no-resolve
 IP-CIDR,59.111.239.62/32,REJECT,no-resolve
-IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
-IP-CIDR,81.71.61.216/32,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
+IP-CIDR,115.236.121.51/32,REJECT,no-resolve
+IP-CIDR,115.236.121.195/32,REJECT,no-resolve
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+IP-CIDR,203.107.1.1/24,REJECT,no-resolve
+IP-CIDR,119.29.29.98/32,REJECT,no-resolve
+IP-CIDR,119.29.29.99/32,REJECT,no-resolve
+IP-CIDR,186.76.76.200/32,REJECT,no-resolve
+IP-CIDR,103.44.59.54/32,REJECT,no-resolve
+IP-CIDR,111.63.147.158/32,REJECT,no-resolve
+IP-CIDR,116.211.198.237/32,REJECT,no-resolve
+IP-CIDR,101.124.19.122/32,REJECT,no-resolve
 IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
+IP-CIDR,81.71.61.216/32,REJECT,no-resolve
+IP-CIDR,111.206.98.63/32,REJECT,no-resolve
+IP-CIDR,122.229.8.47/32,REJECT,no-resolve
+IP-CIDR,122.229.29.89/32,REJECT,no-resolve
+IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
+IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
+IP-CIDR,47.56.131.76/32,REJECT,no-resolve
+IP-CIDR,47.97.215.55/32,REJECT,no-resolve
+IP-CIDR,47.99.42.29/32,REJECT,no-resolve
+IP-CIDR,47.243.147.125/32,REJECT,no-resolve
+IP-CIDR,120.27.235.201/32,REJECT,no-resolve
+IP-CIDR,121.196.197.147/32,REJECT,no-resolve
+IP-CIDR,180.76.76.200/32,REJECT,no-resolve
+IP-CIDR,103.41.167.237/32,REJECT,no-resolve
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
 URL-REGEX,"^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/",REJECT
-URL-REGEX,"^https:\/\/patientgate\.91160\.com\/advert-api\/v1\/advert\/homepage_icon\?",DIRECT
-URL-REGEX,"^https:\/\/patientgate\.91160\.com\/advert-api\/",REJECT-DICT
 URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/",REJECT
 URL-REGEX,"^http:\/\/182\.254\.116\.116\/d",REJECT
 URL-REGEX,"^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(index_activity\/get_app_index_activity|sign\/sign_h_5)\?",REJECT-DICT
@@ -626,9 +625,16 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/jia\.360\.cn\/conf\/v1\.json response-body-json-del tab_conf ad_conf activity
 ^https:\/\/(app-v1\.ecoliving168\.com|852b95d36\.xwlpk\.cn)\/api\/v1\/movie\/index_recommend\? response-body-json-jq '.data[].list |= map(select(.type != 3)) | .data |= map(select(.layout != "advert_self"))'
 ^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ reject-dict
-^https:\/\/patientgate\.91160\.com\/rec\/homepage\/open\/getUserGoodsList\? reject-dict
-^https:\/\/patientappapi\.91160\.com\/cus_index\.php\?c=adver reject
+^https:\/\/patientgate\.91160\.com\/advert-api\/ reject-dict
 ^https:\/\/soapi\.91160\.com\/homepage-recommendation\/recommendation\/medical\/complex\? response-body-json-del data.checkupList
+^https:\/\/soapi\.91160\.com\/homepage-recommendation\/homepage\/flow\? response-body-json-jq '.data.rows |= map(select(.type as $type | ["GOOD", "ARTICLE"] | index($type) | not))'
+^https:\/\/patientgate\.91160\.com\/cube\/v1\/unit_page\/page_data\? response-body-json-jq '.data.modules |= map(select(.name == "announcement" or .name == "guide" or .name == "expert" or .name == "featuredDepartments" or .name == "featureDevice" or .name == "featureTech" or .name == "familyDoctor" or .name == "introduction" or .name == "bus" or .name == "classicCase" or .name == "askEveryone" or .name == "reviews" or .name == "notes"))'
+^https:\/\/snsapi\.91160\.com\/vipmemberapi\/mbCombo\/mbComboWords\? reject-dict
+^https:\/\/patientgate\.91160\.com\/rec\/homepage\/open\/getUserGoodsList\? reject-dict
+^https:\/\/snsapi\.91160\.com\/hotword\/open\/v1\/getSearchExplore\? reject-dict
+^https:\/\/snsapi\.91160\.com\/hotword\/open\/v1\/getHotWordPlate\? reject-dict
+^https:\/\/snsapi\.91160\.com\/engine\/backgroundWord\/queryForFrontend\? reject-dict
+^https:\/\/patientappapi\.91160\.com\/cus_index\.php\?c=adver reject
 ^https:\/\/aiqicha\.baidu\.com\/app\/bannerPicAjax reject-dict
 ^https:\/\/aiqicha\.baidu\.com\/app\/getPopConfigAjax reject-dict
 ^https:\/\/aiqicha\.baidu\.com\/app\/getHotTopicAjax reject-dict
@@ -713,11 +719,10 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab)\? response-body-json-jq '.result.modules |= if . then map(if (.style | startswith("tip")) or (.module_id | IN(241, 1283, 1441, 1284)) then .items = [] elif .style | startswith("banner") then .items |= if . then map(select(.link | contains("play"))) else [] end elif .style | startswith("function") then .items |= if . then map(select(.blink | startswith("bilibili"))) else [] end end) end'
 ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\? response-body-json-jq 'if .data.items then .data.items |= map(select((.ad_info == null) and (.card_goto | startswith("ad") | not)) | del(.story_cart_icon)) end'
 ^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab)|v2\/search\/square|vip\/ads\/materials)\? mock-response-body data-type=text status-code=200 data="{"code":-404,"message":"-404","ttl":1,"data":null}"
-^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? reject-dict
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/(?:app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(?:Room|User))\? response-body-json-jq '.data |= (del(.play_together_info, .play_together_info_v2, .activity_banner_info) | if .function_card then .function_card[] = null end | if .new_tab_info.outer_list then .new_tab_info.outer_list |= map(select(.biz_id != 33)) end | if .card_list then .card_list |= map(select(.card_type != "banner_v2")) end | reduce ([["show_reserve_status"], false], [["reserve_info", "show_reserve_status"], false], [["shopping_info", "is_show"], 0]) as [$path, $value] (.; if getpath($path) then setpath($path; $value) end))'
 ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? response-body-json-del data.common_equip
 ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine(?:\/ipad)?\? response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq"
-^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? response-body-json-jq '.data.vip |= if . != null and .status == 0 then . + {status:1,type:2,vip_pay_type:1,due_date:4669824160000} else . end'
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? response-body-json-jq '.data.vip |= if . != null and .status == 0 then . + { status: 1, type: 2, due_date: 9005270400000, role: 15 } else . end'
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetActivityTab reject-dict
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetBubbles reject-dict
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner reject-dict
@@ -780,6 +785,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/app\.chengfenmiao\.com\/item\/closet\? reject-dict
 ^https:\/\/biz\.cyapi\.cn\/(p\/v1\/entries|p\/v1\/trial_card\/info|v2\/product) reject-dict
 ^https:\/\/starplucker\.cyapi\.cn\/v3\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures) reject-dict
+^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
 ^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\? response-body-json-jq '.data.hotReplyRows |= if . then map(select(.id?)) else . end | .data.topReplyRows |= if . then map(select(.id?)) else . end | reduce ("detailSponsorCard", "include_goods", "include_goods_ids") as $key (.; .data[$key] = [])'
 ^https:\/\/api\.coolapk\.com\/v6\/feed\/replyList response-body-json-jq 'if .data? and ((.data | type) == "array") and (.data | length > 0) then .data |= map(select(.id?)) else . end'
 ^https:\/\/api\.coolapk\.com\/v6\/main\/dataList response-body-json-jq '.data |= (if (type=="array" and length>0) then map(select((.entityTemplate!="sponsorCard") and (.title!="精选配件"))) else . end)'
