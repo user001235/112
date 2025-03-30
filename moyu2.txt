@@ -1,5 +1,5 @@
 [URL Rewrite]
-^https?:\/\/2025.03.07/c371/v2.0.572 - reject
+^https?:\/\/2025.03.17/c372/v2.0.573 - reject
 ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
 ^http:\/\/ads.?s?ervice(retry)?\.(kugou|kglink).(com|cn)\/v\d\/ - reject
 ^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
@@ -39,19 +39,40 @@
 ^https?://advertise\.bczeducation\.cn\/rpc\/advertise - reject
 ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) - reject
 ^https?://ssp\.dzh\.com\.cn/v2api/adgroupjson - reject
+^https?:\/\/(adse\.wsa|adse|adbehavior|xdcs-collector)\.xima.*\.com\/.* - reject
+^https?:\/\/(app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/Default - reject
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 ^https?:\/\/(commontgw|comapi)\.reader\.qq\.com\/(common\/adV|com-ad\/config) - reject
 ^https?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native - reject
 ^https?:\/\/(mobile|shop)\.laichon\.com\/api\/(v1\/goods\/goodsList|exposureAdvStatistics|getWebAdvList) - reject
+^https?:\/\/(preload-click|preload-impression)\.uve\.weibo\.com\/(interface\/wbpullad\/wbpullad_click\.php|wbapplua\/get_wbpullad_log\.lua) - reject
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) - reject
 ^https?:\/\/.*1rtb\.net\/sdk\/req_ad\? - reject
 ^https?:\/\/.*5eplay\.com\/.*adv_slot - reject
 ^https?:\/\/.*\.amap\.com\/uploadimg\/\w+\.gif - reject
+^https?:\/\/.*\.amap\.com\/ws\/asa\/ads_attribution - reject
 ^https?:\/\/.*\.amap\.com\/ws\/boss\/order_web\/\w{8}_information - reject
 ^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/card-service-route-plan\? - reject
 ^https?:\/\/.*\.amap\.com\/ws\/shield\/scene\/recommend - reject
 ^https?:\/\/.*\.amap\.com\/ws\/valueadded\/weather - reject
 ^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) - reject
+^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop - reject
+^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) - reject
+^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord - reject
+^https?:\/\/.*\.xima.*\.com\/(hub\/)?hotWord - reject
+^https?:\/\/.*\.xima.*\.com\/(hub\/)?hotWordBillboard - reject
+^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime - reject
+^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck - reject
+^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list - reject
+^https?:\/\/.*\.xima.*\.com\/collector\/xl\/v\d - reject
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF - reject
+^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant - reject
+^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ - reject
+^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread - reject
+^https?:\/\/.*\.xima.*\.com\/mobile\/discovery\/v\d\/location - reject
+^https?:\/\/.*\.xima.*\.com\/social-web\/bottomTabs\/dynamicEntrance\/status - reject
+^https?:\/\/.*\.xima.*\.com\/ting\/(loading|feed|home)? - reject
+^https?:\/\/.*\.xmcdn\.com\/\w{8}\/\w{4}-\w{16}\/.+gif$ - reject
 ^https?:\/\/.*\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen - reject
 ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action - reject
 ^https?:\/\/.*aastocks\.com\/ad\/ - reject
@@ -173,6 +194,7 @@
 ^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad - reject
 ^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad - reject
 ^https?:\/\/api\.touker\.com\/v2\/IAdvertisementAPI\.queryStartAdvertisement - reject
+^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement - reject
 ^https?:\/\/api\.weibo\.cn\/.*\/media_homelist - reject
 ^https?:\/\/api\.weibo\.cn\/.*account\/recommend_interesttags - reject
 ^https?:\/\/api\.weibo\.cn\/.*discovery_home_bottom_getdotinfo - reject
@@ -192,11 +214,14 @@
 ^https?:\/\/api\.zcool\.com\.cn\/.*common\/open-screen - reject
 ^https?:\/\/api\.zhihu\.com\/(notifications\/v\d\/count) - reject
 ^https?:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config - reject
+^https?:\/\/api\.zhihu\.com\/ad-style-service\/request - reject
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config - reject
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/profile\/cards - reject
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? - reject
 ^https?:\/\/api\.zhihu\.com\/commercial_api - reject
+^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer - reject
 ^https?:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings - reject
+^https?:\/\/api\.zhihu\.com\/drama\/hot-drama-list - reject
 ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/current_reading - reject
 ^https?:\/\/api\.zhihu\.com\/feed\/render\/revisit\/tag_config - reject
 ^https?:\/\/api\.zhihu\.com\/me\/guides - reject
@@ -299,6 +324,7 @@
 ^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start - reject
 ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid - reject
 ^https?:\/\/gorgon\.youdao\.com\/gorgon - reject
+^https?:\/\/gslb.*\.xima.*\.com\/ - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show - reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge - reject
@@ -417,6 +443,7 @@
 ^https?:\/\/sdk\.1rtb\.net\/sdk\/req_ad - reject
 ^https?:\/\/sdk\.alibaba\.com\.ailbaba\.me\/.*?\/v\d\/(version|top_notice\?|advert\?position=[^2]+) - reject
 ^https?:\/\/sdk\.tianmu\.mobi\/ad - reject
+^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkconfig\.php - reject
 ^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen - reject
 ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash - reject
 ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig - reject
@@ -450,10 +477,12 @@
 ^https?:\/\/weibointl\.api\.weibo\.c(n|om)\/portal\.php\?a=hot_search_users - reject
 ^https?:\/\/www1.elecfans.com\/www\/delivery\/ - reject
 ^https?:\/\/www\.ahzs10000\.com\/palmhall\/client\/base\/newVerson_getStartUp\.action - reject
+^https?:\/\/www\.ctm\.net\/crm_api\/.*advertise - reject
 ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage - reject
 ^https?:\/\/www\.pansearch\.me\/api\/adsite - reject
 ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/answer\/ - reject
+^https?:\/\/www\.zhihu\.com\/api\/v4\/topics\/rank_list\/question\/\d+\/related - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d+\/brand\/question/\d+/card\? - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d\/answers\/\d+\/recommendations - reject
 ^https?:\/\/www\.zhihu\.com\/api\/v\d\/articles\/\d+\/recommendation - reject
@@ -472,6 +501,7 @@
 https://access.mypikpak.com/access_controller/v1/area_accessible - reject
 https://api.feidee.net/v1/configs/client/configs - reject
 https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig - reject
+https://b.appsimg.com/upload/momin/ - reject
 https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryAdImages - reject
 https://community.feidee.com/api/v1/home/top - reject
 https://dl-cu-hz.lechange.cn/oms-online/advertisementPush/* - reject
@@ -481,11 +511,14 @@ https://guanyu.longfor.com/app-server/api/v1/main/start - reject
 https://homefront.qunar.com/front/splash/ad - reject
 https://ios.sspai.com/api/v3/recommend/page/get\?ad.*ios_home_modal - reject
 https://mapi.appvipshop.com/vips-mobile/rest/activity/advertisement/get - reject
+https://moneymarket.ssjlicai.com/finance-common-operation-ws/api/actShelve/v1/actShelveShowTipInfo - reject
 https://new-app-api.ylyk.com/v1/user/myinfo/adviser - reject
 https://open3.vistastory.com/v3/api.*get_popup - reject
 https://open3.vistastory.com/v3/api/index/loading_ad - reject
 https://support.you.163.com/appversync/check.do - reject
 https://tagit.hyhuo.com/recover/list - reject
+https://tg.feidee.com/online_ad/api/search.do - reject
+https://tg.feidee.com/vis-ad-engine-ws/api/show - reject
 https://top-widgets-api.xiaozujian.com/api/ad/config - reject
 https://yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result - reject
 https://yun.feidee.net/cab-query-ws/v1/comet/vtable/score-card - reject
@@ -495,10 +528,9 @@ https?://res\.xiaojukeji\.com\/resapi\/activity\/mget - reject
 https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSplashFrequencyStatistics|getPopInfo|getAppEntranceConfig|promote\/list|getSplash|outing\/reqFoundNewList|outing\/reqIndex) - reject
 https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do - reject
 https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload|PasMultiNotices) - reject
-
+[Map Local]
+^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 data="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js" header="Content-Type: text/json"
 [Script]
-123pan.Ads = type=http-response, pattern=^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, requires-body=true, max-size=-1, timeout=60
-123pan.Enhance = type=http-request, pattern=^https?:\/\/www\.123pan\.com\/b\/api\/share\/download\/info, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, timeout=60
 12306.js =type=http-request, pattern=^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList, script-path=https://github.com/ddgksf2013/Scripts/raw/master/12306.js, requires-body=true, max-size=-1, timeout=60
 123pan.js =type=http-response, pattern=^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, requires-body=true, max-size=-1, timeout=60
 555Ad.js =type=http-response, pattern=^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/api\/v\d\/movie\/index_recommend, script-path=https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js, requires-body=true, max-size=-1, timeout=60
@@ -519,6 +551,7 @@ Zhihu.Adblock.js =type=http-response, pattern=^https?:\/\/api\.zhihu\.com\/unlim
 Zhihu.Adblock.js =type=http-response, pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis, script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js, requires-body=true, max-size=-1, timeout=60
 Zhihu.Adblock.js =type=http-response, pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists, script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js, requires-body=true, max-size=-1, timeout=60
 Zhihu.Adblock.js =type=http-response, pattern=^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/, script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js, requires-body=true, max-size=-1, timeout=60
+Zhihu.Adblock.js =type=http-response, pattern=https://api.zhihu.com/search/hot_search, script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js, requires-body=true, max-size=-1, timeout=60
 abchina.js =type=http-response, pattern=^https?:\/\/mobilepaas\.abchina\.com\.cn:441\/mgw\.htm, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/abchina.js, requires-body=true, max-size=-1, timeout=60
 ahfs.js =type=http-response, pattern=^https?:\/\/.*(xbwpys|ahhhhfs)\.com\/($|[0-9a-zA-Z_/]+\/$), script-path=https://github.com/ddgksf2013/Scripts/raw/master/ahfs.js, requires-body=true, max-size=-1, timeout=60
 amap.js =type=http-response, pattern=^https?:\/\/.*\.amap\.com\/ws\/faas\/amap-navigation\/main-page, script-path=https://github.com/ddgksf2013/Scripts/raw/master/amap.js, requires-body=true, max-size=-1, timeout=60
@@ -575,29 +608,6 @@ caiyun_json.js =type=http-response, pattern=^https?:\/\/starplucker\.cyapi\.cn\/
 caiyun_json.js =type=http-response, pattern=^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity, script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, max-size=-1, timeout=60
 coolapk.js =type=http-response, pattern=^https?:\/\/api.coolapk.com\/v6\/main\/init, script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
 coolapk.js =type=http-response, pattern=^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList), script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js, requires-body=true, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/batch, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/creator\/musician\/reminder\/message\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/batch-deliver, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/delivery\/deliver, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ios\/upgrade\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/home\/framework\/tab, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/page\/rcmd\/resource\/show, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/position\/show\/resource, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/link\/scene\/show\/resource, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/detail, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/chart\/list, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/default\/keyword\/list, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/rcmd\/keyword\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/specialkeyword\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/search\/suggest\/keyword\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/side-bar\/mini-program\/music-service\/account, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vip\/cashier\/tspopup\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/vipnewcenter\/app\/resource\/newaccountpage, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
-deleteAeapi.js =type=http-request, pattern=^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/yunbei\/account\/entrance\/get, script-path=https://github.com/ddgksf2013/Scripts/raw/master/deleteAeapi.js, requires-body=false, max-size=-1, timeout=60
 dict.js =type=http-response, pattern=^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd, script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/dict.js, requires-body=true, max-size=-1, timeout=60
 dict.js =type=http-response, pattern=^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing, script-path=https://github.com/ddgksf2013/Scripts/raw/master/dict.js, requires-body=true, max-size=-1, timeout=60
 douban.js =type=http-response, pattern=^https?:\/\/m\.douban\.com\/(home_guide|movie|tv|book|group|music), script-path=https://github.com/ddgksf2013/Scripts/raw/master/douban.js, requires-body=true, max-size=-1, timeout=60
@@ -656,6 +666,7 @@ redbook_json.js =type=http-response, pattern=^https?:\/\/[a-z]+\.xiaohongshu\.co
 redbook_json.js =type=http-response, pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/trending, script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, max-size=-1, timeout=60
 redbook_json.js =type=http-response, pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/config\?, script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, max-size=-1, timeout=60
 redbook_json.js =type=http-response, pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash_config, script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body=true, max-size=-1, timeout=60
+shunfeng_json.js =type=http-response, pattern=https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow, script-path=https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js, requires-body=true, max-size=-1, timeout=60
 smzdm_json.js =type=http-response, pattern=^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise, script-path=https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js, requires-body=true, max-size=-1, timeout=60
 smzdm_json.js =type=http-response, pattern=^https?:\/\/app-api\.smzdm\.com\/util\/loading, script-path=https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js, requires-body=true, max-size=-1, timeout=60
 smzdm_json.js =type=http-response, pattern=^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list, script-path=https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js, requires-body=true, max-size=-1, timeout=60
@@ -668,6 +679,8 @@ smzdm_json.js =type=http-response, pattern=^https?:\/\/s-api\.smzdm\.com\/sou\/l
 smzdm_json.js =type=http-response, pattern=^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner, script-path=https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js, requires-body=true, max-size=-1, timeout=60
 startup.js =type=http-response, pattern=^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show, script-path=https://github.com/ddgksf2013/Scripts/raw/master/startup.js, requires-body=true, max-size=-1, timeout=60
 stay.js =type=http-response, pattern=^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$, script-path=https://github.com/ddgksf2013/Scripts/raw/master/stay.js, requires-body=true, max-size=-1, timeout=60
+suishouji.js =type=http-response, pattern=https://userapi.feidee.net/v1/profile/basic_info, script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js, requires-body=true, max-size=-1, timeout=60
+suishouji.js =type=http-response, pattern=https://yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info, script-path=https://raw.githubusercontent.com/ddgksf2013/MoYu/master/suishouji.js, requires-body=true, max-size=-1, timeout=60
 v2ex.js =type=http-response, pattern=^https?:\/\/.*v2ex\.com\/($|t\/\d+), script-path=https://github.com/ddgksf2013/Scripts/raw/master/v2ex.js, requires-body=true, max-size=-1, timeout=60
 weibo_json.js =type=http-response, pattern=^https://api.weibo.cn/2/!/client/light_skin, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, max-size=-1, timeout=60
 weibo_json.js =type=http-response, pattern=^https://new.vip.weibo.cn/littleskin/preview, script-path=https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js, requires-body=true, max-size=-1, timeout=60
@@ -711,36 +724,10 @@ replace-body.js =type=http-response, pattern=^https?:\/\/sh-gateway\.shihuo\.cn\
 replace-body.js =type=http-response, pattern=^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd, script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, requires-body=true, argument=officialAdvertResultVo->ddgksf2013,max-size=-1, timeout=60
 replace-body.js =type=http-response, pattern=^https?:\/\/lcen\.xiaote\.net\/api\/graphql, script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, requires-body=true, argument=screenSplashAd->ddgksf2013,max-size=-1, timeout=60
 replace-body.js =type=http-response, pattern=^https?:\/\/apps\.workair\.cn\/app\/version, script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, requires-body=true, argument=ads"->ddgksf2013",max-size=-1, timeout=60
-BuyiTunesVip = type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://gist.githubusercontent.com/ddgksf2013/9e0f6c7341beea09a31aa309d9d7f502/raw/buyitunes.js, requires-body=true, max-size=-1, timeout=60
-coolapk = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/main\/init,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
-coolapk = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/dataList,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
-coolapk = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/main\/indexV8,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
-coolapk = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/replyList,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
-coolapk = type=http-response,pattern=^https?:\/\/api.coolapk.com\/v6\/feed\/detail,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/coolapk.js
-Duan.vip1 = type=http-response, pattern=^https?:\/\/app\.theinitium\.com\/subs\/[a-zA-Z_]+\/verify_subscription, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
-Duan.vip2 = type=http-response, pattern=^https?:\/\/api\.wallkit\.net\/api\/v\d/user, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
+123pan.Ads = type=http-response, pattern=^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, requires-body=true, max-size=-1, timeout=60
+123pan.Enhance = type=http-request, pattern=^https?:\/\/www\.123pan\.com\/b\/api\/share\/download\/info, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, timeout=60
 Goodbility.Vip1 = type=http-response, pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, max-size=-1, timeout=60
 Goodbility.Vip2 = type=http-request,  pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteHeader.js, timeout=60
 Goodbility.Vip3 = type=http-response, pattern=^https?:\/\/notability\.com\/global, script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, max-size=-1, timeout=60
-JD_Price = type=http-response, pattern=^https?:\/\/api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/wf021325/qx/master/js/jd_price.js, requires-body=true, max-size=-1, timeout=60
-RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://gist.githubusercontent.com/ddgksf2013/dbb1695cd96743eef18f3fac5c6fe227/raw/revenuecat.js, requires-body=true, max-size=-1, timeout=60
-RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteHeader.js, timeout=60
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/unlimited/go/my_card,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/people/self$,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/topstory\/recommend,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/search\/preset_words,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/search\/recommend_query,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/tabs,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/next-data,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/next-render,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/(v4\/)?questions\/\d+\/feeds,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/modules,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/user-credit\/basis,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/notifications\/v3\/(message|timeline\/entry\/system_message),requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-Zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/moments_v3,requires-body=1,max-size=0,script-path=https://gist.githubusercontent.com/ddgksf2013/d43179d848586d561dbb968dee93bae8/raw/Zhihu.Adblock.js
-[Map Local]
-^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 data="https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js" header="Content-Type: text/json"
+Duan.vip1 = type=http-response, pattern=^https?:\/\/app\.theinitium\.com\/subs\/[a-zA-Z_]+\/verify_subscription, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
+Duan.vip2 = type=http-response, pattern=^https?:\/\/api\.wallkit\.net\/api\/v\d/user, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
