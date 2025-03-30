@@ -1,3 +1,7 @@
+ugcimg.cn
+i.loli.net
+vercel.app
+bmp.ovh
 sakura.ne.jp
 nflxvideo.net
 tiktok.com
@@ -6,6 +10,12 @@ bdycdn.cn
 ndcimgs.com
 10010.com
 iyf.tv
+getupnote.com
+intercom.com
+x.ai
+z-lib.id
+ap-south-1.linodeobjects.com
+unpkg.com
 feitu.tv
 lzzyimg.com
 fofoyy.com
@@ -73,7 +83,6 @@ pay.bilibili.com
 mall.bilibili.com
 member.bilibili.com
 s4.anilist.co
-vercel.app
 postimg.cc
 xfani.com
 manganato.com
@@ -595,7 +604,6 @@ gdbyhtl.net
 gdc.kg.qq.com
 gdmf.apple.com
 gdown.baidu.com
-gecko.zijieapi.com
 geetest.com
 geevisit.com
 geilicdn.com

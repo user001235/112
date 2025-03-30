@@ -1,3 +1,4 @@
+p.tencentmusic.com
 4399logs.4399doc.com
 a1.alibabausercontent.com
 a6-remad.qm989.com
@@ -244,7 +245,6 @@ ipv6.msftconnecttest.com
 ipv6.open-internet.nl
 istats.baidu.com
 it.statcounter.com
-iu.snssdk.com
 iuni.unioncom.cc
 ivotrace.geely.com
 jhlog.kunwukj.com
@@ -263,7 +263,6 @@ kgnopipv6bj.kugou.com
 kinglog.feidee.net
 knicks.jd.com
 kohcloud.tgpa.qq.com
-lf3-stark-cdn.bdgp.cc
 lgsq-video.xhscdn.com
 lifelog.blog.naver.com
 live-trace.bilibili.com
@@ -663,7 +662,6 @@ remotewd.com
 siomxity.cn
 souajki.com
 souajki.net
-statcounter.com
 tdm.qq.com
 v.smtcdns.com
 vegslb.com
@@ -815,6 +813,7 @@ host-wildcard,xlog.*
 .*[^Bb]log[\d\-\.].+
 IP-CIDR,0.0.0.0/32
 IP-CIDR,1.1.1.1/32
+IP-CIDR,1.0.0.1/32
 IP-CIDR,101.91.140.124/32
 IP-CIDR,101.91.140.224/32
 IP-CIDR,110.76.3.1/32
@@ -831,7 +830,7 @@ IP-CIDR,117.144.238.29/32
 IP-CIDR,117.185.228.108/32
 IP-CIDR,118.89.204.198/24
 IP-CIDR,119.28.28.0/24
-IP-CIDR,119.29.29.29/32
+IP-CIDR,119.29.29.0/24
 IP-CIDR,120.27.235.201/32
 IP-CIDR,120.46.169.234/24
 IP-CIDR,121.196.197.147/32
@@ -862,3 +861,4 @@ IP-CIDR6,240e:928:1400:10::25/128
 IP-CIDR6,::/128
 IP-CIDR6,::1/128
 IP-CIDR6,::127.0.0.53/128
+IP-CIDR,101.35.212.35/32
