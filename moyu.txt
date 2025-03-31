@@ -55,6 +55,7 @@
 ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 ^https:\/\/us\.l\.qq\.com\/exapp\?spsa=\d url reject-200
+^https:\/\/www\.google\.com(?:\.[a-z]+|)\/(?:search\?(?:|.+?&)q=|$) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Google_CAPTCHA.js
 ^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js
 ^https?://advertise\.bczeducation\.cn\/rpc\/advertise url reject-200
 ^https?://spclient.wg.spotify.com/(ad-logic|ads|.+ad_slot|.+banners|.+canvases|.+cards|.+crashlytics|.+doubleclick.net|.+enabled-tracks|.+promoted_offer) url reject-img
@@ -153,13 +154,17 @@
 ^https?:\/\/103\.91\.210\.141\:2515\/xgapp\.php\/v2\/top_notice url reject-200
 ^https?:\/\/118\.89\.204\.198 url reject-200
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
-^https?:\/\/2025.03.30/c373/v2.0.575 url reject-200
+^https?:\/\/2025.03.31/c374/v2.0.576 url reject-200
 ^https?:\/\/2402:4e00:1200:ed00:0:9089:6dac:96b6 url reject-200
 ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement url reject-200
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject-200
 ^https?:\/\/[a-z0-9A-Z]+\.(kuwo|lrts)\.(cn|me)\/a\.p url script-response-body https://gist.githubusercontent.com/ddgksf2013/0f76e952f0c4a2579932f45a209b40c3/raw/kuwomusic.vip.js
 ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/.*?\/v\d\/(version$|notice\?|top_notice\?|advert\?position=[^2]+) url reject-200
 ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/api\/v\d\/movie\/index_recommend url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/555Ad.js
+^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ url reject-200
+^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad url reject-200
+^https?:\/\/[a-zA-Z0-9_-]+\.tianmu\.mobi\/ad url reject-200
+^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) url reject-200
 ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/gslb url reject-200
 ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/(tag\/)?ads url reject-200
 ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/guide\/home_guide url reject-200
@@ -384,6 +389,7 @@
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/search\/defaultwords url reject-dict
 ^https?:\/\/app\.c\.nf\.migu\.cn\/.*column\/start(-)?up-pic url reject-200
 ^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup url reject-200
 ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome url reject-200
@@ -408,6 +414,7 @@
 ^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/smzdm_json.js
 ^https?:\/\/bbs-api\.miyoushe\.com\/apihub\/api\/getAppSplash url reject-200
 ^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash url reject-200
+^https?:\/\/bilibili.2025.03.31/c135 url reject-200
 ^https?:\/\/biz\.cyapi\.cn\/api\/v\d\/user_detail url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
 ^https?:\/\/biz\.cyapi\.cn\/v\d\/user url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js
 ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/weibo_json.js

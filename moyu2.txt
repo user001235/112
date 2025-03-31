@@ -1,5 +1,5 @@
 [URL Rewrite]
-^https?:\/\/2025.03.17/c372/v2.0.573 - reject
+^https?:\/\/2025.03.30/c373/v2.0.575 - reject
 ^http:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) - reject
 ^http:\/\/ads.?s?ervice(retry)?\.(kugou|kglink).(com|cn)\/v\d\/ - reject
 ^http:\/\/app\.api\.d3yuiw4\.com\/api\/app\/ad - reject
@@ -132,6 +132,7 @@
 ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv - reject
 ^https?:\/\/adx-cn\.anythinktech\.com\/bid - reject
 ^https?:\/\/adx.*anythinktech\.com\/bid - reject
+^https?:\/\/adx\.zuoyebang\.com\/adxserver\/ - reject
 ^https?:\/\/aikanvod\.miguvideo\.com\/video\/p\/i_adverseInterface\.jsp - reject
 ^https?:\/\/api-access\.[0-9a-zA-Z_-]+\.com\/api\/ad - reject
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
@@ -171,6 +172,7 @@
 ^https?:\/\/api\.gotokeep\.com\/running\/v\d\/home\/dialog - reject
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/default\/keyword\/list - reject
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list - reject
+^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotHashtag\/list - reject
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list - reject
 ^https?:\/\/api\.gotokeep\.com\/training\/box\/config - reject
 ^https?:\/\/api\.haohaozhu\.cn\/index\.php\/home\/AppInit\/getStartPhoto - reject
@@ -272,6 +274,7 @@
 ^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject
 ^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json - reject
 ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
+^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html - reject
 ^https?:\/\/cdns\.chinastock\.com\.cn\/cdn\/omc\/app\/app\/(index_pop_banner|startup_banner) - reject
 ^https?:\/\/client-api-v2\.oray\.com\/materials\/(SUNLOGIN_CLIENT_IOS_PROMOTION|SLCC_IOS_DEVICE|SLCC_IOS_STARTUP) - reject
 ^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN - reject
@@ -726,8 +729,8 @@ replace-body.js =type=http-response, pattern=^https?:\/\/lcen\.xiaote\.net\/api\
 replace-body.js =type=http-response, pattern=^https?:\/\/apps\.workair\.cn\/app\/version, script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/replace-body.js, requires-body=true, argument=ads"->ddgksf2013",max-size=-1, timeout=60
 123pan.Ads = type=http-response, pattern=^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_/-]+\.html, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, requires-body=true, max-size=-1, timeout=60
 123pan.Enhance = type=http-request, pattern=^https?:\/\/www\.123pan\.com\/b\/api\/share\/download\/info, script-path=https://github.com/ddgksf2013/Scripts/raw/master/123pan.js, timeout=60
+Duan.vip1 = type=http-response, pattern=^https?:\/\/app\.theinitium\.com\/subs\/[a-zA-Z_]+\/verify_subscription, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
+Duan.vip2 = type=http-response, pattern=^https?:\/\/api\.wallkit\.net\/api\/v\d/user, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
 Goodbility.Vip1 = type=http-response, pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, max-size=-1, timeout=60
 Goodbility.Vip2 = type=http-request,  pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteHeader.js, timeout=60
 Goodbility.Vip3 = type=http-response, pattern=^https?:\/\/notability\.com\/global, script-path=https://gist.githubusercontent.com/ddgksf2013/980624ef4722ee4ca805a74dc61ca9a3/raw/Goodbility.Vip.js, requires-body=true, max-size=-1, timeout=60
-Duan.vip1 = type=http-response, pattern=^https?:\/\/app\.theinitium\.com\/subs\/[a-zA-Z_]+\/verify_subscription, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60
-Duan.vip2 = type=http-response, pattern=^https?:\/\/api\.wallkit\.net\/api\/v\d/user, script-path=https://github.com/ddgksf2013/MoYu/raw/master/DuanChuanMeiProCrack.js, requires-body=true, max-size=-1, timeout=60

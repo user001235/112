@@ -13,6 +13,7 @@ iyf.tv
 getupnote.com
 intercom.com
 x.ai
+apple.cn
 z-lib.id
 ap-south-1.linodeobjects.com
 unpkg.com
