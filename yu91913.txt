@@ -1,0 +1,29 @@
+[URL Rewrite]
+^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/request_game\/v3\/game\/list - reject-dict
+^https:\/\/api02\.maijitv\.com\/api\/v1\/layout\/floatingcards - reject
+^https:\/\/api\.maijitv\.com\/common\/findCommonConfig$ - reject
+^https?:\/\/(?:[a-z0-9-]+\.)?cloudfront\.net\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+^https?:\/\/snerbnew\.pxyzjmspfl\.work\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
+https://api.lianjiu.fun/app/api/v1/profile - reject
+https://carrotweather.herokuapp.com/parse/functions/findSubscriptionsForUserId https://carrot.lovebabyforever.workers.dev header
+https://proxy.linearity.io/v1/receipts https://linearitcurve.lovebabyforever.workers.dev header
+[Map Local]
+^https://.*miguvideo\.com/request/sdk data-type=text data=" " status-code=200
+^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor data-type=text data=" " status-code=200
+[Script]
+91暗网 = type=http-request,pattern=https:\/\/\S+\.m3u8\?token=[^&]+&c=https:\/\/\S+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/91anwang.js
+AGC = type=http-response, pattern=https://api.agcplayer.com/, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/AGC.js, requires-body=true, max-size=-1, timeout=60
+AGC = type=http-response, pattern=https://boringday.api.neuronlabs.art/v1/wallpaper/detail, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/skbz.js, requires-body=true, max-size=-1, timeout=60
+Tangtoutiao = type=http-request, pattern=^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)?, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/Tangtoutiao.js, timeout=60
+kd = type=http-request, pattern= https:\/\/kd-book\.cdnjtzy\.com\/scanimg\/.*\.jpg, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/kd.js, timeout=60
+lanjiyin = type=http-response, pattern=^https?:\/\/(?:edu|user)\.lezaitizhong\.com, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lanjiyin.js, requires-body=true, max-size=-1, timeout=60
+m3u8 = type=http-request,pattern=^https:\/\/[^\/]*\.nlsxvnflc\.com\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8,requires-body=0,script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8_2.js
+mgsp = type=http-response, pattern=^https?:\/\/(play|dis).*miguvideo.com\/(play|dis)(url|play)\/.*$, script-path=https://raw.githubusercontent.com/WeiGiegie/666/main/mgsp.js, requires-body=true, max-size=-1, timeout=60
+mgspck = type=http-request, pattern=^https?:\/\/play.miguvideo.com\/playurl\/v1\/play\/playurl\?2Kvivid=true?.*=true$, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/mgspck.js, timeout=60
+mjgsad = type=http-response, pattern=https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, requires-body=true, max-size=-1, timeout=60
+mjgshd = type=http-request, pattern=https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|vip|index), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js, timeout=60
+mjtv = type=http-response, pattern=^https:\/\/api\.maijitv\.com, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/mjtv.js, requires-body=true, max-size=-1, timeout=60
+xfbs = type=http-response, pattern=https?:\/\/xfapi\.fingerabc\.cn\/+api\/(cf\/vip\/queryList|bookModule\/get\/bookModuleAsNew|lesson\/(queryCalendarBook|queryLessons)|product\/getCategoryProduct|tagMaterial\/queryVipStatus).*, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/xfbs.js, requires-body=true, max-size=-1, timeout=60
+ydm = type=http-response, pattern=^https:\/\/(?:[a-zA-Z0-9-]+\.cloudfront\.net|snerbnew\.pxyzjmspfl\.work)(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo), script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js, requires-body=true, max-size=-1, timeout=60
+ydm2 = type=http-request, pattern=https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60
+ydm2b = type=http-request, pattern=^https:\/\/snerbnew\.pxyzjmspfl\.work(?::\d+)?\/api\/m3u8\/decode\/authPath, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js, timeout=60
