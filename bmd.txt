@@ -1,6 +1,10 @@
 ugcimg.cn
 i.loli.net
 vercel.app
+hmrvideo.com
+yhdmjx.com
+cdnlz22.com
+ymuuy.com
 bmp.ovh
 sakura.ne.jp
 nflxvideo.net
@@ -11,6 +15,7 @@ ndcimgs.com
 10010.com
 iyf.tv
 getupnote.com
+img.yzcdn.cn
 intercom.com
 x.ai
 apple.cn
@@ -327,7 +332,6 @@ bdcloudapi.com
 bdgslb.com
 bdimg.com
 bdstatic.com
-bdxiguaimg.com
 beauty-hw-flv-live.meituan.net
 beian.miit.gov.cn
 bfvvs.com
@@ -1312,7 +1316,6 @@ tl88.net
 tlivecdn.com
 tlkqc.com
 tmall.com
-tmfmazu.m.qq.com
 tmfmazu4.m.qq.com
 tmfsdk.m.qq.com
 token.safebrowsing.apple.com
