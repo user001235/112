@@ -74,7 +74,6 @@ brandlog.vivo.com.cn
 brandshowlog.58.com
 broadcast.chat.bilibili.com
 video.goofish.com
-douyu.com
 btrace.yangshipin.cn
 c.mcd.cn
 ca.iadsdk.apple.com
