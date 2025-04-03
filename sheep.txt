@@ -1,4 +1,4 @@
-
+^https:\/\/api\.sheep\.com\/sheep\/videoPolymerization\/(?:zhanshi\/sheep_vod_info_(\d+)|videoword\/([^\/]+)|) url script-response-body https://raw.githubusercontent.com/SheepFJ/VidSheep/main/VidSheep/main/mainlogic.js
 ^https:\/\/chatme-backend-d5f358e587a4\.herokuapp\.com\/chatme\/api\/v1\/ask\/text url script-request-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/SiriAI/chatPath.js  
 ^https:\/\/chatme-backend-d5f358e587a4\.herokuapp\.com\/chatme\/api\/v1\/ask\/text url script-response-body https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/SiriAI/chatPath.js  
 ^https:\/\/genie-production-yfvxbm4e6q-uc\.a\.run\.app\/chats\/local\/completions url script-request-header https://raw.githubusercontent.com/SheepFJ/QuantumultX/refs/heads/main/QuantumultX/APP/SiriAI/chatPathrequest.js
