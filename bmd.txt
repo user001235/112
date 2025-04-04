@@ -1,3 +1,5 @@
+
+github.io
 ugcimg.cn
 i.loli.net
 vercel.app
