@@ -1162,6 +1162,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/huichuan\.sm\.cn\/nativead$ reject
 ^https:\/\/stars\.shuqireader\.com\/kkios\/render\/load\/resource\/appConfig$ reject-dict
 ^https?:\/\/gql(-fed)?\.reddit\.com response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/Reddit/Reddit_remove_ads.jq"
+^https:\/\/ci\.xiaohongshu\.com\/system_config\/watermark reject-img
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(?:get_style|open|submit_action) reject-dict
 ^https:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? reject-dict
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide) reject-dict
@@ -1538,11 +1539,12 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/www\.zhihu\.com\/api\/v4\/search\/related_queries\/(?:article|answer)\/\d+ reject-dict
 ^https:\/\/api\.zhihu\.com\/comment_v5\/(?:articles|answers)\/\d+\/list-headers reject-dict
 ^https:\/\/api\.zhihu\.com\/prague\/related_suggestion_native\/feed\? reject-dict
+^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=) response-body-json-jq 'del(.ad_info, .data[].ad_info, .query_info) | if (.data | type) == "array" then .data |= map(select(.target?.answer_type? // "" | tostring | contains("paid") | not)) else . end'
 ^https:\/\/api\.zhihu\.com\/v5\.1\/topics\/answer\/\d+\/relation reject-dict
 ^https:\/\/api\.zhihu\.com\/ab\/api\/v1\/products\/zhihu\/platforms\/ios\/config reject-dict
 ^https:\/\/api\.zhihu\.com\/ad-style-service\/request reject-dict
 ^https:\/\/appcloud2\.zhihu\.com\/v3\/resource\?group_name=mp reject-dict
-^https:\/\/link\.zhihu\.com\/\?target=(?:https?)?(?:%3A|:)?(?:\/\/|%2F%2F)?(.*) 307 http://$1
+^https:\/\/link\.zhihu\.com\/\?target=(?:https?)?(?:%3A|:)?(?:\/\/|%2F%2F)?(.*) 302 http://$1
 ^https:\/\/api\.zhihu\.com\/distribute\/rhea\/qa_ad_card\/h5\/recommendation\? reject-dict
 ^https:\/\/www\.zhihu\.com\/api\/v4\/hot_recommendation reject-dict
 ^https:\/\/www\.zhihu\.com\/api\/v4\/mcn\/v2\/linkcards\? reject-dict
@@ -1685,15 +1687,16 @@ http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1 
 http-response ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/(deeplink\/geturl|dailyrecommend\/getdailyrecommend)|v1\/(client\/getconf$|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?positions=iOS_tab)) script-path=https://kelee.one/Resource/Script/QiDian/QiDian_remove_ads.js,requires-body=true,tag=起点读书去广告
 http-response ^https:\/\/open-cms-api\.quark\.cn\/open-cms script-path=https://kelee.one/Resource/Script/QuarkBrowser/QuarkBrowser_remove_ads.js,requires-body=true,tag=精简我的页面
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除图片和实况照片水印
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/service\/ui\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除整体配置
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/service\/ui\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除整体配置 ui
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告 config
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告 splash_config
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除详情页小部件、关注页感兴趣的人
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除信息流广告
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除详情页感兴趣的人
-http-response ^https:\/\/(?:edith|rec)\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除信息流广告
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除搜索页广告
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除评论区实况照片水印
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除图片和视频水印
+http-response ^https:\/\/(?:edith|rec)\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除信息流广告
 http-response ^https:\/\/(?:edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(?:v4\/note\/videofeed|v10\/note\/video\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除视频水印
 http-response ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend script-path=https://kelee.one/Resource/Script/RiskBird/RiskBird_remove_ads.js,requires-body=true,tag=移除推荐老板
 http-response ^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$ script-path=https://kelee.one/Resource/Script/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js,requires-body=true,tag=移除书城横幅和阅读广告
@@ -1775,7 +1778,6 @@ http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/tot
 http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=精简顶部标签
 http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除热榜信息流推广
 http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除下一个回答推广、评论区顶部推广
-http-response ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除回答详情页推广
 http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除回答详情页推广
 http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=拦截服务器推送配置 config
 http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=拦截服务器推送配置 config all
