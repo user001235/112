@@ -86,10 +86,6 @@ https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1.1\/users\/me\/vip\/info u
 https:\/\/api\.(aliyundrive|alipan)\.com\/business\/v1\/users\/me\/vip\/info url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/alic.js
 https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/databox\/get_personal_info url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/alic.js
 https:\/\/api\.(aliyundrive|alipan)\.com\/v2\/file\/get_video_preview_play_info url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/alic.js
-https:\/\/api\.adapty\.io\/api\/v1\/sdk\/purchase\/app-store\/original-transaction-id\/validate url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/ctrl.js
-https:\/\/api\.adapty\.io\/api\/v1\/sdk\/purchase\/app-store\/original-transaction-id\/validate url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/dfy.js
-https:\/\/api\.adapty\.io\/api\/v1\/sdk\/purchase\/app-store\/original-transaction-id\/validate url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/tj.js
-https:\/\/api\.adapty\.io\/api\/v1\/sdk\/purchase\/app-store\/original-transaction-id\/validate url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/to.js
 https:\/\/api\.adblockpro\.app\/verify url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/abcp.js
 https:\/\/api\.alipan\.com\/adrive\/v1\/timeline\/user\/get url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/alic.js
 https:\/\/api\.alipan\.com\/adrive\/v1\/user\/getUserCapacityInfo url script-response-body https://raw.githubusercontent.com/xiaomaoJT/QxScript/main/rewrite/boxJS/source/alic.js
