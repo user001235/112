@@ -7,6 +7,7 @@ abplatform.yumchina.com
 abvolcapi.douyucdn.cn
 s1.hdslb.com
 adcdn6.tencentmusic.com
+myip.com
 g52j7.com
 b.cdnst.net
 xcdn.rltdxt.com

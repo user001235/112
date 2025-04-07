@@ -1,4 +1,6 @@
 
+gov.cn
+google.cn
 github.io
 ugcimg.cn
 i.loli.net
@@ -6,9 +8,11 @@ vercel.app
 hmrvideo.com
 yhdmjx.com
 cdnlz22.com
+assrt.net
 ymuuy.com
 bmp.ovh
 sakura.ne.jp
+telegram.org
 nflxvideo.net
 tiktok.com
 a.520gexing.com
@@ -26,6 +30,7 @@ intercom.com
 x.ai
 apple.cn
 z-lib.id
+teg.tencent-cloud.net
 ap-south-1.linodeobjects.com
 unpkg.com
 feitu.tv
@@ -191,7 +196,6 @@ amap.com
 amazon.cn
 amazon.com
 amazonaws.com
-amemv.com
 amemv.com.bsgslb.com
 amemv.com.w.cdngslb.com
 amemv.com.wsglb0.com
@@ -512,7 +516,6 @@ dm.video.qq.com
 doh.dns.apple.com
 douban.com
 doubanio.com
-doupay.com
 bytes.tcdnos.com
 douyucdn.cn
 download.csdn.net
@@ -582,9 +585,6 @@ fingerprint.soulapp.cn
 firebase.google.com
 flowus.cn
 forum.xda-developers.com
-fqnovel.com
-fqnovelpic.com
-fqnovelstatic.com
 free-aos-cdn-image.amap.com
 frodo.douban.com
 frp-oak.top
@@ -781,7 +781,6 @@ itunes.apple.com
 itunes.com
 iuni.telecome.cn
 iwork.apple.com
-ixigua.com
 izuiyou.com
 jd.com
 jdcloud.com
@@ -936,7 +935,6 @@ myapp.com
 mybank.cn
 mydrivers.com
 myhuaweicloud.com
-myip.com
 mykeeta.com
 myqcloud.com
 mzstatic.com
@@ -1328,10 +1326,6 @@ tongdun.net
 tool.lu
 topgslb.com
 topic.openspeech.cn
-toutiaocloud.com
-toutiaoimg.com
-toutiaostatic.com
-toutiaovod.com
 tpns.gz2.tencent.com
 tpns.hk.tencent.com
 tpns.qq.com
@@ -1508,7 +1502,6 @@ zh.wikipedia.org
 zhihu.com
 zhimg.com
 zhuanstatic.com
-zijieapi.com
 zm.outer.hoopchina.com
 zol.com.cn
 zongheng.com
@@ -1693,7 +1686,6 @@ safetyimg.com
 paykwai.com
 ksapisrv.com
 kuaishou.cn
-toutiao.com
 pull.yximgs.com
 yximgs.com
 gifshow.com
