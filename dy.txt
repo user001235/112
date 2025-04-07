@@ -1,4 +1,5 @@
-bestv.com.cn
+365yg.com
+66mobi.com
 amemv.com
 baohuaxia.com
 bdgp.cc
@@ -6,6 +7,7 @@ bdurl.net
 bdxiguaimg.com
 bdxiguastatic.com
 bdxiguavod.com
+bestv.com.cn
 byteacctimg.com
 byteactivity.com
 bytecdn.cn
@@ -28,6 +30,7 @@ bytemaimg.com
 bytemastatic.com
 bytescm.com
 bytetos.com
+doubao.com
 doupay.com
 douyin.com
 douyincdn.com
@@ -39,15 +42,18 @@ ecombdapi.com
 ecombdimg.com
 ecombdpage.com
 ecombdstatic.com
-huoshanlive.com
-ibytedapm.com
+faceu.com
+faceu.mobi
 fqnovel.com
 fqnovelpic.com
-fqnovelvod.com
 fqnovelstatic.com
+fqnovelvod.com
+huoshanlive.com
+ibytedapm.com
 idouyinvod.com
 ihuoshanlive.com
 ixigua.com
+onethingpcs.com
 pstatp.com
 qishui.com
 qznovelvod.com
@@ -61,6 +67,8 @@ toutiaoimg.com
 toutiaostatic.com
 toutiaovod.com
 ugsdk.cn
+ulikecam.com
 ulpay.com
+vlabstatic.com
 yhgfb-cn-static.com
 zijieapi.com

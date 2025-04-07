@@ -1,4 +1,5 @@
-
+bsgslb.cn
+datagw-edge.alipay.com
 p.tencentmusic.com
 4399logs.4399doc.com
 a1.alibabausercontent.com
@@ -116,7 +117,6 @@ data.mistat.intl.xiaomi.com
 data.mistat.xiaomi.com
 data.mistat.xiaomi.com.mgslb.com
 data.xiaoheihe.cn
-datagw-edge.alipay.com
 datalog.eqxiu.com
 datatrace.mixcapp.com
 dc.xhscdn.com
@@ -601,7 +601,6 @@ biligame.com
 biligame.net
 branch.io
 browser.miui.com
-pstatp.com
 cambiaip.org
 cnklog.com
 cronolog.org
@@ -612,7 +611,6 @@ dahuap2p.com
 dahuap2pcloud.com
 dns.google
 doh.pub
-douyinstatic.com
 feedsads.cn
 gjfzpt.cn
 hiecheimaetu.com
