@@ -7,6 +7,7 @@ vercel.app
 hmrvideo.com
 yhdmjx.com
 com.hk
+queniuqe.com
 com.tw
 cdnlz22.com
 assrt.net
@@ -764,7 +765,6 @@ ioshost.qtlcdn.com
 ip138.com
 ip6.ssl.msdk.qq.com
 iprofiles.apple.com
-ipvanish.com
 ipw.cn
 iqiyi.com
 is.autonavi.com
@@ -1430,7 +1430,6 @@ weixin.qq.com
 wetype.weixin.qq.com
 whatismyip.com
 whatsapp.net
-whoer.net
 wikipedia.org
 windows.com
 windows.msn.com
