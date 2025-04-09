@@ -1,4 +1,3 @@
-
 gov.cn
 google.cn
 github.io
@@ -289,7 +288,6 @@ appcloud.zhihu.com
 appdownload.alicdn.com
 appgoad.189.cn
 appldnld.apple.com
-appldnld.apple.com.edgesuite.net
 apple-cloudkit.com
 apple-livephotoskit.com
 apple-mapkit.com
