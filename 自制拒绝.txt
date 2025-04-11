@@ -60,6 +60,7 @@ appad.longji.so
 appgoad.189.mixcdn.58cloud.com
 at-ipv6.pinduoduo.com
 audid-api.taobao.com
+bc.weixin.qq.com
 audiopay.pcdn.xmcdn.com
 audiostatlog.cc.163.com
 auditrecording-pa.googleapis.com
