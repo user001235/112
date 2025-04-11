@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,appldnld.apple.com
 DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
 DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,appleid.cdn-apple.com
 DOMAIN-SUFFIX,axm-adm-enroll.apple.com
 DOMAIN-SUFFIX,axm-adm-mdm.apple.com
 DOMAIN-SUFFIX,axm-adm-scep.apple.com
@@ -38,18 +37,14 @@ DOMAIN-SUFFIX,gsra.apple.com
 DOMAIN-SUFFIX,humb.apple.com
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com
 DOMAIN-SUFFIX,identity.apple.com
-DOMAIN-SUFFIX,idmsa.apple.com
 DOMAIN-SUFFIX,idv-prod1.apple.com
 DOMAIN-SUFFIX,idv.cdn-apple.com
 DOMAIN-SUFFIX,ig.apple.com
 DOMAIN-SUFFIX,iprofiles.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,lcdn-locator.apple.com
 DOMAIN-SUFFIX,lcdn-registration.apple.com
 DOMAIN-SUFFIX,mdmenrollment.apple.com
 DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,ns.itunes.apple.com
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,ocsp.digicert.cn
