@@ -445,12 +445,7 @@
 ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd url reject-200
 ^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising url reject-200
 ^https?:\/\/cmt\.comp\.360os\.com\/adv url reject-200
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(show|mshow)\.cn\/ url reject-200
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.index\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+
 ^https?:\/\/comicapi\.manhuashe\.com\/v\d\/(ads\/adstrategys|public\/startupactivity) url reject-200
 ^https?:\/\/compus\.xiaofubao\.com\/compus\/advertising url reject-200
 ^https?:\/\/cq11344-app-https-api-1\.ictun\.com:443\/api\/app\/v\d\/appad url reject-200
@@ -501,10 +496,6 @@
 ^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid url reject-200
 ^https?:\/\/gorgon\.youdao\.com\/gorgon url reject-200
 ^https?:\/\/gslb.*\.xima.*\.com\/ url reject
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad url reject-200
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show url reject-200
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge url reject-200
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.fc\.resource\.tacdata\.get url reject-200
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get url reject-200
 ^https?:\/\/gw-app-gateway\.gwmapp-w\.com\/app-api.*Type=APPSECONDAD url reject-200
@@ -818,3 +809,17 @@ https?:\/\/searchrecterm\.kuwo\.cn\/recterm\.s url script-response-body https://
 https?:\/\/vip1\.kuwo\.cn\/vip\/activity\/kwMemberDay url reject-200
 https?:\/\/vip1\.kuwo\.cn\/vip_adv\/ url reject-200
 https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/app\/pasterAdvert url reject-200
+^https?:\/\/.*dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v\d\/adver url reject-200
+^https?:\/\/2025.04.11/c376/v2.0.584 url reject-200
+^https?:\/\/[a-z]+\.eastmoney\.com\/infoService\/ url reject-200
+^https?:\/\/tiebac\.baidu\.com\/c\/f\/ad\/getFeedAd url reject-200
+^https?:\/\/www\.hpoi\.net\.cn\/api\/item\/startPage url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cainiao_json.js
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\. url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\. url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.taobao\.com\/gw\/mtop\.alimama\.abyss\.unionpage\.get url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.taobao\.com\/gw\/mtop\.cainiao\.adx\.flyad\.getad url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.taobao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.consultmerge url reject-200
