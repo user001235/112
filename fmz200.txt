@@ -1,4 +1,3 @@
-
 [Argument]
 12306_enable = switch,true,false,tag=12306
 555_enable = switch,true,false,tag=555影视
@@ -76,6 +75,136 @@ URL-REGEX, ^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH, REJECT-DICT
 DOMAIN, httpdns.n.netease.com, REJECT
 DOMAIN, httpdns.calorietech.com, REJECT
 DOMAIN, hc-ssp.sm.cn, REJECT
+AND,((DOMAIN-KEYWORD,-ad-),(DOMAIN-SUFFIX,byteimg.com)),REJECT
+AND,((DOMAIN-KEYWORD,-ttam-),(DOMAIN-SUFFIX,ibyteimg.com)),REJECT
+AND,((DOMAIN-KEYWORD,ssdk-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
+AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-short.bytetos.com)),REJECT
+AND,((DOMAIN-KEYWORD,v),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,s),(DOMAIN-KEYWORD,-fe-scm.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-ttcdn-tos.pstatp.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com)),REJECT
+AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-static.i18n-pglstatp.com)),REJECT
+AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-cdn-tos.bytescm.com)),REJECT //误杀
+AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
+AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,normal),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-access-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-log-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-dual-event-),(DOMAIN-SUFFIX,pangle.io)),REJECT
+AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
+AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,-normal-lq),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
+URL-REGEX,"^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/",REJECT
+DOMAIN,mon.zijieapi.com,REJECT
+DOMAIN,lf-ad-ies.bytecdn.cn,REJECT
+DOMAIN,i.snssdk.com,REJECT
+DOMAIN,is.snssdk.com,REJECT
+DOMAIN,bds.snssdk.com,REJECT
+DOMAIN,dm.bytedance.com,REJECT
+DOMAIN,dm.pstatp.com,REJECT
+DOMAIN,dm.toutiao.com,REJECT
+DOMAIN,log.snssdk.com,REJECT
+DOMAIN,s3a.pstatp.com,REJECT
+DOMAIN,sdfp.snssdk.com,REJECT
+DOMAIN,tosv.boe.byted.org,REJECT
+DOMAIN,tosv.byted.org,REJECT
+DOMAIN,extlog.snssdk.com,REJECT
+DOMAIN,mssdk-bu.bytedance.com,REJECT
+DOMAIN,toblog.ctobsnssdk.com,REJECT
+DOMAIN,mssdk.volces.com,REJECT
+DOMAIN,pangolin.snssdk.com,REJECT
+DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
+DOMAIN,ether-pack.pangolin-sdk-toutiao.com,REJECT
+DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
+DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao,REJECT
+DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao,REJECT
+DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
+DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
+DOMAIN-KEYWORD,asiad.byteactivity,REJECT
+DOMAIN,adsmind.gdtimg.com,REJECT
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,c2.gdt.qq.com,REJECT
+DOMAIN,huatuocode.huatuo.qq.com,REJECT
+DOMAIN,info4.video.qq.com,REJECT
+DOMAIN,info6.video.qq.com,REJECT
+DOMAIN,ios.bugly.qq.com,REJECT
+DOMAIN,ios.video.mpush.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,otheve.beacon.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,qzs.gdtimg.com,REJECT
+DOMAIN,qzs.qq.com,REJECT
+DOMAIN,rmonitor.qq.com,REJECT
+DOMAIN,sdk.e.qq.com,REJECT
+DOMAIN,sdkconfig.video.qq.com,REJECT
+DOMAIN,t.gdt.qq.com,REJECT
+DOMAIN,tmead.y.qq.com,REJECT
+DOMAIN,tmeadbak.y.qq.com,REJECT
+DOMAIN,tmeadcomm.y.qq.com,REJECT
+DOMAIN,tpns.qq.com,REJECT
+DOMAIN,v.gdt.qq.com,REJECT
+DOMAIN,v2.gdt.qq.com,REJECT
+DOMAIN,win.gdt.qq.com,REJECT
+DOMAIN,wup.imtt.qq.com,REJECT
+DOMAIN,tpstelemetry.tencent.com,REJECT
+DOMAIN-KEYWORD,trace.qq.com,REJECT
+DOMAIN-KEYWORD,trace.video.qq.com,REJECT
+DOMAIN-SUFFIX,gdt.qq.com,REJECT
+DOMAIN-SUFFIX,l.qq.com,REJECT
+DOMAIN-SUFFIX,ugdtimg.com,REJECT
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve
+DOMAIN,cnlogs.umeng.com,REJECT
+DOMAIN,errlog.umeng.com,REJECT
+DOMAIN,errnewlog.umeng.com,REJECT
+DOMAIN,ucc.umeng.com,REJECT
+DOMAIN,ulogs.umeng.com,REJECT
+DOMAIN,utoken.umeng.com,REJECT
+DOMAIN,deeplink.umeng.com,REJECT
+DOMAIN,aspect-upush.umeng.com,REJECT
+DOMAIN,plbslog.umeng.com,REJECT
+DOMAIN,log.umtrack.com,REJECT
+DOMAIN,aaid.umeng.com,REJECT
+DOMAIN,log.umsns.com,REJECT
+DOMAIN,ali-stats.jpush.cn,REJECT
+DOMAIN,ce3e75d5.jpush.cn,REJECT
+DOMAIN,config-junion.jpush.cn,REJECT
+DOMAIN,config.jpush.cn,REJECT
+DOMAIN,fcapi-ipv6.jpush.cn,REJECT
+DOMAIN,gd-stats.jpush.cn,REJECT
+DOMAIN,s.jpush.cn,REJECT
+DOMAIN,sdk.verification.jiguang.cn,REJECT
+DOMAIN,sis-ipv6.jpush.cn,REJECT
+DOMAIN,smartop-sdkapi.jiguang.cn,REJECT
+DOMAIN,status-ipv6.jpush.cn,REJECT
+DOMAIN,tsis.jpush.cn,REJECT
+DOMAIN,user.jpush.cn,REJECT
+DOMAIN-SUFFIX,jiguang.cn,REJECT
+DOMAIN-SUFFIX,jpush.cn,REJECT
+DOMAIN-SUFFIX,jpush.io,REJECT
+DOMAIN,sdk.tianmu.mobi,REJECT
+DOMAIN,tracker.tianmu.mobi,REJECT
+DOMAIN,sdk.beizi.biz,REJECT
+DOMAIN,api-htp.beizi.biz,REJECT
+DOMAIN,monitor.ssp.admobile.top,REJECT
+DOMAIN,sdk.ssp.admobile.top,REJECT
+DOMAIN,ax.admobile.top,REJECT
+DOMAIN,jump.admobile.top,REJECT
+DOMAIN-SUFFIX,admobile.top,REJECT
+DOMAIN,gdfp.gifshow.com,REJECT
+DOMAIN,open.e.kuaishou.com,REJECT
+DOMAIN-SUFFIX,adukwai.com,REJECT
+DOMAIN,adx.adtaipo.com,REJECT
+DOMAIN,adx.kuaiyiad.com,REJECT
+DOMAIN,adreport.adtianmai.com,REJECT
+DOMAIN,adxapi.readgps.com,REJECT
+DOMAIN,t.fanglinad.com,REJECT
+DOMAIN,trk1.17admob.com,REJECT
+DOMAIN,nfy.slyxmobi.com,REJECT
+DOMAIN,api.mobrtb.com,REJECT
+DOMAIN,ssp.maplehaze.cn,REJECT
+DOMAIN-SUFFIX,lnk0.com,REJECT
 AND, ((DOMAIN-KEYWORD, api100-core-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
 AND, ((DOMAIN-KEYWORD, api100-normal-quic-), (DOMAIN-SUFFIX, amemv.com)), REJECT
 AND, ((DOMAIN-KEYWORD, api100-normal-quic-aweme-), (DOMAIN-SUFFIX, amemv.com)), REJECT
@@ -504,7 +633,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/cdn\.133\.cn\/md\/gtgj\/.+\/.+720x1280 reject-dict
 ^https?:\/\/[a-z]*\.rsscc\.com\/[a-z]*\/adver reject
 ^https?:\/\/static\.creditcard\.hxb\.com\.cn\/mcube\/apps\/group\d\/M00\/00\/2[A-Z0-9]{1}\/amRG7WO.+\.jpg reject-200
-^https?:\/\/api-one-wscn\.awtmt\.com\/apiv1\/advertising\/ads\/13424\/materials reject-dict
+^https?:\/\/api-one-wscn\.awtmt\.com\/apiv1\/advertising\/ads\/[0-9]+\/materials reject-dict
 ^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ reject
 ^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ reject
 ^https?:\/\/business\.msstatic\.com\/advertiser\/material reject
@@ -618,6 +747,15 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 reject-dict
 ^https?:\/\/cdn\.kuaidi100\.com\/images\/open\/appads reject-img
 ^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do reject
+^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do$ response-body-json-del adsplash adIsConsumable adProductId nologin_tips index_banner me_banner index_banner_shadow adshongbao adsapp_homepage_ticket_pop adsoptimizationsend adsapp_activity_ad_array adbanner adposition adShowAgainTime
+^https?:\/\/p\.kuaidi100\.com\/apicenter\/xcx\.dox response-body-json-del data.secondMenuList
+^https?:\/\/p\.kuaidi100\.com\/advertisement\/ reject-dict
+^https?:\/\/p\.kuaidi100\.com\/e-commerce\/act\/actInfo\? reject-dict
+^https?:\/\/p\.kuaidi100\.com\/apicenter\/card\.dox reject-dict
+^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ reject
+^https:\/\/t-dsp\.pinduoduo\.com\/dspcb\/i\/mrk_union reject
+^https:\/\/images\.pinduoduo\.com\/mrk\/ reject
+^https:\/\/images\.pinduoduo\.com\/marketing_api\/ reject
 ^https?:\/\/www\.oschina\.net\/action\/apiv2\/get_launcher reject-img
 ^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad reject-200
 ^https?:\/\/api\.gongkaoleida\.com\/api\/v2\/ad\/info reject-dict
@@ -727,7 +865,6 @@ http:\/\/dili.sqcosmos.com\/jiekou\/endpage\/ad reject-dict
 ^https?:\/\/mea\.meitudata\.com\/kaiping reject
 ^https?:\/\/adui\.tg\.meitu\.com reject-dict
 ^https?:\/\/app\.api\.versa-ai\.com\/launch\/ads\? reject-200
-^https?:\/\/static01\.versa-ai\.com\/upload\/ec0ba51d68f9\/.*.jpg reject-200
 ^https?:\/\/api\.mgzf\.com\/renter-operation\/home\/startHomePage reject
 ^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(ad|getstartad) reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds reject
@@ -1235,6 +1372,7 @@ https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
 ^https?:\/\/d\.psbc\.com:9091\/mcc\/resources\/[0-9]+\.(jpg|png|jpeg) reject-200
 ^https?:\/\/static\.mobile-bank\.psbc\.com\/mgs reject
 ^https?:\/\/ad\.ysepay\.com\/yst-ad\/ST101001\/[0-9]{11}\.jpg reject
+^https:\/\/ads\.ysepay\.com\/ads\/ctrl\/getAdvertisingInfo reject-dict
 ^https?:\/\/api\.winbull8\.com\/v1\/marketing\/(advert|activity)\/(list|page) reject-dict
 ^https?:\/\/hz\.yxzq\.com\/news-configserver\/api\/v1\/query\/banner_advertisement reject-dict
 ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.(pisp\.scripts\.get|xspace\.play\.position\.preload\.query|xspace\.poplayer\.position\.query) reject-dict
@@ -1451,7 +1589,7 @@ http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nb
 http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cainiao/cainiao.js, requires-body=true, timeout=60, tag=菜鸟裹裹, enable={cdnngogo_enable}
 http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cainiao/cainiao.js, requires-body=true, timeout=60, tag=菜鸟裹裹, enable={cdnngogo_enable}
 http-response ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/caixin/caixinAd.js, requires-body=true, timeout=60, tag=财新广告, enable={cdxb_enable}
-http-response ^https?:\/\/img\.meituan\.net\/dpmobile\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js, requires-body=true, timeout=60, tag=大众点评, enable={davsdmpk_enable}
+http-response ^https?:\/\/img\.meituan\.net\/dpmobile\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js, requires-body=true, timeout=60, tag=大众点评开屏广告, enable={davsdmpk_enable}
 http-response ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js, requires-body=true, timeout=60, tag=动画疯, enable={dshxfg_enable}
 http-response ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=滴滴出行, enable={didiiuxk_enable}
 http-response ^https?:\/\/freight\.xiaojukeji\.com\/gateway script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=滴滴出行, enable={didiiuxk_enable}
