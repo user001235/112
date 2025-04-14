@@ -1,3 +1,4 @@
+
 [Argument]
 12306_enable = switch,true,false,tag=12306
 555_enable = switch,true,false,tag=555影视
@@ -987,6 +988,7 @@ https://access.mypikpak.com/access_controller/v1/area_accessible reject
 ^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup reject-dict
 ^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?.* reject-dict
 ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg reject
+^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert reject
 ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(adv|getAdvertImage) reject
 ^https?:\/\/stat\.peopleapp\.com\/ reject
 ^https?:\/\/adstatic\.peopleapp\.com\/upload\/AppLoad\/.*.(jpg|png) reject-200
@@ -1645,6 +1647,7 @@ http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v6\/detail_recomm
 http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js, requires-body=true, timeout=60, tag=脉脉, enable={mdmd_enable}
 http-response ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=2(%[A-Z0-9]+)+&store_id script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PupuSplashAds.js, requires-body=true, timeout=60, tag=朴朴超市, enable={pupuicui_enable}
 http-response ^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/QuDa.js, requires-body=true, timeout=60, tag=去哒, enable={quda_enable}
+http-response ^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js, requires-body=true, timeout=60, tag=企迈（挪瓦咖啡、林里柠檬茶、霸王茶姬、陈香贵）
 http-response ^https?:\/\/gql(-fed)?\.reddit\.com script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js, requires-body=true, timeout=60, tag=reddit, enable={reddit_enable}
 http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=rrtv_json, enable={rfrfuipk_enable}
 http-response https://api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=rrtv_json, enable={rfrfuipk_enable}
