@@ -1,7 +1,6 @@
 DOMAIN-SUFFIX,albert.apple.com
 DOMAIN-SUFFIX,api.edu.apple.com
 DOMAIN-SUFFIX,api.ent.apple.com
-DOMAIN-SUFFIX,app-site-association.cdn-apple.com
 DOMAIN-SUFFIX,app-site-association.networking.apple
 DOMAIN-SUFFIX,appattest.apple.com
 DOMAIN-SUFFIX,appldnld.apple.com

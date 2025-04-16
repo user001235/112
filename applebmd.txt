@@ -11,6 +11,7 @@ apple-cloudkit.com
 apple-livephotoskit.com
 apple-mapkit.com
 apple-relay.apple.com
+app-site-association.cdn-apple.com
 apple-relay.cloudflare.com
 apple-relay.fastly-edge.com
 apple.com.cn
