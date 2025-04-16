@@ -814,6 +814,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/movie\/ad reject-dict
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/home_banner reject-dict
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/search\/found_words reject-dict
+^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) 307 $1$5$6
 ^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo reject-dict
 ^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list response-body-json-del data.pendant_a data.entrance_d
 ^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/update.+keyCodeSet=flow_config response-body-json-replace greatGodGameSitterSwitch 0 followMoreAnchorEntrance 0 sdklivebanner 0 homeActFloatSwitch 0 bringGoodsSwitch 0 qqGameSwitch 0
@@ -1059,7 +1060,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/mapi\.mafengwo\.cn\/user\/growth\/get_growth_tip\/v1\? reject-dict
 ^https:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/http\/urlConfig\.do$ reject-dict
 ^https:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/page\/v2\/conf\.do$ response-body-json-del data.functionOperatorInfoList data.memberOperator data.activityTabInfoList
-^https:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/config\/function\.do$ response-body-json-jq 'walk(if type == "object" and has("name") and .name == "看视频扩容" then empty else . end) | del(.data.config[] | select(.functionName == "Function-AD"))'
+^https:\/\/appconf\.mail\.163\.com\/mailmaster\/api\/config\/function\.do$ response-body-json-jq '.data.config[] |= if .result.tools then .result.tools |= map(select(.name == "邮件追踪" or .name == "替身邮箱")) else . end | del(.data.config[] | select(.functionName == "Function-AD"))'
 ^https:\/\/dashi\.163\.com\/task-center-api\/fapi\/task\/list$ reject-dict
 ^https:\/\/appconf\.mail\.163\.com\/mailoperating\/mailmaster\/api\/operator\/get$ reject-dict
 ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/adshow\? reject-dict
@@ -1491,6 +1492,9 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/chong\.qq\.com\/tws\/usernumberinfo\/GetUserInfo\? response-body-json-del data.request.number.markSeat.servicehallOperList data.request.number.servicehallOperList data.request.number.markSeat.servicehallFuncList data.request.number.servicehallFuncList
 ^https:\/\/wx\.online-cmcc\.cn\/contactpoint\/customer\/api\/list\? reject-dict
 ^https:\/\/wx\.10086\.cn\/qwhdhub\/activity\/info reject-dict
+^https:\/\/www\.kdocs\.cn\/kdg\/api\/v1\/cards\/type\/3\?iosVer=\d+\.\d+\.\d+&isGetList=1 reject-dict
+^https:\/\/www\.kdocs\.cn\/kdg\/api\/v1\/cards\/type\/27\?iosVer=\d+\.\d+\.\d+&isGetList=1 reject-dict
+^https:\/\/f-api\.kdocs\.cn\/godfather\/api\/thirdparty\/v1\/viewpager\?showLocal=mobileWebIndex reject-dict
 ^https:\/\/cili\.xfuse\.fun\/s\/ reject
 ^https:\/\/api\.xiachufang\.com\/v2\/ad\/ reject-dict
 ^https:\/\/api\.xiachufang\.com\/v2\/homepage\/paged_waterfall_recommendations\.json$ response-body-json-jq 'del(.multiplex_cells[] | select(.recommendation_cell.impression_sensor_events[]?.properties.target_type? == "ad"))'
@@ -1577,7 +1581,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/zyfile\.izuiyou\.com\/zyfile\/c2\/a0\/[a-z0-9-]+\.json reject-dict
 ^https:\/\/gromore\.pangolin-sdk-toutiao\.com\/api\/ad\/ reject
 ^https:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ reject
-^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) 307 $1$5$6
 [Script]
 http-request ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_splashscreen_ads.js,requires-body=true,tag=移除12306开屏广告
 http-request ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_ads.js,tag=移除12306应用内广告
