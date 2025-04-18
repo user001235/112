@@ -2,6 +2,12 @@ gov.cn
 google.cn
 github.io
 ugcimg.cn
+ac.qq.com
+manhua.acimg.cn
+hupu.com
+hoopchina.com.cn
+passport.douyu.com
+apiv2.douyucdn.cn
 i.loli.net
 vercel.app
 hmrvideo.com
