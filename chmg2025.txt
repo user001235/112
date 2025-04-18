@@ -1,0 +1,22 @@
+[Rewrite]
+^https://hm-img\.xuezhumall\.com/videos/(.+)/preview\.m3u8$ header https://hm-img.xuezhumall.com/videos/$1/index.m3u8
+^https://hm-img\.xuezhumall\.com/videos/(.+)/preview\.m3u8$ url 302 https://hm-img.xuezhumall.com/videos/$1/index.m3u8
+^https:\/\/[^\/]+\.(cloudfront\.net|pxyzjmspfl\.work)\/api\/(sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject-200
+[Script]
+http-response ^https:\/\/[^\/]*\.(.*\.cn)(\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8)(\?.*)?$ script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ts.js, requires-body=true, timeout=60, tag=通杀
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|pxyzjmspfl\.work)\/api\/user\/base\/info script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=会员
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|pxyzjmspfl\.work)\/api\/video\/getVideoById script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=视频
+http-response ^https:\/\/[^\/]+\.(cloudfront\.net|pxyzjmspfl\.work)\/api\/community\/dynamic\/dynamicInfo script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/ydm.js, requires-body=true, timeout=60, tag=社区
+http-response https://18akmanhua.com/api/memberDetails script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/18ak.js, requires-body=true, timeout=60, tag=会员
+http-response ^https:\/\/18akmanhua\.com\/api\/videoDetails\?id=\d+$ script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/18ak.js, requires-body=true, timeout=60, tag=视频
+http-response https://18akmanhua.com/api/playNewVideos script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/18ak.js, requires-body=true, timeout=60, tag=播放
+http-response ^https:\/\/18akmanhua\.com\/api\/chaptersDetails\?chapter_id=\d+$ script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/18ak.js, requires-body=true, timeout=60, tag=漫画
+http-response ^https:\/\/18akmanhua\.com\/api\/chaptersDirectories\?.*$ script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/18ak.js, requires-body=true, timeout=60, tag=漫画列表
+http-response ^https://sm-api\.xuezhumall\.com/api/users/profile\?* script-path=https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js, requires-body=true, timeout=60, tag=会员
+http-response ^https://sm-api\.xuezhumall\.com/api/common_ads\?* script-path=https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/65kan.js, requires-body=true, timeout=60, tag=广告
+http-response https://(d1skbu98kuldnf|dnt92ffcqr0xu).cloudfront.net/api/app/user/info script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/mdsp.js, requires-body=true, timeout=60, tag=会员
+http-response https://(d1skbu98kuldnf|dnt92ffcqr0xu).cloudfront.net/api/app/media/play script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/mdsp.js, requires-body=true, timeout=60, tag=视频
+http-response https://(d1skbu98kuldnf|dnt92ffcqr0xu).cloudfront.net/(api/app/ping/config|api/app/media/v5/home) script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/mdsp.js, requires-body=true, timeout=60, tag=广告
+http-response https://(jnhb8y79.com|d5flxjpige3b9.cloudfront.net)/api/app/ping/domain/h5 script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/pfdsp.js, requires-body=true, timeout=60, tag=广告
+http-response https://(jnhb8y79.com|d5flxjpige3b9.cloudfront.net)/api/app/mine/info script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/pfdsp.js, requires-body=true, timeout=60, tag=会员
+http-response ^https:\/\/(jnhb8y79\.com|d5flxjpige3b9\.cloudfront\.net)\/api\/app\/vid\/info\?data=.*$ script-path=https://raw.githubusercontent.com/chmg2025/js/refs/heads/main/pfdsp.js, requires-body=true, timeout=60, tag=视频
