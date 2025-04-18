@@ -10,6 +10,7 @@ s1.hdslb.com
 adcdn6.tencentmusic.com
 myip.com
 g52j7.com
+qdsdk.jd.com
 b.cdnst.net
 xcdn.rltdxt.com
 gslb.xiaohongshu.com

@@ -5,13 +5,13 @@ api.edu.apple.com
 api.ent.apple.com
 app-site-association.cdn-apple.com
 app-site-association.networking.apple
+appattest.apple.com
 appldnld.apple.com
 appldnld.apple.com.edgesuite.net
 apple-cloudkit.com
 apple-livephotoskit.com
 apple-mapkit.com
 apple-relay.apple.com
-app-site-association.cdn-apple.com
 apple-relay.cloudflare.com
 apple-relay.fastly-edge.com
 apple.com.cn
