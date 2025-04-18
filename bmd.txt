@@ -357,7 +357,6 @@ c.mipcdn.com
 c.msn.cn
 c.pc.qq.com
 c13.shuqireader.com
-c6.y.qq.com
 cainiao.com
 cal.meizu.com
 camo.githubusercontent.com
@@ -1079,7 +1078,6 @@ sexytea-dock.sexytea2013.com
 sexytea2013.com
 sfacg.com
 sharepoint.com
-shc6.y.qq.com
 shifen.com
 shihuocdn.cn
 shopping.ele.me
@@ -1147,7 +1145,6 @@ support.content.office.net
 support.content.office.net.edgekey.net
 swiftgram.app
 sx-common-all.volcgtm.com
-szc6.y.qq.com
 szlong.weixin.qq.com
 szu6.y.qq.com
 t-msedge.net
