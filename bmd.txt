@@ -5,8 +5,13 @@ ugcimg.cn
 ac.qq.com
 manhua.acimg.cn
 hupu.com
+captcha.gtimg.com
+static.zongheng.com
 hoopchina.com.cn
 passport.douyu.com
+yuewen.com
+xiaohongshu.com
+qidian.com
 apiv2.douyucdn.cn
 i.loli.net
 vercel.app
@@ -108,7 +113,6 @@ b.bdstatic.com
 biananset.net
 bunnyccdn.co
 api-map.meituan.net
-iv6.gtimg.cn
 grpc.biliapi.net
 pay.bilibili.com
 mall.bilibili.com
@@ -1132,7 +1136,6 @@ static.geetest.com
 static.pddpic.com
 static.tongdun.net
 static.yximgs.com
-static.zongheng.com
 staticfile.net
 staticfile.org
 statics.123pan.com

@@ -54,7 +54,6 @@ DOMAIN-SUFFIX,pg-bootstrap.itunes.apple.com
 DOMAIN-SUFFIX,phonesubmissions.apple.com
 DOMAIN-SUFFIX,play.itunes.apple.com
 DOMAIN-SUFFIX,pos-device.apple.com
-DOMAIN-SUFFIX,s.mzstatic.com
 DOMAIN-SUFFIX,school.apple.com
 DOMAIN-SUFFIX,serverstatus.apple.com
 DOMAIN-SUFFIX,setup.icloud.com

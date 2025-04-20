@@ -8,6 +8,7 @@ abplatform.yumchina.com
 abvolcapi.douyucdn.cn
 dotbeats.douyucdn.cn
 dotab.douyucdn.cn
+iv6.gtimg.cn
 s1.hdslb.com
 adcdn6.tencentmusic.com
 myip.com

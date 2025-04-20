@@ -9,6 +9,7 @@ appattest.apple.com
 appldnld.apple.com
 appldnld.apple.com.edgesuite.net
 apple-cloudkit.com
+s.mzstatic.com
 apple-livephotoskit.com
 apple-mapkit.com
 apple-relay.apple.com
@@ -93,7 +94,6 @@ playgrounds-cdn.apple.com
 pos-device.apple.com
 ppq.apple.com
 push.apple.com
-s.mzstatic.com
 school.apple.com
 serverstatus.apple.com
 setup.icloud.com
