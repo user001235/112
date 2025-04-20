@@ -4,6 +4,9 @@ github.io
 ugcimg.cn
 ac.qq.com
 manhua.acimg.cn
+dewucdn.com
+app.dewu.com
+cassette.sphdigital.com.sg
 hupu.com
 captcha.gtimg.com
 static.zongheng.com
