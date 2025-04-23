@@ -9,6 +9,7 @@ abvolcapi.douyucdn.cn
 dotbeats.douyucdn.cn
 dotab.douyucdn.cn
 iv6.gtimg.cn
+oss-enet.aliyuncs.com
 s1.hdslb.com
 adcdn6.tencentmusic.com
 myip.com
