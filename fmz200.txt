@@ -1,77 +1,107 @@
 [Argument]
-12306_enable = switch,true,false,tag=12306
-555_enable = switch,true,false,tag=555影视
-51xyk_enable = switch,true,false,tag=51信用卡管家
-51job_enable = switch,true,false,tag=51job
-albb_enable = switch,true,false,tag=阿里巴巴
-alyp_enable = switch,true,false,tag=阿里云盘
-aiqiyi_enable = switch,true,false,tag=爱奇艺
-blued_enable = switch,true,false,tag=Blued
-bdduditu_enable = switch,true,false,tag=百度地图
-bddutpba_enable = switch,true,false,tag=百度贴吧
-bilibili_enable = switch,true,false,tag=哔哩哔哩
-bilimanhua_enable = switch,true,false,tag=哔哩哔哩漫画
-bohejmkh_enable = switch,true,false,tag=薄荷健康
-cdyytmqi_enable = switch,true,false,tag=彩云天气
-cdnngogo_enable = switch,true,false,tag=菜鸟裹裹
-cdxb_enable = switch,true,false,tag=财新
-davsdmpk_enable = switch,true,false,tag=大众点评
-dshxfg_enable = switch,true,false,tag=动画疯
-didiiuxk_enable = switch,true,false,tag=滴滴出行
-dyls_enable = switch,true,false,tag=电影猎手
-flightradar24_enable = switch,true,false,tag=Flightradar24
-fwke_enable = switch,true,false,tag=飞客茶馆
-ffbi_enable = switch,true,false,tag=粉笔
-hlzh_enable = switch,true,false,tag=航旅纵横
-hema_enable = switch,true,false,tag=盒马
-hftx_enable = switch,true,false,tag=汇付天下
-itzj_enable = switch,true,false,tag=IT之家
-jhsh_enable = switch,true,false,tag=建行生活
-jkds_enable = switch,true,false,tag=京东
-jkxi_enable = switch,true,false,tag=京喜
-keep_enable = switch,true,false,tag=keep
-kkuz_enable = switch,true,false,tag=快手
-kxke_enable = switch,true,false,tag=夸克
-kuwoybyt_enable = switch,true,false,tag=酷我音乐
-glgclmmg_enable = switch,true,false,tag=快手联盟,优量汇,穿山甲「广告联盟」
-kuan_enable = switch,true,false,tag=酷安
-mddjba_enable = switch,true,false,tag=买单吧
-mhgotv_enable = switch,true,false,tag=芒果TV
-mafgwo_enable = switch,true,false,tag=马蜂窝
-mdmd_enable = switch,true,false,tag=脉脉
-pupuicui_enable = switch,true,false,tag=朴朴超市
-quda_enable = switch,true,false,tag=去哒
-reddit_enable = switch,true,false,tag=Reddit
-rfrfuipk_enable = switch,true,false,tag=人人视频
-soul_enable = switch,true,false,tag=Soul
-sudaxnyr_enable = switch,true,false,tag=苏打校园APP
-ufmevidemd_enable = switch,true,false,tag=什么值得买
-lvtusvuftk_enable = switch,true,false,tag=旅途随身听
-tcbc_enable = switch,true,false,tag=淘宝
-tgxyxbwf_enable = switch,true,false,tag=腾讯新闻
-vgtime_enable = switch,true,false,tag=vgTime
-lmjpxmvi_enable = switch,true,false,tag=解除微信链接限制
-whyiyyybyt_enable = switch,true,false,tag=网易云音乐
-whyiyzdccidm_enable = switch,true,false,tag=网易有道词典
-wfnibovj_enable = switch,true,false,tag=温尼伯站
-xnmiuhig_enable = switch,true,false,tag=小米商城
-xntuisis_enable = switch,true,false,tag=小兔充充
-xnmh_enable = switch,true,false,tag=小芒
-xmyu_enable = switch,true,false,tag=闲鱼
-xljnuiyivsuvgo_enable = switch,true,false,tag=香蕉是一种水果
-xnhsuu_enable = switch,true,false,tag=小红书
-ximalaya_enable = switch,true,false,tag=喜马拉雅
-youtube_enable = switch,true,false,tag=YouTube
-yzku_enable = switch,true,false,tag=优酷
-yzxiapp_enable = switch,true,false,tag=悠洗APP
-vihu_enable = switch,true,false,tag=知乎
-vhuhgsjn_enable = switch,true,false,tag=掌上公交
-vrvr_enable = switch,true,false,tag=转转
-vsgogojihhks_enable = switch,true,false,tag=中国国际航空
-vsgorfbc_enable = switch,true,false,tag=中国人保
+12306_enable = switch,true,false,tag=12306-脚本开关
+555_enable = switch,true,false,tag=555影视-脚本开关
+51xyk_enable = switch,true,false,tag=51信用卡管家-脚本开关
+51job_enable = switch,true,false,tag=51job-脚本开关
+albb_enable = switch,true,false,tag=阿里巴巴-脚本开关
+alyp_enable = switch,true,false,tag=阿里云盘-脚本开关
+aiqiyi_enable = switch,true,false,tag=爱奇艺-脚本开关
+blued_enable = switch,true,false,tag=Blued-脚本开关
+bdduditu_enable = switch,true,false,tag=百度地图-脚本开关
+bddutpba_enable = switch,true,false,tag=百度贴吧-脚本开关
+bilibili_enable = switch,true,false,tag=哔哩哔哩-脚本开关
+showUpList=select,"auto","true","false",tag=哔哩哔哩-[动态]中[最常访问]的显示方式,desc=true: 始终显示\n- false: 始终隐藏\n- auto: 仅当列表中存在直播状态时显示
+filterTopReplies=switch,true,tag=哔哩哔哩-[评论区]过滤置顶评论广告,desc=true: 开启\n- false: 关闭
+bilimanhua_enable = switch,true,false,tag=哔哩哔哩漫画-脚本开关
+bohejmkh_enable = switch,true,false,tag=薄荷健康-脚本开关
+cdyytmqi_enable = switch,false,true,tag=彩云天气-脚本开关
+cdnngogo_enable = switch,true,false,tag=菜鸟裹裹-脚本开关
+cdxb_enable = switch,true,false,tag=财新-脚本开关
+davsdmpk_enable = switch,true,false,tag=大众点评-脚本开关
+dshxfg_enable = switch,true,false,tag=动画疯-脚本开关
+didiiuxk_enable = switch,true,false,tag=滴滴出行-脚本开关
+dyls_enable = switch,true,false,tag=电影猎手-脚本开关
+ddmc_enable = switch,true,false,tag=叮咚买菜-脚本开关
+flightradar24_enable = switch,true,false,tag=Flightradar24-脚本开关
+fwke_enable = switch,true,false,tag=飞客茶馆-脚本开关
+ffbi_enable = switch,true,false,tag=粉笔-脚本开关
+hlzh_enable = switch,true,false,tag=航旅纵横-脚本开关
+hema_enable = switch,true,false,tag=盒马-脚本开关
+hftx_enable = switch,true,false,tag=汇付天下-脚本开关
+itzj_enable = switch,true,false,tag=IT之家-脚本开关
+jhsh_enable = switch,true,false,tag=建行生活-脚本开关
+jkds_enable = switch,true,false,tag=京东-脚本开关
+jkxi_enable = switch,true,false,tag=京喜-脚本开关
+keep_enable = switch,true,false,tag=keep-脚本开关
+kkuz_enable = switch,true,false,tag=快手-脚本开关
+kxke_enable = switch,true,false,tag=夸克-脚本开关
+kuwoybyt_enable = switch,true,false,tag=酷我音乐-脚本开关
+glgclmmg_enable = switch,true,false,tag=快手联盟,优量汇,穿山甲「广告联盟」-脚本开关
+kuan_enable = switch,true,false,tag=酷安-脚本开关
+lvtusvuftk_enable = switch,true,false,tag=旅途随身听-脚本开关
+mddjba_enable = switch,true,false,tag=买单吧-脚本开关
+mhgotv_enable = switch,true,false,tag=芒果TV-脚本开关
+mafgwo_enable = switch,true,false,tag=马蜂窝-脚本开关
+mdmd_enable = switch,true,false,tag=脉脉-脚本开关
+meiyou_enable = switch,true,false,tag=美柚-脚本开关
+pupuicui_enable = switch,true,false,tag=朴朴超市-脚本开关
+51job_enable = switch,true,false,tag=前程无忧-脚本开关
+quda_enable = switch,true,false,tag=去哒-脚本开关
+reddit_enable = switch,true,false,tag=Reddit-脚本开关
+rfrfuipk_enable = switch,true,false,tag=人人视频-脚本开关
+soul_enable = switch,true,false,tag=Soul-脚本开关
+sudaxnyr_enable = switch,true,false,tag=苏打校园APP-脚本开关
+ufmevidemd_enable = switch,true,false,tag=什么值得买-脚本开关
+tf_enable = switch,true,false,tag=TestFlight国区-重写开关
+tcbc_enable = switch,true,false,tag=淘宝-脚本开关
+tgxyxbwf_enable = switch,true,false,tag=腾讯新闻-脚本开关
+vgtime_enable = switch,true,false,tag=vgTime-脚本开关
+lmjpxmvi_enable = switch,true,false,tag=解除微信链接限制-脚本开关
+MY = switch,true,tag=网易云音乐-[隐藏底部]漫游标签
+DT = switch,false,tag=网易云音乐-[隐藏底部]笔记标签
+FX = switch,true,tag=网易云音乐-[隐藏底部]发现标签
+PRGG = switch,true,tag=网易云音乐-[隐藏首页]问候语
+PRRK = switch,false,tag=网易云音乐-[隐藏首页]排行榜
+PRDRD = switch,false,tag=网易云音乐-[隐藏首页]每日推荐
+PRSCVPT = switch,false,tag=网易云音乐-[隐藏首页]推荐歌单
+PRST = switch,false,tag=网易云音乐-[隐藏首页]最近常听
+PRRR = switch,true,tag=网易云音乐-[隐藏首页]雷达歌单
+HMPR = switch,false,tag=网易云音乐-[隐藏首页]音乐合伙人
+PRMST = switch,true,tag=网易云音乐-[隐藏首页]推荐专属歌单
+PRCN = switch,true,tag=网易云音乐-[隐藏首页]你的专属歌单
+whyiyyybyt_enable = switch,true,false,tag=网易云音乐-脚本开关
+whyiyzdccidm_enable = switch,true,false,tag=网易有道词典-脚本开关
+wfnibovj_enable = switch,true,false,tag=温尼伯站-脚本开关
+xnmiuhig_enable = switch,true,false,tag=小米商城-脚本开关
+xntuisis_enable = switch,true,false,tag=小兔充充-脚本开关
+xnmh_enable = switch,true,false,tag=小芒-脚本开关
+xmyu_enable = switch,true,false,tag=闲鱼-脚本开关
+xljnuiyivsuvgo_enable = switch,true,false,tag=香蕉是一种水果-脚本开关
+xnhsuu_enable = switch,true,false,tag=小红书-脚本开关
+ximalaya_enable = switch,true,false,tag=喜马拉雅-脚本开关
+youtube_enable = switch,true,false,tag=YouTube-脚本开关
+yzku_enable = switch,true,false,tag=优酷-脚本开关
+yzxiapp_enable = switch,true,false,tag=悠洗APP-脚本开关
+vihu_enable = switch,true,false,tag=知乎-脚本开关
+vhuhgsjn_enable = switch,true,false,tag=掌上公交-脚本开关
+vrvr_enable = switch,true,false,tag=转转-脚本开关
+vsgogojihhks_enable = switch,true,false,tag=中国国际航空-脚本开关
+vsgorfbc_enable = switch,true,false,tag=中国人保-脚本开关
 [Rule]
+DOMAIN,api.biliapi.com,REJECT
+DOMAIN,app.biliapi.com,REJECT
+DOMAIN,api.biliapi.net,REJECT
+DOMAIN,app.biliapi.net,REJECT
 URL-REGEX, ^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH, REJECT-DICT
 URL-REGEX, ^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH, REJECT-DICT
+DOMAIN,mi.gdt.qq.com,REJECT
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN,v2mi.gdt.qq.com,REJECT
+DOMAIN,da.bridgeturbo.com,REJECT
+DOMAIN,adx-os.bridgeturbo.com,REJECT
+DOMAIN,adx-bj.anythinktech.com,REJECT
+DOMAIN,mobads.baidu.com,REJECT
 DOMAIN, httpdns.n.netease.com, REJECT
 DOMAIN, httpdns.calorietech.com, REJECT
 DOMAIN, hc-ssp.sm.cn, REJECT
@@ -123,17 +153,14 @@ DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
 DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
 DOMAIN-KEYWORD,asiad.byteactivity,REJECT
 DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.ugdtimg.com,REJECT
 DOMAIN,c2.gdt.qq.com,REJECT
 DOMAIN,huatuocode.huatuo.qq.com,REJECT
 DOMAIN,info4.video.qq.com,REJECT
 DOMAIN,info6.video.qq.com,REJECT
 DOMAIN,ios.bugly.qq.com,REJECT
 DOMAIN,ios.video.mpush.qq.com,REJECT
-DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,otheve.beacon.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
 DOMAIN,qzs.gdtimg.com,REJECT
 DOMAIN,qzs.qq.com,REJECT
 DOMAIN,rmonitor.qq.com,REJECT
@@ -274,6 +301,9 @@ IP-CIDR, 59.111.239.61/32, REJECT, no-resolve
 IP-CIDR, 59.111.239.62/32, REJECT, no-resolve
 IP-CIDR, 115.236.121.51/32, REJECT, no-resolve
 IP-CIDR, 115.236.121.195/32, REJECT, no-resolve
+DOMAIN, iadmusicmat.music.126.net, REJECT
+DOMAIN, iadmat.nosdn.127.net, REJECT
+DOMAIN, iadmatapk.nosdn.127.net, REJECT
 AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
 DOMAIN, et.ykccn.com, REJECT
 DOMAIN, appcloud.zhihu.com, REJECT
@@ -395,16 +425,19 @@ IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
 ^https?:\/\/sa\d\.tuisong\.baidu\.com reject-img
 ^https?:\/\/www.baidu.com\/?action=static&ms=1&version=css_page_2@0.*? reject
 ^https?:\/\/mres\.aibank\.com\/app\/resource\/cim\/cim0000001\/.+\.jpg reject-200
-^https:\/\/(?:api\.bilibili\.com\/x\/mengqi\/v1\/resource|app\.bilibili\.com\/x\/resource\/peak\/download) reject-dict
-^https:\/\/api\.bilibili\.com\/x\/v2\/dm\/qoe\/show\? reject-dict
-^https:\/\/api\.bilibili\.com\/x\/vip\/ads\/materials\? reject-dict
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? reject-dict
-^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords reject-dict
-^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.view\.v1\.View\/TFInfo url reject-dict
-^https:\/\/app\.bilibili\.com\/x\/resource\/ip reject-dict
-^https:\/\/api\.bilibili\.com\/x\/web-interface\/zone\?jsonp reject-dict
-(^https:\/\/(?:www|m)\.bilibili\.com\/video\/(?:BV\w{10}|av\d{9}))(\/?\?.*) 302 $1
-(^https:\/\/live\.bilibili\.com\/\d+)(\/?\?.*) 302 $1
+^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab)|v2\/search\/square|vip\/ads\/materials)\? mock-response-body data-type=text status-code=200 data="{"code":-404,"message":"-404","ttl":1,"data":null}"
+^https:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive\? mock-response-body data-type=text status-code=200 data="{"code":0,"data":{"closeType":"close_win","container":[],"showTime":""},"message":"success"}"
+^https:\/\/api\.bilibili\.com\/pgc\/view\/v2\/app\/season\? response-body-json-jq 'del(.data.payment)'
+^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab)\? response-body-json-jq '.result.modules |= if . then map(if (.style | startswith("tip")) or (.module_id | IN(241, 1283, 1441, 1284)) then .items = [] elif .style | startswith("banner") then .items |= if . then map(select(.link | contains("play"))) else [] end elif .style | startswith("function") then .items |= if . then map(select(.blink | startswith("bilibili"))) else [] end end) end'
+^https:\/\/api\.live\.bilibili\.com\/xlive\/(?:app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(?:Room|User))\? response-body-json-jq '.data |= (del(.play_together_info, .play_together_info_v2, .activity_banner_info) | if .function_card then .function_card[] = null end | if .new_tab_info.outer_list then .new_tab_info.outer_list |= map(select(.biz_id != 33)) end | if .card_list then .card_list |= map(select(.card_type != "banner_v2")) end | reduce ([["show_reserve_status"], false], [["reserve_info", "show_reserve_status"], false], [["shopping_info", "is_show"], 0]) as [$path, $value] (.; if getpath($path) then setpath($path; $value) end))'
+^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? response-body-json-del data.common_equip
+^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? response-body-json-jq jq-path="https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/jq/bilibili.tab.jq"
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:list|show|event\/list2)\? response-body-json-jq '.data |= with_entries(if .key | IN("show", "event_list") then .value = [] else . end)'
+^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? response-body-json-jq 'if .data.items then .data.items |= map(select((.banner_item == null) and (.ad_info == null) and (.card_goto == "av") and (.card_type | IN("small_cover_v2", "large_cover_single_v9", "large_cover_v1")))) end'
+^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\? response-body-json-jq 'if .data.items then .data.items |= map(select((.ad_info == null) and (.card_goto | startswith("ad") | not)) | del(.story_cart_icon)) end'
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine(?:\/ipad)?\? response-body-json-jq jq-path="https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/jq/bilibili.mine.jq"
+^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? response-body-json-jq '.data.vip |= if . != null and .status == 0 then . + { status: 1, type: 2, due_date: 9005270400000, role: 15 } else . end'
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes reject-dict
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ reject-200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Recommend|Flash|ListFlash|GetBubbles|GetActivityTab|GetCommonBanner|GetComicConfigPicList) reject-200
@@ -511,9 +544,14 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 reject
 ^https?:\/\/api\.dangdang\.com\/mapi\d\/mobile\/init reject
 ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ reject
-^https?:\/\/maicai\.api\.ddxq\.mobi\/vip\/getVipAd reject-dict
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop reject
+^https?:\/\/maicai\.api\.ddxq\.mobi\/vip\/getVipAd reject-dict
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails response-body-replace-regex suspension fmz200
+^https?:\/\/gw\.api\.ddxq\.mobi\/vip-app-service\/vip\/my\/page\/advertising reject
+^https:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/queryMyPagePopup reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/userLike reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/cart\/vipGuide reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/order\/getRecommend reject-dict
 ^https?:\/\/img\.admobile\.top\/admobile-adRequest\/.*.(jpg|png) reject-200
 ^https?:\/\/webcdn\.m\.qq\.com\/qiantu\/upload\/202[0-9]{5}\/.*.(jpg|png) reject-200
 ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v\d reject
@@ -626,7 +664,6 @@ http:\/\/ad\.myfriday\.cn\/d\/json\/1\.1 reject
 https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert\/skin) reject-dict
 ^https?:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/ad\/listLaunchADByCity\.do reject
 ^https?:\/\/guanyu\.longfor\.com\/app-server\/api\/v1\/main\/start reject
-^https?:\/\/gha\.ghac\.cn\:8081\/base\/app\/api\/ad\/query\?adType=1 reject-200
 ^https?:\/\/aag\.enmonster\.com\/apa\/index\/advert\/skin reject
 ^https?:\/\/yun\.tuitiger\.com\/mami-media reject-200
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg reject
@@ -682,6 +719,7 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/2\?cid= reject-dict
 ^https?:\/\/api\.hengdianfilm\.com\/\/cinema\/queryAvailableBannerInfo\/4\?cid= reject-dict
 ^https?:\/\/39\.98\.135\.211\/admin\/filter\/crowdFunding\/getNewProductData reject-dict
+^https:\/\/www\.haixue\.com\/advert\/app\/adInfo\/v1\/queryAdByPositionCode reject-dict
 ^https?:\/\/www\.i3zh\.com response-body-replace-regex cm-pop-up-banners fmz200
 ^https?:\/\/cdn\.jlbank\.com\.cn\/jlstaticresource\/APPSTART reject-200
 ^https?:\/\/mbank5\.jsbchina\.cn:443 reject-dict
@@ -761,7 +799,6 @@ https?:\/\/awg\.enmonster\.com\/apa\/(advert\/demand\/home\/poster|index\/advert
 ^https?:\/\/www\.oschina\.net\/action\/apiv2\/get_launcher reject-img
 ^https?:\/\/pocketuni\.net\/\?app=api&mod=Message&act=ad reject-200
 ^https?:\/\/api\.gongkaoleida\.com\/api\/v2\/ad\/info reject-dict
-^https?:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
 ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome5\/apphome reject-200
 ^https?:\/\/res\.kfc\.com\.cn\/CRM\/kfcad\/apphome6\/\w+\.json\? reject-dict
 ^https?:\/\/res\.kfc\.com.\cn\/advertisement\/ reject
@@ -822,6 +859,7 @@ https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSpl
 ^https?:\/\/api-ac\.liepin\.com\/api\/com\.liepin\.cyclops\.live\.get-ad-cards reject-dict
 ^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v2-show-4app reject-200
 ^https:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ reject-dict
+^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(guideScenic\/getRecentlyUpdatedScenic|city\/getWeatherByCityName) reject-dict
 ^https?:\/\/dispatcher\.camera360\.com\/api\/v\d\/list$ reject
 ^https?:\/\/qimg\.cdnmama\.com\/rd reject-dict
 ^https?:\/\/app\.missevan\.com\/site\/launch\? reject
@@ -837,6 +875,11 @@ http:\/\/dili.sqcosmos.com\/jiekou\/endpage\/ad reject-dict
 ^https?:\/\/apimobile\.meituan\.com\/group\/v1\/recommend\/unity\/recommends reject-dict
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage reject-200
 ^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList reject-dict
+^http:\/\/x\.seeyouyima\.com\/adx\/staticstics\? reject
+^https:\/\/axxd\.xmseeyouyima\.com\/ad\/ reject
+^https:\/\/axxd\.xmseeyouyima\.com\/ad_statistics\? reject
+^https:\/\/axxd\.xmseeyouyima\.com\/v1\/getad\? reject
+^https:\/\/axxd\.xmseeyouyima\.com\/pregetad\? reject
 ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.gif$ reject
 ^https?:\/\/j-image\.missfresh\.cn\/img_(.+)\.(jpg|jpeg|gif|png)\?iopcmd=convert&dst=webp&q=85$ reject
 ^https?:\/\/creditcard\.bankcomm\.(com|cn)\/tfimg\/public00\/M00\/[a-zA-Z0-9]{2}\/[a-zA-Z0-9]{2}\/[a-zA-Z0-9-]{30}\.(jpg|jpeg) reject
@@ -885,7 +928,7 @@ http:\/\/dili.sqcosmos.com\/jiekou\/endpage\/ad reject-dict
 ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/go_gossip_darwin\/external\/v2\/query_flow_cards\? reject-dict
 ^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash reject-200
 ^https?:\/\/blog\.nilbt\.com\/static\/api\/update reject-200
-^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(?!bbc2|f015|1655|0992|4678|a194|d8e2|c513|e51c|0ee1|166e|05ca|c882|d5b8|22ed|a0dc|a55a|6f89|3bf9|3c71|52ec|5b62|ve7a|001c|923d|accf|4a10|0bd7|be7a|5b62|5dd6|1f24|006c|775d|bd02|b983|5251|806b|d119|db14|43c9|41d3|8570|2c10|85ea|1435|814e|f422|aec7|738c|d7c8|0538|02b4|fd20|7647|f6ef|07c5|885b|e4cb|685b|30aa|c23b|9603|f27f|eaf8|8011|a5eb|409d|724c|3f2a|e07f|6744|60a6|158c|8ce3) reject-dict
+^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(ed64|74b5) reject
 ^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(?!7dc2|fe96|cea3|06a8|1b11|d57b|6918|61db|2d58|aa23|) reject-200
 ^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect reject-200
 ^https?:\/\/www\.nfmovies\.com\/pic\/tu\/ reject-img
@@ -989,6 +1032,13 @@ https://access.mypikpak.com/access_controller/v1/area_accessible reject
 ^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup reject-dict
 ^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?.* reject-dict
 ^https:\/\/img01\.51jobcdn\.com\/im\/mkt/(?:tg/((19|20)\d{2})banner/(?!jcgz2/)|\d{4}/bd/\d{4}/).*\.jpg reject
+^https?:\/\/appapi\.51job(app)?\.com\/api\/util\/get_version reject-dict
+^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/index\/last-version reject-dict
+^https?:\/\/appapi\.51job(app)?\.com\/api\/market\/(?>adtrace|get_launch|get_prompt) reject
+^https?:\/\/cupid\.51job(app)?\.com\/open\/guide\/home-page-top reject
+^https?:\/\/cupid\.51job(app)?\.com\/open\/user-task\/user\/task\/init reject
+^https?:\/\/cupid\.51job(app)?\.com\/open\/index\/notice-infos reject-dict
+^https?:\/\/cupid\.51job(app)?\.com\/launch-hub\/open\/noauth\/popUp reject
 ^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert reject
 ^https?:\/\/app\.peopleapp\.com\/Api\/\d+/HomeApi\/(adv|getAdvertImage) reject
 ^https?:\/\/stat\.peopleapp\.com\/ reject
@@ -1096,16 +1146,15 @@ https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig reject
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/goods-portal\/spu\/searchRecommendPool reject-dict
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/configuration\/appVersionUpdate\/getAppVersionUpdateInfo reject-dict
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v1\/sams\/configuration\/portal\/beUpdate reject-dict
-^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(guideScenic\/getRecentlyUpdatedScenic|city\/getWeatherByCityName) reject-dict
 ^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ reject
 ^https:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd reject-dict
 ^https?:\/\/alt-r\.my\.com\/mobile reject-dict
 ^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn reject-img
-^https:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*\/builds\/\d*\/install$ request-body-replace-regex "storefrontId"\x20:\x20.*, "storefrontId":"143441-19,29",
 ^https?:\/\/ga-album-cdnqn\.52tt\.com\/prod-yunying\/.+.jpg reject-dict
 ^https?:\/\/api\.taptapdada\.com\/startup-logo\/v\d\/combo\? reject-dict
 ^https?:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg reject
 ^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config reject
+^https://www\.tailgdd\.com/v8/smart/app/config/get$ response-body-json-replace data {}
 ^https?:\/\/tfsmy\.chengdu\.gov\.cn\/api\/v5\/core\/version reject-200
 ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd response-body-replace-regex officialAdvertResultVo fmz200
 ^https?:\/\/cgbank\.oss-cn-shenzhen\.aliyuncs\.com\/visual\/advertisingImg\/.+.jpg reject-200
@@ -1162,22 +1211,6 @@ https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig reject
 ^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) reject
 ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) reject
 ^https?:\/\/news\.ssp\.qq\.com\/app reject
-^https?:\/\/btrace\.qq\.com reject-200
-^https?:\/\/api2\.helper\.qq\.com\/game\/buttons reject-img
-^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= reject-img
-^https?:\/\/imgcache\.qq\.com\/qqlive\/ reject-img
-^https?:\/\/mtteve\.beacon\.qq\.com\/analytics reject-img
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? reject-200
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ reject-200
-^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ reject-200
-^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png reject-img
-^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} reject-img
-^https?:\/\/qzonestyle\.gtimg\.cn\/qzone\/biz\/gdt\/mob\/sdk\/ios\/v2\/ reject-img
-^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js reject-img
-^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png reject-img
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qiantu\/upload\/ reject-img
-^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} reject-img
-^https?://bk\.bingo\.qq\.com/bk/crx/data/videoAd.*$ reject-dict
 ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping reject-dict
 ^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v2\/cloudcode\/wechat\/bid reject
 ^https?:\/\/adsoss\.zhinengxiyifang\.cn\/ads reject
@@ -1207,11 +1240,10 @@ https://support.you.163.com/appversync/check.do reject
 ^https?:\/\/sp\.kaola\.com\/api\/openad reject-200
 ^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd reject
 https?:\/\/(ipv4|interface\d?)\.music\.163.com\/e?api\/ad reject-dict
-https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) reject-dict
-https?:\/\/interface\d?\.music\.163\.com\/eapi\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) reject-dict
-https?:\/\/interface\d?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) reject-dict
-https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) reject-dict
-^https?:\/\/(?:ipv4|interface\d?)\.music\.163\.com\/e?api\/(?:batch|v\d\/resource\/comment\/floor\/get|homepage\/block\/page|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get) header-del x-aeapi
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) reject-dict
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) reject-dict
+^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) reject-dict
+^https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) reject-dict
 ^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$ reject-img
 ^https?:\/\/p\.c\.music\.126.net\/.*?jpg$ reject
 ^https?:\/\/img1.126.net\/.+dpi=\w{7,8} reject
@@ -1238,8 +1270,11 @@ https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|
 ^https?:\/\/dsp-impr2\.youdao\.com\/adload reject-200
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request reject-img
 ^https?:\/\/oral\.youdao\.com\/oral\/adInfo reject-img
-^https?:\/\/osg-static\.sgcc\.com\.cn\/omg-static\/.*.jpg reject-200
-^https?:\/\/osg-service\.sgcc\.com\.cn:18600\/emss-pfa-appset-front\/bootpageoutter\/ reject-dict
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-appset-front\/appForceUpdate reject
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-appset-front\/appSync\/getAppForceUpgrade reject
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/emss-pfa-appset-front\/bootpageoutter\/ reject-dict
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/app_api\/selectInfoByCondition reject-dict
+^https?:\/\/(?>csc|osg)-service\.sgcc\.com\.cn:\d+\/.*\/inner\/cache reject
 ^https?:\/\/api\.wfdata\.club\/v\d\/yesfeng\/(infoCenterAd|yesList) reject
 ^https?:\/\/thor\.weidian\.com\/ares\/home\.splash reject-200
 ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree reject-200
@@ -1263,15 +1298,26 @@ https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|
 ^https?:\/\/api\.indeedpower\.com\/v1\/m\/edu\/module\/homepage_banner\/\?randomStr reject-dict
 ^https?:\/\/api\.jr\.mi\.com\/v\d\/adv\/ reject-200
 ^https?:\/\/api\.jr\.mi\.com\/jr\/api\/playScreen reject-200
+^https?:\/\/info\.mina\.xiaoaisound\.com\/advertise(?!\/banner) reject
+^https?:\/\/info\.mina\.xiaoaisound\.com\/payGuide\/userCenter reject
+^https?:\/\/info\.mina\.xiaoaisound\.com\/popup reject-dict
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) reject-dict
 ^https?:\/\/apiwz\.midukanshu\.com\/advert\/getPopup$ reject
 ^https?:\/\/apiwz\.midukanshu\.com\/advert\/treasureInfo$ reject
 ^https?:\/\/apiwz\.midukanshu\.com\/config\/getAds$ reject
 ^https?:\/\/upload-bbs\.mihoyo\.com\/upload\/202[2-9]{1}\/[0-9]{2}\/[0-9]{2}\/[a-z0-9]{32}_[a-z0-9]{19}\.(jpg|png)$ reject-200
-^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? reject
-^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ reject-200
-^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\? reject-dict
-^https?:\/\/api.xueqiu.com\/ucprofile\/api\/user\/batchGetUserBasicInfo.json reject-dict
+^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?channel=1&height=932 reject-dict
+^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+home_visitor_relation_config reject-dict
+^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?channel=1&location=0&model=6&page=4 reject-dict
+^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?channel=1&location=0&model=1&page=(4|6) reject-dict
+^https:\/\/api\.xueqiu\.com\/ucprofile\/api\/user\/batchGetUserBasicInfo\.json reject-dict
+^https:\/\/api\.xueqiu\.com\/lightsnow\/launch\/plan\/bee\/query\.json\?channel=1&ip_label=&label_json=.+new_customer=1 reject-dict
+^https:\/\/api\.xueqiu\.com\/lightsnow\/optional\/banner\/query\.json reject-dict
+^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+cube_detail_bottom_operation_trade_button reject-dict
+^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/zj_card\.json\?feed_id=207 reject-dict
+^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/portfolio_tab_symbol\.json reject-dict
+^https:\/\/stock\.xueqiu\.com\/v5\/stock\/group\/recommend\/default\/list\.json reject-dict
+^https:\/\/api\.xueqiu\.com\/livestream\/structure\/live\/hotCard\.json reject-dict
 ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ reject
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20221[1-2]{1} reject-200
 ^https?:\/\/images\.cib\.com\.cn\/commons\/uploads\/commons\/[a-zA-Z0-9]{32}\.jpg\?ver=20230[1-9]{1} reject-200
@@ -1304,6 +1350,11 @@ https?:\/\/interface\d?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|
 ^https?:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest reject-dict
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash reject-dict
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info mock-response-body data-type=json data="{"code": 0}"
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/flash- reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/ai-summary reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/membership\/platform reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/search\/get-(?>preset|express) reject-dict
+^https?:\/\/api\.xiaoyuzhoufm\.com\/v\d\/category\/list-daily-suggestion reject-dict
 ^https:\/\/mgesq\.api\.mgtv\.com\/v2\/goods\/guess_you_like reject-dict
 https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
 ^https:\/\/mgesq\.api\.mgtv\.com\/search\/goods\/rank reject-dict
@@ -1463,6 +1514,7 @@ https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines reject
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage\/v reject-dict
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v reject-dict
+^https:\/\/ecssmobile\.e-chinalife\.com:8082\/ecss\/web\/appupdate\/customization\/getFlashScreenInfo reject-dict
 ^https?:\/\/sichuan\.95504\.net\/v\d\/gd\/index\/get reject-200
 ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/listNotEndByPlace\?place=first_page reject-200
 ^https?:\/\/hdgateway\.zto\.com\/getApolloConfig reject-dict
@@ -1477,7 +1529,7 @@ https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
 ^https?:\/\/c\.zhangle\.com\/pic\/mktg\/diversity\/.+\.jpg$ reject-dict
 ^https?:\/\/live\.inst-service\.htsc\.com\/live reject-dict
 ^https?:\/\/geetest\.htsc\.com:8888\/pre_get_token reject-200
-^https?:\/\/119\.29\.29\.98\/d reject-200
+^https?:\/\/119\.29\.29\.\d+\/d reject-200
 ^https:\/\/api\.zhihu\.com\/commercial_api\/(?:answer\/\d+\/bottom-v2|article\/\d+\/bottom-v2|banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2) reject-dict
 ^https:\/\/api\.zhihu\.com\/content-distribution-core\/bubble\/common\/settings reject-dict
 ^https:\/\/api\.zhihu\.com\/(?:moments\/lastread|drama\/hot-drama-list) reject-dict
@@ -1528,7 +1580,7 @@ https://mgesq.api.mgtv.com/v2/user/center/icon reject-dict
 ^https?:\/\/us\.l\.qq\.com\/exapp reject-200
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) reject-200
 ^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend reject
-^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic reject-200
+^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic response-body-json-replace data {}
 ^https?:\/\/app-izz\.zhengzhou\.gov\.cn:10019\/bizgw\/gateway\.do response-body-replace-regex "imgUrl19_5x9":".+?" "imgUrl19_5x9":""
 ^https?:\/\/z\.onewo\.com\/passer\/api\/ads\/v1\/8\/list reject-200
 ^https?:\/\/zua\.zhidiantianxia\.cn\/api\/adverts reject
@@ -1545,7 +1597,7 @@ http-request ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList script-path=https://r
 http-response ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/api\/v\d\/movie\/index_recommend script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/555Ad.js, requires-body=true, timeout=60, tag=555影视广告, enable={555_enable}
 http-response ^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/51card.js, requires-body=true, timeout=60, tag=51信用卡管家, enable={51xyk_enable}
 http-response ^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/guanjia\/me-tab2\/config script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/51card.js, requires-body=true, timeout=60, tag=51信用卡管家, enable={51xyk_enable}
-http-response ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-tab-dynamic script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/51job.js, requires-body=true, timeout=60, tag=51job, enable={51job_enable}
+http-response ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-tab-dynamic script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js, requires-body=true, timeout=60, tag=51job, enable={51job_enable}
 http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cainiao/cainiao.js, requires-body=true, timeout=60, tag=阿里巴巴广告, enable={albb_enable}
 http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js, requires-body=true, timeout=60, tag=阿里巴巴广告, enable={albb_enable}
 http-response ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js, requires-body=true, timeout=60, tag=myBlockAds, enable={albb_enable}
@@ -1568,25 +1620,9 @@ http-response ^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=2 script-pa
 http-response ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/baidumap.js, requires-body=true, timeout=60, tag=百度地图广告, enable={bdduditu_enable}
 http-response ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js, requires-body=true, timeout=60, tag=百度贴吧广告, enable={bddutpba_enable}
 http-response ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js, requires-body=true, binary-body-mode=true, timeout=60, tag=百度贴吧广告, enable={bddutpba_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$ script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除动态页面广告, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除青少年模式弹窗, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.show\.v1\.Popular\/Index$ script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除热门话题, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.(?:view|viewunite)\.v1\.View\/(?:View|ViewProgress)$ script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除播放页面视频列表广告, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩会员特效弹幕处理, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmView script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除交互式弹幕, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/MainList script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除评论区广告, enable={bilibili_enable}
-http-response ^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$ script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/protoC.js, requires-body = true, binary-body-mode = true, tag = 哔哩哔哩移除搜索结果广告, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:brand\/list|event\/list2|list|show) script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除开屏广告, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index(\/story)?\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除首页推荐广告, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除右上角活动入口, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩精简首页顶部标签, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/search\/square script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除热搜广告, enable={bilibili_enable}
-http-response ^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab) script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除观影页广告, enable={bilibili_enable}
-http-response ^https:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除直播间广告, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩移除皮肤推送, enable={bilibili_enable}
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/(?:mine(\/ipad)?|myinfo) script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bilibili/json.js, requires-body = true, tag = 哔哩哔哩精简我的页面, enable={bilibili_enable}
-http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js, requires-body=true, timeout=60, tag=哔哩哔哩漫画, enable={bilimanhua_enable}
-http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js, requires-body=true, timeout=60, tag=哔哩哔哩漫画, enable={bilimanhua_enable}
+http-response ^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.(?:interface\.v1\.(?:Teenagers\/ModeStatus|Search\/DefaultWords)|show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(?:unite)?\.v1\.View\/(?:View|ViewProgress|TFInfo|RelatesFeed)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$ script-path=https://raw.githubusercontent.com/kokoryh/Sparkle/refs/heads/master/dist/bilibili.protobuf.js, argument=[{showUpList}, {filterTopReplies}], requires-body=true, binary-body-mode=true, tag=哔哩哔哩去广告及增强, enable={bilibili_enable}
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js, requires-body=true, timeout=60, tag=哔哩哔哩漫画, enable={bilimanhua_enable}
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/bilibiliManga.js, requires-body=true, timeout=60, tag=哔哩哔哩漫画, enable={bilimanhua_enable}
 http-response ^https:\/\/api\.boohee\.com\/meta-interface\/v2\/index\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js, requires-body=true, timeout=60, tag=薄荷健康, enable={bohejmkh_enable}
 http-response ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js, requires-body=true, timeout=60, tag=薄荷健康, enable={bohejmkh_enable}
 http-response ^https:\/\/api\.boohee\.com\/open-interface\/v1\/string\/market_page\?title=metabolism_config$ script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js, requires-body=true, timeout=60, tag=薄荷健康, enable={bohejmkh_enable}
@@ -1596,7 +1632,7 @@ http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nb
 http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cainiao/cainiao.js, requires-body=true, timeout=60, tag=菜鸟裹裹, enable={cdnngogo_enable}
 http-response ^https?:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cainiao/cainiao.js, requires-body=true, timeout=60, tag=菜鸟裹裹, enable={cdnngogo_enable}
 http-response ^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/caixin/caixinAd.js, requires-body=true, timeout=60, tag=财新广告, enable={cdxb_enable}
-http-response ^https?:\/\/img\.meituan\.net\/dpmobile\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js, requires-body=true, timeout=60, tag=大众点评开屏广告, enable={davsdmpk_enable}
+http-response ^https?:\/\/img\.meituan\.net\/dpmobile\/ script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/dianping.js, requires-body=true, timeout=60, tag=大众点评开屏广告, enable={davsdmpk_enable}
 http-response ^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d/(token|m3u8).php\? script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutAnimeAds.js, requires-body=true, timeout=60, tag=动画疯, enable={dshxfg_enable}
 http-response ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v3\/feeds script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=滴滴出行, enable={didiiuxk_enable}
 http-response ^https?:\/\/freight\.xiaojukeji\.com\/gateway script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=滴滴出行, enable={didiiuxk_enable}
@@ -1609,9 +1645,12 @@ http-response ^https?:\/\/daijia\.kuaidadi\.com\/gateway script-path=https://raw
 http-response ^https?:\/\/daijia\.kuaidadi\.com:443\/gateway script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=滴滴出行, enable={didiiuxk_enable}
 http-response ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v5 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/didi/didiAds.js, requires-body=true, timeout=60, tag=微信小程序个人中心净化, enable={didiiuxk_enable}
 http-response ^https:\/\/app-v1\.ecoliving168\.com\/api\/v1\/movie\/index_recommend\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/dianyinglieshou.js, requires-body=true, timeout=60, tag=电影猎手去广告, enable={dyls_enable}
+http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail) script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js, requires-body=true, timeout=60, tag=叮咚买菜, enable={ddmc_enable}
+http-response ^https?:\/\/maicai\.api\.ddxq\.mobi\/tool\/getConfig script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js, requires-body=true, timeout=60, tag=叮咚买菜, enable={ddmc_enable}
+http-response ^https?:\/\/user\.api\.ddxq\.mobi\/userportal-service\/api\/v\d\/user\/queryMyPage script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js, requires-body=true, timeout=60, tag=叮咚买菜, enable={ddmc_enable}
 http-response ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|subscribe) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/Flightradar24.js, requires-body=true, timeout=60, tag=Flightradar24解锁, enable={flightradar24_enable}
 http-response ^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fly.js, requires-body=true, timeout=60, tag=飞客茶馆, enable={fwke_enable}
-http-response ^https?:\/\/www\.flyert\.com(\.cn)?\/.*plugin script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/flyert.js, requires-body=true, timeout=60, tag=飞客茶馆, enable={fwke_enable}
+http-response ^https?:\/\/www\.flyert\.com(\.cn)?\/.*plugin script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/flyert.js, requires-body=true, timeout=60, tag=飞客茶馆, enable={fwke_enable}
 http-response ^https?:\/\/tiku\.fenbi\.com\/activity\/app\/launcher\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/fenbi.js, requires-body=true, timeout=60, tag=粉笔开屏广告, enable={ffbi_enable}
 http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/Umetrip_remove_ads.js, requires-body=true, timeout=60, tag=航旅纵横, enable={hlzh_enable}
 http-response ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(?>indexpage|mypage|tabfeedstream) script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/freshippo.js, requires-body=true, timeout=60, tag=盒马, enable={hema_enable}
@@ -1620,7 +1659,7 @@ http-response ^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\
 http-response ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js, requires-body=true, timeout=60, tag=ithome, enable={itzj_enable}
 http-response ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/ccbLifeAds.js, requires-body=true, timeout=60, tag=建行生活, enable={jhsh_enable}
 http-request ^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB05 script-path=http://script.hub/convert/_start_/https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ccbLife/A3341AB05.json/_end_/A3341AB05.json?type=mock&target-app=loon-plugin, timeout=60, tag=建行生活, enable={jhsh_enable}
-http-response ^https?:\/\/g\.alicdn\.com\/.*o2o-ad script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/alicdn.js, requires-body=true, timeout=60, tag=建行生活内置饿了么, enable={jhsh_enable}
+http-response ^https?:\/\/g\.alicdn\.com\/.*o2o-ad script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js, requires-body=true, timeout=60, tag=建行生活内置饿了么, enable={jhsh_enable}
 http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingdong/jingdong.js, requires-body=true, timeout=60, tag=京东, enable={jkds_enable}
 http-response ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingxiAd.js, requires-body=true, timeout=60, tag=京喜, enable={jkxi_enable}
 http-response ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js, requires-body=true, timeout=60, tag=keep, enable={keep_enable}
@@ -1639,7 +1678,8 @@ http-response ^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\
 http-response ^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
 http-response ^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
 http-response ^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js, requires-body=true, timeout=60, tag=酷安, enable={kuan_enable}
-http-response ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1& script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/mdb.js, requires-body=true, timeout=60, tag=mdb, enable={mddjba_enable}
+http-response ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(common\/getJGQIconNew|city\/getAllBannelByCity) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lvtusuishenting/ltsst-ad.js, requires-body=true, timeout=60, tag=旅途随身听, enable={lvtusvuftk_enable}
+http-response ^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1& script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mdb.js, requires-body=true, timeout=60, tag=mdb, enable={mddjba_enable}
 http-response ^https?:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js, requires-body=true, timeout=60, tag=芒果TV我的页面, enable={mhgotv_enable}
 http-response ^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js, requires-body=true, timeout=60, tag=芒果TV首页信息流,顶部tab, enable={mhgotv_enable}
 http-response ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js, requires-body=true, timeout=60, tag=芒果TV, enable={mhgotv_enable}
@@ -1650,8 +1690,12 @@ http-response ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? scrip
 http-response ^https?:\/\/mapi\.mafengwo\.cn\/user\/profile\/get_(list|profile) script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/mafengwo.js, requires-body=true, timeout=60, tag=马蜂窝, enable={mafgwo_enable}
 http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v6\/detail_recommend_feeds\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js, requires-body=true, timeout=60, tag=脉脉帖子末尾, enable={mdmd_enable}
 http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/maimai/maimai_ads.js, requires-body=true, timeout=60, tag=脉脉, enable={mdmd_enable}
+http-response ^https:\/\/config-service\.seeyouyima\.com\/api\/configs\/batch\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/meiyou/meiyou_ads.js, requires-body=true, timeout=60, tag=美柚App净化, enable={meiyou_enable}
+http-response ^https:\/\/config-service\.seeyouyima\.com\/api\/configs\? script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/meiyou/meiyou_ads.js, requires-body=true, timeout=60, tag=美柚App净化, enable={meiyou_enable}
 http-response ^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=2(%[A-Z0-9]+)+&store_id script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/PupuSplashAds.js, requires-body=true, timeout=60, tag=朴朴超市, enable={pupuicui_enable}
 http-response ^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/QuDa.js, requires-body=true, timeout=60, tag=去哒, enable={quda_enable}
+http-response ^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-tab-dynamic script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js, requires-body=true, timeout=60, tag=去哒, enable={51job_enable}
+http-response ^https?:\/\/cupid\.51job(app)?\.com\/open\/my-page\/ script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/51job.js, requires-body=true, timeout=60, tag=去哒, enable={51job_enable}
 http-response ^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js, requires-body=true, timeout=60, tag=企迈（挪瓦咖啡、林里柠檬茶、霸王茶姬、陈香贵）
 http-response ^https?:\/\/gql(-fed)?\.reddit\.com script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/reddit.js, requires-body=true, timeout=60, tag=reddit, enable={reddit_enable}
 http-response ^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js, requires-body=true, timeout=60, tag=rrtv_json, enable={rfrfuipk_enable}
@@ -1687,19 +1731,17 @@ http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list script-path=https:/
 http-response ^https?:\/\/homepage-api\.smzdm\.com\/v3\/home script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js, requires-body=true, timeout=60, tag=Smzdm, enable={ufmevidemd_enable}
 http-response ^https?:\/\/article-api\.smzdm\.com\/publish\/get_bubble script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js, requires-body=true, timeout=60, tag=Smzdm, enable={ufmevidemd_enable}
 http-response ^https?:\/\/qianbao\.smzdm\.com\/v\d\/app\/home script-path=https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js, requires-body=true, timeout=60, tag=Smzdm, enable={ufmevidemd_enable}
-http-response ^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(common\/getJGQIconNew|city\/getAllBannelByCity) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lvtusuishenting/ltsst-ad.js, requires-body=true, timeout=60, tag=旅途随身听, enable={lvtusvuftk_enable}
 http-response ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js, requires-body=true, timeout=60, tag=淘宝, enable={tcbc_enable}
 http-response ^https?:\/\/poplayer\.template\.alibaba\.com\/\w+\.json script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js, requires-body=true, timeout=60, tag=淘宝, enable={tcbc_enable}
 http-response ^https?:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/event_detail|news_feed\/hot_module_list)) script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/qq-news.js, requires-body=true, timeout=60, tag=腾讯新闻, enable={tgxyxbwf_enable}
 http-response ^https?:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/vgtime.js, requires-body=true, timeout=60, tag=vgTime, enable={vgtime_enable}
 http-response ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js, requires-body=true, timeout=60, tag=UnblockURLinWeChat-解除微信链接限制, enable={lmjpxmvi_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get) script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)) script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
-http-response https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=60, tag=网易云音乐, enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get) script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_mian, enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_tab, argument=[{MY},{DT},{FX}], enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)) script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_home, argument=[{PRGG},{PRRK},{PRDRD},{PRSCVPT},{PRST},{PRRR},{HMPR},{PRMST},{PRCN}], enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_fx, enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_mybarad, enable={whyiyyybyt_enable}
+http-response ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get script-path=https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js, requires-body=true, binary-body-mode=true, timeout=20, tag=NetEaseCloudMusic_foll, enable={whyiyyybyt_enable}
 http-response ^https?:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile) script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/youdao/dict-youdao-ad.js, requires-body=true, timeout=60, tag=网易有道词典, enable={whyiyzdccidm_enable}
 http-response ^https:\/\/vue3-api\.zhixiny\.cn\/v1\/initui\?key=index script-path=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/AdBlock/xmApp/wnbz.js, requires-body=true, timeout=60, tag=温尼伯站, enable={wfnibovj_enable}
 http-response ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js, requires-body=true, timeout=60, tag=小米商城, enable={xnmiuhig_enable}
@@ -1750,6 +1792,6 @@ http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path = https:/
 http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? script-path = https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js, requires-body = true, tag = 知乎拦截服务器推送配置, enable={vihu_enable}
 http-response ^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhangshanggongjiao.js, requires-body=true, timeout=60, tag=掌上公交小程序广告, enable={vhuhgsjn_enable}
 http-response ^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getmyprofilev3 script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhuanzhuan/zhuanzhuan.js, requires-body=true, timeout=60, tag=转转, enable={vrvr_enable}
-http-response ^https:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/airchina.js, timeout=60, tag=中国国际航空, enable={vsgogojihhks_enable}
+http-response ^https:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/airchina.js, timeout=60, tag=中国国际航空, enable={vsgogojihhks_enable}
 http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js, requires-body=true, timeout=60, tag=中国人保主页面, enable={vsgorfbc_enable}
 http-response ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js, requires-body=true, timeout=60, tag=中国人保我的页面, enable={vsgorfbc_enable}

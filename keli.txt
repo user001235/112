@@ -1,613 +1,516 @@
 [General]
-real-ip=*-update.xoyocdn.com,xg-flow.xoyo.com
+real-ip=*-update.xoyocdn.com, xg-flow.xoyo.com
 [Argument]
-showUpList=select,"auto","true","false",tag=[动态]中[最常访问]的显示方式,desc=auto：仅当列表中存在直播状态时显示；true：始终显示；false：始终隐藏。
-removeTopSwitch=switch,true,tag=移除置顶项,desc=移除置顶文章
-removeBannerSwitch=switch,true,tag=移除轮播图,desc=移除轮播图
-MY=switch,false,true,tag=[隐藏底栏]漫游标签,desc=
-DT=switch,false,true,tag=[隐藏底部]笔记标签,desc=
-FX=switch,false,true,tag=[隐藏底部]发现标签,desc=
-PRGG=switch,false,true,tag=[隐藏首页]问候语,desc=
-PRRK=switch,false,true,tag=[隐藏首页]排行榜,desc=
-PRDRD=switch,false,true,tag=[隐藏首页]每日推荐,desc=
-PRSCVPT=switch,false,true,tag=[隐藏首页]推荐歌单,desc=
-PRST=switch,false,true,tag=[隐藏首页]最近常听,desc=
-PRRR=switch,false,true,tag=[隐藏首页]雷达歌单,desc=
-HMPR=switch,false,true,tag=[隐藏首页]音乐合伙人,desc=
-PRMST=switch,false,true,tag=[隐藏首页]推荐专属歌单,desc=
-PRCN=switch,false,true,tag=[隐藏首页]你的专属歌单,desc=
-blockUpload=switch,false,true,tag=隐藏上传按钮,desc=用于隐藏YouTube底栏的上传按钮
-blockShorts=switch,false,true,tag=隐藏Shorts按钮,desc=用于隐藏YouTube底栏的Shorts按钮
-blockImmersive=switch,false,true,tag=隐藏选段按钮,desc=用于隐藏YouTube Music底栏的选段按钮
-captionLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=字幕翻译语言,desc=需要把YouTube字幕翻译翻译为何种语言
-lyricLang=select,"zh-Hans","zh-Hant","ja","ko","en","off",tag=歌词翻译语言,desc=需要把YouTube Music字幕翻译翻译为何种语言
-debug=switch,false,true,tag=启用调试模式,desc=此插件的调试模式
+showUpList=select, "auto", "true", "false", tag=[动态]中[最常访问]的显示方式, desc=auto：仅当列表中存在直播状态时显示；true：始终显示；false：始终隐藏。
+filterTopReplies=switch, "true", "false", tag=移除评论区置顶广告, desc=移除评论区置顶广告
+enableAirborne=switch, "false", "true", tag=空降助手自动版, desc=空降助手自动版
+enableAirborneDm=switch, "false", "true", tag=空降助手弹幕版, desc=弹幕版仅限iPad版开启
+removeTopSwitch=switch, "true", "false", tag=移除置顶项, desc=移除置顶文章
+removeBannerSwitch=switch, "true", "false", tag=移除轮播图, desc=移除轮播图
+MY=switch, "false", "true", tag=[隐藏底栏]漫游标签, desc=
+DT=switch, "false", "true", tag=[隐藏底部]笔记标签, desc=
+FX=switch, "false", "true", tag=[隐藏底部]发现标签, desc=
+PRGG=switch, "false", "true", tag=[隐藏首页]问候语, desc=
+PRRK=switch, "false", "true", tag=[隐藏首页]排行榜, desc=
+PRDRD=switch, "false", "true", tag=[隐藏首页]每日推荐, desc=
+PRSCVPT=switch, "false", "true", tag=[隐藏首页]推荐歌单, desc=
+PRST=switch, "false", "true", tag=[隐藏首页]最近常听, desc=
+PRRR=switch, "false", "true", tag=[隐藏首页]雷达歌单, desc=
+HMPR=switch, "false", "true", tag=[隐藏首页]音乐合伙人, desc=
+PRMST=switch, "false", "true", tag=[隐藏首页]推荐专属歌单, desc=
+PRCN=switch, "false", "true", tag=[隐藏首页]你的专属歌单, desc=
+blockUpload=switch, "false", "true", tag=隐藏上传按钮, desc=用于隐藏YouTube底栏的上传按钮
+blockShorts=switch, "false", "true", tag=隐藏Shorts按钮, desc=用于隐藏YouTube底栏的Shorts按钮
+blockImmersive=switch, "false", "true", tag=隐藏选段按钮, desc=用于隐藏YouTube Music底栏的选段按钮
+captionLang=select, "zh-Hans", "zh-Hant", "ja", "ko", "en", "off", tag=字幕翻译语言, desc=需要把YouTube字幕翻译翻译为何种语言
+lyricLang=select, "zh-Hans", "zh-Hant", "ja", "ko", "en", "off", tag=歌词翻译语言, desc=需要把YouTube Music字幕翻译翻译为何种语言
+debug=switch, "false", "true", tag=启用调试模式, desc=此插件的调试模式
 [Rule]
-AND,((DOMAIN-KEYWORD,-ad-),(DOMAIN-SUFFIX,byteimg.com)),REJECT
-AND,((DOMAIN-KEYWORD,-ttam-),(DOMAIN-SUFFIX,ibyteimg.com)),REJECT
-AND,((DOMAIN-KEYWORD,ssdk-),(DOMAIN-SUFFIX,pangle.io)),REJECT
-AND,((DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
-AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-short.bytetos.com)),REJECT
-AND,((DOMAIN-KEYWORD,v),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
-AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com)),REJECT
-AND,((DOMAIN-KEYWORD,s),(DOMAIN-KEYWORD,-fe-scm.pglstatp-toutiao.com)),REJECT
-AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-ttcdn-tos.pstatp.com)),REJECT
-AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com)),REJECT
-AND,((DOMAIN-KEYWORD,sf),(DOMAIN-KEYWORD,-static.i18n-pglstatp.com)),REJECT
-AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-cdn-tos.bytescm.com)),REJECT //误杀
-AND,((DOMAIN-KEYWORD,if),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
-AND,((DOMAIN-KEYWORD,lf),(DOMAIN-KEYWORD,-analytics.bytescm.com)),REJECT
-AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,normal),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
-AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-access-),(DOMAIN-SUFFIX,pangle.io)),REJECT
-AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-log-),(DOMAIN-SUFFIX,pangle.io)),REJECT
-AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,-dual-event-),(DOMAIN-SUFFIX,pangle.io)),REJECT
-AND,((DOMAIN-KEYWORD,api),(DOMAIN-KEYWORD,pangolin),(DOMAIN-SUFFIX,sgsnssdk.com)),REJECT
-AND,((DOMAIN-KEYWORD,ads),(DOMAIN-KEYWORD,-normal-lq),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
-AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(USER-AGENT,"AMapiPhone*")),REJECT
-AND,((DOMAIN-KEYWORD,api100-core-quic-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,api100-normal-quic-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,api100-normal-quic-aweme-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,api100-quic-core-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,api100-quic-normal-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,frontier100-aweme),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,ma5-normal-),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
-AND,((DOMAIN-KEYWORD,polaris5-normal-),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
-AND,((DOMAIN-KEYWORD,webcast100-ws-c-),(DOMAIN-SUFFIX,amemv.com)),REJECT
-AND,((DOMAIN-KEYWORD,tnc),(AND,((OR,((DOMAIN-KEYWORD,-bjlgy),(DOMAIN-KEYWORD,-alisc),(DOMAIN-KEYWORD,-aliec),(DOMAIN-KEYWORD,-alisg))),(OR,((DOMAIN-SUFFIX,snssdk.com),(DOMAIN-SUFFIX,isnssdk.com),(DOMAIN-SUFFIX,toutiaoapi.com),(DOMAIN-SUFFIX,bytedance.com),(DOMAIN-SUFFIX,zijieapi.com)))))),REJECT
-AND,((IP-CIDR,110.249.199.75/32,no-resolve),(DEST-PORT,6443)),REJECT
-AND,((IP-CIDR,111.225.147.191/32,no-resolve),(DEST-PORT,6443)),REJECT
-AND,((IP-CIDR,111.63.61.101/32,no-resolve),(DEST-PORT,6443)),REJECT
-AND,((IP-CIDR,220.243.141.0/32,no-resolve),(DEST-PORT,6443)),REJECT
-AND,((DOMAIN-KEYWORD,adash),(DOMAIN-SUFFIX,ut.taobao.com)),REJECT
-AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(USER-AGENT,"Cainiao4iPhone*")),REJECT
-AND,((IP-ASN,45090,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
-AND,((IP-ASN,63646,no-resolve),(DEST-PORT,25641),(PROTOCOL,TCP)),REJECT
-AND,((DEST-PORT,18000),(PROTOCOL,STUN)),REJECT
-AND,((URL-REGEX,"^http:\/\/.+\/amdc\/mobileDispatch"),(USER-AGENT,"%E9%97%B2%E9%B1%BC*")),REJECT
-AND,((IP-CIDR,101.126.58.201/32,no-resolve),(DEST-PORT,6443)),REJECT
-AND,((OR,((DOMAIN-SUFFIX,bytegecko.com),(DOMAIN-SUFFIX,byteeffecttos.com))),(DOMAIN-KEYWORD,ncdn)),REJECT
-AND,((URL-REGEX,"^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
-AND,((URL-REGEX,"^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d4\?"),(USER-AGENT,"*com.xunmeng.pinduoduo*")),REJECT
-AND,((PROTOCOL,QUIC),(DOMAIN-SUFFIX,xiaohongshu.com)),REJECT
-AND,((DOMAIN-KEYWORD,minigame),(DOMAIN-SUFFIX,zijieapi.com)),REJECT
-AND,((DOMAIN-KEYWORD,tnc),(AND,((OR,((DOMAIN-KEYWORD,-bjlgy),(DOMAIN-KEYWORD,-alisc),(DOMAIN-KEYWORD,-aliec))),(OR,((DOMAIN-SUFFIX,snssdk.com),(DOMAIN-SUFFIX,toutiaoapi.com),(DOMAIN-SUFFIX,bytedance.com),(DOMAIN-SUFFIX,zijieapi.com)))))),REJECT // 拦截HTTPDNS
-AND,((DOMAIN-SUFFIX,googlevideo.com),(PROTOCOL,QUIC)),REJECT
-AND,((DOMAIN-SUFFIX,youtubei.googleapis.com),(PROTOCOL,QUIC)),REJECT
-DOMAIN,cnlogs.umeng.com,REJECT
-DOMAIN,errlog.umeng.com,REJECT
-DOMAIN,errnewlog.umeng.com,REJECT
-DOMAIN,ucc.umeng.com,REJECT
-DOMAIN,ulogs.umeng.com,REJECT
-DOMAIN,utoken.umeng.com,REJECT
-DOMAIN,deeplink.umeng.com,REJECT
-DOMAIN,aspect-upush.umeng.com,REJECT
-DOMAIN,plbslog.umeng.com,REJECT
-DOMAIN,log.umtrack.com,REJECT
-DOMAIN,aaid.umeng.com,REJECT
-DOMAIN,mon.zijieapi.com,REJECT
-DOMAIN,lf-ad-ies.bytecdn.cn,REJECT
-DOMAIN,i.snssdk.com,REJECT
-DOMAIN,is.snssdk.com,REJECT
-DOMAIN,bds.snssdk.com,REJECT
-DOMAIN,dm.bytedance.com,REJECT
-DOMAIN,dm.pstatp.com,REJECT
-DOMAIN,dm.toutiao.com,REJECT
-DOMAIN,log.snssdk.com,REJECT
-DOMAIN,s3a.pstatp.com,REJECT
-DOMAIN,sdfp.snssdk.com,REJECT
-DOMAIN,tosv.boe.byted.org,REJECT
-DOMAIN,tosv.byted.org,REJECT
-DOMAIN,extlog.snssdk.com,REJECT
-DOMAIN,mssdk-bu.bytedance.com,REJECT
-DOMAIN,toblog.ctobsnssdk.com,REJECT
-DOMAIN,mssdk.volces.com,REJECT
-DOMAIN,pangolin.snssdk.com,REJECT
-DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
-DOMAIN,ether-pack.pangolin-sdk-toutiao.com,REJECT
-DOMAIN,gdfp.gifshow.com,REJECT
-DOMAIN,open.e.kuaishou.com,REJECT
-DOMAIN,sdk.beizi.biz,REJECT
-DOMAIN,sdk.1rtb.net,REJECT
-DOMAIN,cdn.1rtb.com,REJECT
-DOMAIN,adx.halomobi.com,REJECT
-DOMAIN,api.htp.hubcloud.com.cn,REJECT
-DOMAIN,res1.hubcloud.com.cn,REJECT
-DOMAIN,sdktmp.hubcloud.com.cn,REJECT
-DOMAIN,v.adx.hubcloud.com.cn,REJECT
-DOMAIN,ad.jia.360.cn,REJECT
-DOMAIN,ad.iot.360.cn,REJECT
-DOMAIN,ad.12306.cn,DIRECT
-DOMAIN,httpdns.music.163.com,REJECT
-DOMAIN,httpdns.n.netease.com,REJECT
-DOMAIN,httpdns-sdk.n.netease.com,REJECT
-DOMAIN,httpdns.yunxindns.com,REJECT
-DOMAIN,lofter.httpdns.c.163.com,REJECT
-DOMAIN,music.httpdns.c.163.com,REJECT
-DOMAIN,adsmind.gdtimg.com,REJECT
-DOMAIN,adsmind.ugdtimg.com,REJECT
-DOMAIN,c2.gdt.qq.com,REJECT
-DOMAIN,huatuocode.huatuo.qq.com,REJECT
-DOMAIN,info4.video.qq.com,REJECT
-DOMAIN,info6.video.qq.com,REJECT
-DOMAIN,ios.bugly.qq.com,REJECT
-DOMAIN,ios.video.mpush.qq.com,REJECT
-DOMAIN,mi.gdt.qq.com,REJECT
-DOMAIN,otheve.beacon.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,qzs.gdtimg.com,REJECT
-DOMAIN,qzs.qq.com,REJECT
-DOMAIN,rmonitor.qq.com,REJECT
-DOMAIN,sdk.e.qq.com,REJECT
-DOMAIN,sdkconfig.video.qq.com,REJECT
-DOMAIN,t.gdt.qq.com,REJECT
-DOMAIN,tmead.y.qq.com,REJECT
-DOMAIN,tmeadbak.y.qq.com,REJECT
-DOMAIN,tmeadcomm.y.qq.com,REJECT
-DOMAIN,tpns.qq.com,REJECT
-DOMAIN,v.gdt.qq.com,REJECT
-DOMAIN,v2.gdt.qq.com,REJECT
-DOMAIN,win.gdt.qq.com,REJECT
-DOMAIN,wup.imtt.qq.com,REJECT
-DOMAIN,tpstelemetry.tencent.com,REJECT
-DOMAIN,als.baidu.com,REJECT
-DOMAIN,bgg.baidu.com,REJECT
-DOMAIN,cpro.baidustatic.com,REJECT
-DOMAIN,feed-image.baidu.com,REJECT
-DOMAIN,click-bes.baidu.com,REJECT
-DOMAIN,eclick.baidu.com,REJECT
-DOMAIN,mobads-logs.baidu.com,REJECT
-DOMAIN,mobads-pre-config.cdn.bcebos.com,REJECT
-DOMAIN,mobads.baidu.com,REJECT
-DOMAIN,nadvideo2.baidu.com,REJECT
-DOMAIN,wn.pos.baidu.com,REJECT
-DOMAIN,miniapp-ad.cdn.bcebos.com,REJECT
-DOMAIN,b-gtc.getui.net,REJECT
-DOMAIN,c-gtc.getui.net,REJECT
-DOMAIN,c-hzgt2.getui.com,REJECT
-DOMAIN,c-ido.getui.net,REJECT
-DOMAIN,dnms.getui.com,REJECT
-DOMAIN,ido.getui.net,REJECT
-DOMAIN,sdk-conf.getui.com,REJECT
-DOMAIN,sdk-open-phone.getui.com,REJECT
-DOMAIN,amap-aos-info-nogw.amap.com,REJECT
-DOMAIN,free-aos-cdn-image.amap.com,REJECT
-DOMAIN,adproxy.autohome.com.cn,REJECT
-DOMAIN,httpdns.baidubce.com,REJECT
-DOMAIN,frontier-aweme-hl.snssdk.com,REJECT
-DOMAIN,frontier-quic-test.bytedance.com,REJECT
-DOMAIN,afd.baidu.com,REJECT
-DOMAIN,api.biliapi.com,REJECT
-DOMAIN,api.biliapi.net,REJECT
-DOMAIN,app.biliapi.com,REJECT
-DOMAIN,app.biliapi.net,REJECT
-DOMAIN,log.umsns.com,REJECT
-DOMAIN,config.inmobi.cn,REJECT
-DOMAIN,ztoken.uyunad.com,REJECT
-DOMAIN,aaid.uyunad.com,REJECT
-DOMAIN,yumao.puata.info,REJECT
-DOMAIN,adtrack.e.kuaishou.com,REJECT
-DOMAIN,init.supersonicads.com,REJECT
-DOMAIN,st.appsad.cn,REJECT
-DOMAIN,api-htp.beizi.biz,REJECT
-DOMAIN,admaster.com.cn,REJECT
-DOMAIN,monitor.ssp.admobile.top,REJECT
-DOMAIN,sdk.ssp.admobile.top,REJECT
-DOMAIN,ax.admobile.top,REJECT
-DOMAIN,jump.admobile.top,REJECT
-DOMAIN,api-c.dutils.com,REJECT
-DOMAIN,api-d.dutils.com,REJECT
-DOMAIN,api-p0.yksdks.com,REJECT
-DOMAIN,cache-verify.dutils.com,REJECT
-DOMAIN,cdn-api-verify.dutils.com,REJECT
-DOMAIN,devs-data.dutils.com,REJECT
-DOMAIN,log-verify.dutils.com,REJECT
-DOMAIN,m.mpl.dutils.com,REJECT
-DOMAIN,api.share.mob.com,REJECT
-DOMAIN,api.verify.mob.com,REJECT
-DOMAIN,log-verify.mob.com,REJECT
-DOMAIN,sdk.push.mob.com,REJECT
-DOMAIN,ali-stats.jpush.cn,REJECT
-DOMAIN,ce3e75d5.jpush.cn,REJECT
-DOMAIN,config-junion.jpush.cn,REJECT
-DOMAIN,config.jpush.cn,REJECT
-DOMAIN,fcapi-ipv6.jpush.cn,REJECT
-DOMAIN,gd-stats.jpush.cn,REJECT
-DOMAIN,s.jpush.cn,REJECT
-DOMAIN,sdk.verification.jiguang.cn,REJECT
-DOMAIN,sis-ipv6.jpush.cn,REJECT
-DOMAIN,smartop-sdkapi.jiguang.cn,REJECT
-DOMAIN,status-ipv6.jpush.cn,REJECT
-DOMAIN,tsis.jpush.cn,REJECT
-DOMAIN,user.jpush.cn,REJECT
-DOMAIN,pro.bugly.qq.com,REJECT
-DOMAIN,us.l.qq.com,REJECT
-DOMAIN,ii.gdt.qq.com,REJECT
-DOMAIN,ido.gepush.com,REJECT
-DOMAIN,adtracker.adfunlink.com,REJECT
-DOMAIN,sdk.tianmu.mobi,REJECT
-DOMAIN,tracker.tianmu.mobi,REJECT
-DOMAIN,e-u1.ubixioe.com,REJECT
-DOMAIN,sdk-data.ubixioe.com,REJECT
-DOMAIN,tower.ubixioe.com,REJECT
-DOMAIN,tx-cfg-u1.ubixioe.com,REJECT
-DOMAIN,tx-data-u1.ubixioe.com,REJECT
-DOMAIN,ossgw.alicdn.com,REJECT
-DOMAIN,ems.youku.com,REJECT
-DOMAIN,hudong.alicdn.com,REJECT
-DOMAIN,et.tanx.com,REJECT
-DOMAIN,df.tanx.com,REJECT
-DOMAIN,beacon-api.aliyuncs.com,REJECT
-DOMAIN,adash.man.aliyuncs.com,REJECT
-DOMAIN,applog.uc.cn,REJECT
-DOMAIN,nex.163.com,REJECT
-DOMAIN,iad.g.163.com,REJECT
-DOMAIN,adx-bj.anythinktech.com,REJECT
-DOMAIN,api.anythinktech.com,REJECT
-DOMAIN,tk.anythinktech.com,REJECT
-DOMAIN,da.anythinktech.com,REJECT
-DOMAIN,gorgon.youdao.com,REJECT
-DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
-DOMAIN,al-log.d.meituan.net,REJECT
-DOMAIN,babel-statistics-android.d.meituan.net,REJECT
-DOMAIN,maplocatesdksnapshot.d.meituan.net,REJECT
-DOMAIN,metrics-picture.d.meituan.net,REJECT
-DOMAIN,route-stats.d.meituan.net,REJECT
-DOMAIN,dsp-x.jd.com,REJECT
-DOMAIN,im-x.jd.com,REJECT
-DOMAIN,xlog.jd.com,REJECT
-DOMAIN,janapi.jd.com,REJECT
-DOMAIN,api.mosspf.com,REJECT
-DOMAIN,da.mosspf.com,REJECT
-DOMAIN,mores.toponad.com,REJECT
-DOMAIN,api.toponadss.com,REJECT
-DOMAIN,da.toponadss.com,REJECT
-DOMAIN,tk.toponadss.com,REJECT
-DOMAIN,adx-os.toponadss.com,REJECT
-DOMAIN,mores.motowoo.com,REJECT
-DOMAIN,guide2.bianxianmao.com,REJECT
-DOMAIN,caid.adintl.cn,REJECT
-DOMAIN,sv.adintl.cn,REJECT
-DOMAIN,v.adintl.cn,REJECT
-DOMAIN,oss.cdn.adintl.cn,REJECT
-DOMAIN,adx.adtaipo.com,REJECT
-DOMAIN,adx.yixin.im,REJECT
-DOMAIN,adx.kuaiyiad.com,REJECT
-DOMAIN,adreport.adtianmai.com,REJECT
-DOMAIN,adxapi.readgps.com,REJECT
-DOMAIN,t.fanglinad.com,REJECT
-DOMAIN,trk1.17admob.com,REJECT
-DOMAIN,nfy.slyxmobi.com,REJECT
-DOMAIN,api.mobrtb.com,REJECT
-DOMAIN,ssp.maplehaze.cn,REJECT
-DOMAIN,tk.bridgeoos.com,REJECT
-DOMAIN,da.bridgeoos.com,REJECT
-DOMAIN,api.bridgeoos.com,REJECT
-DOMAIN,adx-os.bridgeoos.com,REJECT
-DOMAIN,adx-sg-req.bridgeoos.com,REJECT
-DOMAIN,ad-evods.tianya.tv,REJECT
-DOMAIN,adx.tuia.cn,REJECT
-DOMAIN,amdc.m.youku.com,REJECT
-DOMAIN,apiv4-iyes.youku.com,REJECT
-DOMAIN,httpdns.alicdn.com,REJECT
-DOMAIN,huichuan-mc.sm.cn,REJECT
-DOMAIN,huichuan.sm.cn,REJECT
-DOMAIN,iyes.youku.com,REJECT
-DOMAIN,mc.atm.youku.com,REJECT
-DOMAIN,vali-g1.cp31.ott.cibntv.net,REJECT
-DOMAIN,vali-ugc.cp31.ott.cibntv.net,REJECT
-DOMAIN,yk-ssp.ad.youku.com,REJECT
-DOMAIN,ykad-data.youku.com,REJECT
-DOMAIN,abyss.cyapi.cn,REJECT
-DOMAIN,ad.cyapi.cn,REJECT
-DOMAIN,gather.colorfulclouds.net,REJECT
-DOMAIN,hd.xiaojukeji.com,REJECT
-DOMAIN,gwp.xiaojukeji.com,REJECT
-DOMAIN,stun1.douyucdn.cn,REJECT
-DOMAIN,stun1.qvb.qcloud.com,REJECT
-DOMAIN,sdk.ad.sfys365.com,REJECT
-DOMAIN,adse.ximalaya.com,REJECT
-DOMAIN,adsehera.ximalaya.com,REJECT
-DOMAIN,adse.wsa.ximalaya.com,REJECT
-DOMAIN,adbehavior.ximalaya.com,REJECT
-DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
-DOMAIN,dns2.q2cdn.com,REJECT
-DOMAIN,api.iqiyi.com,REJECT
-DOMAIN,access.if.iqiyi.com,REJECT
-DOMAIN,dns.jd.com,REJECT
-DOMAIN,zxid-m.mobileservice.cn,REJECT
-DOMAIN,httpdns.calorietech.com,REJECT
-DOMAIN,hc-ssp.sm.cn,REJECT
-DOMAIN,httpdns.zybang.com,REJECT
-DOMAIN,adx.zuoyebang.com,REJECT
-DOMAIN,ad.v3mh.com,REJECT
-DOMAIN,ipv6.kkmh.com,REJECT
-DOMAIN,ipv4.kkmh.com,REJECT
-DOMAIN,ads.service.kugou.com,REJECT
-DOMAIN,adstats.tencentmusic.com,REJECT
-DOMAIN,adserviceretry.kugou.com,REJECT
-DOMAIN,adserviceretry.kglink.cn,REJECT
-DOMAIN,ad.tencentmusic.com,REJECT
-DOMAIN,adservice.kugou.com,REJECT
-DOMAIN,splashimgretrybssdl.cloud.kugou.com,REJECT
-DOMAIN,serveraddr.service.kugou.com,REJECT
-DOMAIN,twns.p2ptun.qq.com,REJECT
-DOMAIN,tp2p.kg.qq.com,REJECT
-DOMAIN,mobilead.kuwo.cn,REJECT
-DOMAIN,mc.tencentmusic.com,REJECT
-DOMAIN,kuaishou.httpdns.pro,REJECT
-DOMAIN,httpdns.kwd.inkuai.com,REJECT
-DOMAIN,apidns.kwd.inkuai.com,REJECT
-DOMAIN,apidns-js.kwd.inkuai.com,REJECT
-DOMAIN,hdns.ksyun.com,REJECT
-DOMAIN,httpdns.baidu.com,REJECT
-DOMAIN,httpsdns.baidu.com,REJECT
-DOMAIN,httpdns.bcelive.com,REJECT
-DOMAIN,dns.iqiyi.com,REJECT
-DOMAIN,doh.iqiyi.com,REJECT
-DOMAIN,dns.qiyipic.iqiyi.com,REJECT
-DOMAIN,httpdns.n.shifen.com,REJECT
-DOMAIN,httpdns-browser.platform.dbankcloud.cn,REJECT
-DOMAIN,httpdns.huaweicloud.com,REJECT
-DOMAIN,httpdns.c.cdnhwc2.com,REJECT
-DOMAIN,httpdns.platform.dbankcloud.cn,REJECT
-DOMAIN,httpdns.platform.dbankcloud.com,REJECT
-DOMAIN,httpdns1.cc.cdnhwc5.com,REJECT
-DOMAIN,advert.mafengwo.cn,REJECT
-DOMAIN,credits.bz.mgtv.com,REJECT
-DOMAIN,credits2.bz.mgtv.com,REJECT
-DOMAIN,credits3.bz.mgtv.com,REJECT
-DOMAIN,dflow.bz.mgtv.com,REJECT
-DOMAIN,encounter.bz.mgtv.com,REJECT
-DOMAIN,floor.bz.mgtv.com,REJECT
-DOMAIN,layer.bz.mgtv.com,REJECT
-DOMAIN,mob.bz.mgtv.com,REJECT
-DOMAIN,rc-topic-api.bz.mgtv.com,REJECT
-DOMAIN,rprain.bz.mgtv.com,REJECT
-DOMAIN,rprain.log.mgtv.com,REJECT
-DOMAIN,vip.bz.mgtv.com,REJECT
-DOMAIN,ad.seeyouyima.com,REJECT
-DOMAIN,axxd.xmseeyouyima.com,REJECT
-DOMAIN,adui.tg.meitu.com,REJECT
-DOMAIN,iadmat.nosdn.127.net,REJECT
-DOMAIN,iadmatapk.nosdn.127.net,REJECT
-DOMAIN,iadmusicmat.music.126.net,REJECT
-DOMAIN,iadmusicmatvideo.music.126.net,REJECT
-DOMAIN,ipv4.music.163.com,REJECT
-DOMAIN,ipv6.music.163.com,REJECT
-DOMAIN,nex.163.com,DIRECT
-DOMAIN,gw.m.163.com,DIRECT
-DOMAIN,titan.pinduoduo.com,REJECT
-DOMAIN,ta-a.pinduoduo.com,REJECT
-DOMAIN,ta.pinduoduo.com,REJECT
-DOMAIN,th-a.pinduoduo.com,REJECT
-DOMAIN,th-b.pinduoduo.com,REJECT
-DOMAIN,th.pinduoduo.com,REJECT
-DOMAIN,adcdn.tencentmusic.com,REJECT
-DOMAIN,adcdn6.tencentmusic.com,REJECT
-DOMAIN,adexpo.tencentmusic.com,REJECT
-DOMAIN,adclick.tencentmusic.com,REJECT
-DOMAIN,monitor.music.qq.com,REJECT
-DOMAIN,stat.y.qq.com,REJECT
-DOMAIN,tmeadquic.y.qq.com,REJECT
-DOMAIN,oth.str.mdt.qq.com,REJECT
-DOMAIN,h.trace.qq.com,REJECT
-DOMAIN,p.l.qq.com,REJECT
-DOMAIN,tangram.e.qq.com,REJECT
-DOMAIN,acdn.adnxs.com,REJECT
-DOMAIN,mediation.adnxs.com,REJECT
-DOMAIN,sin3-ib.adnxs.com,REJECT
-DOMAIN,data.mistat.xiaomi.com,REJECT
-DOMAIN,tracking.intl.miui.com,REJECT
-DOMAIN,business.msstatic.com,REJECT
-DOMAIN,ad.21cn.com,REJECT
-DOMAIN,ad.k.21cn.com,REJECT
-DOMAIN,admarket.21cn.com,REJECT
-DOMAIN,adshows.21cn.com,REJECT
-DOMAIN,mall-dsp2.qinlinkeji.com,REJECT // 首页商品信息流
-DOMAIN,mallapi2.qinlinkeji.com,REJECT // 商城页面
-DOMAIN,open-pixon.ads-pixiv.net,REJECT
-DOMAIN,cdn-ad.wtzw.com,REJECT
-DOMAIN,cdn-new-ad.wtzw.com,REJECT
-DOMAIN,render-web.11222.cn,REJECT
-DOMAIN,acs4baichuan.m.taobao.com,REJECT
-DOMAIN,adashxgc.ut.taobao.com,REJECT
-DOMAIN,analytics-api.smzdm.com,REJECT
-DOMAIN,baichuan-sdk.alicdn.com,REJECT
-DOMAIN,dgstatic.jd.com,REJECT
-DOMAIN,msg.umengcloud.com,REJECT
-DOMAIN,sec.umeng.com,REJECT
-DOMAIN,ynuf.aliapp.org,REJECT
-DOMAIN,ad-h5-cdn.soulapp.cn,REJECT
-DOMAIN,ad-h5-station-cdn.soulapp.cn,REJECT
-DOMAIN,ad-r.soulapp.cn,REJECT
-DOMAIN,soul-ad.soulapp.cn,REJECT
-DOMAIN,adashx.m.taobao.com,REJECT
-DOMAIN,h-adashx.ut.taobao.com,REJECT
-DOMAIN,ut.taobao.com,REJECT
-DOMAIN,vv6.video.qq.com,REJECT
-DOMAIN,180.76.76.200,REJECT
-DOMAIN,app.tubemaxapp.com,PROXY
-DOMAIN,lf-cdn-tos.bytescm.com,REJECT
-DOMAIN,appsupport.qq.com,REJECT
-DOMAIN,vv.video.qq.com,REJECT
-DOMAIN,ads.95516.com,REJECT
-DOMAIN,switch.cup.com.cn,REJECT
-DOMAIN,tysdk.95516.com,REJECT
-DOMAIN,huodong.weibo.cn,REJECT
-DOMAIN,wxsnsdy.wxs.qq.com,REJECT
-DOMAIN,wxsmsdy.video.qq.com,REJECT
-DOMAIN,wxsnsdythumb.wxs.qq.com,REJECT
-DOMAIN,ads-shopping.shouqianba.com,REJECT
-DOMAIN,ad.maoyan.com,REJECT
-DOMAIN,e.jparking.cn,REJECT
-DOMAIN,adapi.izuiyou.com,REJECT
-DOMAIN,push.m.youku.com,DIRECT
-DOMAIN,un-acs.youku.com,DIRECT
-DOMAIN,dorangesource.alicdn.com,DIRECT
-DOMAIN,api.sm.cn,REJECT
-DOMAIN,cad.youku.com,REJECT
-DOMAIN,m-vali.cp31.ott.cibntv.net,REJECT
-DOMAIN,nbsdk-baichuan.alicdn.com,REJECT
-DOMAIN,pre-acs.youku.com,REJECT
-DOMAIN,youku-acs.m.taobao.com,REJECT
-DOMAIN,ads.reader.yueyouxs.com,REJECT
-DOMAIN,yyapp-httpdns.gslb.yy.com,REJECT
-DOMAIN,union-httpdns.gslb.yy.com,REJECT
-DOMAIN,httpdns-v6.gslb.yy.com,REJECT
-DOMAIN,splash.yy.com,REJECT
-DOMAIN,dsp-ad.yy.com,REJECT
-DOMAIN,appcloud.zhihu.com,REJECT
-DOMAIN,appcloud2.in.zhihu.com,REJECT
-DOMAIN,crash2.zhihu.com,REJECT
-DOMAIN,mqtt.zhihu.com,REJECT
-DOMAIN,sugar.zhihu.com,REJECT
-DOMAIN-SUFFIX,adukwai.com,REJECT
-DOMAIN-SUFFIX,gdt.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
-DOMAIN-SUFFIX,ugdtimg.com,REJECT
-DOMAIN-SUFFIX,union.baidu.cn,REJECT
-DOMAIN-SUFFIX,union.baidu.com,REJECT
-DOMAIN-SUFFIX,openinstall.io,REJECT
-DOMAIN-SUFFIX,mobileservice.cn,REJECT
-DOMAIN-SUFFIX,getui.com,REJECT
-DOMAIN-SUFFIX,igexin.com,REJECT
-DOMAIN-SUFFIX,v.smtcdns.com,REJECT
-DOMAIN-SUFFIX,miaozhen.com,REJECT
-DOMAIN-SUFFIX,admobile.top,REJECT
-DOMAIN-SUFFIX,jiguang.cn,REJECT
-DOMAIN-SUFFIX,jpush.cn,REJECT
-DOMAIN-SUFFIX,jpush.io,REJECT
-DOMAIN-SUFFIX,motowoo.com,REJECT
-DOMAIN-SUFFIX,lnk0.com,REJECT
-DOMAIN-SUFFIX,bridgeoos.com,REJECT
-DOMAIN-SUFFIX,66mobi.com,REJECT
-DOMAIN-SUFFIX,adbkwai.com,REJECT
-DOMAIN-SUFFIX,cupid.iqiyi.com,DIRECT
-DOMAIN-SUFFIX,gdtimg.com,REJECT
-DOMAIN-SUFFIX,da.mgtv.com,REJECT
-DOMAIN-SUFFIX,imtmp.net,REJECT#!name=蜻蜓FM去广告
-DOMAIN-SUFFIX,doubleclick-cn.net,REJECT
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,v1d.szbdyd.com,REJECT
-DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
-DOMAIN-SUFFIX,soulapp.cn,DIRECT
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,applvn.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
-DOMAIN-SUFFIX,pangle.io,REJECT
-DOMAIN-SUFFIX,applovin.com,REJECT
-DOMAIN-SUFFIX,appier.net,REJECT
-DOMAIN-SUFFIX,adsmoloco.com,REJECT
-DOMAIN-SUFFIX,adcanvas.com,REJECT
-DOMAIN-SUFFIX,pos.baidu.com,REJECT
-DOMAIN-SUFFIX,uve.weibo.com,DIRECT
-DOMAIN-SUFFIX,biz.weibo.com,REJECT
-DOMAIN-SUFFIX,wxs.qq.com,REJECT
-DOMAIN-KEYWORD,-ad-sign.byteimg.com,REJECT
-DOMAIN-KEYWORD,api-access.pangolin-sdk-toutiao,REJECT
-DOMAIN-KEYWORD,log-api.pangolin-sdk-toutiao,REJECT
-DOMAIN-KEYWORD,-ad.byteoversea.com,REJECT
-DOMAIN-KEYWORD,video-cn.snssdk.com,REJECT
-DOMAIN-KEYWORD,asiad.byteactivity,REJECT
-DOMAIN-KEYWORD,trace.qq.com,REJECT
-DOMAIN-KEYWORD,trace.video.qq.com,REJECT
-DOMAIN-KEYWORD,iflyad.bj.openstorage.cn,REJECT
-DOMAIN-KEYWORD,bjimp.voiceads.cn,REJECT
-DOMAIN-KEYWORD,asiad.byteactivity,REJECT#!name=配音秀去广告
-DOMAIN-KEYWORD,-be-pack-sign.pglstatp-toutiao.com,REJECT
-DOMAIN-KEYWORD,-be-pack.pglstatp-toutiao.com,REJECT
-DOMAIN-KEYWORD,-fe-tos.pglstatp-toutiao.com,REJECT
-IP-CIDR,59.111.239.61/32,REJECT,no-resolve
-IP-CIDR,59.111.239.62/32,REJECT,no-resolve
-IP-CIDR,115.236.121.51/32,REJECT,no-resolve
-IP-CIDR,115.236.121.195/32,REJECT,no-resolve
-IP-CIDR,47.110.187.87/32,REJECT,no-resolve
-IP-CIDR,203.107.1.1/24,REJECT,no-resolve
-IP-CIDR,119.29.29.98/32,REJECT,no-resolve
-IP-CIDR,119.29.29.99/32,REJECT,no-resolve
-IP-CIDR,186.76.76.200/32,REJECT,no-resolve
-IP-CIDR,103.44.59.54/32,REJECT,no-resolve
-IP-CIDR,111.63.147.158/32,REJECT,no-resolve
-IP-CIDR,116.211.198.237/32,REJECT,no-resolve
-IP-CIDR,101.124.19.122/32,REJECT,no-resolve
-IP-CIDR,81.71.61.216/32,REJECT,no-resolve
-IP-CIDR,111.206.98.63/32,REJECT,no-resolve
-IP-CIDR,122.229.8.47/32,REJECT,no-resolve
-IP-CIDR,122.229.29.89/32,REJECT,no-resolve
-IP-CIDR,8.210.3.170/32,DIRECT,no-resolve
-IP-CIDR,47.75.72.47/32,DIRECT,no-resolve
-IP-CIDR,47.56.131.76/32,REJECT,no-resolve
-IP-CIDR,47.97.215.55/32,REJECT,no-resolve
-IP-CIDR,47.99.42.29/32,REJECT,no-resolve
-IP-CIDR,47.243.147.125/32,REJECT,no-resolve
-IP-CIDR,120.27.235.201/32,REJECT,no-resolve
-IP-CIDR,121.196.197.147/32,REJECT,no-resolve
-IP-CIDR,180.76.76.200/32,REJECT,no-resolve
-IP-CIDR,103.41.167.237/32,REJECT,no-resolve
-IP-CIDR,118.89.204.198/32,REJECT,no-resolve
-IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve
-IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve
-URL-REGEX,"^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/",REJECT
-URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/",REJECT
-URL-REGEX,"^http:\/\/182\.254\.116\.116\/d",REJECT
-URL-REGEX,"^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(index_activity\/get_app_index_activity|sign\/sign_h_5)\?",REJECT-DICT
-URL-REGEX,"^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/get_multi_search_default_keywords\?",REJECT-DICT
-URL-REGEX,"^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend",REJECT-DICT
-URL-REGEX,"^http:\/\/pic08\.babytreeimg\.com\/knowledge\/2022\/0923\/\w+",REJECT
-URL-REGEX,"^http:\/\/plough\.babytree\.com\/plough\.do",REJECT-DICT
-URL-REGEX,"^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH",REJECT-DICT
-URL-REGEX,"^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH",REJECT-DICT
-URL-REGEX,"^http:\/\/203\.107\.1\.33\/191607\/resolve\?",REJECT
-URL-REGEX,"^http:\/\/119\.29\.29\.29\/d",REJECT
-URL-REGEX,"^http:\/\/203\.107\.1\.33\/\d+\/ss",REJECT
-URL-REGEX,"^http:\/\/203\.107\.1\.34\/\d+\/ss",REJECT
-URL-REGEX,"^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list",REJECT
-URL-REGEX,"^http:\/\/xmc\.ximalaya\.com\/xmlymain-login-web\/login\/",REJECT
-URL-REGEX,"^http:\/\/\w{32}\.jddebug\.com\/diagnose\?",REJECT
-URL-REGEX,"^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html",REJECT
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/",REJECT-DICT
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/",REJECT-DICT
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/",REJECT-DICT
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config",REJECT-DICT
-URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/",REJECT-DICT
-URL-REGEX,"^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s",REJECT-DICT
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo",REJECT-DICT
-URL-REGEX,"^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox",REJECT-DICT
-URL-REGEX,"^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/",REJECT-DICT
-URL-REGEX,"^http?:\/\/119\.29\.29\.29\/d",REJECT
-URL-REGEX,"^http:\/\/180\.76\.76\.112\/v\d\/resolve",REJECT
-URL-REGEX,"^http:\/\/180\.76\.76\.220\/v\d\/resolve",REJECT
-URL-REGEX,"^http:\/\/162\.14\.3\.250\/v4",REJECT
-URL-REGEX,"^http:\/\/81\.69\.130\.131\/d",REJECT
-URL-REGEX,"^http:\/\/101\.35\.204\.35\/d",REJECT
-URL-REGEX,"^http:\/\/101\.35\.212\.35\/d",REJECT
-URL-REGEX,"^http:\/\/114\.110\.96\.6\/d",REJECT
-URL-REGEX,"^http:\/\/114\.110\.96\.26\/d",REJECT
-URL-REGEX,"^http:\/\/114\.110\.97\.30\/d",REJECT
-URL-REGEX,"^http:\/\/114\.110\.97\.97\/d",REJECT
-URL-REGEX,"^http:\/\/121\.5\.84\.85\/d",REJECT
-URL-REGEX,"^http:\/\/\[2402:4e00:1411:201:0:9964:ba21:5a41\]\/d",REJECT
-URL-REGEX,"^http:\/\/[\d\.]+:\d{5}\/\?cmd=indexes",REJECT
-URL-REGEX,"^http:\/\/[\d\.]+\/odin\/c1\/(channel\/ads|skin\/config)\?",REJECT-DICT
-URL-REGEX,"^http:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/cms\/list\?",REJECT-DICT
-URL-REGEX,"^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\?",REJECT-DICT
-URL-REGEX,"^http:\/\/54\.222\.159\.138:8053\/httpdns\/",REJECT
-URL-REGEX,"^http:\/\/101\.42\.130\.147:8053\/httpdns\/",REJECT
-URL-REGEX,"^http:\/\/106\.55\.220\.18:8053\/httpdns\/",REJECT
-URL-REGEX,"^http:\/\/139\.196\.12\.179:8053\/httpdns\/",REJECT
-URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_k_main_page_banner\/",REJECT
-URL-REGEX,"^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$",REJECT
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do",REJECT-DICT
-URL-REGEX,"^http:\/\/p\.kuaidi100\.com\/advertisement\/",REJECT-DICT
-URL-REGEX,"^http:\/\/119\.29\.29\.98\/d\?",REJECT
-URL-REGEX,"^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+",REJECT
-URL-REGEX,"^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+",REJECT
-URL-REGEX,"^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+",REJECT
-URL-REGEX,"^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native",REJECT
-URL-REGEX,"^http:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v1\/ad\/",REJECT-DICT
-URL-REGEX,"^https:\/\/(ask|cgate)\.zhaopin\.com\/operation\/ad\/",REJECT
-URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search_home_page_(nv|nv_v2)\/search_home_page_nv",REJECT
+AND, ((URL-REGEX, "^http:\/\/.+\/amdc\/mobileDispatch"), (USER-AGENT, "AMapiPhone*")), REJECT
+AND, ((DOMAIN-KEYWORD, -ad-), (DOMAIN-SUFFIX, byteimg.com)), REJECT
+AND, ((DOMAIN-KEYWORD, -ttam-), (DOMAIN-SUFFIX, ibyteimg.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ssdk-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, pangolin), (DOMAIN-SUFFIX, sgsnssdk.com)), REJECT
+AND, ((DOMAIN-KEYWORD, lf), (DOMAIN-KEYWORD, -short.bytetos.com)), REJECT
+AND, ((DOMAIN-KEYWORD, v), (DOMAIN-KEYWORD, -be-pack.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -be-pack.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, s), (DOMAIN-KEYWORD, -fe-scm.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -ttcdn-tos.pstatp.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -fe-tos.pglstatp-toutiao.com)), REJECT
+AND, ((DOMAIN-KEYWORD, sf), (DOMAIN-KEYWORD, -static.i18n-pglstatp.com)), REJECT
+AND, ((DOMAIN-KEYWORD, if), (DOMAIN-KEYWORD, -cdn-tos.bytescm.com)), REJECT //误杀
+AND, ((DOMAIN-KEYWORD, if), (DOMAIN-KEYWORD, -analytics.bytescm.com)), REJECT
+AND, ((DOMAIN-KEYWORD, lf), (DOMAIN-KEYWORD, -analytics.bytescm.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, normal), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -access-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -log-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, -dual-event-), (DOMAIN-SUFFIX, pangle.io)), REJECT
+AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, pangolin), (DOMAIN-SUFFIX, sgsnssdk.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, -normal-lq), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
+AND, ((DOMAIN-KEYWORD, adash), (DOMAIN-SUFFIX, ut.taobao.com)), REJECT
+AND, ((URL-REGEX, "^http:\/\/.+\/amdc\/mobileDispatch"), (USER-AGENT, "Cainiao4iPhone*")), REJECT
+AND, ((IP-ASN, 45090, no-resolve), (DEST-PORT, 25641), (PROTOCOL, TCP)), REJECT
+AND, ((IP-ASN, 63646, no-resolve), (DEST-PORT, 25641), (PROTOCOL, TCP)), REJECT
+AND, ((DEST-PORT, 18000), (PROTOCOL, STUN)), REJECT
+AND, ((URL-REGEX, "^http:\/\/.+\/amdc\/mobileDispatch"), (USER-AGENT, "%E9%97%B2%E9%B1%BC*")), REJECT
+AND, ((IP-CIDR, 101.126.58.201/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 110.249.199.75/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.225.147.191/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 111.63.61.101/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((IP-CIDR, 220.243.141.0/32, no-resolve), (DEST-PORT, 6443)), REJECT
+AND, ((OR, ((DOMAIN-SUFFIX, bytegecko.com), (DOMAIN-SUFFIX, byteeffecttos.com))), (DOMAIN-KEYWORD, ncdn)), REJECT
+AND, ((URL-REGEX, "^http:\/\/((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/d"), (USER-AGENT, "*com.xunmeng.pinduoduo*")), REJECT
+AND, ((URL-REGEX, "^http:\/\/\[((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)(\.(25[0-5]|2[0-4]\d|1\d\d|[1-9]?\d)){3}))|:)))\]\/d4\?"), (USER-AGENT, "*com.xunmeng.pinduoduo*")), REJECT
+AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
+AND, ((DOMAIN-SUFFIX, googlevideo.com), (PROTOCOL, QUIC)), REJECT
+AND, ((DOMAIN-SUFFIX, youtubei.googleapis.com), (PROTOCOL, QUIC)), REJECT
+DOMAIN, ad.jia.360.cn, REJECT
+DOMAIN, ad.iot.360.cn, REJECT
+DOMAIN, ad.12306.cn, DIRECT
+DOMAIN, amap-aos-info-nogw.amap.com, REJECT
+DOMAIN, free-aos-cdn-image.amap.com, REJECT
+DOMAIN, api.biliapi.com, REJECT
+DOMAIN, api.biliapi.net, REJECT
+DOMAIN, app.biliapi.com, REJECT
+DOMAIN, app.biliapi.net, REJECT
+DOMAIN, mon.zijieapi.com, REJECT
+DOMAIN, lf-ad-ies.bytecdn.cn, REJECT
+DOMAIN, i.snssdk.com, REJECT
+DOMAIN, is.snssdk.com, REJECT
+DOMAIN, bds.snssdk.com, REJECT
+DOMAIN, dm.bytedance.com, REJECT
+DOMAIN, dm.pstatp.com, REJECT
+DOMAIN, dm.toutiao.com, REJECT
+DOMAIN, log.snssdk.com, REJECT
+DOMAIN, s3a.pstatp.com, REJECT
+DOMAIN, sdfp.snssdk.com, REJECT
+DOMAIN, tosv.boe.byted.org, REJECT
+DOMAIN, tosv.byted.org, REJECT
+DOMAIN, extlog.snssdk.com, REJECT
+DOMAIN, mssdk-bu.bytedance.com, REJECT
+DOMAIN, toblog.ctobsnssdk.com, REJECT
+DOMAIN, mssdk.volces.com, REJECT
+DOMAIN, pangolin.snssdk.com, REJECT
+DOMAIN, lf-cdn-tos.bytescm.com, REJECT
+DOMAIN, gromore.pangolin-sdk-toutiao.com, REJECT
+DOMAIN, ether-pack.pangolin-sdk-toutiao.com, REJECT
+DOMAIN, sdk.1rtb.net, REJECT
+DOMAIN, cdn.1rtb.com, REJECT
+DOMAIN, adx.halomobi.com, REJECT
+DOMAIN, api.htp.hubcloud.com.cn, REJECT
+DOMAIN, res1.hubcloud.com.cn, REJECT
+DOMAIN, sdktmp.hubcloud.com.cn, REJECT
+DOMAIN, v.adx.hubcloud.com.cn, REJECT
+DOMAIN, config.inmobi.cn, REJECT
+DOMAIN, ztoken.uyunad.com, REJECT
+DOMAIN, aaid.uyunad.com, REJECT
+DOMAIN, yumao.puata.info, REJECT
+DOMAIN, gdfp.gifshow.com, REJECT
+DOMAIN, open.e.kuaishou.com, REJECT
+DOMAIN, adtrack.e.kuaishou.com, REJECT
+DOMAIN, init.supersonicads.com, REJECT
+DOMAIN, st.appsad.cn, REJECT
+DOMAIN, sdk.beizi.biz, REJECT
+DOMAIN, api-htp.beizi.biz, REJECT
+DOMAIN, admaster.com.cn, REJECT
+DOMAIN, monitor.ssp.admobile.top, REJECT
+DOMAIN, sdk.ssp.admobile.top, REJECT
+DOMAIN, ax.admobile.top, REJECT
+DOMAIN, jump.admobile.top, REJECT
+DOMAIN, api-c.dutils.com, REJECT
+DOMAIN, api-d.dutils.com, REJECT
+DOMAIN, api-p0.yksdks.com, REJECT
+DOMAIN, cache-verify.dutils.com, REJECT
+DOMAIN, cdn-api-verify.dutils.com, REJECT
+DOMAIN, devs-data.dutils.com, REJECT
+DOMAIN, log-verify.dutils.com, REJECT
+DOMAIN, m.mpl.dutils.com, REJECT
+DOMAIN, api.share.mob.com, REJECT
+DOMAIN, api.verify.mob.com, REJECT
+DOMAIN, log-verify.mob.com, REJECT
+DOMAIN, sdk.push.mob.com, REJECT
+DOMAIN, ali-stats.jpush.cn, REJECT
+DOMAIN, ce3e75d5.jpush.cn, REJECT
+DOMAIN, config-junion.jpush.cn, REJECT
+DOMAIN, config.jpush.cn, REJECT
+DOMAIN, fcapi-ipv6.jpush.cn, REJECT
+DOMAIN, gd-stats.jpush.cn, REJECT
+DOMAIN, s.jpush.cn, REJECT
+DOMAIN, sdk.verification.jiguang.cn, REJECT
+DOMAIN, sis-ipv6.jpush.cn, REJECT
+DOMAIN, smartop-sdkapi.jiguang.cn, REJECT
+DOMAIN, status-ipv6.jpush.cn, REJECT
+DOMAIN, tsis.jpush.cn, REJECT
+DOMAIN, user.jpush.cn, REJECT
+DOMAIN, afd.baidu.com, REJECT
+DOMAIN, als.baidu.com, REJECT
+DOMAIN, bgg.baidu.com, REJECT
+DOMAIN, cpro.baidustatic.com, REJECT
+DOMAIN, feed-image.baidu.com, REJECT
+DOMAIN, click-bes.baidu.com, REJECT
+DOMAIN, eclick.baidu.com, REJECT
+DOMAIN, mobads-logs.baidu.com, REJECT
+DOMAIN, mobads-pre-config.cdn.bcebos.com, REJECT
+DOMAIN, mobads.baidu.com, REJECT
+DOMAIN, nadvideo2.baidu.com, REJECT
+DOMAIN, wn.pos.baidu.com, REJECT
+DOMAIN, miniapp-ad.cdn.bcebos.com, REJECT
+DOMAIN, adsmind.gdtimg.com, REJECT
+DOMAIN, adsmind.ugdtimg.com, REJECT
+DOMAIN, c2.gdt.qq.com, REJECT
+DOMAIN, huatuocode.huatuo.qq.com, REJECT
+DOMAIN, info4.video.qq.com, REJECT
+DOMAIN, info6.video.qq.com, REJECT
+DOMAIN, ios.bugly.qq.com, REJECT
+DOMAIN, pro.bugly.qq.com, REJECT
+DOMAIN, ios.video.mpush.qq.com, REJECT
+DOMAIN, mazu.m.qq.com, REJECT // 误杀
+DOMAIN, us.l.qq.com, REJECT
+DOMAIN, mi.gdt.qq.com, REJECT
+DOMAIN, otheve.beacon.qq.com, REJECT
+DOMAIN, pgdt.gtimg.cn, REJECT
+DOMAIN, pgdt.ugdtimg.com, REJECT
+DOMAIN, qzs.gdtimg.com, REJECT
+DOMAIN, qzs.qq.com, REJECT
+DOMAIN, rmonitor.qq.com, REJECT
+DOMAIN, sdk.e.qq.com, REJECT
+DOMAIN, sdkconfig.video.qq.com, REJECT
+DOMAIN, t.gdt.qq.com, REJECT
+DOMAIN, tmead.y.qq.com, REJECT
+DOMAIN, tmeadbak.y.qq.com, REJECT
+DOMAIN, tmeadcomm.y.qq.com, REJECT
+DOMAIN, tpns.qq.com, REJECT
+DOMAIN, v.gdt.qq.com, REJECT
+DOMAIN, v2.gdt.qq.com, REJECT
+DOMAIN, win.gdt.qq.com, REJECT
+DOMAIN, wup.imtt.qq.com, REJECT
+DOMAIN, tpstelemetry.tencent.com, REJECT
+DOMAIN, ii.gdt.qq.com, REJECT
+DOMAIN, b-gtc.getui.net, REJECT
+DOMAIN, c-gtc.getui.net, REJECT
+DOMAIN, c-hzgt2.getui.com, REJECT
+DOMAIN, c-ido.getui.net, REJECT
+DOMAIN, dnms.getui.com, REJECT
+DOMAIN, ido.getui.net, REJECT
+DOMAIN, sdk-conf.getui.com, REJECT
+DOMAIN, sdk-open-phone.getui.com, REJECT
+DOMAIN, ido.gepush.com, REJECT
+DOMAIN, cnlogs.umeng.com, REJECT
+DOMAIN, errlog.umeng.com, REJECT
+DOMAIN, errnewlog.umeng.com, REJECT
+DOMAIN, ucc.umeng.com, REJECT
+DOMAIN, ulogs.umeng.com, REJECT
+DOMAIN, utoken.umeng.com, REJECT
+DOMAIN, deeplink.umeng.com, REJECT
+DOMAIN, aspect-upush.umeng.com, REJECT
+DOMAIN, plbslog.umeng.com, REJECT
+DOMAIN, log.umtrack.com, REJECT
+DOMAIN, aaid.umeng.com, REJECT
+DOMAIN, log.umsns.com, REJECT
+DOMAIN, ulogs.umengcloud.com, REJECT
+DOMAIN, adtracker.adfunlink.com, REJECT
+DOMAIN, sdk.tianmu.mobi, REJECT
+DOMAIN, tracker.tianmu.mobi, REJECT
+DOMAIN, e-u1.ubixioe.com, REJECT
+DOMAIN, sdk-data.ubixioe.com, REJECT
+DOMAIN, tower.ubixioe.com, REJECT
+DOMAIN, tx-cfg-u1.ubixioe.com, REJECT
+DOMAIN, tx-data-u1.ubixioe.com, REJECT
+DOMAIN, ossgw.alicdn.com, REJECT
+DOMAIN, ems.youku.com, REJECT
+DOMAIN, hudong.alicdn.com, REJECT
+DOMAIN, et.tanx.com, REJECT
+DOMAIN, df.tanx.com, REJECT
+DOMAIN, beacon-api.aliyuncs.com, REJECT
+DOMAIN, adash.man.aliyuncs.com, REJECT
+DOMAIN, applog.uc.cn, REJECT
+DOMAIN, nex.163.com, REJECT
+DOMAIN, iad.g.163.com, REJECT
+DOMAIN, adx-bj.anythinktech.com, REJECT
+DOMAIN, api.anythinktech.com, REJECT
+DOMAIN, tk.anythinktech.com, REJECT
+DOMAIN, da.anythinktech.com, REJECT
+DOMAIN, gorgon.youdao.com, REJECT
+DOMAIN, sdkconfig.ad.xiaomi.com, REJECT
+DOMAIN, al-log.d.meituan.net, REJECT
+DOMAIN, babel-statistics-android.d.meituan.net, REJECT
+DOMAIN, maplocatesdksnapshot.d.meituan.net, REJECT
+DOMAIN, metrics-picture.d.meituan.net, REJECT
+DOMAIN, route-stats.d.meituan.net, REJECT
+DOMAIN, dsp-x.jd.com, REJECT
+DOMAIN, im-x.jd.com, REJECT
+DOMAIN, xlog.jd.com, REJECT
+DOMAIN, janapi.jd.com, REJECT
+DOMAIN, api.mosspf.com, REJECT
+DOMAIN, da.mosspf.com, REJECT
+DOMAIN, mores.toponad.com, REJECT
+DOMAIN, api.toponadss.com, REJECT
+DOMAIN, da.toponadss.com, REJECT
+DOMAIN, tk.toponadss.com, REJECT
+DOMAIN, adx-os.toponadss.com, REJECT
+DOMAIN, mores.motowoo.com, REJECT
+DOMAIN, guide2.bianxianmao.com, REJECT
+DOMAIN, caid.adintl.cn, REJECT
+DOMAIN, sv.adintl.cn, REJECT
+DOMAIN, v.adintl.cn, REJECT
+DOMAIN, oss.cdn.adintl.cn, REJECT
+DOMAIN, adx.adtaipo.com, REJECT
+DOMAIN, adx.yixin.im, REJECT
+DOMAIN, adx.kuaiyiad.com, REJECT
+DOMAIN, adreport.adtianmai.com, REJECT
+DOMAIN, adxapi.readgps.com, REJECT
+DOMAIN, t.fanglinad.com, REJECT
+DOMAIN, trk1.17admob.com, REJECT
+DOMAIN, nfy.slyxmobi.com, REJECT
+DOMAIN, api.mobrtb.com, REJECT
+DOMAIN, ssp.maplehaze.cn, REJECT
+DOMAIN, tk.bridgeoos.com, REJECT
+DOMAIN, da.bridgeoos.com, REJECT
+DOMAIN, api.bridgeoos.com, REJECT
+DOMAIN, adx-os.bridgeoos.com, REJECT
+DOMAIN, adx-sg-req.bridgeoos.com, REJECT
+DOMAIN, ad-evods.tianya.tv, REJECT
+DOMAIN, adx.tuia.cn, REJECT
+DOMAIN, rpe.xdplt.com, REJECT
+DOMAIN, acs4baichuan.m.taobao.com, REJECT
+DOMAIN, amdc.m.youku.com, REJECT
+DOMAIN, api.sm.cn, REJECT
+DOMAIN, apiv4-iyes.youku.com, REJECT
+DOMAIN, baichuan-sdk.alicdn.com, REJECT
+DOMAIN, cad.youku.com, REJECT
+DOMAIN, huichuan-mc.sm.cn, REJECT
+DOMAIN, huichuan.sm.cn, REJECT
+DOMAIN, iyes.youku.com, REJECT
+DOMAIN, m-vali.cp31.ott.cibntv.net, REJECT
+DOMAIN, mc.atm.youku.com, REJECT
+DOMAIN, nbsdk-baichuan.alicdn.com, REJECT
+DOMAIN, pre-acs.youku.com, REJECT
+DOMAIN, vali-g1.cp31.ott.cibntv.net, REJECT
+DOMAIN, vali-ugc.cp31.ott.cibntv.net, REJECT
+DOMAIN, yk-ssp.ad.youku.com, REJECT
+DOMAIN, ykad-data.youku.com, REJECT
+DOMAIN, youku-acs.m.taobao.com, REJECT
+DOMAIN, abyss.cyapi.cn, REJECT
+DOMAIN, ad.cyapi.cn, REJECT
+DOMAIN, gather.colorfulclouds.net, REJECT
+DOMAIN, gwp.xiaojukeji.com, REJECT
+DOMAIN, stun1.douyucdn.cn, REJECT
+DOMAIN, stun1.qvb.qcloud.com, REJECT
+DOMAIN, sdk.ad.sfys365.com, REJECT
+DOMAIN, adse.ximalaya.com, REJECT
+DOMAIN, adsehera.ximalaya.com, REJECT
+DOMAIN, adse.wsa.ximalaya.com, REJECT
+DOMAIN, adbehavior.ximalaya.com, REJECT
+DOMAIN, adbehavior.wsa.ximalaya.com, REJECT
+DOMAIN, api.iqiyi.com, REJECT
+DOMAIN, access.if.iqiyi.com, REJECT
+DOMAIN, adx.zuoyebang.com, REJECT
+DOMAIN, ad.v3mh.com, REJECT
+DOMAIN, ipv6.kkmh.com, REJECT
+DOMAIN, ipv4.kkmh.com, REJECT
+DOMAIN, ads.service.kugou.com, REJECT
+DOMAIN, adstats.tencentmusic.com, REJECT
+DOMAIN, adserviceretry.kugou.com, REJECT
+DOMAIN, adserviceretry.kglink.cn, REJECT
+DOMAIN, ad.tencentmusic.com, REJECT
+DOMAIN, adservice.kugou.com, REJECT
+DOMAIN, splashimgretrybssdl.cloud.kugou.com, REJECT
+DOMAIN, advert.mafengwo.cn, REJECT
+DOMAIN, credits.bz.mgtv.com, REJECT
+DOMAIN, credits2.bz.mgtv.com, REJECT
+DOMAIN, credits3.bz.mgtv.com, REJECT
+DOMAIN, dflow.bz.mgtv.com, REJECT
+DOMAIN, encounter.bz.mgtv.com, REJECT
+DOMAIN, floor.bz.mgtv.com, REJECT
+DOMAIN, layer.bz.mgtv.com, REJECT
+DOMAIN, mob.bz.mgtv.com, REJECT
+DOMAIN, rc-topic-api.bz.mgtv.com, REJECT
+DOMAIN, rprain.bz.mgtv.com, REJECT
+DOMAIN, rprain.log.mgtv.com, REJECT
+DOMAIN, vip.bz.mgtv.com, REJECT
+DOMAIN, ad.seeyouyima.com, REJECT
+DOMAIN, axxd.xmseeyouyima.com, REJECT
+DOMAIN, adui.tg.meitu.com, REJECT
+DOMAIN, iadmat.nosdn.127.net, REJECT
+DOMAIN, iadmatapk.nosdn.127.net, REJECT
+DOMAIN, iadmusicmat.music.126.net, REJECT
+DOMAIN, iadmusicmatvideo.music.126.net, REJECT
+DOMAIN, ipv4.music.163.com, REJECT
+DOMAIN, ipv6.music.163.com, REJECT
+DOMAIN, nex.163.com, DIRECT
+DOMAIN, gw.m.163.com, DIRECT
+DOMAIN, titan.pinduoduo.com, REJECT
+DOMAIN, ta-a.pinduoduo.com, REJECT
+DOMAIN, ta.pinduoduo.com, REJECT
+DOMAIN, th-a.pinduoduo.com, REJECT
+DOMAIN, th-b.pinduoduo.com, REJECT
+DOMAIN, th.pinduoduo.com, REJECT
+DOMAIN, adcdn.tencentmusic.com, REJECT
+DOMAIN, adcdn6.tencentmusic.com, REJECT
+DOMAIN, adexpo.tencentmusic.com, REJECT
+DOMAIN, adclick.tencentmusic.com, REJECT
+DOMAIN, monitor.music.qq.com, REJECT
+DOMAIN, stat.y.qq.com, REJECT
+DOMAIN, tmeadquic.y.qq.com, REJECT
+DOMAIN, oth.str.mdt.qq.com, REJECT
+DOMAIN, h.trace.qq.com, REJECT
+DOMAIN, p.l.qq.com, REJECT
+DOMAIN, tangram.e.qq.com, REJECT
+DOMAIN, acdn.adnxs.com, REJECT
+DOMAIN, mediation.adnxs.com, REJECT
+DOMAIN, sin3-ib.adnxs.com, REJECT
+DOMAIN, data.mistat.xiaomi.com, REJECT
+DOMAIN, tracking.intl.miui.com, REJECT
+DOMAIN, business.msstatic.com, REJECT
+DOMAIN, ad.21cn.com, REJECT
+DOMAIN, ad.k.21cn.com, REJECT
+DOMAIN, admarket.21cn.com, REJECT
+DOMAIN, adshows.21cn.com, REJECT
+DOMAIN, mall-dsp2.qinlinkeji.com, REJECT // 首页商品信息流
+DOMAIN, mallapi2.qinlinkeji.com, REJECT // 商城页面
+DOMAIN, open-pixon.ads-pixiv.net, REJECT
+DOMAIN, cdn-ad.wtzw.com, REJECT
+DOMAIN, cdn-new-ad.wtzw.com, REJECT
+DOMAIN, render-web.11222.cn, REJECT
+DOMAIN, adx-api.zdmimg.com, REJECT
+DOMAIN, ad-h5-cdn.soulapp.cn, REJECT
+DOMAIN, ad-h5-station-cdn.soulapp.cn, REJECT
+DOMAIN, ad-r.soulapp.cn, REJECT
+DOMAIN, soul-ad.soulapp.cn, REJECT
+DOMAIN, adashx.m.taobao.com, REJECT
+DOMAIN, h-adashx.ut.taobao.com, REJECT
+DOMAIN, ut.taobao.com, REJECT
+DOMAIN, vv6.video.qq.com, REJECT
+DOMAIN, 180.76.76.200, REJECT
+DOMAIN, app.tubemaxapp.com, PROXY
+DOMAIN, ads.95516.com, REJECT
+DOMAIN, switch.cup.com.cn, REJECT
+DOMAIN, tysdk.95516.com, REJECT
+DOMAIN, huodong.weibo.cn, REJECT
+DOMAIN, wxsnsdy.wxs.qq.com, REJECT
+DOMAIN, wxsmsdy.video.qq.com, REJECT
+DOMAIN, wxsnsdythumb.wxs.qq.com, REJECT
+DOMAIN, ads-shopping.shouqianba.com, REJECT
+DOMAIN, ad.maoyan.com, REJECT
+DOMAIN, e.jparking.cn, REJECT
+DOMAIN, push.m.youku.com, DIRECT
+DOMAIN, un-acs.youku.com, DIRECT
+DOMAIN, dorangesource.alicdn.com, DIRECT
+DOMAIN, ads.reader.yueyouxs.com, REJECT
+DOMAIN, splash.yy.com, REJECT
+DOMAIN, dsp-ad.yy.com, REJECT
+DOMAIN, appcloud.zhihu.com, REJECT
+DOMAIN, appcloud2.in.zhihu.com, REJECT
+DOMAIN, crash2.zhihu.com, REJECT
+DOMAIN, mqtt.zhihu.com, REJECT
+DOMAIN, sugar.zhihu.com, REJECT
+DOMAIN, zxid-m.mobileservice.cn, REJECT
+DOMAIN, adapi.izuiyou.com, REJECT
+DOMAIN-SUFFIX, v.smtcdns.com, REJECT
+DOMAIN-SUFFIX, adukwai.com, REJECT
+DOMAIN-SUFFIX, miaozhen.com, REJECT
+DOMAIN-SUFFIX, admobile.top, REJECT
+DOMAIN-SUFFIX, jiguang.cn, REJECT
+DOMAIN-SUFFIX, jpush.cn, REJECT
+DOMAIN-SUFFIX, jpush.io, REJECT
+DOMAIN-SUFFIX, union.baidu.cn, REJECT
+DOMAIN-SUFFIX, union.baidu.com, REJECT
+DOMAIN-SUFFIX, gdt.qq.com, REJECT
+DOMAIN-SUFFIX, l.qq.com, REJECT
+DOMAIN-SUFFIX, ugdtimg.com, REJECT
+DOMAIN-SUFFIX, openinstall.io, REJECT
+DOMAIN-SUFFIX, mobileservice.cn, REJECT
+DOMAIN-SUFFIX, getui.com, REJECT
+DOMAIN-SUFFIX, igexin.com, REJECT
+DOMAIN-SUFFIX, motowoo.com, REJECT
+DOMAIN-SUFFIX, lnk0.com, REJECT
+DOMAIN-SUFFIX, bridgeoos.com, REJECT
+DOMAIN-SUFFIX, 66mobi.com, REJECT
+DOMAIN-SUFFIX, cupid.iqiyi.com, DIRECT
+DOMAIN-SUFFIX, da.mgtv.com, REJECT
+DOMAIN-SUFFIX, imtmp.net, REJECT#!name=蜻蜓FM去广告
+DOMAIN-SUFFIX, doubleclick-cn.net, REJECT
+DOMAIN-SUFFIX, doubleclick.net, REJECT
+DOMAIN-SUFFIX, v1d.szbdyd.com, REJECT
+DOMAIN-SUFFIX, m1.ad.10010.com, REJECT
+DOMAIN-SUFFIX, soulapp.cn, DIRECT
+DOMAIN-SUFFIX, adjust.com, REJECT
+DOMAIN-SUFFIX, applvn.com, REJECT
+DOMAIN-SUFFIX, app-measurement.com, REJECT
+DOMAIN-SUFFIX, pangle.io, REJECT
+DOMAIN-SUFFIX, applovin.com, REJECT
+DOMAIN-SUFFIX, appier.net, REJECT
+DOMAIN-SUFFIX, adsmoloco.com, REJECT
+DOMAIN-SUFFIX, adcanvas.com, REJECT
+DOMAIN-SUFFIX, uve.weibo.com, DIRECT
+DOMAIN-SUFFIX, biz.weibo.com, REJECT
+DOMAIN-SUFFIX, wxs.qq.com, REJECT
+DOMAIN-KEYWORD, -ad-sign.byteimg.com, REJECT
+DOMAIN-KEYWORD, api-access.pangolin-sdk-toutiao, REJECT
+DOMAIN-KEYWORD, log-api.pangolin-sdk-toutiao, REJECT
+DOMAIN-KEYWORD, -ad.byteoversea.com, REJECT
+DOMAIN-KEYWORD, video-cn.snssdk.com, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT
+DOMAIN-KEYWORD, iflyad.bj.openstorage.cn, REJECT
+DOMAIN-KEYWORD, bjimp.voiceads.cn, REJECT
+DOMAIN-KEYWORD, trace.qq.com, REJECT
+DOMAIN-KEYWORD, trace.video.qq.com, REJECT
+DOMAIN-KEYWORD, asiad.byteactivity, REJECT#!name=配音秀去广告
+IP-CIDR, 203.107.1.1/24, REJECT, no-resolve
+IP-CIDR, 47.110.187.87/32, REJECT, no-resolve
+IP-CIDR, 103.44.59.54/32, REJECT, no-resolve
+IP-CIDR, 111.63.147.158/32, REJECT, no-resolve
+IP-CIDR, 116.211.198.237/32, REJECT, no-resolve
+IP-CIDR, 111.206.98.63/32, REJECT, no-resolve
+IP-CIDR, 122.229.8.47/32, REJECT, no-resolve
+IP-CIDR, 122.229.29.89/32, REJECT, no-resolve
+IP-CIDR, 8.210.3.170/32, DIRECT, no-resolve
+IP-CIDR, 47.75.72.47/32, DIRECT, no-resolve
+IP-CIDR, 47.56.131.76/32, REJECT, no-resolve
+IP-CIDR, 47.97.215.55/32, REJECT, no-resolve
+IP-CIDR, 47.99.42.29/32, REJECT, no-resolve
+IP-CIDR, 47.243.147.125/32, REJECT, no-resolve
+IP-CIDR, 120.27.235.201/32, REJECT, no-resolve
+IP-CIDR, 121.196.197.147/32, REJECT, no-resolve
+IP-CIDR, 180.76.76.200/32, REJECT, no-resolve
+IP-CIDR, 103.41.167.237/32, REJECT, no-resolve
+IP-CIDR, 118.89.204.198/32, REJECT, no-resolve
+IP-CIDR6, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, REJECT, no-resolve
+URL-REGEX, "^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(index_activity\/get_app_index_activity|sign\/sign_h_5)\?", REJECT-DICT
+URL-REGEX, "^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/get_multi_search_default_keywords\?", REJECT-DICT
+URL-REGEX, "^http:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend", REJECT-DICT
+URL-REGEX, "^http:\/\/pic08\.babytreeimg\.com\/knowledge\/2022\/0923\/\w+", REJECT
+URL-REGEX, "^http:\/\/plough\.babytree\.com\/plough\.do", REJECT-DICT
+URL-REGEX, "^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH", REJECT-DICT
+URL-REGEX, "^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH", REJECT-DICT
+URL-REGEX, "^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/", REJECT
+URL-REGEX, "^http:\/\/linkmicschedule\.douyucdn\.cn\/im_schedule\/im_gate_list", REJECT
+URL-REGEX, "^http:\/\/\w{32}\.jddebug\.com\/diagnose\?", REJECT
+URL-REGEX, "^http:\/\/log\.stat\.kugou\.com\/mobile\/ad\.html", REJECT
+URL-REGEX, "^http:\/\/rich\.kuwo\.cn\/AdService\/", REJECT-DICT
+URL-REGEX, "^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/user\/freeMode\/", REJECT-DICT
+URL-REGEX, "^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/pasterAdvert\/", REJECT-DICT
+URL-REGEX, "^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/startup\/config", REJECT-DICT
+URL-REGEX, "^http:\/\/rich\.kuwo\.cn\/EcomResourceServer\/", REJECT-DICT
+URL-REGEX, "^http:\/\/searchrecterm\.kuwo\.cn\/recterm\.s", REJECT-DICT
+URL-REGEX, "^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/app\/newMenuList\/menuListInfo", REJECT-DICT
+URL-REGEX, "^http:\/\/vip\d\.kuwo\.cn\/vip\/v\d\/sysinfo\?op=getRePayAndDoPayBox", REJECT-DICT
+URL-REGEX, "^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/album\/adBar\/", REJECT-DICT
+URL-REGEX, "^http:\/\/[\d\.]+:\d{5}\/\?cmd=indexes", REJECT
+URL-REGEX, "^http:\/\/[\d\.]+\/odin\/c1\/(channel\/ads|skin\/config)\?", REJECT-DICT
+URL-REGEX, "^http:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/cms\/list\?", REJECT-DICT
+URL-REGEX, "^http:\/\/mobileso\.bz\.mgtv\.com\/spotlight\/search\/v1\?", REJECT-DICT
+URL-REGEX, "^http:\/\/y\.gtimg\.cn\/music\/common\/upload\/t_k_main_page_banner\/", REJECT
+URL-REGEX, "^http:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$", REJECT
+URL-REGEX, "^http:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do", REJECT-DICT
+URL-REGEX, "^http:\/\/p\.kuaidi100\.com\/advertisement\/", REJECT-DICT
+URL-REGEX, "^http:\/\/[\d\.:]*\/?(defaultts\.tc|vmind\.qqvideo\.tc|finderpdd\.video)\.qq\.com\/\w+", REJECT
+URL-REGEX, "^http:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+", REJECT
+URL-REGEX, "^http:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/\w+", REJECT
+URL-REGEX, "^http?:\/\/(discardrp|startup)\.umetrip\.com\/gateway\/api\/umetrip\/native", REJECT
+URL-REGEX, "^https:\/\/(ask|cgate)\.zhaopin\.com\/operation\/ad\/", REJECT
+URL-REGEX, "^http:\/\/mercury-gateway\.ixiaochuan\.cn\/mercury\/v1\/ad\/", REJECT-DICT
+URL-REGEX, "^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search_home_page_(nv|nv_v2)\/search_home_page_nv", REJECT
 [Rewrite]
 ^https:\/\/appapi\.51job\.com\/api\/market\/get_launch\.php\? reject-dict
 ^https:\/\/cupid\.51job(app)?\.com\/open\/51job-activities\/secJob\/queryHomeSecondConfigV2\? reject-dict
@@ -619,10 +522,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/cupid\.51job(app)?\.com\/open\/tab\/good-job\/modules response-body-json-del resultbody.bannerList
 ^https:\/\/cupid\.51job(app)?\.com\/open\/operation\/get\/banner-list\? reject-dict
 ^https:\/\/www\.123pan\.com\/api\/config\/get reject-dict
-^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ reject
-^https:\/\/t-dsp\.pinduoduo\.com\/dspcb\/i\/mrk_union reject
-^https:\/\/images\.pinduoduo\.com\/mrk\/ reject
-^https:\/\/images\.pinduoduo\.com\/marketing_api\/ reject
 ^https:\/\/jia\.360\.cn\/conf\/v1\.json response-body-json-del tab_conf ad_conf activity
 ^https:\/\/(app-v1\.ecoliving168\.com|852b95d36\.xwlpk\.cn)\/api\/v1\/movie\/index_recommend\? response-body-json-jq '.data[].list |= map(select(.type != 3)) | .data |= map(select(.layout != "advert_self"))'
 ^https:\/\/msglb\.91160\.com\/msg\/outer\/broker\/get$ reject-dict
@@ -701,8 +600,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/ecom\.map\.baidu\.com\/ad-ops\/afd\/popup\? reject-dict
 ^https:\/\/maphotel\.baidu\.com\/hotel\/goextranet\/activity\/detail\? reject-dict
 ^https:\/\/newclient\.map\.baidu\.com\/living\/nearby\/api\? response-body-json-del Result.cards[1] Result.cards[4] Result.cards[5] Result.cards[9]
-^https?:\/\/180\.76\.76\.200\/v\d\/resolve reject
-^https?:\/\/180\.76\.76\.112\/v\d\/resolve reject
 ^https:\/\/pan\.baidu\.com\/api\/getconfig reject-dict
 ^https:\/\/pan\.baidu\.com\/api\/getsyscfg reject-dict
 ^https:\/\/pan\.baidu\.com\/api\/taskscore\/tasklist reject-dict
@@ -713,18 +610,22 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/pan\.baidu\.com\/act\/api\/conf\?.*conf_key=youa_core_config_ios reject-dict
 ^https:\/\/pan\.baidu\.com\/youai\/material\/v1\/getbynavid\?.*nav_id=1 reject-dict
 ^https:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\? response-body-json-del data.service.config.advertisement data.service.config.youa.pm_config_ad 
-^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:list|show|event\/list2)\? response-body-json-jq '.data |= with_entries(if .key | IN("show", "event_list") then .value = [] else . end)'
+^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/(?:list|show|event\/list2)\? response-body-json-jq '.data |= with_entries(if .key | IN("show", "event_list") then .value=[] else . end)'
 ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/tab\/v2\? response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/Bilibili/tab_Bilibili_remove_ads.jq"
 ^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\? response-body-json-jq 'if .data.items then .data.items |= map(select((.banner_item == null) and (.ad_info == null) and (.card_goto == "av") and (.card_type | IN("small_cover_v2", "large_cover_single_v9", "large_cover_v1")))) end'
 ^https:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive\? mock-response-body data-type=text status-code=200 data="{"code":0,"data":{"closeType":"close_win","container":[],"showTime":""},"message":"success"}"
 ^https:\/\/api\.bilibili\.com\/pgc\/view\/v2\/app\/season\? response-body-json-jq 'del(.data.payment)'
-^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab)\? response-body-json-jq '.result.modules |= if . then map(if (.style | startswith("tip")) or (.module_id | IN(241, 1283, 1441, 1284)) then .items = [] elif .style | startswith("banner") then .items |= if . then map(select(.link | contains("play"))) else [] end elif .style | startswith("function") then .items |= if . then map(select(.blink | startswith("bilibili"))) else [] end end) end'
-^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\? response-body-json-jq 'if .data.items then .data.items |= map(select((.ad_info == null) and (.card_goto | startswith("ad") | not)) | del(.story_cart_icon)) end'
+^https:\/\/api\.bilibili\.com\/pgc\/page\/(?:bangumi|cinema\/tab)\? response-body-json-jq '.result.modules |= if . then map(if (.style | startswith("tip")) or (.module_id | IN(241, 1283, 1441, 1284)) then .items=[] elif .style | startswith("banner") then .items |= if . then map(select(.link | contains("play"))) else [] end elif .style | startswith("function") then .items |= if . then map(select(.blink | startswith("bilibili"))) else [] end end) end'
+^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\? response-body-json-jq 'if .data.items then .data.items |= map(select((.ad_info == null) and (.card_goto | startswith("ad") | not)) | del(.story_cart_icon, .free_flow_toast)) end'
 ^https:\/\/ap[ip]\.bilibili\.com\/x\/(?:resource\/(?:top\/activity|patch\/tab)|v2\/search\/square|vip\/ads\/materials)\? mock-response-body data-type=text status-code=200 data="{"code":-404,"message":"-404","ttl":1,"data":null}"
-^https:\/\/api\.live\.bilibili\.com\/xlive\/(?:app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(?:Room|User))\? response-body-json-jq '.data |= (del(.play_together_info, .play_together_info_v2, .activity_banner_info) | if .function_card then .function_card[] = null end | if .new_tab_info.outer_list then .new_tab_info.outer_list |= map(select(.biz_id != 33)) end | if .card_list then .card_list |= map(select(.card_type != "banner_v2")) end | reduce ([["show_reserve_status"], false], [["reserve_info", "show_reserve_status"], false], [["shopping_info", "is_show"], 0]) as [$path, $value] (.; if getpath($path) then setpath($path; $value) end))'
+^https:\/\/api\.live\.bilibili\.com\/xlive\/(?:app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(?:Room|User))\? response-body-json-jq '.data |= (del(.play_together_info, .play_together_info_v2, .activity_banner_info) | if .function_card then .function_card[]=null end | if .new_tab_info.outer_list then .new_tab_info.outer_list |= map(select(.biz_id != 33)) end | if .card_list then .card_list |= map(select(.card_type | IN("banner_v2", "activity_card_v1") | not)) end | reduce ([["show_reserve_status"], false], [["reserve_info", "show_reserve_status"], false], [["shopping_info", "is_show"], 0]) as [$path, $value] (.; if getpath($path) then setpath($path; $value) end))'
+^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? reject-dict
 ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? response-body-json-del data.common_equip
 ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine(?:\/ipad)?\? response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/Bilibili/mine_Bilibili_remove_ads.jq"
 ^https:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? response-body-json-jq '.data.vip |= if . != null and .status == 0 then . + { status: 1, type: 2, due_date: 9005270400000, role: 15 } else . end'
+^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus$ mock-response-body data-type=base64 data="AAAAABMKEQgCEgl0ZWVuYWdlcnMgAioA" mock-data-is-base64=true
+^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ mock-response-body data-type=base64 data ="AAAAACkaHeaQnOe0ouinhumikeOAgeeVquWJp+aIlnVw5Li7IgAoAToAQgBKAA==" mock-data-is-base64=true
+^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.view\.v1\.View\/TFInfo$ mock-response-body data-type=base64 data="AAAAAAIIAQ==" mock-data-is-base64=true
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetActivityTab reject-dict
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetBubbles reject-dict
 ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner reject-dict
@@ -738,6 +639,10 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/pan-api\.bitqiu\.com\/activity\/getPromoteGuide$ reject-dict
 ^http:\/\/pan-api\.bitqiu\.com\/activity\/getUrlList$ reject-dict
 ^https:\/\/pan-api\.bitqiu\.com\/activity\/guides$ reject-dict
+^https:\/\/video-dsp\.pddpic\.com\/market-dsp-video\/ reject
+^https:\/\/t-dsp\.pinduoduo\.com\/dspcb\/i\/mrk_union reject
+^https:\/\/images\.pinduoduo\.com\/mrk\/ reject
+^https:\/\/images\.pinduoduo\.com\/marketing_api\/ reject
 ^https:\/\/api\.boohee\.com\/meta-interface\/v2\/index\? response-body-json-del data.recom_cards data.recom_btns
 ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/page_float_bubbles\? reject-dict
 ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/tool_buttons\? reject-dict
@@ -750,10 +655,11 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.home\.tabbar\.marketing\.get\.cn reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword\.get\.cn reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.cncommunity\.my\.station\.query\.cn reject-dict
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(batch\.show\.v2|expose\.mreply|index)\.cn reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbopen\.miniapp\.recommend\.cpc\.cn reject-dict
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(acquire|event|close)\.cn reject-dict
-^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(homepage\.merge|tabbar\.marketing)\.get\.cn reject-dict
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbmensa\.research\.researchservice\.(?:acquire|event|close)\.cn reject-dict
+^https:\/\/(?:cn-acs\.m|netflow-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(?:batch\.show\.v2|click\.reply|expose\.m?reply|index)\.cn reject-dict
+^https:\/\/(?:cn-acs\.m|mtop-bff-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:homepage\.merge|tabbar\.marketing)\.get\.cn reject-dict
+^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cnactivitycenter reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.cncreditmarket\.hit\.getactivityhit\.cn reject-dict
 ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.com\.cainiao\.longquan\.place\.getpageresourcecontent\.cn reject-dict
@@ -763,20 +669,19 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/mappsv5\.caixin\.com\/channelv5\/article_ad_ios_info\.json reject-dict
 ^https:\/\/gg\.caixin\.com\/s\?z=caixin&slot=\d+ reject-dict
 ^https:\/\/msgapi\.caixin\.com\/msg_api\/annmsg\/annlist reject-dict
-^https:\/\/app\.missevan\.com\/site\/launch\? response-body-json-del info
-^https:\/\/app\.missevan\.com\/site\/config$ response-body-json-del info.homepage_top_task_button info.teenager_popup_mode
-^https:\/\/app\.missevan\.com\/site\/get-top$ response-body-json-del info.search_words info.extra_banners
-^https:\/\/app\.missevan\.com\/you-might-like\/my-favors\? response-body-json-del info.video_card
-^https:\/\/app\.missevan\.com\/you-might-like\/my-favors\? response-body-json-jq '.info.ranks.data|=map(select(.name!="直播榜"))'
-^https:\/\/fm\.missevan\.com\/api\/v2\/recommended\/top\? response-body-json-del info
-^https:\/\/app\.missevan\.com\/drama\/catalog-homepage\? response-body-json-del info.extra_banners
-^https:\/\/fm\.missevan\.com\/api\/v\d\/chatroom\/open\/search-recommend-list$ reject-dict
-^https:\/\/app\.missevan\.com\/catalog\/sound-homepage\? response-body-json-del info.extra_banners
-^https:\/\/fm\.missevan\.com\/api\/v\d\/chatroom\/sound\/recommend\? response-body-json-del info
-^https:\/\/app\.missevan\.com\/sound\/recommend\? reject-dict
-^https:\/\/app\.missevan\.com\/drama\/get-recommend-by-id\? reject-dict
-^https:\/\/fm\.missevan\.com\/api\/v\d\/meta\/banner$ reject-dict
-^https:\/\/app\.missevan\.com\/site\/icons\? response-body-json-jq '.info.icons |= (if . == null then null else map(select(.title != "直播" and .title != "周边商城")) end)'
+^https:\/\/app\.missevan\.com\/site\/launch\? response-body-json-del info.splash info.splash_ready
+^https:\/\/data\.missevan\.com\/site\/ad-track$ reject-dict
+^https:\/\/app\.missevan\.com\/site\/config$ response-body-json-del info.tab_bar_live 0 info.enable_tab_bar_live_notice false info.teenager_popup_mode 0
+^https:\/\/app\.missevan\.com\/site\/config$ response-body-json-del info.httpdns info.homepage_top_task_button
+^https:\/\/app\.missevan\.com\/site\/config$ response-body-json-jq '.info.cronet |= (fromjson | .quic=false | tojson)'
+^https:\/\/app\.missevan\.com\/x\/recommend\/get-popup$ reject-dict
+^https:\/\/fm\.missevan\.com\/api\/v2\/meta\/banner$ reject-dict
+^https:\/\/app\.missevan\.com\/site\/tabs\? response-body-json-jq '.info.tabs |= map(select(.title as $t | ["直播", "发现", "广播剧", "听书", "分类"] | index($t) != null))'
+^https:\/\/app\.missevan\.com\/site\/icons\? response-body-json-jq '.info.icons |= map(select(.title as $t | $t == "直播" or $t == "必听剧" or $t == "免费榜" or $t == "夜猫子" or $t == "启动音"))'
+^https:\/\/fm\.missevan\.com\/api\/v2\/recommended\/top\? reject-dict
+^https:\/\/app\.missevan\.com\/discovery\/list$ response-body-json-jq '.info |= map(map(select(.title != "免流服务")))'
+^https:\/\/fm\.missevan\.com\/api\/v2\/chatroom\/sound\/recommend\? reject-dict
+^https:\/\/app\.missevan\.com\/site\/get-top$ response-body-json-del info.search_words
 ^https:\/\/api\.cc\.163\.com\/v\d\/mgamenavigation\/navigation_list\? response-body-json-jq '.data.info_list |= map(select(.name == "关注" or .name == "推荐" or .name == "视频" or .name == "全部"))'
 ^https:\/\/api\.cc\.163\.com\/v\d\/mgamerecpage\/recommend_page\? response-body-json-jq '.data.plugins|=map(select(.module_type!="banner"))|.data.plugins|=map(select(.module_type!="show_list"))|.data.plugins|=map(select(.title!="推荐品类"))'
 ^https:\/\/api\.cc\.163\.com\/v\d\/entpage\/live_navbar_mobile\/ios\? response-body-json-jq '.data.top_nav |= map(select(.cn_name == "推荐" or .cn_name == "星秀" or .cn_name == "心动交友"))'
@@ -788,7 +693,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/biz\.cyapi\.cn\/(p\/v1\/entries|p\/v1\/trial_card\/info|v2\/product) reject-dict
 ^https:\/\/starplucker\.cyapi\.cn\/v3\/(config\/cypage\/\w+\/conditions|notification\/message_center|operation\/homefeatures) reject-dict
 ^https:\/\/api\.coolapk\.com\/v6\/search\?.*type=hotSearch reject-dict
-^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\? response-body-json-jq '.data.hotReplyRows |= if . then map(select(.id?)) else . end | .data.topReplyRows |= if . then map(select(.id?)) else . end | reduce ("detailSponsorCard", "include_goods", "include_goods_ids") as $key (.; .data[$key] = [])'
+^https:\/\/api\.coolapk\.com\/v6\/feed\/detail\? response-body-json-jq '.data.hotReplyRows |= if . then map(select(.id?)) else . end | .data.topReplyRows |= if . then map(select(.id?)) else . end | reduce ("detailSponsorCard", "include_goods", "include_goods_ids") as $key (.; .data[$key]=[])'
 ^https:\/\/api\.coolapk\.com\/v6\/feed\/replyList response-body-json-jq 'if .data? and ((.data | type) == "array") and (.data | length > 0) then .data |= map(select(.id?)) else . end'
 ^https:\/\/api\.coolapk\.com\/v6\/main\/dataList response-body-json-jq '.data |= (if (type=="array" and length>0) then map(select((.entityTemplate!="sponsorCard") and (.title!="精选配件"))) else . end)'
 ^https:\/\/api\.coolapk\.com\/v6\/page\/dataList response-body-json-jq 'if (.data | length > 0) then .data |= map(select((.title? != "酷安热搜") and (.entityTemplate? != "imageScaleCard") and (.entityTemplate? != "sponsorCard"))) else . end'
@@ -815,7 +720,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/movie\/ad reject-dict
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/home_banner reject-dict
 ^https:\/\/frodo\.douban\.com\/api\/v\d\/search\/found_words reject-dict
-^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) 307 $1$5$6
 ^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo reject-dict
 ^https:\/\/apiv2\.douyucdn\.cn\/japi\/entrance\/roomRes\/nc\/m\/list response-body-json-del data.pendant_a data.entrance_d
 ^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/update.+keyCodeSet=flow_config response-body-json-replace greatGodGameSitterSwitch 0 followMoreAnchorEntrance 0 sdklivebanner 0 homeActFloatSwitch 0 bringGoodsSwitch 0 qqGameSwitch 0
@@ -847,17 +751,22 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/keapi\.fenbi\.com\/app\/iphone\/\w+\/popup reject-dict
 ^https:\/\/market-api\.fenbi\.com\/iphone\/v1\/assistant\/info reject-dict
 ^https:\/\/market-api\.fenbi\.com\/iphone\/v1\/assistant\/entrance\/show reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/ reject-dict
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads\/ reject-dict
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ response-body-json-jq '.data.homeTopList |= map(select(.sectionType == "kingkongDo")) | .data.sections |= map(select(.data.clickParam.args.cardType as $ct | $ct != "homeMultiBanner" and $ct != "mamaAD")) | .data.sections |= map(select(.template.name == "fish_home_content_card" or (.template.name | contains("fish_home_tags_item_card"))))'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.widget\.refresh\.get\/ response-body-json-jq '.data.homeTopList |= map(select(.sectionType == "kingkongDo"))'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/ response-body-json-jq '.data.container.sections |= map(select(.template.name == "fish_home_miniapp"))'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/ response-body-json-jq '.data.strategies |= map(select(.type | . != "BIZ_IDLE_COIN_ENTRANCE_2" and . != "FLOAT_LAYER"))'
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.recommend\.list\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.resell\.recommendorhotcate\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.playboy\.recommend\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.topic\.banner\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.user\.strategy\.list\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.idle\.coin\.nextfresh\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/ reject-dict
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.newitem\.page\/ response-body-json-jq '.data.sections |= map(select(.data.clickParam.args.cardType as $ct | $ct != "banner" and $ct != "mamaAD"))'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.near\.by\.corner\.info\/ reject-dict
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.flow\.plat\.section\/ response-body-json-jq 'walk(if type == "object" and has("components") then .components |= map(if .data.template.name == "fish_city_banner" then del(.data.item) else . end) else . end)'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/ response-body-json-jq '.data.sections |= map(select((.template.cardEnum != "ads") and (.cardType == "common")))'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.user\.page\.my\.adapter\/ response-body-json-jq '.data.container.sections |= map(if .item.tips? then empty else . end) | .data.container.sections |= map(select(.item?.bottom? | not)) | .data.container.sections |= map(if (.template.name | type == "string") and (.template.name | contains("xianyu_home_fish_my_banner_card")) then del(.template) else . end)'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.buy\.feeds\/ reject-dict
 ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.shade\/ reject-dict
-^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ reject-dict
-^https:\/\/h5\.m\.goofish\.com\/wow\/moyu\/moyu-project\/[\w-]*search[\w-]*\/pages\/ reject-200
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.circle\.list\/ response-body-json-jq '.data.circleList[].showInfo.titleImage |= (.lightUrl="" | .url="" | del(.width, .height))'
+^https:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/ response-body-json-jq '.data.resultList |= map(if .data.item.main.exContent.dislikeFeedback.clickParam.args.bizType == "ad" then empty else . end)'
+^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/ response-body-json-jq '.data.cardList |= map(if has("cardData") and (.cardData | has("hotwords")) then .cardData |= del(.hotwords) else . end)'
 ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=advis reject
 ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=vip_coupon reject-dict
 ^https:\/\/ptf\.flyertrip\.com\/static\/img\/common\/ic_plate_mine_button\.png reject-img
@@ -867,7 +776,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/cp\/search-words\/v2\/placeholder reject-dict
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/template\/resources$ response-body-json-jq '.pits |= map(select(.module_type != "BANNER"))'
 ^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/app_mine\/resources$ response-body-json-jq '.pits |= map(select(.module_type != "BANNER"))'
-^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/(templates|all_editor_tools)\/resources$ response-body-json-jq 'walk(if type == "object" and .badge_img_url? then .badge_img_url = "" else . end)'
+^https:\/\/www\.gaoding\.com\/api\/v\d\/oc\/exhibitions\/(templates|all_editor_tools)\/resources$ response-body-json-jq 'walk(if type == "object" and .badge_img_url? then .badge_img_url="" else . end)'
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/common\/getWeworkPromotionInfoBySceneType reject-dict
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/popUpAdCollection\/getActiveCollection\.do reject-dict
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/common\/getWeworkCategoryPromotionInfo reject-dict
@@ -878,7 +787,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/manualOperationGoods\/pageManualOperationGoods reject-dict
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/specialSale\/listSpecialSalePageBanner reject-dict
 ^https:\/\/zone\.guiderank-app\.com\/guiderank-web\/app\/personal\/getPersonPageInfo\.do reject-dict
-^https:\/\/gslbali\.ximalaya\.com\/linkeye-cloud\/httpdns\/ reject
 ^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ reject-dict
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/discovery-feed\/v\d\/mix\/ response-body-json-jq '.heData |= map(select(.item.list[].bizType != "SceneListenCard"))'
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/discovery-feed\/v\d\/scene\/listen\/refresh\? reject-dict
@@ -905,7 +813,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/zlink\.ugsdk\.cn\/ad\/ reject
 ^https:\/\/((aweme\.snssdk\.com|api5-normal-m\.amemv\.com)|api5-normal-m\.amemv\.com)\/aweme\/homepage\/sidebar_data\/\? response-body-json-del data_map.recently_apps data_map.recently_users
 ^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/aweme\/homepage\/render\/\? response-body-json-del data.tab_config
-^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/aweme\/homepage\/render\/\? response-body-json-jq '.data.tab_list[]? |= (if .extra.side_bar.modules != null then .extra.side_bar.modules[]?.items[]? |= (if .data.first_page_module?.module_title == "常用功能" then .data = {} else . end) else . end) | .data.tab_list |= map(if .extra.tab_list != null then .extra.tab_list |= map(select(.tab_id | IN("homepage_tablive", "homepage_follow", "homepage_hot_container"))) else . end) | .data.tab_list |= map(select(.extra.tab_list != null and (.extra.tab_list | length > 0)))'
+^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/aweme\/homepage\/render\/\? response-body-json-jq '.data.tab_list[]? |= (if .extra.side_bar.modules != null then .extra.side_bar.modules[]?.items[]? |= (if .data.first_page_module?.module_title == "常用功能" then .data={} else . end) else . end) | .data.tab_list |= map(if .extra.tab_list != null then .extra.tab_list |= map(select(.tab_id | IN("homepage_tablive", "homepage_follow", "homepage_hot_container"))) else . end) | .data.tab_list |= map(select(.extra.tab_list != null and (.extra.tab_list | length > 0)))'
 ^https:\/\/(aweme\.snssdk\.com|api5-normal-m\.amemv\.com)\/tfe\/api\/request_combine\/v1\/\?need_personal_recommend response-body-json-replace data["/service/settings/v3/"].body.data.settings.homepage_two_session_tab_skin_2025 false data["/service/settings/v3/"].body.data.settings.homepage_tab_skin_enable false
 ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/reddot\/v1\/app\/getReddot reject-dict
 ^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/(bbsallapi\/tag\/v1\/heatTag|bbsrankapi\/v1\/rating\/list) reject-dict
@@ -947,6 +855,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https?:\/\/api\.zuihuimai\.com\/static\/.*\/hongbao reject
 ^https?:\/\/dat\.ruanmei\.com\/ithome\/money\/acd\.json$ reject
 ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) reject-dict
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=basicConfig response-body-json-replace data.JDMessage.socketmonitor.isSocketEstablishedAhead 0 data.JDMessage.socketmonitor.isSocketReport 0 data.JDHttpToolKit.httpdns.httpdns 0
 ^https:\/\/scs\.kakamobi\.cn\/api\/open\/v3\/advert-sdk\/ reject-dict
 ^https:\/\/cheyouquan\.kakamobi\.com\/api\/open\/group\/recommend-subscribe-tag\.htm reject-dict
 ^https:\/\/swallow\.kakamobi\.cn\/api\/open\/config\/get-config\.htm reject-dict
@@ -977,7 +886,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/kad\.gotokeep\.com\/op-engine-webapp\/v1\/ad reject-dict
 ^https:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/entryDetail response-body-json-replace data {}
 ^https:\/\/api\.gotokeep\.com\/guide-webapp\/v1\/popup\/getPopUp reject-dict
-^https:\/\/api\.gotokeep\.com\/config\/v3\/basic response-body-json-jq '.data.homeTabs |= map(select(.name != "活动")) | .data.homeTabs[1].default = true | .data.homeTabs[2].default = false'
+^https:\/\/api\.gotokeep\.com\/config\/v3\/basic response-body-json-jq '.data.homeTabs |= map(select(.name != "活动")) | .data.homeTabs[1].default=true | .data.homeTabs[2].default=false'
 ^http:\/\/api\.ring\.kugou\.com\/user\/notice\/recommend$ reject-dict
 ^https:\/\/tg\.feidee\.com\/online_ad\/api\/search\.do$ reject-dict
 ^https:\/\/yunmk\.feidee\.net\/cab-market-ws\/market\/v2\/contents$ reject-dict
@@ -1114,7 +1023,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/ reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json reject
 ^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|search/(specialkeyword|defaultkeyword|hot)) reject
-^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? reject
+^https:\/\/client-api-v2\.oray\.com\/materials\/SLCC_iOS_DEVICE_FREE\? reject-dict
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines reject
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage\/v1 reject-dict
 ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v3 reject-dict
@@ -1137,6 +1046,23 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/api(5-lq)?\.pipix\.com\/bds\/user\/check_in\/ response-body-json-jq '.data.profile_entrances |= map(select(.title != "放心借" and .title != "洋钱罐借款")) | del(.data.pet_interface_message)'
 ^https:\/\/j1\.pupuapi\.com\/client\/account\/discount\/order reject
 ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7\?position_types=100 reject
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/client\/getconf$ response-body-json-replace Data.WolfEye 0 Data.CloudSetting.TeenShowFreq 0
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/client\/getconf$ response-body-json-del Data.ActivityPageBackPushNoticeFrequency Data.ActivityIcon Data.ActivityPopup Data.LuckBag
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v4\/client\/getsplashscreen\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/adv\/ reject-dict
+^https:\/\/ywab\.reader\.qq\.com\/user\/experiments\/v2\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/checkin\/simpleinfo\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/push\/getdialog\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v2\/dailyrecommend\/getdailyrecommend\? response-body-json-replace Data.Items []
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/message\/getpushedmessagelist$ reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/maintain\/playstrip$ reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/dailyrecommend\/recommendBook\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/freshman\/bookshelfbtn$ reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/bookshelf\/getTopOperation$ reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v3\/user\/getaccountpage\? response-body-json-del Data.BenefitButtonList
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/booksearch\/hotWords\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/followsubscribe\/showChapterEndModule\? reject-dict
+^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/v1\/young\/getconf$ reject-dict
 ^https:\/\/appc\.qixin\.com\/v4\/general\/getSearchPlaceholderRedirect$ reject-dict
 ^https:\/\/appc-v6\.qixin\.com\/v4\/general\/getAppFloatAd$ reject-dict
 ^https:\/\/appc-v6\.qixin\.com\/v4\/general\/getAppBanners$ reject-dict
@@ -1217,7 +1143,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^http:\/\/home\.umetrip\.com\/gateway\/api\/umetrip\/native reject
 ^http:\/\/umerp\.umetrip\.com\/gateway\/api\/umetrip\/native reject
 ^https?:\/\/us\.l\.qq\.com\/exapp reject-200
-^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/(explorePage\/getAdverList|init\/startInit) reject
+^https:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit$ reject
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab reject-dict
 ^https:\/\/dict\.youdao\.com\/homepage\/tile reject-dict
 ^https:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig reject-dict
@@ -1259,7 +1185,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/d\.socdm\.com\/adsv\/ reject-dict
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm mock-response-body data-type=json data="{"imgIndex":"0","adv":{"startup_adv":{"advCntList":[],"buttonList":[]}},"respCode":"0000"}"
 ^https?:\/\/cmds\.omesoft\.com\/HypnotistWS\.asmx response-body-replace-regex <GetADResult>\.\*\?<\/GetADResult> <GetADResult>{"ret":0,"msg":"正常","err_code":0,"data":{"ad":[]}}</GetADResult>
-^https?:\/\/api\.fenxianglife\.com\/njia\/index\/popup\/v2 response-body-json-jq '.data.list = []'
+^https?:\/\/api\.fenxianglife\.com\/njia\/index\/popup\/v2 response-body-json-jq '.data.list=[]'
 ^https?:\/\/info\.mina\.xiaoaisound\.com\/(advertise|payGuide)\/ mock-response-body data-type=json data="{"code":0,"message":"Success","data":[]}"
 ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/user\/getBannerList reject-dict
 ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/searchHotEnt reject-dict
@@ -1278,7 +1204,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/api-cfg\.wtzw\.com\/v\d\/offline-adv\/index reject-dict
 ^https:\/\/api-cfg\.wtzw\.com\/v\d\/operation\/index\?ad_personal_switch reject-dict
 ^https:\/\/xiaoshuo\.wtzw\.com\/api\/v\d\/withdraw\/init reject-dict
-^https:\/\/xiaoshuo\.wtzw\.com\/api\/v\d\/user\/my-center\? response-body-json-del data.func_area[1]  data.func_area[2]
+^https:\/\/xiaoshuo\.wtzw\.com\/api\/v\d\/user\/my-center\? response-body-json-del data.func_area[1] data.func_area[2]
 ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow$ reject-dict
 ^https:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList$ reject-dict
 ^https:\/\/ucmp\.sf-express\.com\/proxy\/esgcempcore\/memberGoods\/pointMallService\/goodsList$ reject-dict
@@ -1291,7 +1217,21 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/adV2 reject-dict
 ^https:\/\/ocean\.shuqireader\.com\/api\/route\/ios\/readPage$ reject-dict
 ^https:\/\/ocean\.shuqireader\.com\/api\/render\/load\/resource reject
-^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/(other_modul|wiki_related_modul)|^https:\/\/s3\.zdmimg\.com\/third\/index|^https:\/\/app-api\.smzdm\.com\/util\/loading reject-dict
+^https:\/\/app-api\.smzdm\.com\/util\/loading\? reject-dict
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-replace data.silence_local_push 0 data.baichuan_redirect_switch 0
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-del data.silence_local_push_msg data.video_cache_num_configs data.haojia_widget
+^https:\/\/app-api\.smzdm\.com\/util\/update$ response-body-json-jq 'def r: if type=="object" then if has("ad_campaign_name") and (.ad_campaign_name|type=="string") and (.ad_campaign_name|test("\\S")) then empty else . end elif type=="array" then map(r) else . end; .data.operation_float |= map(map(r))'
+^https:\/\/homepage-api\.smzdm\.com\/v3\/home\? response-body-json-jq jq-path="https://kelee.one/Resource/JQLang/smzdm/home_smzdm_remove_ads.jq"
+^https:\/\/h5\.smzdm\.com\/user\/coupon\/coupon_list\? reject
+^https:\/\/haojia-api\.smzdm\.com\/home\/list\? response-body-json-jq '.data.rows |= map(select(.cell_type == "39001")) | .data.banner_v2 |= map(select(.cell_type == "21028"))'
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul\? response-body-json-del data.super_coupon
+^https:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul\? response-body-json-del data.banner
+^https:\/\/user-api\.smzdm\.com\/vip$ response-body-json-del data.big_banner
+^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list\? reject-dict
+^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble\? reject-dict
+^https:\/\/s-api\.smzdm\.com\/sou\/search_default_keyword\? reject-dict
+^https:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags\? response-body-json-del data.search_faxian data.tonglan data.hongbao
+^https:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags\? response-body-json-jq '.data.search_hot.home |= map(select(.article_tag.article_title != "广告"))'
 ^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?channel=1&height=932 reject-dict
 ^https:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+home_visitor_relation_config reject-dict
 ^https:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json\?channel=1&location=0&model=6&page=4 reject-dict
@@ -1304,10 +1244,18 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/api\.xueqiu\.com\/recommend-proxy\/card\/portfolio_tab_symbol\.json reject-dict
 ^https:\/\/stock\.xueqiu\.com\/v5\/stock\/group\/recommend\/default\/list\.json reject-dict
 ^https:\/\/api\.xueqiu\.com\/livestream\/structure\/live\/hotCard\.json reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells_config\? reject-dict
+^https:\/\/api\.qishui\.com\/luna\/ads\/ reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/ads\/ reject-dict
 ^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/treasure\/entrance\/config\? reject-dict
 ^https:\/\/beta-luna\.douyin\.com\/luna\/me\? response-body-json-del reward_ad_banner
-^https:\/\/beta-luna\.douyin\.com\/luna\/card\? response-body-json-replace card_items[0].priority_display false card_items[0].is_show false preview_guide null
-^https:\/\/beta-luna\.douyin\.com\/luna\/more-panel\? response-body-json-del blocks[1]
+^https:\/\/beta-luna\.douyin\.com\/luna\/activities\? reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/feed\/song-tab\? response-body-json-jq 'del(.items[] | select(.type == "video_track_mix"))'
+^https:\/\/beta-luna\.douyin\.com\/luna\/card\? response-body-json-del preview_guide
+^https:\/\/beta-luna\.douyin\.com\/luna\/card\? response-body-json-jq 'del(.card_items[] | select(has("priority_display")))'
+^https:\/\/beta-luna\.douyin\.com\/luna\/media_ads\? reject-dict
+^https:\/\/beta-luna\.douyin\.com\/luna\/more-panel\? response-body-json-jq '.blocks |= map(select(.type != "related_video"))'
 ^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells\? reject-dict
 ^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/v2\/commerce_info\? reject-dict
 ^https:\/\/ssp\.soulapp\.cn\/api\/q reject-dict
@@ -1325,9 +1273,14 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/heic\.alicdn\.com\/imgextra\/i\d\/\d*\/?[\w!]+-\d-(octopus|tps-1125-1602|tps-1080-1920)\.(jp|pn)g_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q[59]0 reject-dict
 ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) reject-dict
 ^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind reject-dict
-^https:\/\/tiebac\.baidu\.com\/c\/f\/search\/discover reject-dict
-^https:\/\/tiebac\.baidu\.com\/c\/f\/forum\/forumGuide reject-dict
-^https:\/\/tiebac\.baidu\.com\/c\/u\/chat\/getChatSubscriptionList reject-dict
+^https:\/\/tieba\.baidu\.com\/c\/f\/member\/getMemberPopups$ reject-dict
+^https:\/\/tiebac\.baidu\.com\/c\/u\/user\/profile$ response-body-json-del recom_naws_list namoaixud_entry custom_grid duxiaoman_entry finance_tab
+^https:\/\/tiebac\.baidu\.com\/c\/u\/user\/profile$ response-body-json-replace user.shake_ad_switch.is_show 0
+^https:\/\/tiebac\.baidu\.com\/c\/u\/user\/profile$ response-body-json-jq '.zone_info |= map(select(.type as $t | ["commerce","banner","game"] | index($t) | not))'
+^https:\/\/tiebac\.baidu\.com\/c\/f\/sidebar\/home$ response-body-json-del task_list game_center tools tools.yunying_tools_list tools.show_tools_list
+^https:\/\/tiebac\.baidu\.com\/c\/f\/sidebar\/home$ response-body-json-jq '.tools.show_tools_list |= map(.tools_list |= map(select(.title != "度小满钱包")))'
+^https:\/\/tiebac\.baidu\.com\/c\/f\/search\/discover$ reject-dict
+^https:\/\/tiebac\.baidu\.com\/c\/f\/frs\/frsBottom$ response-body-json-del card_activity
 ^https:\/\/.*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg reject
 ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_home_pop_up reject-dict
 ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_home_tips reject-dict
@@ -1336,13 +1289,6 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app-user-banner reject-dict
 ^https:\/\/tianshu\.qq\.com\/open\/ts_access\/GetAds\? reject-dict
 ^https:\/\/h5\.qzone\.qq\.com\/p\/adboss\/api\/json\/ts_access\/GetAds$ reject-dict
-^https?:\/\/203\.107\.1\.1/\d+/ss reject
-^https?:\/\/203\.107\.1\.33/\d+/ss reject
-^https?:\/\/203\.107\.1\.66/\d+/ss reject
-^https?:\/\/203\.107\.1\.67/\d+/ss reject
-^https?:\/\/203\.107\.1\.97/\d+/ss reject
-^https?:\/\/2401:b180:2000:30::1c\/\d+\/d reject
-^https?:\/\/2401:b180:2000:20::10\/\d+\/d reject
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/startInfo$ reject-dict
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/indexBanner$ reject-dict
 ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/getPopup reject-dict
@@ -1361,7 +1307,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic& mock-response-body data-type=html data="{"retcode":0,"info":"","data":[],"ext":{}}"
 ^https?:\/\/api\.weibo\.cn\/2\/statuses\/unread_hot_timeline$ response-body-json-jq 'del(.ad, .advertises, .trends) | if .statuses then .statuses |= map(select(((.promotion.type == "ad") or (.mblogtypename | IN("广告", "廣告", "热推", "熱推"))) | not)) end'
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=get_coopen_ads& response-body-json-jq '.data |= . + {"ad_list":[],"pic_ad":[],"gdt_video_ad_ios":[],"display_ad":0,"ad_ios_id":null,"app_ad_ios_id":null,"reserve_ad_ios_id":"","reserve_app_ad_ios_id":"","ad_duration":604800,"ad_cd_interval":604800}'
-^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=trends& response-body-json-jq 'if .data.order then .data.order = ["search_topic"] end'
+^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=trends& response-body-json-jq 'if .data.order then .data.order=["search_topic"] end'
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic& response-body-json-jq 'if .data.search_topic.cards[0].type == "searchtop" then del(.data.search_topic.cards[0]) end'
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center& response-body-json-jq 'if .data.cards then .data.cards[].items |= map(select(.type != "personal_vip")) | .data.cards |= map(select((.items | length) > 0)) end'
 ^https:\/\/api\.weibo\.cn\/2\/(?:ug\/checkin\/list|push\/daily) reject-dict
@@ -1383,6 +1329,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/card\.weibo\.com\/article\/m\/aj\/(?:reward|uvead) reject-dict
 ^https:\/\/weibo\.com\/ttarticle\/x\/m\/aj\/(?:reward|uvead) reject-dict
 ^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? reject-dict
+^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedsearchword reject-dict
 ^https:\/\/webapi\.qmai\.cn\/web\/catering\/advertising\/ reject-dict
 ^https:\/\/webapi\.qmai\.cn\/web\/cmk-center\/marketing\/canvas\/advert-reach reject
 ^https:\/\/images\.qmai\.cn\/s214925\/2023 reject-dict
@@ -1511,7 +1458,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/sdk\.1rtb\.net\/sdk\/req_ad\? reject-dict
 ^https:\/\/gw\.xiaocantech\.com\/g\/pa reject-dict
 ^https:\/\/api\.xiaoheihe\.cn\/account\/get_ads_info_v2 reject-dict
-^https:\/\/api\.xiaoheihe\.cn\/bbs\/app\/feeds\/news response-body-json-jq '.result.links |= map(if .content_type == 27 then del(.title, .ad_pm, .img_gif, .idea_id, .ad_report, .label, .source, .intranet_only, .ad_cm, .content_type, .protocol, .img, .ad_ratio) else . end)'
+^https:\/\/api\.xiaoheihe\.cn\/bbs\/app\/feeds\/news response-body-json-jq '.result.links |= map(if .content_type == 27 then del(.title, .ad_pm, .img_gif, .idea_id, .ad_report, .label, .source, .intranet_only, .ad_cm, .content_type, .PROTOCOL, .img, .ad_ratio) else . end)'
 ^https:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v1\/slots:batchGet$ reject-dict
 ^https:\/\/gorgon\.youdao\.com\/gorgon\/brand\/prefetch\.s\? reject-dict
 ^https:\/\/dict\.youdao\.com\/homepage\/toolbar\/get\? response-body-json-del data.vipTag
@@ -1522,7 +1469,7 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https:\/\/gorgon\.youdao\.com\/gorgon\/brand\/prefetch\.s reject-dict
 ^https:\/\/gorgon\.youdao\.com\/gorgon\/request\.s reject-dict
 ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.(pisp\.scripts\.get|xspace\.play\.position\.preload\.query|xspace\.poplayer\.position\.query) url reject-dict
-^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad mock-response-body data-type=text status-code=502
+^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad reject-200
 ^https:\/\/goway\.reader\.yueyouxs\.com\/assemble\/app\/basic\/getAppInfo\? response-body-json-del data.isShowDLPopup data.isShowGame data.touTiaoShowDlPopup data.offLineDownload.WatchVideoBtnDesc data.readVipFirstCfg data.readVipNormalCfg data.notifyAd data.hotStartSplashTime data.hotStartReqSwitch data.isShowBFTab data.popReqDelayTime data.benefitCfg data.chestTask data.hotStartAd data.activeTagList data.secondOrderCfg data.secondOrderList data.blockedWordsCfg data.aaReportListCfg data.pddAdSwitch data.isShowShelfAuthPopup data.firstPopUpAmount
 ^https:\/\/goway\.reader\.yueyouxs\.com\/assemble\/app\/basic\/getAppInfo\? response-body-json-replace data.isAdClosed true 
 ^https:\/\/yyapp-fastnet\.yy\.com\/dispatch\? reject-dict
@@ -1583,208 +1530,197 @@ URL-REGEX,"^http:\/\/file-share\.izuiyou\.com\/octopus\/media\/templates\/search
 ^https?:\/\/api\.izuiyou\.com\/config\/get_banner reject-dict
 ^https?:\/\/api\.izuiyou\.com\/ad\/ reject
 ^https:\/\/zyfile\.izuiyou\.com\/zyfile\/c2\/a0\/[a-z0-9-]+\.json reject-dict
-^https:\/\/gromore\.pangolin-sdk-toutiao\.com\/api\/ad\/ reject
-^https:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ reject
+^https?:\/\/203\.107\.1\.1/\d+/ss reject
+^https?:\/\/203\.107\.1\.33/\d+/ss reject
+^https?:\/\/203\.107\.1\.66/\d+/ss reject
+^https?:\/\/203\.107\.1\.67/\d+/ss reject
+^https?:\/\/203\.107\.1\.97/\d+/ss reject
+^https?:\/\/2401:b180:2000:30::1c\/\d+\/d reject
+^https?:\/\/2401:b180:2000:20::10\/\d+\/d reject
+^(http:\/\/)((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\/(hlsh5p1\.douyucdn2\.cn)(.*) 307 $1$5$6
 [Script]
-http-request ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_splashscreen_ads.js,requires-body=true,tag=移除12306开屏广告
-http-request ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_ads.js,tag=移除12306应用内广告
-http-response ^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets) script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js,requires-body=true,tag=移除阿里云盘广告
-http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js,requires-body=true,tag=移除阿里云盘广告
-http-response ^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除路线规划推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除路线规划、导航结束页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/c3frontend\/(?:af-(?:hotel|launch)\/page\/main|af-nearby\/nearby) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除导航详情页底部酒店、处理附近页
-http-response ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(?:routeInfo|routePlan) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除路线规划推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除导航详情页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除搜索栏推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(?:mps|search\/sp|sug|tips_operation_location) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除搜索详情页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-service-plan-home|main-page) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除首页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除首页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除我的页面推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除附近页推广
-http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除打车页推广卡片、弹窗
-http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js,requires-body=true,tag=移除打车页红点角标、天气图标
-http-response ^https:\/\/news\.app\.autohome\.com\.cn\/news_v\d+(?:\.\d+){2}\/news\/homenavigation script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=精简我的页面
-http-response ^https:\/\/(a\.athm\.cn\/)?mobile\.app\.autohome\.com\.cn\/platform\/carserver\/((usercenter\/getservicecards)|(carcard\/allcard)|(carcard\/mycardv\d+)|(carcard\/cards)) script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=精简我的页面
-http-response ^https:\/\/(a\.athm\.cn\/)?club\.app\.autohome\.com\.cn\/club_v\d+(?:\.\d+){2}\/club\/index\/businessv\d+ script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=社区广场去广告
-http-response ^https:\/\/(a\.athm\.cn\/)?cars\.app\.autohome\.com\.cn\/carstreaming\/selectcarportal\/reclist script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=移除直播浮窗
-http-response ^https:\/\/(a\.athm\.cn\/)?cars\.app\.autohome\.com\.cn\/carstreaming\/selectcarportal\/seriestopwithtagscard script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=移除报价页面直播内容
-http-response ^https:\/\/(a\.athm\.cn\/)?apiautoappusc\.che168\.com\/apic\/v\d+\/gethomepagefeed script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js,requires-body=true,tag=移除二手车竖版轮播图
-http-response ^http:\/\/api\.babytree\.com\/bafconfigcenter_intf\/config\/get\? script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js,requires-body=true,tag=调整整体配置
-http-response ^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index\/get_app_tab|cms_column\/get_column_list|feeds\/get_index_feeds_list|user\/get_user_info)\? script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js,requires-body=true,tag=移除各页面推广
-http-response ^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/search_index script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js,requires-body=true,tag=移除搜索列表推广#!name=百度输入法去广告
-http-response ^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)) script-path=https://kelee.one/Resource/Script/Baidu_input_method/Baidu_input_method_remove_ads.js,requires-body=true,tag=百度输入法去广告
-http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9}) script-path=https://kelee.one/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js,requires-body=true,tag=移除百度搜索首页信息流广告
-http-response ^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.(?:interface\.v1\.(?:Teenagers\/ModeStatus|Search\/DefaultWords)|show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(?:unite)?\.v1\.View\/(?:View|ViewProgress|TFInfo|RelatesFeed)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$ script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_proto_kokoryh.js,requires-body=true,binary-body-mode=true,tag=Proto处理,argument=[{showUpList}]
-http-response ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs script-path=https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js,requires-body=true,tag=移除顶部标签
-http-response ^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js,requires-body=true,tag=精简我的页面
-http-response ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza-flow\? script-path=https://kelee.one/Resource/Script/BooHee/BooHee_remove_ads.js,requires-body=true,tag=移除广场推荐页面横幅
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js,requires-body=true,tag=移除我的页面推广
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js,requires-body=true,tag=移除首页推广
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js,requires-body=true,tag=移除首页推广
-http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js,requires-body=true,tag=移除消息中心推广
-http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js,requires-body=true,tag=移除菜鸟小程序推广
-http-response ^https:\/\/entities\.caixin\.com\/api\/dataplus\/columns script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除财新数据通广告
-http-response ^https:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除文末广告
-http-response ^https:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除财新FM广告
-http-response ^https:\/\/gg\.caixin\.com\/s\?z=caixin&op=\d script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json$ script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除正文广告
-http-response ^https:\/\/mapps?v5\.caixin\.com\/(channelv5\/list|\/?index_page_v5\/)\w+ script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js,requires-body=true,tag=移除正文广告
-http-response ^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\? script-path=https://kelee.one/Resource/Script/ColorfulClouds/ColorfulClouds_remove_ads.js,requires-body=true,tag=彩云天气去广告
-http-response ^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3 script-path=https://kelee.one/Resource/Script/Douyu/Douyu_remove_ads.js,requires-body=true,tag=移除首页轮播图和视频流广告
-http-response ^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue script-path=https://kelee.one/Resource/Script/DubbingShow/DubbingShow_remove_ads.js,requires-body=true,tag=移除首页底部弹窗
-http-response ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.idle\.user\.page\.my\.adapter\/ script-path=https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js,requires-body=true,tag=移除我的页面推广
-http-response ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ script-path=https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js,requires-body=true,tag=移除首页信息流推广
-http-response ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.circle\.list\/ script-path=https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js,requires-body=true,tag=移除首页顶部标签推广
-http-response ^https:\/\/g-(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/ script-path=https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js,requires-body=true,tag=移除搜索结果广告
-http-response ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?version=5 script-path=https://kelee.one/Resource/Script/FlyerTea/FlyerTea_remove_ads.js,requires-body=true,tag=移除板块广告
-http-response ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=plugin&id=k_misign:sign script-path=https://kelee.one/Resource/Script/FlyerTea/FlyerTea_remove_ads.js,requires-body=true,tag=移除签到弹窗广告
-http-response ^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js,requires-body=true,tag=移除虎扑广告
-http-response ^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js,requires-body=true,tag=移除虎扑广告
-http-response ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js,requires-body=true,tag=移除虎扑广告
-http-response ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js,requires-body=true,tag=移除虎扑广告
-http-response ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest script-path=https://kelee.one/Resource/Script/iMaiCai/iMaiCai_remove_ads.js,requires-body=true,tag=移除下发广告
-http-response ^https:\/\/napi\.ithome\.com\/api\/(?:news\/index|topmenu\/getfeeds\?|api\/douyin\/GetLiveInfo) script-path=https://kelee.one/Resource/Script/IThome/IThome_remove_ads.js,requires-body=true,tag=IT之家去广告,argument=[{removeTopSwitch},{removeBannerSwitch}]
-http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path=https://kelee.one/Resource/Script/JD/JD_remove_ads.js,requires-body=true,tag=移除京东广告
+http-request ^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_splashscreen_ads.js, requires-body=true, tag=移除12306开屏广告
+http-request ^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ script-path=https://kelee.one/Resource/Script/12306/12306_remove_ads.js, tag=移除12306应用内广告
+http-response ^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets) script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true, tag=移除阿里云盘广告
+http-response ^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list script-path=https://kelee.one/Resource/Script/AliYunDrive/AliYunDrive_remove_ads.js, requires-body=true, tag=移除阿里云盘广告
+http-response ^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划、导航结束页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/c3frontend\/(?:af-(?:hotel|launch)\/page\/main|af-nearby\/nearby) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页底部酒店、处理附近页
+http-response ^https:\/\/m5\.amap\.com\/ws\/perception\/drive\/(?:routeInfo|routePlan) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除路线规划推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除导航详情页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_bff\/hotword\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除搜索栏推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search_poi\/(?:mps|search\/sp|sug|tips_operation_location) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除搜索详情页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(?:card-service-plan-home|main-page) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除我的页面推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除附近页推广
+http-response ^https:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/boss\/(?:car\/order\/content_info|order_web\/friendly_information) script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除打车页推广卡片、弹窗
+http-response ^https:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? script-path=https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js, requires-body=true, tag=移除打车页红点角标、天气图标
+http-response ^https:\/\/news\.app\.autohome\.com\.cn\/news_v\d+(?:\.\d+){2}\/news\/homenavigation script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=精简我的页面
+http-response ^https:\/\/(a\.athm\.cn\/)?mobile\.app\.autohome\.com\.cn\/platform\/carserver\/((usercenter\/getservicecards)|(carcard\/allcard)|(carcard\/mycardv\d+)|(carcard\/cards)) script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=精简我的页面
+http-response ^https:\/\/(a\.athm\.cn\/)?club\.app\.autohome\.com\.cn\/club_v\d+(?:\.\d+){2}\/club\/index\/businessv\d+ script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=社区广场去广告
+http-response ^https:\/\/(a\.athm\.cn\/)?cars\.app\.autohome\.com\.cn\/carstreaming\/selectcarportal\/reclist script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=移除直播浮窗
+http-response ^https:\/\/(a\.athm\.cn\/)?cars\.app\.autohome\.com\.cn\/carstreaming\/selectcarportal\/seriestopwithtagscard script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=移除报价页面直播内容
+http-response ^https:\/\/(a\.athm\.cn\/)?apiautoappusc\.che168\.com\/apic\/v\d+\/gethomepagefeed script-path=https://kelee.one/Resource/Script/AutoHome/AutoHome_remove_ads.js, requires-body=true, tag=移除二手车竖版轮播图
+http-response ^http:\/\/api\.babytree\.com\/bafconfigcenter_intf\/config\/get\? script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js, requires-body=true, tag=调整整体配置
+http-response ^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index\/get_app_tab|cms_column\/get_column_list|feeds\/get_index_feeds_list|user\/get_user_info)\? script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js, requires-body=true, tag=移除各页面推广
+http-response ^http:\/\/go\.babytree\.com\/go_search\/api\/mobile_search_new\/search_index script-path=https://kelee.one/Resource/Script/BabyTree/BabyTree_remove_ads.js, requires-body=true, tag=移除搜索列表推广
+http-response ^https?:\/\/mime\.baidu\.com\/(imrobot\/v1\/pub\/relation\/get_robot_list|v5\/custom_page\/(layout|getdata)) script-path=https://kelee.one/Resource/Script/Baidu_input_method/Baidu_input_method_remove_ads.js, requires-body=true, tag=百度输入法去广告
+http-response ^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9}) script-path=https://kelee.one/Resource/Script/BaiduSearch/BaiduSearchHomePage_remove_ads.js, requires-body=true, tag=移除百度搜索首页信息流广告
+http-request ^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.playerunite\.v1\.Player\/PlayViewUnite$ script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_airborne_kokoryh.js, requires-body=true, binary-body-mode=true, enable={enableAirborne}, tag=空降助手自动版
+http-request ^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$ script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_airborne_kokoryh.js, requires-body=true, binary-body-mode=true, enable={enableAirborneDm}, tag=空降助手弹幕版
+http-response ^https:\/\/(?:grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(?:app\.(?:show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(?:unite)?\.v1\.View\/(?:View|ViewProgress|RelatesFeed)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$ script-path=https://kelee.one/Resource/Script/Bilibili/Bilibili_proto_kokoryh.js, requires-body=true, binary-body-mode=true, argument=[{showUpList}, {filterTopReplies}], tag=Proto处理
+http-response ^https:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetClassPageAllTabs script-path=https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js, requires-body=true, tag=移除顶部标签
+http-response ^https:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js, requires-body=true, tag=精简我的页面
+http-response ^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza-flow\? script-path=https://kelee.one/Resource/Script/BooHee/BooHee_remove_ads.js, requires-body=true, tag=移除广场推荐页面横幅
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除新版我的页面推广
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.app\.mine\.main\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除我的页面推广
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.(?:pickup\.empty\.page|protocol\.homepage)\.get\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除主页图标
+http-response ^https:\/\/cn-acs\.m\.cainiao\.com\/gw\/mtop\.nbfriend\.message\.conversation\.list\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除消息中心推广
+http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除支付宝菜鸟小程序推广
+http-response ^https:\/\/(?:cn-acs\.m|netflow-mtop)\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.m?show\.cn script-path=https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/entities\.caixin\.com\/api\/dataplus\/columns script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新数据通广告
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除文末广告
+http-response ^https:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除财新FM广告
+http-response ^https:\/\/gg\.caixin\.com\/s\?z=caixin&op=\d script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json$ script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
+http-response ^https:\/\/mapps?v5\.caixin\.com\/(channelv5\/list|\/?index_page_v5\/)\w+ script-path=https://kelee.one/Resource/Script/CaixinMedia/CaixinMedia_remove_ads.js, requires-body=true, tag=移除正文广告
+http-response ^https:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com|cdn-w\.caiyunapp\.com)\/v1\/activity\? script-path=https://kelee.one/Resource/Script/ColorfulClouds/ColorfulClouds_remove_ads.js, requires-body=true, tag=彩云天气去广告
+http-response ^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3 script-path=https://kelee.one/Resource/Script/Douyu/Douyu_remove_ads.js, requires-body=true, tag=移除首页轮播图和视频流广告
+http-response ^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue script-path=https://kelee.one/Resource/Script/DubbingShow/DubbingShow_remove_ads.js, requires-body=true, tag=移除首页底部弹窗
+http-response ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?version=5 script-path=https://kelee.one/Resource/Script/FlyerTea/FlyerTea_remove_ads.js, requires-body=true, tag=移除板块广告
+http-response ^https:\/\/www\.flyert\.com\.cn\/api\/mobile\/index\.php\?module=plugin&id=k_misign:sign script-path=https://kelee.one/Resource/Script/FlyerTea/FlyerTea_remove_ads.js, requires-body=true, tag=移除签到弹窗广告
+http-response ^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js, requires-body=true, tag=移除虎扑广告
+http-response ^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js, requires-body=true, tag=移除虎扑广告
+http-response ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js, requires-body=true, tag=移除虎扑广告
+http-response ^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more script-path=https://kelee.one/Resource/Script/HUPU/HUPU_remove_ads.js, requires-body=true, tag=移除虎扑广告
+http-response ^https:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest script-path=https://kelee.one/Resource/Script/iMaiCai/iMaiCai_remove_ads.js, requires-body=true, tag=移除下发广告
+http-response ^https:\/\/napi\.ithome\.com\/api\/(?:news\/index|topmenu\/getfeeds\?|api\/douyin\/GetLiveInfo) script-path=https://kelee.one/Resource/Script/IThome/IThome_remove_ads.js, requires-body=true, tag=IT之家去广告, argument=[{removeTopSwitch},{removeBannerSwitch}]
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) script-path=https://kelee.one/Resource/Script/JD/JD_remove_ads.js, requires-body=true, tag=移除京东广告
 http-response ^https:\/\/api\.ksedt\.com\/api\/config\/ response-body-json-del result.homead result.h5_promotion_page result.advert_interval result.abtest_h5url result.launchApp result.goucheConfig result.gouche result.mainLiveConfig result.discover result.adSdkSwitch4testPointVideo result.adSdkSwitch4simulationExam result.examPageLoadADSwitch
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/abtest-front\/banner-modular\/get script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js,requires-body=true,tag=帆书去广告
-http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js,requires-body=true,tag=修改广告参数
-http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/discovery_v\d\/tab_list_v\d script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js,requires-body=true,tag=精简首页热门标签
-http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/homepage\/comicVideo\/v\d\/configs script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js,requires-body=true,tag=精简社区标签
-http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/unified_feed$ script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js,requires-body=true,tag=精简社区信息流
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v105\/category script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/abtest-front\/banner-modular\/get script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/channel\/v100\/info script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/fs-member\/user\/profile\/v100\/detail script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/chief-orch\/home\/bookPortal\/v111\/forApp script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/sns-orchestration-system\/homePage\/api\/v100\/myPage script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/task-orchestration\/taskCenter\/api\/v101\/taskList script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/resource-orchestration-system\/book\/v101\/content script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https?:\/\/g[a-z0-9-]+\.dushu365\.com\/user-orchestration\/user\/api\/v101\/ceiltip script-path=https://kelee.one/Resource/Script/KebidaDushu/KebidaDushu_remove_ads.js, requires-body=true, tag=帆书去广告
+http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/comic\/recommend script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=修改广告参数
+http-response ^https:\/\/(cdn-)?api\.kkmh\.com\/v\d\/ironman\/discovery_v\d\/tab_list_v\d script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简首页热门标签
+http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/homepage\/comicVideo\/v\d\/configs script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区标签
+http-response ^https:\/\/(cdn-)?social\.kkmh\.com\/v\d\/graph\/unified_feed$ script-path=https://kelee.one/Resource/Script/KuaiKanComic/KuaiKanComic_remove_ads.js, requires-body=true, tag=精简社区信息流
 http-response ^http:\/\/wapi\.kuwo\.cn\/openapi\/v\d\/tingshu\/index\/radio response-body-json-jq 'walk(if type == "object" and .type == "stripAdvert" then del(.child) else . end)'
-http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\? script-path=https://kelee.one/Resource/Script/MaiMai/MaiMai_remove_ads.js,requires-body=true,tag=移除信息流和评论区大块广告
-http-response ^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除我的页面广告
-http-response ^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除首页广告
-http-response ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除首页广告
-http-response ^https:\/\/mobile\.api\.mgtv\.com\/mobile\/config\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除底部多余标签
-http-response ^https:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除播放详情页广告
-http-response ^https:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除播放详情页广告
-http-response ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js,requires-body=true,tag=移除搜索填充词
-http-response ^https:\/\/api\.meiyan\.com\/operation\/home\.json\? script-path=https://kelee.one/Resource/Script/MeituMYXJ/MeituMYXJ_remove_ads.js,requires-body=true,tag=精简首页功能栏目并移除美颜推荐
-http-response ^https:\/\/base\.mkzcdn\.com\/app\/config\/ script-path=https://kelee.one/Resource/Script/MKZ/MKZ_remove_ads.js,requires-body=true,tag=配置修改
-http-response ^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent script-path=https://kelee.one/Resource/Script/mobileClouds/mobileClouds_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/ script-path=https://kelee.one/Resource/Script/mobileClouds/mobileClouds_remove_ads.js,requires-body=true,tag=移除应用内广告
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)) script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=推荐、home、主页,argument=[{PRGG},{PRRK},{PRDRD},{PRSCVPT},{PRST},{PRRR},{HMPR},{PRMST},{PRCN}]
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=底部选项卡,argument=[{MY},{DT},{FX}]
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=发现页
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=我的页面
-http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js,requires-body=true,binary-body-mode=true,timeout=20,tag=显示未关注你的人
-http-response ^https:\/\/nex\.163\.com\/q script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js,requires-body=true,tag=移除网易新闻广告
-http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js,requires-body=true,tag=移除网易新闻广告
-http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js,requires-body=true,tag=移除网易新闻广告
-http-response ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v3 script-path=https://kelee.one/Resource/Script/PICC_Insurance/PICC_Insurance_remove_ads.js,requires-body=true,tag=移除主页推广
-http-response ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v3 script-path=https://kelee.one/Resource/Script/PICC_Insurance/PICC_Insurance_remove_ads.js,requires-body=true,tag=移除我的页面推广
-http-response ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? script-path=https://kelee.one/Resource/Script/PinDuoDuo/PinDuoDuo_remove_ads.js,requires-body=true,tag=精简首页
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/recommendation\/interests\/products script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js,requires-body=true,tag=移除朴朴超市广告
-http-response ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/(deeplink\/geturl|dailyrecommend\/getdailyrecommend)|v1\/(client\/getconf$|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?positions=iOS_tab)) script-path=https://kelee.one/Resource/Script/QiDian/QiDian_remove_ads.js,requires-body=true,tag=起点读书去广告
-http-response ^https:\/\/open-cms-api\.quark\.cn\/open-cms script-path=https://kelee.one/Resource/Script/QuarkBrowser/QuarkBrowser_remove_ads.js,requires-body=true,tag=精简我的页面
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除图片和实况照片水印
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/service\/ui\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除整体配置 ui
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告 config
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除开屏广告 splash_config
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除详情页小部件、关注页感兴趣的人
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除信息流广告
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除详情页感兴趣的人
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除搜索页广告
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除评论区实况照片水印
-http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除图片和视频水印
-http-response ^https:\/\/(?:edith|rec)\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除信息流广告
-http-response ^https:\/\/(?:edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(?:v4\/note\/videofeed|v10\/note\/video\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js,requires-body=true,tag=移除视频水印
-http-response ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend script-path=https://kelee.one/Resource/Script/RiskBird/RiskBird_remove_ads.js,requires-body=true,tag=移除推荐老板
-http-response ^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$ script-path=https://kelee.one/Resource/Script/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js,requires-body=true,tag=移除书城横幅和阅读广告
-http-response ^https:\/\/app-api\.smzdm\.com\/util\/loading  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/haojia-api\.smzdm\.com\/home\/list  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/app-api\.smzdm\.com\/util\/update  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/homepage-api\.smzdm\.com\/v3\/home  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/user-api\.smzdm\.com\/vip  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/user-api\.smzdm\.com\/vip\/bottom_card_list  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/article-api\.smzdm\.com\/publish\/get_bubble  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/qianbao\.smzdm\.com\/v\d\/app\/home  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/s3\.zdmimg\.com\/third\/index  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/post\.m\.smzdm\.com\/ajax_app\/ajax_get_footer_list  script-path=https://kelee.one/Resource/Script/smzdm/smzdm_remove_ads.js,requires-body=true,tag=移除广告
-http-response ^https:\/\/(?:api-\w+|chat-live|post)\.soulapp\.cn\/(?:chat\/limitInfo|chatroom\/chatClassifyRoomList|homepage\/diamond\/position\/info|v2\/post\/recSquare\/subTabs|v6\/planet\/config) script-path=https://kelee.one/Resource/Script/Soul/Soul_remove_ads.js,requires-body=true,tag=移除Soul广告
-http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://kelee.one/Resource/Script/Spotify/Spotify_remove_ads.js,timeout=10,tag=JSON处理
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://kelee.one/Resource/Script/Spotify/Spotify_proto.js,requires-body=true,binary-body-mode=true,timeout=10,tag=Proto处理
-http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) script-path=https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js,requires-body=true,tag=移除淘宝开屏广告
-http-response ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json script-path=https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js,requires-body=true,tag=移除淘宝开屏广告
-http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://kelee.one/Resource/Script/CommonScript/replace-body.js,requires-body=true,argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0",tag=移除广告
-http-response ^https:\/\/tiebac\.baidu\.com\/livefeed\/feed script-path=https://kelee.one/Resource/Script/Tieba/Tieba_remove_ads.js,requires-body=true,tag=清理首页
-http-response ^https:\/\/tiebac\.baidu\.com\/c\/f\/sidebar\/home script-path=https://kelee.one/Resource/Script/Tieba/Tieba_remove_ads.js,requires-body=true,tag=清理侧拉抽屉
-http-response ^https:\/\/tiebac\.baidu\.com\/c\/u\/user\/profile script-path=https://kelee.one/Resource/Script/Tieba/Tieba_remove_ads.js,requires-body=true,tag=清理我的页面
-http-response ^https:\/\/tieba\.baidu\.com\/c\/f\/frs\/frsBottom script-path=https://kelee.one/Resource/Script/Tieba/Tieba_remove_ads.js,requires-body=true,tag=清理首页
-http-response ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$) script-path=https://kelee.one/Resource/Script/Tieba/tieba-json.js,requires-body=true,timeout=10,tag=JSON处理
-http-response ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd script-path=https://kelee.one/Resource/Script/Tieba/tieba-proto.js,requires-body=true,binary-body-mode=true,timeout=10,tag=Proto处理
-http-response ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$ script-path=https://kelee.one/Resource/Script/TV_Assistant/TV_Assistant_remove_ads.js,requires-body=true,tag=移除底栏视频标签
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js,requires-body=true,tag=移除匹配卡横幅
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js,requires-body=true,tag=移除密友横幅
-http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$ script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js,requires-body=true,tag=移除娱乐页面横幅和悬浮窗配置
-http-response ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$ script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js,requires-body=true,tag=移除广场搜索填充词
-http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://kelee.one/Resource/Script/Umetrip/Umetrip_remove_ads.js,tag=移除首页广告
-http-response ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/ script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js,requires-body=true,tag=移除云闪付推广
-http-response ^https:\/\/account\.95516\.com\/fortune\/inApp\/common\/ script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js,requires-body=true,tag=移除云闪付推广
-http-response ^https:\/\/content\.95516\.com\/koala-pre\/koala\/(recommend\/hotList|right\/queryAllRights) script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js,requires-body=true,tag=移除云闪付推广
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:checkin\/show|client\/publisher_list|push\/active) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除首页推广
-http-response ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除首页顶部标签
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:cardlist|page) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除信息流广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除评论区广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/(?:container\/asyn|flowlist|flowpage) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除个人微博详情页广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/friendships\/(?:create|destroy) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除关注、取消关注弹窗
-http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(?:container_timeline|dealatt|me|statuses\/tab|userinfo) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除个人主页广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/shproxy\/chaohua\/discovery\/searchactive\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除超话搜索页广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_timeline(?:_hot|_topic|_topicpage|_unread)?|repost_timeline|unread_hot_timeline) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除信息流广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除微博详情页广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/video\/(?:full_screen_stream|tiny_stream_mid_detail|tiny_stream_video_list)\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除视频流广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除超话顶部标签
-http-response ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除消息页列表广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除消息页提醒
-http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(?:container_timeline|finder) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除热门微博信息流广告
-http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除发现页搜索结果广告
-http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/wbapp\.uve\.weibo\.com\/(?:preload\/get_ad|wbapplua\/wbpullad\.lua) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js,requires-body=true,tag=会员图标
-http-response ^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/kff/kff.js,requires-body=true,tag=企迈点单系统去广告
-http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js,requires-body=true,tag=EMS中国邮政物流速递去广告
-http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/xiaotucc/xiaotucc.js,requires-body=true,tag=小兔充充去广告
-http-response ^https:\/\/minifm\.maxxipoint\.com\/banner\/list script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/FamilyMart/FamilyMart.js,requires-body=true,tag=全家微会员去广告
-http-response ^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/lawson/lawson.js,requires-body=true,tag=罗森点点去广告
-http-response ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js,requires-body=true,tag=茶颜悦色去广告
-http-response ^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/coco/coco.js,requires-body=true,tag=COCO点单去广告
-http-response ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/qingju/qingju.js,requires-body=true,tag=滴滴青桔去广告
-http-response ^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/alittle-tea/alittle-tea.js,requires-body=true,tag=一点点+去广告
-http-response ^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/M_Stand/M_Stand.js,requires-body=true,tag=M Stand去广告
-http-response ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/T3/T3.js,requires-body=true,tag=T3出行去广告
-http-response ^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ming/ming.js,requires-body=true,tag=古茗去广告
-http-response ^https:\/\/conf-m-ssl\.xunlei\.com\/external\/ script-path=https://kelee.one/Resource/Script/XunLei/XunLei_remove_ads.js,requires-body=true,tag=精简我的页面
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query) script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除首页广告
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除无用底栏
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2 script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除青少年模式弹窗
-http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除搜索列表推广
-http-response ^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\? script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除热剧弹窗
-http-response ^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js,requires-body=true,tag=移除开屏广告
-http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js,requires-body=true,binary-body-mode=true,argument=[{blockUpload},{blockShorts},{blockImmersive},{captionLang},{lyricLang},{debug}],tag=YouTube去广告
-http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除回答底部卡片推广
-http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除首页悬浮图标
-http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除推荐信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除推荐信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=精简顶部标签
-http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除热榜信息流推广
-http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除下一个回答推广、评论区顶部推广
-http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=移除回答详情页推广
-http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=拦截服务器推送配置 config
-http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js,requires-body=true,tag=拦截服务器推送配置 config all
+http-response ^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\? script-path=https://kelee.one/Resource/Script/MaiMai/MaiMai_remove_ads.js, requires-body=true, tag=移除信息流和评论区大块广告
+http-response ^https:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除我的页面广告
+http-response ^http:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除首页广告
+http-response ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除首页广告
+http-response ^https:\/\/mobile\.api\.mgtv\.com\/mobile\/config\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除底部多余标签
+http-response ^https:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除播放详情页广告
+http-response ^https:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除播放详情页广告
+http-response ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\? script-path=https://kelee.one/Resource/Script/MangoTV/MangoTV_remove_ads.js, requires-body=true, tag=移除搜索填充词
+http-response ^https:\/\/api\.meiyan\.com\/operation\/home\.json\? script-path=https://kelee.one/Resource/Script/MeituMYXJ/MeituMYXJ_remove_ads.js, requires-body=true, tag=精简首页功能栏目并移除美颜推荐
+http-response ^https:\/\/base\.mkzcdn\.com\/app\/config\/ script-path=https://kelee.one/Resource/Script/MKZ/MKZ_remove_ads.js, requires-body=true, tag=配置修改
+http-response ^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent script-path=https://kelee.one/Resource/Script/mobileClouds/mobileClouds_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/ script-path=https://kelee.one/Resource/Script/mobileClouds/mobileClouds_remove_ads.js, requires-body=true, tag=移除应用内广告
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get) script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=评论区、热推、有话想说、分享一下、歌曲下的祝福等小提示
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)) script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=推荐、home、主页, argument=[{PRGG},{PRRK},{PRDRD},{PRSCVPT},{PRST},{PRRR},{HMPR},{PRMST},{PRCN}]
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=底部选项卡, argument=[{MY},{DT},{FX}]
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=发现页
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=我的页面
+http-response ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get script-path=https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js, requires-body=true, binary-body-mode=true, timeout=20, tag=显示未关注你的人
+http-response ^https:\/\/nex\.163\.com\/q script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/feed\/dynamic\/headline-list\? script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/gw\.m\.163\.com\/nc\/api\/v1\/search\/hot-word script-path=https://kelee.one/Resource/Script/NeteaseNews/NeteaseNews_remove_ads.js, requires-body=true, tag=移除网易新闻广告
+http-response ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v3 script-path=https://kelee.one/Resource/Script/PICC_Insurance/PICC_Insurance_remove_ads.js, requires-body=true, tag=移除主页推广
+http-response ^https:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v3 script-path=https://kelee.one/Resource/Script/PICC_Insurance/PICC_Insurance_remove_ads.js, requires-body=true, tag=移除我的页面推广
+http-response ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? script-path=https://kelee.one/Resource/Script/PinDuoDuo/PinDuoDuo_remove_ads.js, requires-body=true, tag=精简首页
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v7 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/search_component_banner script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/recommendation\/interests\/products script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1 script-path=https://kelee.one/Resource/Script/PuPuMall/PuPuMall_remove_ads.js, requires-body=true, tag=移除朴朴超市广告
+http-response ^https:\/\/open-cms-api\.quark\.cn\/open-cms script-path=https://kelee.one/Resource/Script/QuarkBrowser/QuarkBrowser_remove_ads.js, requires-body=true, tag=精简我的页面
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除图片和实况照片水印
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system\/service\/ui\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除整体配置 ui
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除开屏广告 config
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除开屏广告 splash_config
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除详情页小部件、关注页感兴趣的人
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除详情页感兴趣的人
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除搜索页广告
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除评论区实况照片水印
+http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除图片和视频水印
+http-response ^https:\/\/(?:edith|rec)\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/(?:edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(?:v4\/note\/videofeed|v10\/note\/video\/save) script-path=https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body=true, tag=移除视频水印
+http-response ^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend script-path=https://kelee.one/Resource/Script/RiskBird/RiskBird_remove_ads.js, requires-body=true, tag=移除推荐老板
+http-response ^https:\/\/ocean\.shuqireader\.com\/sqios\/render\/render\/page\/bookstore$ script-path=https://kelee.one/Resource/Script/ShuQiCenterReader/ShuQiCenterReader_remove_ads.js, requires-body=true, tag=移除书城横幅和阅读广告
+http-response ^https:\/\/beta-luna\.douyin\.com\/luna\/me\/recently-played-media\? script-path=https://kelee.one/Resource/Script/SodaMusic/SodaMusic_remove_ads.js, requires-body=true, tag=移除播放页面视频流
+http-response ^https:\/\/(?:api-\w+|chat-live|post)\.soulapp\.cn\/(?:chat\/limitInfo|chatroom\/chatClassifyRoomList|homepage\/diamond\/position\/info|v2\/post\/recSquare\/subTabs|v6\/planet\/config) script-path=https://kelee.one/Resource/Script/Soul/Soul_remove_ads.js, requires-body=true, tag=移除Soul广告
+http-request ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ script-path=https://kelee.one/Resource/Script/Spotify/Spotify_remove_ads.js, timeout=10, tag=JSON处理
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ script-path=https://kelee.one/Resource/Script/Spotify/Spotify_proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Proto处理
+http-response ^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) script-path=https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js, requires-body=true, tag=移除淘宝开屏广告
+http-response ^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json script-path=https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js, requires-body=true, tag=移除淘宝开屏广告
+http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://kelee.one/Resource/Script/CommonScript/replace-body.js, requires-body=true, argument="&sppreviewtype=\d(.*)&spsrt=\d->&sppreviewtype=0$1&spsrt=0", tag=移除广告
+http-response ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd script-path=https://kelee.one/Resource/Script/Tieba/tieba-proto.js, requires-body=true, binary-body-mode=true, timeout=10, tag=Proto处理
+http-response ^https:\/\/saas\.hpplay\.cn\/api\/lebo-desk\/endpoint\/app-resource\/app_tab_red_dot\?user-tag=1$ script-path=https://kelee.one/Resource/Script/TV_Assistant/TV_Assistant_remove_ads.js, requires-body=true, tag=移除底栏视频标签
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/lover\/productList script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true, tag=移除匹配卡横幅
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/friends\/closeFriend\/home script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true, tag=移除密友横幅
+http-response ^https:\/\/api\.chenlongtech\.cn\/v\d\/party\/config$ script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true, tag=移除娱乐页面横幅和悬浮窗配置
+http-response ^https:\/\/api\.chenlongtech\.cn\/v1\/post\/fetchSearchRecommend$ script-path=https://kelee.one/Resource/Script/Uki/Uki_remove_ads.js, requires-body=true, tag=移除广场搜索填充词
+http-response ^http?:\/\/(114\.115\.217\.129)|(home\.umetrip\.com)\/gateway\/api\/umetrip\/native$ script-path=https://kelee.one/Resource/Script/Umetrip/Umetrip_remove_ads.js, tag=移除首页广告
+http-response ^https:\/\/base\.95516\.com\/app\/inApp\/sys\/appShowGroup\/ script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body=true, tag=移除云闪付推广
+http-response ^https:\/\/account\.95516\.com\/fortune\/inApp\/common\/ script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body=true, tag=移除云闪付推广
+http-response ^https:\/\/content\.95516\.com\/koala-pre\/koala\/(recommend\/hotList|right\/queryAllRights) script-path=https://kelee.one/Resource/Script/UnionPay/UnionPay_remove_ads_with_ssl_unpinning.js, requires-body=true, tag=移除云闪付推广
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:checkin\/show|client\/publisher_list|push\/active) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除首页推广
+http-response ^https:\/\/api\.weibo\.cn\/2\/groups\/allgroups\/v2\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除首页顶部标签
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:cardlist|page) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/comments\/build_comments\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除评论区广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/(?:container\/asyn|flowlist|flowpage) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除个人微博详情页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/friendships\/(?:create|destroy) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除关注、取消关注弹窗
+http-response ^https:\/\/api\.weibo\.cn\/2\/profile\/(?:container_timeline|dealatt|me|statuses\/tab|userinfo) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除个人主页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/shproxy\/chaohua\/discovery\/searchactive\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除超话搜索页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:container_timeline(?:_hot|_topic|_topicpage|_unread)?|repost_timeline|unread_hot_timeline) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除微博详情页广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/video\/(?:full_screen_stream|tiny_stream_mid_detail|tiny_stream_video_list)\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除视频流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/!\/huati\/discovery_home_bottom_channels\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除超话顶部标签
+http-response ^https:\/\/api\.weibo\.cn\/2\/direct_messages\/user_list\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除消息页列表广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除消息页提醒
+http-response ^https:\/\/api\.weibo\.cn\/2\/search\/(?:container_timeline|finder) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除热门微博信息流广告
+http-response ^https:\/\/api\.weibo\.cn\/2\/searchall\? script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除发现页搜索结果广告
+http-response ^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 preload
+http-response ^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 sdkad
+http-response ^https:\/\/wbapp\.uve\.weibo\.com\/(?:preload\/get_ad|wbapplua\/wbpullad\.lua) script-path=https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js, requires-body=true, tag=移除开屏广告 wbapplua
+http-response ^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/kff/kff.js, requires-body=true, tag=企迈点单系统去广告
+http-response ^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ems/ems.js, requires-body=true, tag=EMS中国邮政物流速递去广告
+http-response ^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/xiaotucc/xiaotucc.js, requires-body=true, tag=小兔充充去广告
+http-response ^https:\/\/minifm\.maxxipoint\.com\/banner\/list script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/FamilyMart/FamilyMart.js, requires-body=true, tag=全家微会员去广告
+http-response ^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/lawson/lawson.js, requires-body=true, tag=罗森点点去广告
+http-response ^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/chayanyuese/chayanyuese_remove_ads.js, requires-body=true, tag=茶颜悦色去广告
+http-response ^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/coco/coco.js, requires-body=true, tag=COCO点单去广告
+http-response ^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/qingju/qingju.js, requires-body=true, tag=滴滴青桔去广告
+http-response ^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/alittle-tea/alittle-tea.js, requires-body=true, tag=一点点+去广告
+http-response ^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/M_Stand/M_Stand.js, requires-body=true, tag=M Stand去广告
+http-response ^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/T3/T3.js, requires-body=true, tag=T3出行去广告
+http-response ^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front) script-path=https://kelee.one/Resource/Script/WexinMiniPrograms/ming/ming.js, requires-body=true, tag=古茗去广告
+http-response ^https:\/\/conf-m-ssl\.xunlei\.com\/external\/ script-path=https://kelee.one/Resource/Script/XunLei/XunLei_remove_ads.js, requires-body=true, tag=精简我的页面
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query) script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除首页广告
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除无用底栏
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2 script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除青少年模式弹窗
+http-response ^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除搜索列表推广
+http-response ^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\? script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除热剧弹窗
+http-response ^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get script-path=https://kelee.one/Resource/Script/YouKu_Video/YouKu_Video_remove_ads.js, requires-body=true, tag=移除开屏广告
+http-response ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) script-path=https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js, requires-body=true, binary-body-mode=true, argument=[{blockUpload},{blockShorts},{blockImmersive},{captionLang},{lyricLang},{debug}], tag=YouTube去广告
+http-response ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+ script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除回答底部卡片推广
+http-response ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除首页悬浮图标
+http-response ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除推荐信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/root\/tab script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=精简顶部标签
+http-response ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除热榜信息流推广
+http-response ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render) script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除下一个回答推广、评论区顶部推广
+http-response ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=移除回答详情页推广
+http-response ^https:\/\/appcloud2\.zhihu\.com\/v3\/config script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config
+http-response ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/zhihu\/config\/all\? script-path=https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js, requires-body=true, tag=拦截服务器推送配置 config all
