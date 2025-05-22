@@ -1,26 +1,33 @@
 ^(https:\/\/be\.aimirror\.fun\/(draw|draw\/process|query_is_vip|users\/video_render_count|query_consumable_quota|users\/discount)) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/aimirror.js
+^http://statica\.xuantu\.pro/x/prod/ReplaceBackgroundWithPrompt/(\d+-\d+)\.jpg\?.* url 302 http://statica.xuantu.pro/x/prod/ReplaceBackgroundWithPrompt/$1.jpg
 ^http:\/\/(119\.36\.175\.\d+|hw-dl\.videocc\.net).*\.zip$ url script-request-header wpxz.js
 ^http:\/\/(java|php)-api\.super-yx\.com url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/yxpl.js
 ^http:\/\/.*\.aliyunga0019\.com\/saidun\/version2\/v2_node_protocol url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/SDvpn.js
+^http:\/\/206\.119\.85\.11:8361\/ad\/getAd$ url reject
+^http:\/\/47\.57\.71\.112:8361\/ad\/getAd$ url reject
+^http:\/\/\d{1,3}(\.\d{1,3}){3}:8361\/(index\/getUserAppInfo|member\/getMoney|newVideo\/leaseVideo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/yangtao.js
 ^http:\/\/\d{10}\.vod2\.myqcloud\.com\/[a-zA-Z0-9]+\/[a-zA-Z0-9]+\/video_\d+_\d+\.m3u8 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/bsxm.js
 ^http:\/\/api\.xiguavpn\.xyz\/hot\/m_net_server_node_vmess url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xgvpn.js
 ^http:\/\/lb\.h12345\.net\/zb\/.*\.json url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/lsp/zhibojuhe.js
+^http?:\/\/sfo\.mddcloud\.com\.cn\/api\/v2\/sfo\/popup_displays? url reject-dict
+^https://([a-zA-Z0-9-]+\.)*[a-zA-Z0-9-]+\.[a-z]{2,}(:\d+)?/(video-details/[0-9]*|api/users/[a-zA-Z0-9-_]+) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/65kan.js
+^https://.+/shorter/game/moreList url reject
+^https://.+/shorter/resource/bySpaceId\?adSpaceId url reject
 ^https://admin\.dingtiku\.cn/app/(testinfo/listTestInfo|video/getVideoCourseDetails|testinfo/startTest|video/listVideoCourse|buy/getBuyDetails|user/getUserScore) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dtk.js
 ^https:\/\/(?:[a-zA-Z0-9-]+\.cloudfront\.net|snerbnew\.pxyzjmspfl\.work)(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js
 ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receipts$|subscribers\/[^/]+$) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/Revenuecat.js
 ^https:\/\/(api\.revenuecat\.com|api\.rc-backup\.com)\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Revenuecat.js
 ^https:\/\/(app|api)\.helixlife\.cn\/api\/v1\/(user\/(users\/profile|overviews)|edu\/(trainings|courses|meeting_lives)|public\/search) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Jieluoxuan.js
-^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/request_game\/v3\/game\/list url reject-dict
 ^https:\/\/(napi\.zybang\.com\/napi\/user\/userinfo|apivip\.zuoyebang\.com\/(viponline\/homework\/viptab|vipols\/composition\/main)) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/zyb.js
 ^https:\/\/(search\.zybang\.com|apivip\.zuoyebang\.com\/vipols) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/zyb.js
 ^https:\/\/.*\.(intsig\.net|camscanner\.com) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/CamScanner.js
 ^https:\/\/.*\.1998xuexi\.com\/source-gateway\/store-web-new\/app\/(course\/getCurrCatalogue\.action|material\/getMaterialCateLog\.action|vip\/getMemberVipInfo\.action|vip\/getVipInfomationAll\.action) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/1998.js
 ^https:\/\/.*\.cloudfront\.net\/index\.php\/jsapi\/paywall url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/FTzhongwenwang.js
+^https:\/\/991\.com\/nba\.m3u url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KDF/m3u.js
 ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? url script-request-header https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js
 ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/Tangtoutiao.js
 ^https:\/\/[^\/]*\.nlsxvnflc\.com\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8 url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/m3u8.js
 ^https:\/\/ad\.camoryapps\.com\/api\/app\/get\/ad url reject
-^https:\/\/api-app\.wangpaiyixue\.cn\/v1\/goods\/details\/stage url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wpyx.js
 ^https:\/\/api02\.maijitv\.com\/api\/v1\/layout\/floatingcards url reject
 ^https:\/\/api2\.upwqjcun\.cc\/api\/(?:mv\/detail|users\/base_info|home\/getconfig|novel\/detail|novel\/recommend|novel\/chaptersList|novel\/chapterDetail|navigation\/index_aw) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiaoshequ.js
 ^https:\/\/api2\.vilipix\.com\/api\/v1\/user\/current url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/chsj.js
@@ -35,10 +42,13 @@
 ^https:\/\/api\.safeapp\.studio\/super-app-lock\/member\/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/super.js
 ^https:\/\/api\.v2\.bookrclass\.com\/api\/mobile\/(users\/me|children) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/BookRclass.js
 ^https:\/\/app-api\.damaopeilian\.com\/bigcat-app-api\/v1\/(index\/assistantHelp|index\/appVerticalIndex|book\/musicList|book\/bookList) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/damaopeilian.js
+^https:\/\/bp-api\.bestv\.cn\/cms\/api\/advertise\/project\/advertise\/popup\/scene$ url reject
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/itunes/Clipboard.js
 ^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/carrot.js
 ^https:\/\/feel\.wunitu\.com\/api\/User\/getUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/feel.js
 ^https:\/\/feel\.wunitu\.com\/api\/User\/getUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/feelFlow.js
+^https:\/\/gy2025\.rnuozrryfq\.work(?::\d+)?\/api\/(?:video\/getVideoById|user\/base\/info|community\/dynamic\/dynamicInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm.js
+^https:\/\/gy2025\.rnuozrryfq\.work(?::\d+)?\/api\/m3u8\/decode\/authPath url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js
 ^https:\/\/lab\.shadowbox\.top\/ab url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mohe.js
 ^https:\/\/lab\.shadowbox\.top\/ab\/apppage\/launch$ url reject
 ^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/pdfexpert6\/subscription\/refresh url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/PDFexpert.js
@@ -50,20 +60,40 @@
 ^https:\/\/wankang\.xlhcq\.com\/v1\/user_info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wk.js
 ^https:\/\/worker\.elsonwx\.com\/api\/v1 url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wallhaven.js
 ^https:\/\/xbl(?:pay|math|satellite)\.youban\.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xbl.js
+^https:\/\/xuantu\.pro\/(creation\/(generate\/(v2|v3)|memberships|getProgress|imageintent)|file\/aliyun\/sts)\/? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xt2.js
+^https:\/\/xuantu\.pro\/creation\/myworks url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xt.js
+^https:\/\/xuantu\.pro\/user\/getUserInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/xt3.js
+^https?://.+/shorter/resource/getAdInfoBySpaceId\?ad url reject
+^https?://.+\/shorter\/anime\/tbookchapter0\/info\?bookId url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js
+^https?://hm-img\.xuezhumall\.com/(.*/)preview\.m3u8 url 302 https://hm-img.xuezhumall.com/$1index.m3u8
+^https?:\/\/((cdn\.a2pi3\.com|xiapo6\.com|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(\/api\/vodapi\.html|\/Vodapi\.html|\/vodapi\.html))$ url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one2jj.js
+^https?:\/\/((mfjk|gnjk\d*|buyaoda).*\.com|jk\.bnhwq672q3\.com)\/(playerinfo|api\/home\/popup|api\/get_?advert).*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js
 ^https?:\/\/(?:[a-z0-9-]+\.)?cloudfront\.net\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) url reject
 ^https?:\/\/(?:edu|user)\.lezaitizhong\.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lanjiyin.js
 ^https?:\/\/(?:h5\.|platform\.)?singerdream\.com\/(?!.*\.jpg).*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/gzm.js
 ^https?:\/\/(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|hw-dl\.videocc\.net).*\.zip$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/wpxz.js
 ^https?:\/\/(api|jmtp)(.*-uat)?\.\w+\.com\/v2.5\/(bootstrap|user\/login|user\/avatarFrame|article\/discovery|navigation|article\/detail|vip\/download|my\/userExtraInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/One.js
+^https?:\/\/(mfjk|gnjk\d*|buyaoda|gnjk2\.kzfbz|jk\.bnhwq672q3)\..*\.com\/(api\/(comic|video|short_movie_info|novel|gallery|vip|index|video\/info)|request_rust_video\/ai\/init_info).*$ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js
+^https?:\/\/(mfjk|gnjk\d*|gnjk3|jk|buyaoda).+\.com\/request_game\/v3\/game\/list.*$ url reject-dict
 ^https?:\/\/(translator|accounts).felo.me\/api\/user.*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/felo.js
+^https?:\/\/.+\/shorter\/(video\/longvideoinfo|resource\/adInfoPageList\?adSpaceId|user\/getUser|resource\/getWindowNotice|tabIconConfigView|user\/getVipPvg|video\/home|video\/search).*$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/jtsp.js
 ^https?:\/\/1jietu\.com\/apiv2\/(user|ad) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yjt.js
+^https?:\/\/360\.com\/(?:video|nba\.m3u|dianshi\.m3u)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KDF/video-parser.js
 ^https?:\/\/api\.qonversion\.io\/v1\/user\/init$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sgbl.js
 ^https?:\/\/api\.tumukaoyan\.com\/api\/wx\/CheckCodeV url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/kaoyanxcx.js
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/iTunes.js
 ^https?:\/\/cdn\.littlefox\.co\.kr\/contents_5\/hls\/720\/.+\/stream\.m3u8\?_=\d+ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/LittleFox.js
+^https?:\/\/conf-darwin\.xycdn\.com url reject-dict
+^https?:\/\/haijiao\.com\/api\/(topic\/\d+|banner\/banner_list)$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js
 ^https?:\/\/integral2\.(dasyibalang|zhijiantime)\.com\/.+\/User url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/zjsg.js
+^https?:\/\/mob\.mddcloud\.com\.cn\/adApi\/advert\/(first|third)part\/advertList url reject-dict
+^https?:\/\/mobads-pre-config\.cdn\.bcebos\.com\/preload\.php url reject-200
 ^https?:\/\/plan\.gangduotech\.com\/api\/(.+\/dressup\/order|.+\/member\/view)\.html url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyzjh.js
+^https?:\/\/sdk1xyajs\.data\.kuiniuca\.com url reject
 ^https?:\/\/snerbnew\.pxyzjmspfl\.work\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) url reject
+^https?:\/\/t-dsp\.pinduoduo\.com url reject-200
+^https?:\/\/toblog\.ctobsnssdk\.com url reject-200
+^https?:\/\/tower\.ubixioe\.com\/mob\/mediation url reject
 ^https?:\/\/translator.felo.me\/api\/translation\/thirdToken url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/felock.js
 ^https?:\/\/www\.nobook\.com\/passport\/v5\/login\/(check|phone) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/NBshiyanshi.js
 http://106.54.2.168/emmoDiary/user/getUser url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/emmo.js
@@ -72,18 +102,22 @@ http://47.120.25.12:3000/app/subscribe/getSubscribeData url script-response-body
 http://yyy.bosum.com/enterprise/A00294/yqy-course/phone/courseLine/line/getCourseDetailsInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/bsxm.js
 http:\/\/.*\.aliyunga0019\.com\/yunbao\/curnd url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/sgvpn.js
 https://.*\.myqcloud\.com/newpdf/examkd/[0-9a-f]+\.pdf url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/kuaiduiPDF.js
+https://api-app-v2.wangpaiyixue.cn/v2/goods/info url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wpyx.js
 https://api.agcplayer.com/ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/AGC.js
 https://api.jiaodao.com url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xdsxy.js
 https://api.lianjiu.fun/app/api/v1/profile url reject
 https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/PureLibro.js
 https://apiv2.hula123.com/api/v1/me url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/hulashaoeryy.js
 https://app-api.damaopeilian.com/bigcat-app-api/v1/class/musicDetail url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/damaopeilian2.js
+https://app.txcfgl.com/api/app/user$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ticaiku.js
 https://appraven.net/appraven/graphql url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/AppRaven.js
 https://billing.peakcloud.org/billing/2/user/me url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/peak.js
+https://bp-api.bestv.cn/cms/api/free/open/advertisingV2 url reject
+https://d1skbu98kuldnf.cloudfront.net/api/app/media/play url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mdsq.js
+https://d1skbu98kuldnf.cloudfront.net/api/app/media/play url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mdsq2.js
 https://deerpark.ai/api/user/profile url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/aidcj.js
 https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/PSExpress.js
 https://license.pdfexpert.com/api/2.0/documents/subscription/refresh url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/Documents.js
-https://miniapp.guniuniu.com/api/app/user$ url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ticaiku.js
 https://nichousha.sjrjyffs.top/api/app/user/getCurrentInfo url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/GTP4o.js
 https://nichousha.sjrjyffs.top/api/img/aiSketch url script-request-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/GTP4ohd.js
 https://notability.com/global url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/Not.js
@@ -96,16 +130,16 @@ https://www.pdreamer.com/aymyProd/api/getUserInfo url script-response-body https
 https://www.zju.edu.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/mh.js
 https:\/\/(?:\S+\/video\/info\/.*\?token=\S+) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/plpl.js
 https:\/\/(?:\S+\/video\/info\/.*\?token=\S+) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/lsp/plpl.js
-https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js
 https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/ydm2.js
 https:\/\/\S+\.m3u8\?token=[^&]+&c=https:\/\/\S+ url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/m3u8/91anwang.js
 https:\/\/api\.\w+\.com\/v2\.4\/(bootstrap|article\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/one.js
 https:\/\/api\.dayuclass\.com\/api\/v2\/(course|member\/detail) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/dydsk.js
+https:\/\/bp-api\.bestv\.(?:com\.cn|cn)\/cms\/api\/(live\/studio\/id\/v4|c\/player\/common) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KDF/video-parser.js
+https:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/(live\/studio\/id\/v4|c\/player\/common) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/KDF/video-parser.js
 https:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/(live\/studio\/id\/v4|c\/player\/common) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/kdf.js
 https:\/\/gateway\.chaojitiku\.com\/h5\/(goods\/goodsInfo\/queryUserPayGoods|question\/testing\/getAppInfo) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/kaoyaoshi.js
 https:\/\/gateway\.mashibing\.com\/edu-course\/(coursePackage\/app\/1|app\/systemCourse|courseWeb) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/msb.js
 https:\/\/ios\.abc-learning\.net\/api\/v.*\/learning\/(book\/list|home\/layout|cartoon\/album\/list|scene-dialogue\/list) url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/ABCLearning.js
-https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|vip|index) url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgshd.js
 https?:\/\/(www\.unischool\.cn\/api\/(student\/v1\/(course_template\/goods\/query|goods\/album\/detail|course_template\/group\/query|vip\/my\/card\/list|user\/area\/book_detail|goods\/real\/detail)|common\/v1\/account\/user\/student\/info)|h5\.mailejifen\.com\/site\/get-index).* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/wyux.js
 https?:\/\/omts\.tc\.qq\.com\/[^\s]+\.m3u8(\?[^\s]*)? url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/wm4k.js
 https?:\/\/xfapi\.fingerabc\.cn\/+api\/(cf\/vip\/queryList|bookModule\/get\/bookModuleAsNew|lesson\/(queryCalendarBook|queryLessons)|product\/getCategoryProduct|tagMaterial\/queryVipStatus).* url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/xfbs.js

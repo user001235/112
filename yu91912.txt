@@ -1,8 +1,16 @@
+[Argument]
+Player = select,"Safari","Filebar","SenPlayer","yyb","yybx","Alook","Stay",tag=播放器,desc=选择你要使用的播放器
 [Rewrite]
+^https?://.+/shorter/resource/getAdInfoBySpaceId\?ad - reject
+^https://.+/shorter/resource/bySpaceId\?adSpaceId - reject
+^https://.+/shorter/game/moreList - reject
 ^https?:\/\/(?:[a-z0-9-]+\.)?cloudfront\.net\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
 ^https?:\/\/snerbnew\.pxyzjmspfl\.work\/api\/(?:sys\/partner\/list|activity\/indexActs|sys\/advertisement\/list|sys\/getImgAndVideoCdnList|aibox\/entranceConfig) - reject
 [Script]
 http-response ^https:\/\/api2\.upwqjcun\.cc\/api\/(?:mv\/detail|users\/base_info|home\/getconfig|novel\/detail|novel\/recommend|novel\/chaptersList|novel\/chapterDetail|navigation\/index_aw) script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiaoshequ.js, requires-body=true, timeout=60, tag=haijiaoshequ
+http-response ^https?:\/\/.+\/shorter\/(video\/longvideoinfo|resource\/adInfoPageList\?adSpaceId|user\/getUser|resource\/getWindowNotice|tabIconConfigView|user\/getVipPvg|video\/home|video\/search).*$ script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/jtsploon.js, requires-body=true, timeout=60, tag=jtsp, argument=[{Player}]
+http-request ^https?://.+\/shorter\/anime\/tbookchapter0\/info\?bookId script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/jtsploon.js, timeout=60, tag=jtsp, argument=[{Player}]
+http-response https://d1skbu98kuldnf.cloudfront.net/api/app/media/play script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/mdsq2.js, requires-body=true, timeout=60, tag=mdsq2
 http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js, tag=瑟瑟视频
 http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js, timeout=60, tag=tangtoutiao
 http-request ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/Tangtoutiao.js, timeout=60, tag=Tangtoutiao

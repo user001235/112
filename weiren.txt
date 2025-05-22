@@ -1,9 +1,9 @@
-^https?:\/\/judouapp.com\/api\/v2\/mine\/profile url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/judu.js
 ^http://adapi\.izuiyou\.com url reject
 ^http://api-ad\.kajicam.com/ad/pop/rule/v2 url reject
 ^http://h5\.jinliapp\.top/api\.php/adv/video url reject-200
 ^http:\/\/(dubbing.csweimei.cn\/course\/GetCourseInfo?|music.dreamyin.cn\/Svip\/SVIP_Existence.aspx) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/peiyinshi.js
 ^http:\/\/.+\/(ios\/regOrLogin|getTotalCoin) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/aikanshu.js
+^http:\/\/116\.62\.172\.2(?::80)?\/(user\/(getUserInfoDetail|owndetailForPost)|website\/v1\/config)\.do url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jiaomujun.js
 ^http:\/\/8.149.129.124:3000\/api\/account\/v1 url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xjdj.js
 ^http:\/\/aimanhua.meidanmh.com\/chunai\/web\/(member\/memberInfo\/getEntity|cartoon\/cartoonChapter\/needVip) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mhy.js
 ^http:\/\/h5.jinliapp.top\/api.php\/(user\/index|video\/detail\?id|platform|login\/login).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jinli.js
@@ -11,6 +11,8 @@
 ^http:\/\/tianxin.xiangroutech.top\/xiaozhu\/web\/(member\/memberInfo\/getEntity|cartoon\/cartoonChapter\/needVip) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ygmh.js
 ^http:\/\/ym.dreamyin.cn\/\/ym_user/IsVip\? url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zhuanyexiangji.js
 ^https://.*miguvideo\.com/request/sdk url reject-200
+^https://.+/shorter/game/moreList url reject
+^https://.+/shorter/resource/bySpaceId\?adSpaceId url reject
 ^https://ad\.qtfm\.cn/api/ url reject
 ^https://ad\.rhinox\.cn/client/sdk/getData url reject
 ^https://adlaunch\.qtfm\.cn/launch url reject
@@ -23,7 +25,9 @@
 ^https://i\.weread\.qq\.com/updateConfig url reject
 ^https://ip\.qtfm\.cn/ip url reject
 ^https://mi\.gdt\.qq\.com/gdt_mview\.fcg url reject
+^https://thirdwx\.qlogo\.cn/mmopen/.*$ url 302 https://zdimg.lifeweek.com.cn/app/20230410/16810960185662892.jpg
 ^https://woqt2\.qtfm\.cn/v2/userConfig url reject
+^https://www\.shenhu\.click url 302 https://t.me/GieGie777
 ^https://www\.shutiaoapp\.com/api//adOpen/getAd url reject
 ^https:\/\/.+\.com\/(playerinfo|api\/get_advert|api\/home\/popup) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mjgsad.js
 ^https:\/\/.+\.com\/request_game\/v3\/game\/list url reject-dict
@@ -38,8 +42,10 @@
 ^https:\/\/talkshow.wfkids.net\/wfcm-api\/(vip\/queryVipInfo|talkshow\/chapter|course\/courseInfo) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zstkx.js
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/(satellite|nafp\/origin_images) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/cytq.js
 ^https:\/\/wrapper\.cyapi\.cn\/v1\/activity\?app_name=weather url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/cytq.js
+^https?://.+/shorter/resource/getAdInfoBySpaceId\?ad url reject
 ^https?://.+\.(cn|com)/api/home/my_ad url reject-dict
 ^https?://.+\.ximalaya\.com/linkeye.+/checkIP\?ip.+passport.ximalaya.com url reject
+^https?://.+\/shorter\/anime\/tbookchapter0\/info\?bookId url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/jtsp.js
 ^https?://.+audid-api\.taobao.com url reject
 ^https?://.+dbehavior\.ximalaya\.com url reject
 ^https?://.+location\.ximalaya\.com url reject
@@ -49,6 +55,10 @@
 ^https?://adse\.ximalaya\.com url reject-dict
 ^https?://adse\.ximalaya\.com/incentive/ting/durationConfig url reject-dict
 ^https?://adse\.ximalaya\.com\/ url reject
+^https?://adservice.sigmob.cn url reject-dict
+^https?://api-access.pangolin-sdk-toutiao-b.com url reject-dict
+^https?://api-access.pangolin-sdk-toutiao.com url reject-dict
+^https?://api-access.pangolin-sdk-toutiao1.com url reject-dict
 ^https?://api-cdn\.kaimanhua\.com/advertiseapi/app/advertise/getappadvertise url reject
 ^https?://api-shoulei-ssl\.xunlei\.com/flowhub/v1/slots:batchGet url reject
 ^https?://api\.maibiq\.top/center-system/app-api/v1/banner/list url reject-dict
@@ -56,10 +66,15 @@
 ^https?://api\.qiyou\.cn/api/common_bll/v1/client_advertisements url reject
 ^https?://api\.zhihu\.com/commercial_api/launch_v2 url reject
 ^https?://api\.zhihu\.com/commercial_api\/real_time_launch_v2 url reject-dict
+^https?://b-gy.getui.net url reject-dict
+^https?://bgg.baidu.com url reject-dict
 ^https?://case-cdn\.oceanplayable\.com url reject
+^https?://cmyd-10-88.getui.com url reject-dict
 ^https?://datahub\.zhihu\.com/collector/lastn-realtime url reject
 ^https?://fqapi\.tiantiangf\.cn/center-system/app-api/v1/banner/list url reject-dict
+^https?://gromore.pangolin-sdk-toutiao.com url reject-dict
 ^https?://gslbali\.ximalaya\.com url reject
+^https?://gy.gepush.com url reject-dict
 ^https?://interface.*\.music\.163\.com/eapi/ad/config/get url reject
 ^https?://interface.*\.music\.163\.com/eapi/ad/get url reject
 ^https?://interface.*\.music\.163\.com/eapi/ad/iyunIds url reject
@@ -67,14 +82,26 @@
 ^https?://interface.*\.music\.163\.com/eapi/ad/prefetch/select url reject
 ^https?://ios\.bugly\.qq\.com url reject
 ^https?://jiekou\.antciti\.cn/api/home/my_ad url reject-dict
+^https?://log-api.pangolin-sdk-toutiao-b.com url reject-dict
+^https?://log-api.pangolin-sdk-toutiao.com url reject-dict
+^https?://mobads-logs.baidu.com url reject-dict
+^https?://mobads-pre-config.cdn.bcebos.com url reject-dict
+^https?://mobads.baidu.com url reject-dict
 ^https?://mobile.da.mgtv.com\/m\/page url reject
 ^https?://mobile\.ximalaya\.com/mobile-playpage/view/ url reject-dict
+^https?://mssdk.volces.com url reject-dict
+^https?://open.e.kuaishou.com url reject-dict
 ^https?://openapi\.mysteel\.com\/v5\/getAdv\.htm url reject
 ^https?://papi\.xiaonandou\.com.cn/moria/assist/assistVipCheck url reject-dict
 ^https?://passport\.ximalaya\.com/friendship-mobile/v1/findFriendsBanner/show/ url reject
 ^https?://passport\.ximalaya\.com/user-http-app/v1/token/refresh url reject-dict
 ^https?://passport\.ximalaya\.com\/user-http-app\/v1\/token\/refresh url reject
+^https?://sdk.open.talk.gepush.com url reject-dict
+^https?://sdk.open.talk.getui.com url reject-dict
+^https?://sdk.open.talk.getui.net url reject-dict
+^https?://sf3-fe-tos.pglstatp-toutiao.com url reject-dict
 ^https?://siajksslwiso\.anningsh\.com/report url reject-200
+^https?://toblog.ctobsnssdk.com url reject-dict
 ^https?://toblog\.ctobsnssdk\.com url reject
 ^https?://token\.safebrowsing\.apple url reject
 ^https?://ulogs\.um.*\.com url reject
@@ -85,6 +112,7 @@
 ^https?://www\.zhihu\.com/xen/market/hybridMetaDetail/ url reject
 ^https?://xdcs-collector\.ximalaya\.com/api/v1/realtime url reject
 ^https?://xxm\.ximalaya\.com/mobile/album/ad/asaActivate url reject-200
+^https?://yun.tuitiger.com url reject-dict
 ^https?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(album\/v2\/trackRecord\/queryTrackRecordsByAlbumIdAndUid|queryByParentId|mobile\/user).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xmet.js
 ^https?:\/\/((.+ximalaya.+)|(.+xmcdn.+))(queryTrackRecordsByAlbumIdAndUid|album\/trackRecord\/querySampleTrack|album\/trackRecord\/palyTrack).*$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/xmck1.js
 ^https?:\/\/((api|app|www).zhihu.com\/|.*resolv\?host)(unlimited\/go\/my_card|people\/self|bazaar\/vip_tab|sku\/reversion_sku|.*zhihu).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/zhihu.js
@@ -133,6 +161,7 @@
 ^https?:\/\/.+.qidian.com\/argus\/api\/v[0-9]\/(audio\/getAsrInfo\?|bookcontent\/getvipcontent|audio\/getTtsChapterAudio\?|audio\/getaudiochapter\?) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/QDVIP.js
 ^https?:\/\/.+.qidian.com\/argus\/api\/v[0-9]\/(audio\/getTtsChapterAudio|bookcontent\/getvipcontent|audio\/getaudiochapter\?) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/qddsvip.js
 ^https?:\/\/.+.xunlei.com\/(drive\/v1\/files|xluser.core.login\/v3\/getuserinfo) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xunlei.js
+^https?:\/\/.+/api\/setapp.php url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/lldad.js
 ^https?:\/\/.+Api\/(Account\/LoginV2|App\/Splash|App\/Update|App\/PlatData|App\/homeData|Live\/Play) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wuzei.js
 ^https?:\/\/.+Api\/(Account\/Login|App\/Splash|App\/Update).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wuzei1.js
 ^https?:\/\/.+Api\/(Account\/Login|App\/Splash|App\/Update|App\/PlatData|App\/homeData|Live\/Play).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wuzei.js
@@ -148,6 +177,7 @@
 ^https?:\/\/.+\/api\/vod\/vip\/ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/muogushipin.js
 ^https?:\/\/.+\/bibidd\/(Mediaonenine\/panduan_huiyuan|VipChigua\/check_vip|Advert/get_index_Advert|Mediaonenine\/video_detail) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/9169.js
 ^https?:\/\/.+\/shorter\/(video\/longvideoinfo|resource\/adInfoPageList\?adSpaceId|user\/getUser|resource\/getWindowNotice|tabIconConfigView|user\/getVipPvg|video\/home\/list|video\/search).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jtsp.js
+^https?:\/\/.+\/shorter\/(video\/longvideoinfo|resource\/adInfoPageList\?adSpaceId|user\/getUser|resource\/getWindowNotice|tabIconConfigView|user\/getVipPvg|video\/home|video\/search).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jtsp.js
 ^https?:\/\/.+\/shorter\/resource\/getAdInfoBySpaceId\?ad url reject-dict
 ^https?:\/\/.+\/vod\/* url script-request-header https://raw.githubusercontent.com/ppmm5211/haisi/main/xjsp.js
 ^https?:\/\/.+audid-api\.taobao.com url reject
@@ -162,11 +192,13 @@
 ^https?:\/\/.+ximalaya.com\/(fmobile-user\/homePage|pizza-category\/mypage\/operation)\/ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ximalayajisuban.js
 ^https?:\/\/114.116.104.132\/app\/main\/account\/index url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ppybqb.js
 ^https?:\/\/49.232.234.212:80\/user\/fixUserPayData url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xxf.js
+^https?:\/\/91fengliu.club\/(index\/user\/userinfo|index\/data\/show).html url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/91fenglou.js
 ^https?:\/\/\w+.yeyan\w+.xyz\/api/comment/gg url reject-dict
 ^https?:\/\/\w+.yeyan\w+.xyz\/api\/(user\/personal|community\/edit|adv\/) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/yeyan.js
 ^https?:\/\/\w+.yeyan\w+.xyz\/api\/community\/xq_community url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/yytk.js
 ^https?:\/\/ad\.ximalaya\.com url reject
 ^https?:\/\/adse\.ximalaya\.com\/ url reject
+^https?:\/\/akappapi.vipduanju.cn\/v4akapp\/(user\/index|video\/(chapter|detail)) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xingdongjuchang.js
 ^https?:\/\/amgaic.soundkey.net\/iosvoicemagic\/urZXO8RY\/ifZXO8RY url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/symfs.js
 ^https?:\/\/api-chn.jianbotaiapi.com\/api\/rest\/commerce\/integrate\/vip\/perform.*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jbt.js
 ^https?:\/\/api-chn.rthdo.com\/api\/rest\/u\/vipVerifyReceipt.*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xiaoying.js
@@ -175,6 +207,8 @@
 ^https?:\/\/api.*.shop\/api\/(search|mov\/(detail|progress|index)|novel\/(chapter|play)|comic\/chapter|clip\/index|comic\/play|user\/index) url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/sgtk.js
 ^https?:\/\/api.+.com\/api\/video\/(user/info|banner\?type|config\?field) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mdtv.js
 ^https?:\/\/api.dingcy.top\/HJ_Video\/HJ_Config.php url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/taijumi.js
+^https?:\/\/api.duoyolo.cn\/play\/app\/user\/v1\/userInfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/mydj.js
+^https?:\/\/api.duoyolo.cn\/play\/channel\/v1\/adevertiseConfig url reject
 ^https?:\/\/api.jycds.cn\/(app-api\/v1\/skitsLists\/frontCheck\?fileName|login\/detail) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xhsdj.js
 ^https?:\/\/api.magictiger.ai\/api\/v1\/uservip\/getMemberInfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/picma.js
 ^https?:\/\/api.maibiq.top\/center-(admin|biz)\/(app-api\/v1\/users\/me|app-api\/v1\/skitsLists\/check) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ttdj.js
@@ -244,6 +278,7 @@
 ^https?:\/\/cocamapi.imendon.com\/v2\/(purchase\/(vip\/verification|receipt\/verify)|user\/profile) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/kkxt.js
 ^https?:\/\/datahub\.zhihu\.com\/collector\/lastn-realtime url reject-dict
 ^https?:\/\/dj.vjread.com\/m2\/(video\/episodesV2\?episodeId|user\/register) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/xindong.js
+^https?:\/\/duoting.tatatimes.com\/tataeraapi\/api.s\?h=QueryVipUser url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/lryyyd.js
 ^https?:\/\/duoting.tatatimes.com\/tataeraapi\/api.s\?h=QueryVipUser url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/yyds.js
 ^https?:\/\/explorer.tratao.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/jjhl.js
 ^https?:\/\/fancytext.ycase.cn\/app\/(user_info|package_type) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/tswz.js
@@ -264,9 +299,12 @@
 ^https?:\/\/igetcool-gateway.igetcool.com\/(api\/product\/course\/option\/course\/audios|app-api-product|app-api-user-server).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/sndd.js
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/|v6\/)?playlist\/ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/wangyiyun.js
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/wangyiyun.js
+^https?:\/\/ioskgeyd.lmkaiger.sanwubeixin.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/kgr.js
+^https?:\/\/iosqwrmdj.sanwubeixin.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/qwrmdj.js
 ^https?:\/\/iosv2.cjapi.*\/user\/ios_store_pay_edition\/members_login\/get_member_info url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wfcy.js
 ^https?:\/\/jiekou.antciti.cn\/api\/(index|home)\/(cate_list|zuire|zuixin|index|loufeng|new_zuanti|cate_list) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/7semaoad.js
 ^https?:\/\/jiekou.antciti.cn\/api\/(login\/mobile_login|index\/loufeng_info|home\/video_info|user\/info) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/7semao.js
+^https?:\/\/judouapp.com\/api\/v2\/mine\/profile url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/judu.js
 ^https?:\/\/kapi-action.shyuhuankj.com\/user url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/pika.js
 ^https?:\/\/kkyun.com\/api\/(accounts\/user|apps/start_task).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ddqsy.js
 ^https?:\/\/laoniu.dicallapp.com\/HMGetMeCount.ashx url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/touxiang.js
@@ -332,9 +370,11 @@
 ^https?:\/\/www.helloshiyu.com\/voice\/user\/profile url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/qbyy.js
 ^https?:\/\/www.icgame.top.*\/getGameUserData url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/wfgljz.js
 ^https?:\/\/www.shutiaoapp.com\/api\/\/getSysUserInfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/shutiaomanhua.js
-^https?:\/\/www.yueliangfm.com\/v4\/api\/(buyChapter|batchBuyChapter|buyCard).*$ url script-request-body https://raw.githubusercontent.com/WeiGiegie/666/main/ylts2.js
-^https?:\/\/www.yueliangfm.com\/v4\/api\/(chapter\?bookId|getChapterUrl).*$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/ylts1.js
-^https?:\/\/www.yueliangfm.com\/v4\/api\/(getUserInfo|buyBook|book\?bookId) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ylts.js
+^https?:\/\/www.shutiaomh.com\/api\/\/(novel|cartoon)Chapter\/info\/size\/ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/hdmh.js
+^https?:\/\/www.shutiaomh.com\/api\/\/getSysUserInfo url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/hdmh.js
+^https?:\/\/www.yueliangfm.com\/.+\/api\/(chapter\?bookId|getChapterUrl).*$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/ylts1.js
+^https?:\/\/www.yueliangfm.com\/v5\/api\/getCurrentChapter.*$ url script-request-body https://raw.githubusercontent.com/WeiGiegie/666/main/ylts2.js
+^https?:\/\/www.yueliangfm.com\/v5\/api\/getUserData url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/ylts.js
 ^https?:\/\/www\.auth\.open\.52kuajing002\.51kuajing\.net\/Api\/Account\/Login.*$ url script-request-header https://raw.githubusercontent.com/WeiGiegie/666/main/wztk.js
 ^https?:\/\/www\.pozhu\.com\/(v1|v2)\/(package\/playinfo\?|notes\/index|notes\/notes|notes\/audio|notes\/video|package\/subart|package\/artlist2|video\/show|college\/chapter2|member\/userinfo|home\/startimg|deep\/course|notes\/secret_lives).*$ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/pozhu.js
 ^https?:\/\/www\.taobao\.com\/help\/getip\.php url reject
